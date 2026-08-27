@@ -1,8 +1,8 @@
 {
-  "version": "1.0",
-  "build": 1,
-  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/latest",
-  "sha256": "acf3bdbf23d4cfd8b173a021aaf5bcd671856b1248c1035c1523556cf65a3d55",
-  "notes": "الإصدار الحالي من تطبيق علوان.",
+  "version": "1.0.1",
+  "build": 2,
+  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/download/v1.0.1/app-release.apk",
+  "sha256": "20d4e13373be1d261ceab34295abbe2cbbbccc83053e9d917cd11a7c32ed8f97",
+  "notes": "تحديث تجريبي لاختبار نظام التحديث من داخل تطبيق علوان.",
   "minimum_supported_build": 1
 }
