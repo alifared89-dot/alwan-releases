@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "build": 1,
+  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/latest",
+  "sha256": "acf3bdbf23d4cfd8b173a021aaf5bcd671856b1248c1035c1523556cf65a3d55",
+  "notes": "الإصدار الحالي من تطبيق علوان.",
+  "minimum_supported_build": 1
+}
