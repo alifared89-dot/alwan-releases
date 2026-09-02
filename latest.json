@@ -1,9 +1,9 @@
 {
-  "version": "1.0.2",
-  "build": 3,
-  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/download/v1.0.2/app-release.apk",
-  "sha256": "5919cb3e3358d9c3385ca8a4652f39c2f5acfc1facea385f28c01723196aca19",
-  "size_bytes": 136172638,
-  "notes": "تحسين نظام التحديث الداخلي والتحقق والتثبيت من داخل تطبيق علوان.",
+  "version": "1.0.3",
+  "build": 4,
+  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/download/v1.0.3/app-release.apk",
+  "sha256": "13d47ae6e006c43e40bd7ac143119f388aae52022c3b25ba242e486e9d59f94d",
+  "size_bytes": 136172635,
+  "notes": "تحسين عرض شعار هوية المتجر وإضافة حماية تمنع الرجوع إلى بناء أقدم أو مساوي.",
   "minimum_supported_build": 1
 }
