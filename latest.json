@@ -1,9 +1,9 @@
 {
-  "version": "1.0.3",
-  "build": 4,
-  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/download/v1.0.3/app-release.apk",
-  "sha256": "13d47ae6e006c43e40bd7ac143119f388aae52022c3b25ba242e486e9d59f94d",
-  "size_bytes": 136172635,
-  "notes": "تحسين عرض شعار هوية المتجر وإضافة حماية تمنع الرجوع إلى بناء أقدم أو مساوي.",
+  "version": "1.0.4",
+  "build": 5,
+  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/download/v1.0.4/app-release.apk",
+  "sha256": "e66b1be862310233d166a81f4a86105497e89bf6e953e8c963b71edd21da9b31",
+  "size_bytes": 136418404,
+  "notes": "تحسين دقة وسرعة البحث عن المنتجات بالصور وتحسين التعرف على الزوايا والإضاءة.",
   "minimum_supported_build": 1
 }
