@@ -1,0 +1,67 @@
+{
+  "manifestVersion": 2,
+  "generatedAt": "2026-10-03T18:30:00Z",
+  "entries": [
+    {
+      "deviceId": "samsung-galaxy-a15",
+      "revision": "remote-seed-1",
+      "view": "front",
+      "filename": "samsung-galaxy-a15-front.jpg",
+      "chunkId": "chunk-remote-seed-1",
+      "sha256": "664589eab84571b6aa919384590568c693ffc65a90663d063de5923c5f26ac1b",
+      "bytes": 82271,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Photo_of_samsung_newest_phone_a15.jpg",
+      "creator": "Miguel12345667899",
+      "licenseId": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "Photo of Samsung Galaxy A15 — Miguel12345667899 — CC0 1.0",
+      "verifiedModelCodes": [
+        "SM-A155F/DSN"
+      ],
+      "checkedAt": "2026-10-03T18:30:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-15",
+      "revision": "remote-seed-1",
+      "view": "back",
+      "filename": "apple-iphone-15-back.jpg",
+      "chunkId": "chunk-remote-seed-1",
+      "sha256": "97ff989119982c2b02f67171c6bfd68d30e5a3ce7f99698c6b08337bd9aed595",
+      "bytes": 133030,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Back_and_side_of_iPhone_15.jpg",
+      "creator": "Kyu3a",
+      "licenseId": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Back and side of iPhone 15 — Kyu3a — CC BY-SA 4.0",
+      "verifiedModelCodes": [
+        "A2846",
+        "A3089",
+        "A3092",
+        "A3090"
+      ],
+      "checkedAt": "2026-10-03T18:30:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-14",
+      "revision": "remote-seed-1",
+      "view": "back",
+      "filename": "apple-iphone-14-back.jpg",
+      "chunkId": "chunk-remote-seed-1",
+      "sha256": "c8fa1904456197d5891a3dc747eb9cc0832cde855cc60ab46bf4afcb2e7795d1",
+      "bytes": 247905,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:IPhone_14_-_3.jpg",
+      "creator": "KKPCW (Kyu3)",
+      "licenseId": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "iPhone 14 — KKPCW (Kyu3) — CC BY-SA 4.0",
+      "verifiedModelCodes": [
+        "A2649",
+        "A2881",
+        "A2884",
+        "A2883",
+        "A2882"
+      ],
+      "checkedAt": "2026-10-03T18:30:00Z"
+    }
+  ]
+}

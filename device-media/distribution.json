@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "mediaManifest": {
+    "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
+    "bytes": 2341,
+    "sha256": "5cff35fe881c779f6770309cdb203a8505c803a93b111a0a9d1aec4c313870af"
+  },
+  "chunks": [
+    {
+      "chunkId": "chunk-remote-seed-1",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/chunk-remote-seed-1.zip",
+      "compressedBytes": 459839,
+      "uncompressedBytes": 463206,
+      "sha256": "52e5a3880bfba476787e33ee80a8434a194fc5ef50eb0e560f871719db71cb2b"
+    }
+  ]
+}
