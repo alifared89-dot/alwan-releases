@@ -1,0 +1,32 @@
+{
+  "manifestVersion": 218671409027765,
+  "generatedAt": "2026-10-03T18:42:23.520216Z",
+  "schemaVersion": 3,
+  "entries": [
+    {
+      "id": "catalog",
+      "type": "devices",
+      "version": "catalog-79a951479e427705",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/catalog.json",
+      "sha256": "79a951479e427705c416a236fdfe3210af2dfbd2c57cb641eba0ce3daee6b1ea",
+      "compressedBytes": 1354990,
+      "uncompressedBytes": 1354990,
+      "archiveFormat": "rawJson"
+    },
+    {
+      "id": "display",
+      "type": "displays",
+      "version": "display-97cdbd30ef5dc185",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/display.json",
+      "sha256": "97cdbd30ef5dc1859293f6604a3d57511b200b9e35fe5e107568c4479ac43321",
+      "compressedBytes": 733681,
+      "uncompressedBytes": 733681,
+      "archiveFormat": "rawJson",
+      "catalogDependency": {
+        "catalogId": "alwan-device-catalog",
+        "requiredSchemaVersion": 3,
+        "builtAgainstVersion": "catalog-79a951479e427705"
+      }
+    }
+  ]
+}

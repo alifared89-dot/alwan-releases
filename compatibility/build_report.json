@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "manifestVersion": 218671409027765,
+  "manifestSha256": "b218c939c85cf21ed77ae6f24eabfca33ed94fe78579e748a57989a07c5134e7",
+  "catalog": {
+    "version": "catalog-79a951479e427705",
+    "sha256": "79a951479e427705c416a236fdfe3210af2dfbd2c57cb641eba0ce3daee6b1ea",
+    "bytes": 1354990,
+    "devices": 6311,
+    "brands": 25
+  },
+  "categories": {
+    "display": {
+      "sha256": "97cdbd30ef5dc1859293f6604a3d57511b200b9e35fe5e107568c4479ac43321",
+      "bytes": 733681,
+      "records": {
+        "parts": 26,
+        "compatibilityGroups": 26,
+        "evidence": 52,
+        "categoryFacts": 414,
+        "compatibilityDifferences": 1
+      }
+    }
+  }
+}
