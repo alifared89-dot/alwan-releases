@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 218671409027765,
-  "generatedAt": "2026-10-03T18:42:23.520216Z",
+  "manifestVersion": 128119877860421,
+  "generatedAt": "2026-10-03T19:33:53.276911Z",
   "schemaVersion": 3,
   "entries": [
     {
@@ -16,11 +16,86 @@
     {
       "id": "display",
       "type": "displays",
-      "version": "display-97cdbd30ef5dc185",
+      "version": "display-fe3fe239a89a3a40",
       "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/display.json",
-      "sha256": "97cdbd30ef5dc1859293f6604a3d57511b200b9e35fe5e107568c4479ac43321",
-      "compressedBytes": 733681,
-      "uncompressedBytes": 733681,
+      "sha256": "fe3fe239a89a3a401315fde4fa498b3928a33784ca1bcc12ff975619e9fe3fca",
+      "compressedBytes": 788129,
+      "uncompressedBytes": 788129,
+      "archiveFormat": "rawJson",
+      "catalogDependency": {
+        "catalogId": "alwan-device-catalog",
+        "requiredSchemaVersion": 3,
+        "builtAgainstVersion": "catalog-79a951479e427705"
+      }
+    },
+    {
+      "id": "battery",
+      "type": "batteries",
+      "version": "battery-bca79d10ba5fd4c6",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/battery.json",
+      "sha256": "bca79d10ba5fd4c62357333f7d8625b13f4c1e6cb6f04badb8879ac36a0d7118",
+      "compressedBytes": 283474,
+      "uncompressedBytes": 283474,
+      "archiveFormat": "rawJson",
+      "catalogDependency": {
+        "catalogId": "alwan-device-catalog",
+        "requiredSchemaVersion": 3,
+        "builtAgainstVersion": "catalog-79a951479e427705"
+      }
+    },
+    {
+      "id": "charging",
+      "type": "charging",
+      "version": "charging-ce079a7552ab1908",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/charging.json",
+      "sha256": "ce079a7552ab1908da11919d39cf2e518c7ed4606af7c49be331548719e3abfc",
+      "compressedBytes": 36332,
+      "uncompressedBytes": 36332,
+      "archiveFormat": "rawJson",
+      "catalogDependency": {
+        "catalogId": "alwan-device-catalog",
+        "requiredSchemaVersion": 3,
+        "builtAgainstVersion": "catalog-79a951479e427705"
+      }
+    },
+    {
+      "id": "camera",
+      "type": "cameras",
+      "version": "camera-f9fdeb6ca82a2a1d",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/camera.json",
+      "sha256": "f9fdeb6ca82a2a1d237a9dde21fb289ed55782e54a08c0eda7a78dc0316ba606",
+      "compressedBytes": 68154,
+      "uncompressedBytes": 68154,
+      "archiveFormat": "rawJson",
+      "catalogDependency": {
+        "catalogId": "alwan-device-catalog",
+        "requiredSchemaVersion": 3,
+        "builtAgainstVersion": "catalog-79a951479e427705"
+      }
+    },
+    {
+      "id": "flex",
+      "type": "flexes",
+      "version": "flex-b31a08c3ab43ae2c",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/flex.json",
+      "sha256": "b31a08c3ab43ae2c440b56cd87febea593cd08f59b2ba48687f126f45e9df660",
+      "compressedBytes": 22529,
+      "uncompressedBytes": 22529,
+      "archiveFormat": "rawJson",
+      "catalogDependency": {
+        "catalogId": "alwan-device-catalog",
+        "requiredSchemaVersion": 3,
+        "builtAgainstVersion": "catalog-79a951479e427705"
+      }
+    },
+    {
+      "id": "audio",
+      "type": "audio",
+      "version": "audio-20a4a26ac8c12194",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/audio.json",
+      "sha256": "20a4a26ac8c12194c95a95c28341fb3c961d44036558d00d1d6a347b935489d2",
+      "compressedBytes": 12758,
+      "uncompressedBytes": 12758,
       "archiveFormat": "rawJson",
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",

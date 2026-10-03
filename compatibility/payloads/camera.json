@@ -1,0 +1,1891 @@
+{
+  "schemaVersion": 3,
+  "category": "camera",
+  "parts": [
+    {
+      "id": "part-camera-gh81-23517a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH81-23517A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-14017b",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-14017B"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-14491a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-14491A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-14770a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-14770A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-14892a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-14892A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-15525a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-15525A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-15527a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-15527A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-15541a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-15541A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-15556a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-15556A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-15592a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-15592A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-15628a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-15628A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-16980a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-16980A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-17822a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-17822A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-18052a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-18052A"
+      ]
+    },
+    {
+      "id": "part-camera-gh96-18164a",
+      "category": "camera",
+      "canonicalPartNumbers": [
+        "GH96-18164A"
+      ]
+    }
+  ],
+  "compatibilityGroups": [
+    {
+      "id": "cg-part-camera-gh81-23517a",
+      "partId": "part-camera-gh81-23517a",
+      "deviceIds": [
+        "dev_mcfqgh6g3u5nxg77tl2ihg2h6a"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-14017b",
+      "partId": "part-camera-gh96-14017b",
+      "deviceIds": [
+        "dev_jilz6a37rgs5ksqtnjypmpftri"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-14491a",
+      "partId": "part-camera-gh96-14491a",
+      "deviceIds": [
+        "dev_4576td6d6yuu23yctpwxtpreay"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-14770a",
+      "partId": "part-camera-gh96-14770a",
+      "deviceIds": [
+        "dev_wz65v3fim2ypes4dp2qufdj67i"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-14892a",
+      "partId": "part-camera-gh96-14892a",
+      "deviceIds": [
+        "dev_jilz6a37rgs5ksqtnjypmpftri"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-15525a",
+      "partId": "part-camera-gh96-15525a",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-15527a",
+      "partId": "part-camera-gh96-15527a",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-15541a",
+      "partId": "part-camera-gh96-15541a",
+      "deviceIds": [
+        "dev_7bsctb3iz2fguc36lnm7onbmoa"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-15556a",
+      "partId": "part-camera-gh96-15556a",
+      "deviceIds": [
+        "dev_7bsctb3iz2fguc36lnm7onbmoa",
+        "dev_iygfxlij3gnnjdhogdbupltg3u"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-15592a",
+      "partId": "part-camera-gh96-15592a",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-15628a",
+      "partId": "part-camera-gh96-15628a",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-16980a",
+      "partId": "part-camera-gh96-16980a",
+      "deviceIds": [
+        "dev_fegofcbxdfdgysughyrfdogsyi"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-17822a",
+      "partId": "part-camera-gh96-17822a",
+      "deviceIds": [
+        "dev_34zn7642djn3qrcmurcpusgxh4"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-18052a",
+      "partId": "part-camera-gh96-18052a",
+      "deviceIds": [
+        "dev_34zn7642djn3qrcmurcpusgxh4"
+      ]
+    },
+    {
+      "id": "cg-part-camera-gh96-18164a",
+      "partId": "part-camera-gh96-18164a",
+      "deviceIds": [
+        "dev_34zn7642djn3qrcmurcpusgxh4"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-brico-phone-0959f1b19b09",
+      "compatibilityGroupId": "cg-part-camera-gh96-15556a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/26650-camera-arriere-12mpx-ultra-grand-angle-d-origine-pour-galaxy-s23.html",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15556A"
+      ],
+      "citedModelCodes": [
+        "SM-S911B",
+        "SM-S916B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-brico-phone-4a4d1ea5773c",
+      "compatibilityGroupId": "cg-part-camera-gh96-15541a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/26651-camera-avant-12mpx-d-origine-pour-galaxy-s23.html",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15541A"
+      ],
+      "citedModelCodes": [
+        "SM-S911B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-fixshop-03d9b3b9ae4d",
+      "compatibilityGroupId": "cg-part-camera-gh96-14770a",
+      "sourceKey": "fixshop",
+      "sourceType": "partsSupplier",
+      "sourceName": "FixShop",
+      "sourceUrl": "https://www.fixshop.eu/spare-parts-samsung-s-series-samsung-galaxy-s22-plus-s906b/samsung-galaxy-s22-s901b-s22-plus-s906b-rear-camera-module-12mp-gh96-14770a-genuine-service-pack/",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-14770A"
+      ],
+      "citedModelCodes": [
+        "SM-S906B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-4aa9f4a8d1bb",
+      "compatibilityGroupId": "cg-part-camera-gh96-14017b",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/samsung-sm-m135f-galaxy-m13-4g-sm-a236b-galaxy-a23-5g-bokeh-back-camera-module-gh96-14017b.html",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-14017B"
+      ],
+      "citedModelCodes": [
+        "SM-M135F"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-gsmok-4f4b0c67107c",
+      "compatibilityGroupId": "cg-part-camera-gh96-14491a",
+      "sourceKey": "gsmok",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSMOK",
+      "sourceUrl": "https://gsmok.com/en/main-rear-camera-samsung-g990-galaxy-s21-fe-gh96-14491a-original-a98080",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-14491A"
+      ],
+      "citedModelCodes": [
+        "SM-G990B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-gultek-8fdcbd8f1d31",
+      "compatibilityGroupId": "cg-part-camera-gh96-15592a",
+      "sourceKey": "gultek",
+      "sourceType": "partsSupplier",
+      "sourceName": "Gultek",
+      "sourceUrl": "https://www.gultek.eu/samsung-sm-s918-galaxy-s23-ultra-12mp-telephoto-rear-camera-module-pn-gh96-15592a.html",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15592A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-impextrom-2176506addaf",
+      "compatibilityGroupId": "cg-part-camera-gh96-18164a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/200mp-rear-camera-for-samsung-galaxy-s25-ultra-p1000196286",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-18164A"
+      ],
+      "citedModelCodes": [
+        "SM-S938B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-231de736c874",
+      "compatibilityGroupId": "cg-part-camera-gh96-16980a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/rear-camera-50mpx-for-samsung-galaxy-z-flip6-5g-sm-f741b-p1000195703",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16980A"
+      ],
+      "citedModelCodes": [
+        "SM-F741B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-417aa21d2a13",
+      "compatibilityGroupId": "cg-part-camera-gh81-23517a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/frontal-camera-13-mpx-for-samsung-galaxy-a14-4g-sm-a145r-p1000165909",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-23517A"
+      ],
+      "citedModelCodes": [
+        "SM-A145R"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-512da8dc0a38",
+      "compatibilityGroupId": "cg-part-camera-gh96-14491a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/wide-angle-camera-12mpx-for-samsung-galaxy-s21-fe-5g-sm-g990b-p1000145722",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-14491A"
+      ],
+      "citedModelCodes": [
+        "SM-G990B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-63fd8fa6db07",
+      "compatibilityGroupId": "cg-part-camera-gh96-17822a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/50mp-wide-angle-camera-for-samsung-galaxy-s25-ultra-p1000196262",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-17822A"
+      ],
+      "citedModelCodes": [
+        "SM-S938B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-a05522790ae0",
+      "compatibilityGroupId": "cg-part-camera-gh96-14017b",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/rear-depth-camera-2mpx-for-samsung-galaxy-m13-sm-m135f-p1000151312",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-14017B"
+      ],
+      "citedModelCodes": [
+        "SM-M135F"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-a5fccbcbc7a5",
+      "compatibilityGroupId": "cg-part-camera-gh96-15541a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/12mp-front-camera-for-samsung-galaxy-s23-sm-s911b-p1000195740",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15541A"
+      ],
+      "citedModelCodes": [
+        "SM-S911B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-a8d58d4ad005",
+      "compatibilityGroupId": "cg-part-camera-gh96-15628a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/telephoto-3x-camera-10mpx-for-samsung-galaxy-s23-ultra-sm-s918b-p1000154031",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15628A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-b05bbefc742f",
+      "compatibilityGroupId": "cg-part-camera-gh96-15556a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/wide-angle-camera-12-mpx-for-samsung-galaxy-s23-sm-s916b-galaxy-s23-sm-s911b-p1000155660",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15556A"
+      ],
+      "citedModelCodes": [
+        "SM-S911B",
+        "SM-S916B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-bfe9d834dc4f",
+      "compatibilityGroupId": "cg-part-camera-gh96-15592a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/telephoto-10x-camera-10mpx-for-samsung-galaxy-s23-ultra-sm-s918b-p1000154042",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15592A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-e1911e767c23",
+      "compatibilityGroupId": "cg-part-camera-gh96-14892a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/rear-camera-50mpx-for-samsung-galaxy-m23-5g-sm-m236-galaxy-a13-sma137-galaxy-m13-sm-m135f-galaxy-m33-5g-galaxy-a13-4g-sm-a135-p1000147355",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-14892A"
+      ],
+      "citedModelCodes": [
+        "SM-M135F"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-e2d48a76461c",
+      "compatibilityGroupId": "cg-part-camera-gh96-15525a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/main-camera-200-mpx-for-samsung-galaxy-s23-ultra-sm-s918b-p1000154023",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15525A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-ec65d78e8a51",
+      "compatibilityGroupId": "cg-part-camera-gh96-18052a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/10mp-telephoto-camera-for-samsung-galaxy-s25-ultra-p1000196290",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-18052A"
+      ],
+      "citedModelCodes": [
+        "SM-S938B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-f1779c1cd096",
+      "compatibilityGroupId": "cg-part-camera-gh96-15527a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/rear-ultra-angle-camera-12mpx-for-samsung-galaxy-s23-ultra-sm-s918b-p1000154039",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15527A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-impextrom-ff05c00c62d9",
+      "compatibilityGroupId": "cg-part-camera-gh96-14770a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/rear-ultra-wide-angle-camera-12mpx-for-samsung-galaxy-s22-5g-sm-s901-s22-plus-sm-s906b-p1000148130",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-14770A"
+      ],
+      "citedModelCodes": [
+        "SM-S906B"
+      ],
+      "notes": "Primary product page: exact physical Part Number and product Model(s) table verified. Origin was not inferred from GH numbering."
+    },
+    {
+      "id": "ev-microwire-d95d4f068f86",
+      "compatibilityGroupId": "cg-part-camera-gh96-15527a",
+      "sourceKey": "microwire",
+      "sourceType": "partsSupplier",
+      "sourceName": "Micro Wire",
+      "sourceUrl": "https://www.microwire.eu/rear-camera-12-mp-samsung-galaxy-s23-ultra-s24-ultra",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15527A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-planetemobile-0e4f6e54ed05",
+      "compatibilityGroupId": "cg-part-camera-gh96-16980a",
+      "sourceKey": "planetemobile",
+      "sourceType": "partsSupplier",
+      "sourceName": "Planete Mobile",
+      "sourceUrl": "https://www.planetemobile.fr/produit/original-camera-grand-angle-50mp-pour-samsung-galaxy-z-flip6-f741b-gh96-16980a-samsung/40131",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16980A"
+      ],
+      "citedModelCodes": [
+        "SM-F741B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-repedia-a6c6e595fc11",
+      "compatibilityGroupId": "cg-part-camera-gh96-15628a",
+      "sourceKey": "repedia",
+      "sourceType": "partsSupplier",
+      "sourceName": "Repedia",
+      "sourceUrl": "https://repedia.de/products/samsung-s23-ultra-5g-kamera-modul",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15628A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-samsung-parts-09904160cd4b",
+      "compatibilityGroupId": "cg-part-camera-gh96-14892a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-Various-Models-Camera-50M/en",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-14892A"
+      ],
+      "citedModelCodes": [
+        "SM-M135F"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-samsung-parts-6b0b93e08c16",
+      "compatibilityGroupId": "cg-part-camera-gh96-18164a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-S25-Ultra-SM-S938B-Wide-Camera-200M/en",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-18164A"
+      ],
+      "citedModelCodes": [
+        "SM-S938B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-samsung-parts-a50f25234bcc",
+      "compatibilityGroupId": "cg-part-camera-gh96-15525a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-S23-Ultra-SM-S918B-200M-Wide-Camera/en",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15525A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-samsung-parts-a605b414988e",
+      "compatibilityGroupId": "cg-part-camera-gh96-17822a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-S25-Ultra-SM-S938B-UW-Camera-50M/en",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-17822A"
+      ],
+      "citedModelCodes": [
+        "SM-S938B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-samsung-parts-d70bad692c2b",
+      "compatibilityGroupId": "cg-part-camera-gh81-23517a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-A14-SM-A145R-13M-Front-Camera/en",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-23517A"
+      ],
+      "citedModelCodes": [
+        "SM-A145R"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    },
+    {
+      "id": "ev-samsung-parts-fb02e6db7bd0",
+      "compatibilityGroupId": "cg-part-camera-gh96-18052a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-S25-Ultra-SM-S938B-Tele-Camera-12M/en",
+      "checkedAt": "2026-10-03T19:20:10Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-18052A"
+      ],
+      "citedModelCodes": [
+        "SM-S938B"
+      ],
+      "notes": "Independent second source: exact Part Number and same Model Code(s) verified."
+    }
+  ],
+  "categoryFacts": [
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_f3sqk3b5q7guj75lfoo6pgjfyu"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_dyhxywxa7x6yke44hyvx7cv2ne"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_qpjp2czujzub5rd5molx6lkoqm"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_zoeh4tzuf2qjv4lccwvovwteki"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_lzhbqhedzdp75qzj3xqyoeynby"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "12",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ckyt5angoacmclisdbel7i2cfu"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_yvgku523smhfuux52nmmybeeta"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_hsj3hutck2geqacze3vgch6mh4"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "64",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_apfxvxjgtiu63vb7druy6g5ncq"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_3kuv54jgws4olenovqyo6m36k4"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_2t6v2vs7cgqdqjulo7mdyutuni"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "64",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ufv55frdu7r5x4uuaxccyvnqz4"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_joguedzus6542kh3ty6dr2h2ne"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ixht45q7jommlk77gdes7wv7cy"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_vx2g4jijt3ew2l2pdtr7z6esgy"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_lz5cfjfcbhqee67by3ekhllk2u"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_g3pq7w4ch73c5ou7r4bivyvm54"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_y6ump5zonutjkivyt25opkklny"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/hmd/2024/aura/hmd-aura-4gb-4gb-4g-lte.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "13",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/hmd/2024/aura/hmd-aura-beridzeg45-6083-4gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_4nqzpqgc2jfi5bq33hv5dbbo4u"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/hmd/2025/key/hmd-key-aitoolbuzz-2824-2gb-32gb-4g-lte.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ue7udgmvtkdlyywriiafi2jzpu"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_gfutcvhqteuao7cuic7wjsblcu"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2022/motorola-edge-30-ultra.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "200",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2022/motorola-edge-30-ultra.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2022/motorola-edge-30-ultra.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_a7a33mol5ijyyamb53hvw334u4"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-edge-40-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-edge-40-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-edge-40-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_lp26yprzdjf5ylju5osqne4lqe"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2024/edge-50-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2024/edge-50-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_6stk6lyofj6d7wjq5kawvg4qee"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_3mnlihov62yb7xay4l6j3y6xtu"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-razr-40-ultra.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-razr-40-ultra.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_62ugkiihcwueyv2fye5ryjuqgm"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2022/c200/nokia-c200-beridzeg45-2123-3gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "13",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2022/c200/nokia-c200-beridzeg45-2123-3gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_xy2afcm7k734uikb7yjwa6w7w4"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c110/nokia-c110-beridzeg45-5649-3gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "13",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c110/nokia-c110-beridzeg45-5649-3gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_axvkermvfw5wgownnwvst3j25y"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c12-pro/nokia-c12-pro-beridzeg45-5198-2gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "8",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c12-pro/nokia-c12-pro-beridzeg45-5198-2gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_hvqk3qnf6h2pnvbdafmi22wkwm"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2022/c21/nokia-c21-beridzeg45-2252-2gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "8",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2022/c21/nokia-c21-beridzeg45-2252-2gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_pexikqanxn67bk7hnfd54upcxu"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/oppo/2022/a57/oppo-a57-beridzeg45-5293-3gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "13",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/oppo/2022/a57/oppo-a57-beridzeg45-5293-3gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_g6hdufj7sfyqizab2bj6ekd3bq"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/zte/2022/blade-a3-plus/zte-blade-a3-plus-beridzeg45-6269-2gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "5",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/zte/2022/blade-a3-plus/zte-blade-a3-plus-beridzeg45-6269-2gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_wehqsi4ftoofwmciv3nzrc4gka"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/zte/2023/blade-a54/zte-blade-a54-beridzeg45-3923-4gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "13",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/zte/2023/blade-a54/zte-blade-a54-beridzeg45-3923-4gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_p7ymtr3f2jv4k3wudsqntozafq"
+    }
+  ],
+  "compatibilityDifferences": []
+}

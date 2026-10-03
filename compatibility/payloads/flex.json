@@ -1,0 +1,684 @@
+{
+  "schemaVersion": 3,
+  "category": "flex",
+  "parts": [
+    {
+      "id": "part-flex-gh59-15498a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH59-15498A"
+      ]
+    },
+    {
+      "id": "part-flex-gh59-15514a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH59-15514A"
+      ]
+    },
+    {
+      "id": "part-flex-gh59-15600a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH59-15600A"
+      ]
+    },
+    {
+      "id": "part-flex-gh59-15604a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH59-15604A"
+      ]
+    },
+    {
+      "id": "part-flex-gh59-15742a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH59-15742A"
+      ]
+    },
+    {
+      "id": "part-flex-gh59-15819a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH59-15819A"
+      ]
+    },
+    {
+      "id": "part-flex-gh59-15827a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH59-15827A"
+      ]
+    },
+    {
+      "id": "part-flex-gh82-30460a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH82-30460A"
+      ]
+    },
+    {
+      "id": "part-flex-gh82-30461a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH82-30461A"
+      ]
+    },
+    {
+      "id": "part-flex-gh82-31845a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH82-31845A"
+      ]
+    },
+    {
+      "id": "part-flex-gh82-33292a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH82-33292A"
+      ]
+    },
+    {
+      "id": "part-flex-gh82-33390a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH82-33390A"
+      ]
+    },
+    {
+      "id": "part-flex-gh82-33391a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH82-33391A"
+      ]
+    },
+    {
+      "id": "part-flex-gh82-36147a",
+      "category": "flex",
+      "canonicalPartNumbers": [
+        "GH82-36147A"
+      ]
+    }
+  ],
+  "compatibilityGroups": [
+    {
+      "id": "cg-part-flex-gh59-15498a",
+      "partId": "part-flex-gh59-15498a",
+      "deviceIds": [
+        "dev_4576td6d6yuu23yctpwxtpreay"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh59-15514a",
+      "partId": "part-flex-gh59-15514a",
+      "deviceIds": [
+        "dev_z2waj7yumuh2dwec7hykdrss3a"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh59-15600a",
+      "partId": "part-flex-gh59-15600a",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh59-15604a",
+      "partId": "part-flex-gh59-15604a",
+      "deviceIds": [
+        "dev_iygfxlij3gnnjdhogdbupltg3u"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh59-15742a",
+      "partId": "part-flex-gh59-15742a",
+      "deviceIds": [
+        "dev_gr6a43xhftorqna5btk22cbufq"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh59-15819a",
+      "partId": "part-flex-gh59-15819a",
+      "deviceIds": [
+        "dev_34zn7642djn3qrcmurcpusgxh4"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh59-15827a",
+      "partId": "part-flex-gh59-15827a",
+      "deviceIds": [
+        "dev_5escfpwnmovrvjxwevgh3bedfq"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh82-30460a",
+      "partId": "part-flex-gh82-30460a",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh82-30461a",
+      "partId": "part-flex-gh82-30461a",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh82-31845a",
+      "partId": "part-flex-gh82-31845a",
+      "deviceIds": [
+        "dev_4yjjc4iplow2uwdwwct55ur6fi"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh82-33292a",
+      "partId": "part-flex-gh82-33292a",
+      "deviceIds": [
+        "dev_gr6a43xhftorqna5btk22cbufq"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh82-33390a",
+      "partId": "part-flex-gh82-33390a",
+      "deviceIds": [
+        "dev_z2u4b7nzxzgxh3pl6an4slf6oe"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh82-33391a",
+      "partId": "part-flex-gh82-33391a",
+      "deviceIds": [
+        "dev_z2u4b7nzxzgxh3pl6an4slf6oe"
+      ]
+    },
+    {
+      "id": "cg-part-flex-gh82-36147a",
+      "partId": "part-flex-gh82-36147a",
+      "deviceIds": [
+        "dev_cpcrjkafueirlhgyah4xvzdbc4"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-brico-phone-4c8502f02ccc",
+      "compatibilityGroupId": "cg-part-flex-gh82-33390a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/32815-nappe-carte-mere-dorigine-pour-samsung-galaxy-s24-ultra.html",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33390A"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-gsm-parts-center-4c977f9f4d72",
+      "compatibilityGroupId": "cg-part-flex-gh59-15819a",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/samsung-galaxy-s25-ultra-motherboard-main-flex-cable-112702.html",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15819A"
+      ],
+      "citedModelCodes": [
+        "SM-S938B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-gsm-parts-center-afb4cbbdc7f0",
+      "compatibilityGroupId": "cg-part-flex-gh82-33292a",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/samsung-galaxy-s24-motherboard-main-flex-cable-107240.html",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33292A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-gsm-parts-center-bce497031b74",
+      "compatibilityGroupId": "cg-part-flex-gh82-36147a",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/samsung/galaxy-a/sm-a166b-galaxy-a16-5g-cat11853",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-36147A"
+      ],
+      "citedModelCodes": [
+        "SM-A166B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-gsm-parts-center-dc401656dcb6",
+      "compatibilityGroupId": "cg-part-flex-gh59-15514a",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/samsung/galaxy-m/sm-m536b-galaxy-m53",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15514A"
+      ],
+      "citedModelCodes": [
+        "SM-M536B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-gultek-05ea76acfe3e",
+      "compatibilityGroupId": "cg-part-flex-gh59-15604a",
+      "sourceKey": "gultek",
+      "sourceType": "partsSupplier",
+      "sourceName": "Gultek",
+      "sourceUrl": "https://www.gultek.eu/samsung-galaxy-s23-s916b-frc-flex-cable-gh59-15604a.html",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15604A"
+      ],
+      "citedModelCodes": [
+        "SM-S916B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-impextrom-18718e0a9a03",
+      "compatibilityGroupId": "cg-part-flex-gh59-15600a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/interconnection-flex-from-the-motherboard-to-the-auxiliary-board-for-samsung-galaxy-s23-ultra-sm-s918b-p1000154041",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15600A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-19d771f76aa1",
+      "compatibilityGroupId": "cg-part-flex-gh82-31845a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/interconector-flex-cable-of-motherboard-to-auxilar-plate-for-samsung-galaxy-z-fold5-5g-sm-f946b-p1000174396",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31845A"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-3a3eebcb1954",
+      "compatibilityGroupId": "cg-part-flex-gh82-30460a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/interconnection-flex-from-the-motherboard-to-the-screen-for-samsung-galaxy-s23-ultra-sm-s918b-p1000154038",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30460A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-543b6e2992d1",
+      "compatibilityGroupId": "cg-part-flex-gh59-15819a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/main-flex-for-samsung-galaxy-s25-ultra-sm-s938b-p1000196046",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15819A"
+      ],
+      "citedModelCodes": [
+        "SM-S938B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-555931908ee3",
+      "compatibilityGroupId": "cg-part-flex-gh59-15827a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/frc-connector-flex-for-samsung-galaxy-s25-plus-sm-s936b-p1000195801",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15827A"
+      ],
+      "citedModelCodes": [
+        "SM-S936B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-6135e6f03bb8",
+      "compatibilityGroupId": "cg-part-flex-gh82-33390a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/main-interconnection-flex-from-the-screen-to-the-auxiliary-board-for-samsung-galaxy-s24-ultra-sm-s928b-p1000173474",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33390A"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-7128374d0b50",
+      "compatibilityGroupId": "cg-part-flex-gh59-15498a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/main-interconnection-flex-from-the-motherboard-to-the-auxiliary-board-for-samsung-galaxy-s21-fe-5g-sm-g990b-p1000145710",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15498A"
+      ],
+      "citedModelCodes": [
+        "SM-G990B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-79132f0d6ff2",
+      "compatibilityGroupId": "cg-part-flex-gh82-33292a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/interconector-flex-cable-of-motherboard-to-auxilar-plate-for-samsung-galaxy-s24-5g-sm-s921b-p1000173227",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33292A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-8263b79b6ef2",
+      "compatibilityGroupId": "cg-part-flex-gh82-30461a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/interconector-flex-cable-of-motherboard-to-auxilar-plate-for-samsung-galaxy-s23-ultra-sm-s918b-p1000154026",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30461A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-9c0001738ccb",
+      "compatibilityGroupId": "cg-part-flex-gh59-15514a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/main-interconnection-flex-for-samsung-galaxy-m52-5g-sm-m526-galaxy-m53-5g-sm-m536b-p1000138446",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15514A"
+      ],
+      "citedModelCodes": [
+        "SM-M536B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-a9c8d4f2a2e7",
+      "compatibilityGroupId": "cg-part-flex-gh59-15604a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/secondary-interconnection-flex-from-the-motherboard-to-the-auxiliary-board-for-samsung-galaxy-s23-sm-s916b-p1000155679",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15604A"
+      ],
+      "citedModelCodes": [
+        "SM-S916B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-bc3fe39d5a7d",
+      "compatibilityGroupId": "cg-part-flex-gh59-15742a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/main-interconnection-flex-from-the-motherboard-to-the-screen-for-samsung-galaxy-s24-5g-sm-s921b-p1000173491",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15742A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-cb81a5e30776",
+      "compatibilityGroupId": "cg-part-flex-gh82-36147a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/main-flex-for-samsung-galaxy-a16-5g-sm-a166b-p1000195798",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-36147A"
+      ],
+      "citedModelCodes": [
+        "SM-A166B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-db7dafda0fd0",
+      "compatibilityGroupId": "cg-part-flex-gh82-33391a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/interconnect-flex-for-samsung-galaxy-s24-ultra-p1000174170",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33391A"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-samsung-parts-07ab24ec2705",
+      "compatibilityGroupId": "cg-part-flex-gh82-31845a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-Z-Fold5-SM-F946B-Main-to-USB-Flex-Cable/en",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31845A"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-samsung-parts-434e8bab57c0",
+      "compatibilityGroupId": "cg-part-flex-gh59-15742a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-S24-SM-S921B-Con-to-Con-Top-Flex-FPCB/en",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15742A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-samsung-parts-7aec751abffb",
+      "compatibilityGroupId": "cg-part-flex-gh59-15498a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-S21-FE-5G-SM-G990B-Main-to-Sub-Flex-cable/en",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15498A"
+      ],
+      "citedModelCodes": [
+        "SM-G990B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-samsung-parts-87e52067f962",
+      "compatibilityGroupId": "cg-part-flex-gh82-30461a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-S23-Ultra-SM-S918B-Main-to-Sub-Flex-Cable/en",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30461A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-samsung-parts-ba53d0c81eec",
+      "compatibilityGroupId": "cg-part-flex-gh59-15827a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-S25-SM-S936B-FRC-Flex-Cable/en",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15827A"
+      ],
+      "citedModelCodes": [
+        "SM-S936B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-servicepack-samsung-7b4aac65c7b8",
+      "compatibilityGroupId": "cg-part-flex-gh82-30460a",
+      "sourceKey": "servicepack-samsung",
+      "sourceType": "partsSupplier",
+      "sourceName": "Service Pack Samsung",
+      "sourceUrl": "https://servicepacksamsung.com/en/galaxy-s23-ultra-5g-sm-s918b/13316-central-lcd-flex-cable-samsung-galaxy-s23-ultra-5g-sm-s918b-gh82-30460a.html",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30460A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-servicepack-samsung-7ed3e72d3a81",
+      "compatibilityGroupId": "cg-part-flex-gh82-33391a",
+      "sourceKey": "servicepack-samsung",
+      "sourceType": "partsSupplier",
+      "sourceName": "Service Pack Samsung",
+      "sourceUrl": "https://servicepacksamsung.com/en/galaxy-s24-ultra-sm-s928b/22815-flex-cable-pba-if-fpcb-samsung-galaxy-s24-ultra-sm-s928b-gh82-33391a.html",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33391A"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-servicepack-samsung-8ed4ef0d561d",
+      "compatibilityGroupId": "cg-part-flex-gh59-15600a",
+      "sourceKey": "servicepack-samsung",
+      "sourceType": "partsSupplier",
+      "sourceName": "Service Pack Samsung",
+      "sourceUrl": "https://servicepacksamsung.com/en/galaxy-s23-ultra-5g-sm-s918b/7173-narrow-flex-cable-motherboard-to-auxiliary-board-connector-samsung-galaxy-s23-ultra-sm-s918b-gh59-15600a.html",
+      "checkedAt": "2026-10-03T19:22:38Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH59-15600A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    }
+  ],
+  "categoryFacts": [],
+  "compatibilityDifferences": []
+}

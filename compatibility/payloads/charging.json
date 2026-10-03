@@ -1,0 +1,1030 @@
+{
+  "schemaVersion": 3,
+  "category": "charging",
+  "parts": [
+    {
+      "id": "part-charging-gh81-25804a",
+      "category": "charging",
+      "canonicalPartNumbers": [
+        "GH81-25804A"
+      ]
+    },
+    {
+      "id": "part-charging-gh96-14137a",
+      "category": "charging",
+      "canonicalPartNumbers": [
+        "GH96-14137A"
+      ]
+    },
+    {
+      "id": "part-charging-gh96-15262a",
+      "category": "charging",
+      "canonicalPartNumbers": [
+        "GH96-15262A"
+      ]
+    },
+    {
+      "id": "part-charging-gh96-16008a",
+      "category": "charging",
+      "canonicalPartNumbers": [
+        "GH96-16008A"
+      ]
+    },
+    {
+      "id": "part-charging-gh96-16497a",
+      "category": "charging",
+      "canonicalPartNumbers": [
+        "GH96-16497A"
+      ]
+    },
+    {
+      "id": "part-charging-gh96-16507a",
+      "category": "charging",
+      "canonicalPartNumbers": [
+        "GH96-16507A"
+      ]
+    },
+    {
+      "id": "part-charging-gh96-16542a",
+      "category": "charging",
+      "canonicalPartNumbers": [
+        "GH96-16542A"
+      ]
+    },
+    {
+      "id": "part-charging-gh96-18449a",
+      "category": "charging",
+      "canonicalPartNumbers": [
+        "GH96-18449A"
+      ]
+    }
+  ],
+  "compatibilityGroups": [
+    {
+      "id": "cg-part-charging-gh81-25804a",
+      "partId": "part-charging-gh81-25804a",
+      "deviceIds": [
+        "dev_atmrzxi5x7ip4727hhcarl6ut4"
+      ]
+    },
+    {
+      "id": "cg-part-charging-gh96-14137a",
+      "partId": "part-charging-gh96-14137a",
+      "deviceIds": [
+        "dev_xlqbiodm44ira7fulmaxj3w44m"
+      ]
+    },
+    {
+      "id": "cg-part-charging-gh96-15262a",
+      "partId": "part-charging-gh96-15262a",
+      "deviceIds": [
+        "dev_jilz6a37rgs5ksqtnjypmpftri"
+      ]
+    },
+    {
+      "id": "cg-part-charging-gh96-16008a",
+      "partId": "part-charging-gh96-16008a",
+      "deviceIds": [
+        "dev_4yjjc4iplow2uwdwwct55ur6fi"
+      ]
+    },
+    {
+      "id": "cg-part-charging-gh96-16497a",
+      "partId": "part-charging-gh96-16497a",
+      "deviceIds": [
+        "dev_z2u4b7nzxzgxh3pl6an4slf6oe"
+      ]
+    },
+    {
+      "id": "cg-part-charging-gh96-16507a",
+      "partId": "part-charging-gh96-16507a",
+      "deviceIds": [
+        "dev_gr6a43xhftorqna5btk22cbufq"
+      ]
+    },
+    {
+      "id": "cg-part-charging-gh96-16542a",
+      "partId": "part-charging-gh96-16542a",
+      "deviceIds": [
+        "dev_ndaqsqtejzkrqpn4pletycrjau"
+      ]
+    },
+    {
+      "id": "cg-part-charging-gh96-18449a",
+      "partId": "part-charging-gh96-18449a",
+      "deviceIds": [
+        "dev_cpcrjkafueirlhgyah4xvzdbc4"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-brico-phone-05d6addf33b7",
+      "compatibilityGroupId": "cg-part-charging-gh96-16542a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/31808-connecteur-de-charge-et-lecteur-sim-pour-samsung-galaxy-s24-plus.html",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16542A"
+      ],
+      "citedModelCodes": [
+        "SM-S926B"
+      ],
+      "notes": "Independent second source: exact Part Number + same Model Code verified."
+    },
+    {
+      "id": "ev-brico-phone-8af18f2ab689",
+      "compatibilityGroupId": "cg-part-charging-gh96-18449a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/37360-connecteur-de-charge-pour-samsung-galaxy-a16-5g.html",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-18449A"
+      ],
+      "citedModelCodes": [
+        "SM-A166B"
+      ],
+      "notes": "Independent second source: exact Part Number + same Model Code verified."
+    },
+    {
+      "id": "ev-brico-phone-90b1ba5bd6c7",
+      "compatibilityGroupId": "cg-part-charging-gh96-16497a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/32810-connecteur-de-charge-dorigine-pour-samsung-galaxy-s24-ultra.html",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16497A"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Independent second source: exact Part Number + same Model Code verified."
+    },
+    {
+      "id": "ev-brico-phone-f103874f1b49",
+      "compatibilityGroupId": "cg-part-charging-gh96-16507a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/31807-connecteur-de-charge-usb-type-c-pour-samsung-galaxy-s24.html",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16507A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Independent second source: exact Part Number + same Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-abbe6fe43c7a",
+      "compatibilityGroupId": "cg-part-charging-gh81-25804a",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/de/samsung/galaxy-m/sm-m556b-galaxy-m55-cat11776",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-25804A"
+      ],
+      "citedModelCodes": [
+        "SM-M556B"
+      ],
+      "notes": "Independent second source: exact Part Number + same Model Code verified."
+    },
+    {
+      "id": "ev-gsmok-0b7d1b50e054",
+      "compatibilityGroupId": "cg-part-charging-gh96-15262a",
+      "sourceKey": "gsmok",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSMOK",
+      "sourceUrl": "https://gsmok.com/en/pcb-flex-samsung-m135-galaxy-m13-with-charge-connector-gh96-15262a-original-a107177",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15262A"
+      ],
+      "citedModelCodes": [
+        "SM-M135F"
+      ],
+      "notes": "Independent second source: exact Part Number + same Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-1b6dd73ed76b",
+      "compatibilityGroupId": "cg-part-charging-gh96-16497a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/assistant-board-with-components-for-samsung-galaxy-s24-ultra-sm-s928b-p1000173479",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16497A"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Primary product page: exact Part Number + Model Code verified; Original Service Pack."
+    },
+    {
+      "id": "ev-impextrom-3bf5f4342404",
+      "compatibilityGroupId": "cg-part-charging-gh96-15262a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/service-pack-auxiliary-plate-with-components-for-samsung-galaxy-m13-sm-m135f-p1000145599",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15262A"
+      ],
+      "citedModelCodes": [
+        "SM-M135F"
+      ],
+      "notes": "Primary product page: exact Part Number + Model Code verified; Original Service Pack."
+    },
+    {
+      "id": "ev-impextrom-3ddf14f623f0",
+      "compatibilityGroupId": "cg-part-charging-gh96-16542a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/auxiliary-plate-with-components-for-samsung-galaxy-s24-plus-sm-s926b-p1000173488",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16542A"
+      ],
+      "citedModelCodes": [
+        "SM-S926B"
+      ],
+      "notes": "Primary product page: exact Part Number + Model Code verified; Original Service Pack."
+    },
+    {
+      "id": "ev-impextrom-4cf646f215ed",
+      "compatibilityGroupId": "cg-part-charging-gh96-18449a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/assistant-board-with-components-for-samsung-galaxy-a16-5g-p1000193105",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-18449A"
+      ],
+      "citedModelCodes": [
+        "SM-A166B"
+      ],
+      "notes": "Primary product page: exact Part Number + Model Code verified; Original Service Pack."
+    },
+    {
+      "id": "ev-impextrom-57babdb8df67",
+      "compatibilityGroupId": "cg-part-charging-gh96-14137a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/service-pack-auxiliary-plate-with-components-premium-quality-for-samsung-galaxy-xcover-5-sm-g525f-sm-g525f-ds-p1000112026",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-14137A"
+      ],
+      "citedModelCodes": [
+        "SM-G525F"
+      ],
+      "notes": "Primary product page: exact Part Number + Model Code verified; Original Service Pack."
+    },
+    {
+      "id": "ev-impextrom-ba2ea9a169c6",
+      "compatibilityGroupId": "cg-part-charging-gh96-16008a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/auxiliary-board-with-microphone-charging-data-and-accessory-connector-for-samsung-galaxy-z-fold5-5g-sm-f946b-p1000174394",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16008A"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Primary product page: exact Part Number + Model Code verified; Original Service Pack."
+    },
+    {
+      "id": "ev-impextrom-e6f4a4899b3b",
+      "compatibilityGroupId": "cg-part-charging-gh96-16507a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/auxiliary-board-with-microphone-charging-data-and-accessory-connector-for-samsung-galaxy-s24-5g-sm-s921b-p1000173225",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16507A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Primary product page: exact Part Number + Model Code verified; Original Service Pack."
+    },
+    {
+      "id": "ev-impextrom-fb048d621531",
+      "compatibilityGroupId": "cg-part-charging-gh81-25804a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/assistant-board-for-samsung-galaxy-m55-5g-sm-m556b-p1000182269",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-25804A"
+      ],
+      "citedModelCodes": [
+        "SM-M556B"
+      ],
+      "notes": "Primary product page: exact Part Number + Model Code verified; Original Service Pack."
+    },
+    {
+      "id": "ev-samsung-parts-5e8ec67969db",
+      "compatibilityGroupId": "cg-part-charging-gh96-14137a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung Parts",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-Xcover-5-SM-G525F-USB-Sub-Board/en",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-14137A"
+      ],
+      "citedModelCodes": [
+        "SM-G525F"
+      ],
+      "notes": "Independent second source: exact Part Number + same Model Code verified."
+    },
+    {
+      "id": "ev-servicepack-samsung-8fae9f3a916b",
+      "compatibilityGroupId": "cg-part-charging-gh96-16008a",
+      "sourceKey": "servicepack-samsung",
+      "sourceType": "partsSupplier",
+      "sourceName": "Service Pack Samsung",
+      "sourceUrl": "https://servicepacksamsung.com/en/galaxy-z-fold5-sm-f946b/3446-assy-sub-pba-usb-sm-f946b.html",
+      "checkedAt": "2026-10-03T19:12:21Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16008A"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Independent second source: exact Part Number + same Model Code verified."
+    }
+  ],
+  "categoryFacts": [
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "29",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "15",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_f3sqk3b5q7guj75lfoo6pgjfyu"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "30",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "15",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_dyhxywxa7x6yke44hyvx7cv2ne"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "30",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "15",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_qpjp2czujzub5rd5molx6lkoqm"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "45",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "25",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_zoeh4tzuf2qjv4lccwvovwteki"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "30",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "10",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_lzhbqhedzdp75qzj3xqyoeynby"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "18",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "0",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ckyt5angoacmclisdbel7i2cfu"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "20",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "20",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_yvgku523smhfuux52nmmybeeta"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "23",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "23",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_hsj3hutck2geqacze3vgch6mh4"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "18",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "7",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_apfxvxjgtiu63vb7druy6g5ncq"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "27",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "18",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_3kuv54jgws4olenovqyo6m36k4"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "30",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "23",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_2t6v2vs7cgqdqjulo7mdyutuni"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "18",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "18",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ufv55frdu7r5x4uuaxccyvnqz4"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "27",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "15",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_joguedzus6542kh3ty6dr2h2ne"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "27",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "21",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ixht45q7jommlk77gdes7wv7cy"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "45",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "21",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_vx2g4jijt3ew2l2pdtr7z6esgy"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "37",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "23",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_lz5cfjfcbhqee67by3ekhllk2u"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "23",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "7",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_g3pq7w4ch73c5ou7r4bivyvm54"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "30",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "7",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_y6ump5zonutjkivyt25opkklny"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "10",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/hmd/2025/aura-2/hmd-aura-2-4gb-256gb-4g.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_4nqzpqgc2jfi5bq33hv5dbbo4u"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "33",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "0",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_gfutcvhqteuao7cuic7wjsblcu"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "125",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2022/motorola-edge-30-ultra.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "50",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2022/motorola-edge-30-ultra.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_a7a33mol5ijyyamb53hvw334u4"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "125",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-edge-40-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "15",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-edge-40-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_lp26yprzdjf5ylju5osqne4lqe"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "90",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "15",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_3mnlihov62yb7xay4l6j3y6xtu"
+    }
+  ],
+  "compatibilityDifferences": []
+}

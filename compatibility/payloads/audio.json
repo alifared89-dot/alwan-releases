@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 3,
+  "category": "audio",
+  "parts": [
+    {
+      "id": "part-audio-gh81-21650a",
+      "category": "audio",
+      "canonicalPartNumbers": [
+        "GH81-21650A"
+      ]
+    },
+    {
+      "id": "part-audio-gh81-23529a",
+      "category": "audio",
+      "canonicalPartNumbers": [
+        "GH81-23529A"
+      ]
+    },
+    {
+      "id": "part-audio-gh96-15660a",
+      "category": "audio",
+      "canonicalPartNumbers": [
+        "GH96-15660A"
+      ]
+    },
+    {
+      "id": "part-audio-gh96-15662a",
+      "category": "audio",
+      "canonicalPartNumbers": [
+        "GH96-15662A"
+      ]
+    },
+    {
+      "id": "part-audio-gh96-16062a",
+      "category": "audio",
+      "canonicalPartNumbers": [
+        "GH96-16062A"
+      ]
+    },
+    {
+      "id": "part-audio-gh96-16552a",
+      "category": "audio",
+      "canonicalPartNumbers": [
+        "GH96-16552A"
+      ]
+    },
+    {
+      "id": "part-audio-gh96-17092a",
+      "category": "audio",
+      "canonicalPartNumbers": [
+        "GH96-17092A"
+      ]
+    },
+    {
+      "id": "part-audio-gh97-28468a",
+      "category": "audio",
+      "canonicalPartNumbers": [
+        "GH97-28468A"
+      ]
+    }
+  ],
+  "compatibilityGroups": [
+    {
+      "id": "cg-part-audio-gh81-21650a",
+      "partId": "part-audio-gh81-21650a",
+      "deviceIds": [
+        "dev_4hx5mku5zdv3qgngvrddbonzhy"
+      ]
+    },
+    {
+      "id": "cg-part-audio-gh81-23529a",
+      "partId": "part-audio-gh81-23529a",
+      "deviceIds": [
+        "dev_mcfqgh6g3u5nxg77tl2ihg2h6a"
+      ]
+    },
+    {
+      "id": "cg-part-audio-gh96-15660a",
+      "partId": "part-audio-gh96-15660a",
+      "deviceIds": [
+        "dev_iygfxlij3gnnjdhogdbupltg3u"
+      ]
+    },
+    {
+      "id": "cg-part-audio-gh96-15662a",
+      "partId": "part-audio-gh96-15662a",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    },
+    {
+      "id": "cg-part-audio-gh96-16062a",
+      "partId": "part-audio-gh96-16062a",
+      "deviceIds": [
+        "dev_4yjjc4iplow2uwdwwct55ur6fi"
+      ]
+    },
+    {
+      "id": "cg-part-audio-gh96-16552a",
+      "partId": "part-audio-gh96-16552a",
+      "deviceIds": [
+        "dev_gr6a43xhftorqna5btk22cbufq"
+      ]
+    },
+    {
+      "id": "cg-part-audio-gh96-17092a",
+      "partId": "part-audio-gh96-17092a",
+      "deviceIds": [
+        "dev_fegofcbxdfdgysughyrfdogsyi"
+      ]
+    },
+    {
+      "id": "cg-part-audio-gh97-28468a",
+      "partId": "part-audio-gh97-28468a",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-brico-phone-c80e7350385f",
+      "compatibilityGroupId": "cg-part-audio-gh96-15660a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/24917-haut-parleur-externe-pour-samsung-galaxy-s23-plus.html",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15660A"
+      ],
+      "citedModelCodes": [
+        "SM-S916B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-gsm-parts-center-9f7beb4d4b69",
+      "compatibilityGroupId": "cg-part-audio-gh97-28468a",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/samsung-sm-s918b-galaxy-s23-ultra-antenna-board-gh97-28468a.html",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH97-28468A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-gsmok-2497b0a91e5a",
+      "compatibilityGroupId": "cg-part-audio-gh81-21650a",
+      "sourceKey": "gsmok",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSMOK",
+      "sourceUrl": "https://gsmok.com/en/buzzer-samsung-a035-galaxy-a03-gh81-21650a-original-a107586",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-21650A"
+      ],
+      "citedModelCodes": [
+        "SM-A035F"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-impextrom-27a3abbe088d",
+      "compatibilityGroupId": "cg-part-audio-gh81-23529a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/loudspeaker-ring-tone-for-samsung-galaxy-a14-4g-sm-a145r-p1000172610",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-23529A"
+      ],
+      "citedModelCodes": [
+        "SM-A145R"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-533cfb352dd3",
+      "compatibilityGroupId": "cg-part-audio-gh96-17092a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/loudspeaker-module-for-samsung-galaxy-z-flip6-5g-sm-f741b-p1000182200",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-17092A"
+      ],
+      "citedModelCodes": [
+        "SM-F741B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-8c775fa21b01",
+      "compatibilityGroupId": "cg-part-audio-gh97-28468a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/earpiece-speaker-for-samsung-galaxy-s23-ultra-sm-s918b-p1000154043",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH97-28468A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-8d38cd37dc1f",
+      "compatibilityGroupId": "cg-part-audio-gh96-16062a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/buzzer-speaker-for-samsung-galaxy-z-fold5-5g-sm-f946b-p1000174398",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16062A"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-a72e1e5513b2",
+      "compatibilityGroupId": "cg-part-audio-gh96-16552a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/buzzer-speaker-for-samsung-galaxy-s24-5g-sm-s921b-p1000173228",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16552A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-c577255af101",
+      "compatibilityGroupId": "cg-part-audio-gh96-15662a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/loudspeaker-ring-tone-with-integrated-vibrator-for-samsung-galaxy-s23-ultra-sm-s918b-p1000154029",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15662A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-f7736f2036e2",
+      "compatibilityGroupId": "cg-part-audio-gh96-15660a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/loudspeaker-ring-tone-with-integrated-haptic-vibrator-for-samsung-galaxy-s23-sm-s916b-p1000155678",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15660A"
+      ],
+      "citedModelCodes": [
+        "SM-S916B"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-impextrom-ffe00fbb0cb1",
+      "compatibilityGroupId": "cg-part-audio-gh81-21650a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/loudspeaker-ring-tone-for-samsung-galaxy-a03-sm-a035f-p1000152015",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-21650A"
+      ],
+      "citedModelCodes": [
+        "SM-A035F"
+      ],
+      "notes": "Primary exact product-page Part Number + Model Code evidence; origin not inferred from identifier format."
+    },
+    {
+      "id": "ev-samsung-parts-65dce8589f96",
+      "compatibilityGroupId": "cg-part-audio-gh96-16062a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-Z-Fold5-SM-F946B-Bottom-Speaker/en",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16062A"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-samsung-parts-afed3d82bedf",
+      "compatibilityGroupId": "cg-part-audio-gh96-15662a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-S23-Ultra-SM-S918B-Speaker/en",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15662A"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-samsung-parts-c02879775e3b",
+      "compatibilityGroupId": "cg-part-audio-gh81-23529a",
+      "sourceKey": "samsung-parts",
+      "sourceType": "partsSupplier",
+      "sourceName": "Samsung-parts.net",
+      "sourceUrl": "https://www.samsung-parts.net/Samsung-Galaxy-A14-SM-A145R-Speaker/en",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-23529A"
+      ],
+      "citedModelCodes": [
+        "SM-A145R"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-servicepack-samsung-3aa6bf10d274",
+      "compatibilityGroupId": "cg-part-audio-gh96-16552a",
+      "sourceKey": "servicepack-samsung",
+      "sourceType": "partsSupplier",
+      "sourceName": "Service Pack Samsung",
+      "sourceUrl": "https://servicepacksamsung.com/en/galaxy-s24-sm-s921b/20525-multimedia-speaker-samsung-galaxy-s24-sm-s921b-gh96-16552a.html",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-16552A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    },
+    {
+      "id": "ev-servicepack-samsung-582b6c3b1cd9",
+      "compatibilityGroupId": "cg-part-audio-gh96-17092a",
+      "sourceKey": "servicepack-samsung",
+      "sourceType": "partsSupplier",
+      "sourceName": "Service Pack Samsung",
+      "sourceUrl": "https://servicepacksamsung.com/es/galaxy-z-flip6-sm-f741b/23038-M%C3%B3dulo-Altavoz-Multimedia-Samsung-Galaxy-Z-Flip6-SM-F741B-GH96-17092A.html",
+      "checkedAt": "2026-10-03T19:24:46Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-17092A"
+      ],
+      "citedModelCodes": [
+        "SM-F741B"
+      ],
+      "notes": "Independent second source confirms exact Part Number + same Model Code(s)."
+    }
+  ],
+  "categoryFacts": [],
+  "compatibilityDifferences": []
+}

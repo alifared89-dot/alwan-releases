@@ -73,10 +73,38 @@
       ]
     },
     {
+      "id": "part-display-gh81-21625a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH81-21625A"
+      ]
+    },
+    {
+      "id": "part-display-gh81-21626a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH81-21626A"
+      ]
+    },
+    {
       "id": "part-display-gh81-23541a",
       "category": "display",
       "canonicalPartNumbers": [
         "GH81-23541A"
+      ]
+    },
+    {
+      "id": "part-display-gh81-23640a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH81-23640A"
+      ]
+    },
+    {
+      "id": "part-display-gh81-25791a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH81-25791A"
       ]
     },
     {
@@ -108,6 +136,20 @@
       ]
     },
     {
+      "id": "part-display-gh82-29132a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-29132A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-29461b",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-29461B"
+      ]
+    },
+    {
       "id": "part-display-gh82-30465a",
       "category": "display",
       "canonicalPartNumbers": [
@@ -119,6 +161,13 @@
       "category": "display",
       "canonicalPartNumbers": [
         "GH82-30465B"
+      ]
+    },
+    {
+      "id": "part-display-gh82-30465c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-30465C"
       ]
     },
     {
@@ -136,6 +185,13 @@
       ]
     },
     {
+      "id": "part-display-gh82-30466d",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-30466D"
+      ]
+    },
+    {
       "id": "part-display-gh82-30466g",
       "category": "display",
       "canonicalPartNumbers": [
@@ -147,6 +203,13 @@
       "category": "display",
       "canonicalPartNumbers": [
         "GH82-30476B"
+      ]
+    },
+    {
+      "id": "part-display-gh82-30476c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-30476C"
       ]
     },
     {
@@ -164,10 +227,38 @@
       ]
     },
     {
+      "id": "part-display-gh82-30481c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-30481C"
+      ]
+    },
+    {
       "id": "part-display-gh82-30481d",
       "category": "display",
       "canonicalPartNumbers": [
         "GH82-30481D"
+      ]
+    },
+    {
+      "id": "part-display-gh82-31201a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-31201A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-31201b",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-31201B"
+      ]
+    },
+    {
+      "id": "part-display-gh82-31231a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-31231A"
       ]
     },
     {
@@ -178,10 +269,164 @@
       ]
     },
     {
+      "id": "part-display-gh82-31843b",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-31843B"
+      ]
+    },
+    {
+      "id": "part-display-gh82-31843c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-31843C"
+      ]
+    },
+    {
+      "id": "part-display-gh82-32854b",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-32854B"
+      ]
+    },
+    {
+      "id": "part-display-gh82-32856a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-32856A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-32950a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-32950A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33286a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33286A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33287a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33287A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33287b",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33287B"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33287c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33287C"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33385a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33385A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33396b",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33396B"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33396c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33396C"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33410a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33410A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33410b",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33410B"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33410c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33410C"
+      ]
+    },
+    {
       "id": "part-display-gh82-33637a",
       "category": "display",
       "canonicalPartNumbers": [
         "GH82-33637A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-33685a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-33685A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-35014e",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-35014E"
+      ]
+    },
+    {
+      "id": "part-display-gh82-35014f",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-35014F"
+      ]
+    },
+    {
+      "id": "part-display-gh82-36143a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-36143A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-36356a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-36356A"
+      ]
+    },
+    {
+      "id": "part-display-gh82-36588a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH82-36588A"
+      ]
+    },
+    {
+      "id": "part-display-gh96-15279a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "GH96-15279A"
       ]
     }
   ],
@@ -261,10 +506,38 @@
       ]
     },
     {
+      "id": "cg-part-display-gh81-21625a",
+      "partId": "part-display-gh81-21625a",
+      "deviceIds": [
+        "dev_4hx5mku5zdv3qgngvrddbonzhy"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh81-21626a",
+      "partId": "part-display-gh81-21626a",
+      "deviceIds": [
+        "dev_4hx5mku5zdv3qgngvrddbonzhy"
+      ]
+    },
+    {
       "id": "cg-part-display-gh81-23541a",
       "partId": "part-display-gh81-23541a",
       "deviceIds": [
         "dev_mcfqgh6g3u5nxg77tl2ihg2h6a"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh81-23640a",
+      "partId": "part-display-gh81-23640a",
+      "deviceIds": [
+        "dev_ayyopj263gojtmmm6u3tagdoie"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh81-25791a",
+      "partId": "part-display-gh81-25791a",
+      "deviceIds": [
+        "dev_atmrzxi5x7ip4727hhcarl6ut4"
       ]
     },
     {
@@ -296,6 +569,20 @@
       ]
     },
     {
+      "id": "cg-part-display-gh82-29132a",
+      "partId": "part-display-gh82-29132a",
+      "deviceIds": [
+        "dev_jilz6a37rgs5ksqtnjypmpftri"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-29461b",
+      "partId": "part-display-gh82-29461b",
+      "deviceIds": [
+        "dev_tzo2qidebzy4lkwccmqf6dnlfy"
+      ]
+    },
+    {
       "id": "cg-part-display-gh82-30465a",
       "partId": "part-display-gh82-30465a",
       "deviceIds": [
@@ -305,6 +592,13 @@
     {
       "id": "cg-part-display-gh82-30465b",
       "partId": "part-display-gh82-30465b",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-30465c",
+      "partId": "part-display-gh82-30465c",
       "deviceIds": [
         "dev_iwyhgwq24svxeagpvo3nhjj6au"
       ]
@@ -324,6 +618,13 @@
       ]
     },
     {
+      "id": "cg-part-display-gh82-30466d",
+      "partId": "part-display-gh82-30466d",
+      "deviceIds": [
+        "dev_iwyhgwq24svxeagpvo3nhjj6au"
+      ]
+    },
+    {
       "id": "cg-part-display-gh82-30466g",
       "partId": "part-display-gh82-30466g",
       "deviceIds": [
@@ -333,6 +634,13 @@
     {
       "id": "cg-part-display-gh82-30476b",
       "partId": "part-display-gh82-30476b",
+      "deviceIds": [
+        "dev_iygfxlij3gnnjdhogdbupltg3u"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-30476c",
+      "partId": "part-display-gh82-30476c",
       "deviceIds": [
         "dev_iygfxlij3gnnjdhogdbupltg3u"
       ]
@@ -352,10 +660,38 @@
       ]
     },
     {
+      "id": "cg-part-display-gh82-30481c",
+      "partId": "part-display-gh82-30481c",
+      "deviceIds": [
+        "dev_7bsctb3iz2fguc36lnm7onbmoa"
+      ]
+    },
+    {
       "id": "cg-part-display-gh82-30481d",
       "partId": "part-display-gh82-30481d",
       "deviceIds": [
         "dev_7bsctb3iz2fguc36lnm7onbmoa"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-31201a",
+      "partId": "part-display-gh82-31201a",
+      "deviceIds": [
+        "dev_ppnnxp4drapv3x5xjpqrowjbxm"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-31201b",
+      "partId": "part-display-gh82-31201b",
+      "deviceIds": [
+        "dev_ppnnxp4drapv3x5xjpqrowjbxm"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-31231a",
+      "partId": "part-display-gh82-31231a",
+      "deviceIds": [
+        "dev_djgnt26bfgodruhc237jmdnq2u"
       ]
     },
     {
@@ -366,15 +702,186 @@
       ]
     },
     {
+      "id": "cg-part-display-gh82-31843b",
+      "partId": "part-display-gh82-31843b",
+      "deviceIds": [
+        "dev_4yjjc4iplow2uwdwwct55ur6fi"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-31843c",
+      "partId": "part-display-gh82-31843c",
+      "deviceIds": [
+        "dev_4yjjc4iplow2uwdwwct55ur6fi"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-32854b",
+      "partId": "part-display-gh82-32854b",
+      "deviceIds": [
+        "dev_4ffbzrs7rdkyogdu3h3eq6g2ja"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-32856a",
+      "partId": "part-display-gh82-32856a",
+      "deviceIds": [
+        "dev_4ffbzrs7rdkyogdu3h3eq6g2ja"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-32950a",
+      "partId": "part-display-gh82-32950a",
+      "deviceIds": [
+        "dev_4yjjc4iplow2uwdwwct55ur6fi"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-33286a",
+      "partId": "part-display-gh82-33286a",
+      "deviceIds": [
+        "dev_gr6a43xhftorqna5btk22cbufq"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-33287a",
+      "partId": "part-display-gh82-33287a",
+      "deviceIds": [
+        "dev_gr6a43xhftorqna5btk22cbufq"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-33287b",
+      "partId": "part-display-gh82-33287b",
+      "deviceIds": [
+        "dev_gr6a43xhftorqna5btk22cbufq"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-33287c",
+      "partId": "part-display-gh82-33287c",
+      "deviceIds": [
+        "dev_gr6a43xhftorqna5btk22cbufq"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-33385a",
+      "partId": "part-display-gh82-33385a",
+      "deviceIds": [
+        "dev_z2u4b7nzxzgxh3pl6an4slf6oe"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-33396b",
+      "partId": "part-display-gh82-33396b",
+      "deviceIds": [
+        "dev_z2u4b7nzxzgxh3pl6an4slf6oe"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-33396c",
+      "partId": "part-display-gh82-33396c",
+      "deviceIds": [
+        "dev_z2u4b7nzxzgxh3pl6an4slf6oe"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-33410a",
+      "partId": "part-display-gh82-33410a",
+      "deviceIds": [
+        "dev_ndaqsqtejzkrqpn4pletycrjau"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-33410b",
+      "partId": "part-display-gh82-33410b",
+      "deviceIds": [
+        "dev_ndaqsqtejzkrqpn4pletycrjau"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-33410c",
+      "partId": "part-display-gh82-33410c",
+      "deviceIds": [
+        "dev_ndaqsqtejzkrqpn4pletycrjau"
+      ]
+    },
+    {
       "id": "cg-part-display-gh82-33637a",
       "partId": "part-display-gh82-33637a",
       "deviceIds": [
         "samsung-galaxy-a15",
         "dev_pa6mzenuzqsbqx7r2kb2mnxgpe"
       ]
+    },
+    {
+      "id": "cg-part-display-gh82-33685a",
+      "partId": "part-display-gh82-33685a",
+      "deviceIds": [
+        "dev_7zjmdk35j4hv3nf7y5ihoawdiu"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-35014e",
+      "partId": "part-display-gh82-35014e",
+      "deviceIds": [
+        "dev_fegofcbxdfdgysughyrfdogsyi"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-35014f",
+      "partId": "part-display-gh82-35014f",
+      "deviceIds": [
+        "dev_fegofcbxdfdgysughyrfdogsyi"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-36143a",
+      "partId": "part-display-gh82-36143a",
+      "deviceIds": [
+        "dev_cpcrjkafueirlhgyah4xvzdbc4"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-36356a",
+      "partId": "part-display-gh82-36356a",
+      "deviceIds": [
+        "dev_5escfpwnmovrvjxwevgh3bedfq"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh82-36588a",
+      "partId": "part-display-gh82-36588a",
+      "deviceIds": [
+        "dev_34zn7642djn3qrcmurcpusgxh4"
+      ]
+    },
+    {
+      "id": "cg-part-display-gh96-15279a",
+      "partId": "part-display-gh96-15279a",
+      "deviceIds": [
+        "dev_tzo2qidebzy4lkwccmqf6dnlfy"
+      ]
     }
   ],
   "evidence": [
+    {
+      "id": "ev-brico-phone-068cbbbdc7cc",
+      "compatibilityGroupId": "cg-part-display-gh82-36588a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/40152-ecran-d-origine-pour-samsung-galaxy-s25-ultra.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-36588A"
+      ],
+      "citedModelCodes": [
+        "SM-S938B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
     {
       "id": "ev-brico-phone-0698ea6038ff",
       "compatibilityGroupId": "cg-part-display-gh82-30476b",
@@ -427,6 +934,23 @@
       "notes": "Independent second-source listing with exact part number and exact device model code."
     },
     {
+      "id": "ev-brico-phone-17b451595ef7",
+      "compatibilityGroupId": "cg-part-display-gh82-33396c",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/43342-ecran-avec-chassis-galaxy-s24-ultra-origine-samsung-jaune.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33396C"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-brico-phone-2dcc3f593d35",
       "compatibilityGroupId": "cg-part-display-gh82-30481b",
       "sourceKey": "brico-phone",
@@ -442,6 +966,40 @@
         "SM-S911B"
       ],
       "notes": "Independent second-source listing with exact part number and exact device model code."
+    },
+    {
+      "id": "ev-brico-phone-4d80b0337500",
+      "compatibilityGroupId": "cg-part-display-gh82-33385a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/33064-ecran-d-origine-galaxy-s24-ultra.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33385A"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-brico-phone-59b804ec79be",
+      "compatibilityGroupId": "cg-part-display-gh82-33287b",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/43270-bloc-ecran-avec-chassis-galaxy-s24-argent-original-samsung.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33287B"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-brico-phone-61be6e930998",
@@ -496,6 +1054,23 @@
         "SM-G990B"
       ],
       "notes": "Independent second-source listing with exact part number and exact device model code."
+    },
+    {
+      "id": "ev-brico-phone-72298f14e012",
+      "compatibilityGroupId": "cg-part-display-gh82-35014e",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/39927-ecran-complet-interieur-avec-chassis-d-origine-galaxy-z-flip6-noir-carbone.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-35014E"
+      ],
+      "citedModelCodes": [
+        "SM-F741B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-brico-phone-75ca83bc0a37",
@@ -605,6 +1180,23 @@
       "notes": "Independent second-source listing with exact part number and exact device model code."
     },
     {
+      "id": "ev-brico-phone-b01b112d7eb2",
+      "compatibilityGroupId": "cg-part-display-gh82-36356a",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/40150-ecran-d-origine-amoled-pour-samsung-galaxy-s25-plus.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-36356A"
+      ],
+      "citedModelCodes": [
+        "SM-S936B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-brico-phone-bf41188613f4",
       "compatibilityGroupId": "cg-part-display-560001m16u00",
       "sourceKey": "brico-phone",
@@ -623,6 +1215,40 @@
       "notes": "Independent second-source listing with exact part number and exact device model code."
     },
     {
+      "id": "ev-brico-phone-cf0c7f6ff68a",
+      "compatibilityGroupId": "cg-part-display-gh82-31201b",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/28480-bloc-ecran-super-amoled-pour-samsung-galaxy-a34-argent.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31201B"
+      ],
+      "citedModelCodes": [
+        "SM-A346E"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-brico-phone-d7f905dc30f9",
+      "compatibilityGroupId": "cg-part-display-gh82-32854b",
+      "sourceKey": "brico-phone",
+      "sourceType": "partsSupplier",
+      "sourceName": "Brico-phone",
+      "sourceUrl": "https://www.brico-phone.com/33849-bloc-ecran-d-origine-pour-galaxy-s23-fe-blanc.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-32854B"
+      ],
+      "citedModelCodes": [
+        "SM-S711B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-brico-phone-deeabbe43244",
       "compatibilityGroupId": "cg-part-display-gh82-30477d",
       "sourceKey": "brico-phone",
@@ -638,6 +1264,23 @@
         "SM-S916B"
       ],
       "notes": "Independent second-source listing with exact part number and exact device model code."
+    },
+    {
+      "id": "ev-componenti-digitali-66a0001667e6",
+      "compatibilityGroupId": "cg-part-display-gh82-30465c",
+      "sourceKey": "componenti-digitali",
+      "sourceType": "partsSupplier",
+      "sourceName": "Componenti Digitali",
+      "sourceUrl": "https://www.componentidigitali.com/en/componenti-digitali-home-page/spare-parts-for-mobile-phones/spare-parts-for-samsung/display-lcd-for-samsung/display-lcd-for-samsung-s918b-s23-ultra-5g-green-with-frame-gh82-30465c-gh82-30466c.2.39.80.gp.32575.uw",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30465C"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-dutchspares-234ac828d3cd",
@@ -672,6 +1315,227 @@
         "SM-S918B"
       ],
       "notes": "Independent second-source listing with exact part number and exact device model code."
+    },
+    {
+      "id": "ev-dutchspares-abc41e83453b",
+      "compatibilityGroupId": "cg-part-display-gh82-30476c",
+      "sourceKey": "dutchspares",
+      "sourceType": "partsSupplier",
+      "sourceName": "DutchSpares",
+      "sourceUrl": "https://www.dutchspares.com/en/samsung-galaxy-s23-s916b-display-green-gh82-30476c.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30476C"
+      ],
+      "citedModelCodes": [
+        "SM-S916B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-2e676d994cf2",
+      "compatibilityGroupId": "cg-part-display-gh82-33410b",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/catalog/category/view/s/sm-s926b-galaxy-s24-plus/id/4456/",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33410B"
+      ],
+      "citedModelCodes": [
+        "SM-S926B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-34279a9b3caf",
+      "compatibilityGroupId": "cg-part-display-gh82-33287c",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/samsung-galaxy-s24-lcd-display-touchscreen-frame-sam30767.html",
+      "checkedAt": "2026-10-03T18:39:28Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33287C"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-4d3183c3121d",
+      "compatibilityGroupId": "cg-part-display-gh82-33410a",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/catalog/category/view/s/sm-s926b-galaxy-s24-plus/id/4456/",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33410A"
+      ],
+      "citedModelCodes": [
+        "SM-S926B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-61a418637aa4",
+      "compatibilityGroupId": "cg-part-display-gh82-30481c",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/samsung/galaxy-s.html/sm-s911b-galaxy-s23",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30481C"
+      ],
+      "citedModelCodes": [
+        "SM-S911B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-917ae2ba4bcf",
+      "compatibilityGroupId": "cg-part-display-gh82-29461b",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/samsung/galaxy-f/sm-f936b-galaxy-z-fold-4",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-29461B"
+      ],
+      "citedModelCodes": [
+        "SM-F936B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-a97c2da19ede",
+      "compatibilityGroupId": "cg-part-display-gh82-32950a",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/samsung-galaxy-z-fold-5-lcd-display-touchscreen-110697.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-32950A"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-b776957718df",
+      "compatibilityGroupId": "cg-part-display-gh82-33410c",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/samsung-galaxy-s24-plus-lcd-display-touchscreen-frame-108951-sam30759.html",
+      "checkedAt": "2026-10-03T18:39:28Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33410C"
+      ],
+      "citedModelCodes": [
+        "SM-S926B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-d0f26ae75abe",
+      "compatibilityGroupId": "cg-part-display-gh96-15279a",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/samsung/galaxy-f/sm-f936b-galaxy-z-fold-4",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15279A"
+      ],
+      "citedModelCodes": [
+        "SM-F936B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-f47db75c91d7",
+      "compatibilityGroupId": "cg-part-display-gh82-35014f",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/samsung/galaxy-f/sm-f741b-galaxy-flip-6-cat11777",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-35014F"
+      ],
+      "citedModelCodes": [
+        "SM-F741B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsm-parts-center-f84c43fe5ec8",
+      "compatibilityGroupId": "cg-part-display-gh82-33396b",
+      "sourceKey": "gsm-parts-center",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM Parts Center",
+      "sourceUrl": "https://www.gsmpartscenter.com/en/catalog/category/view/s/sm-s928b-galaxy-s24-ultra/id/4457/",
+      "checkedAt": "2026-10-03T18:39:28Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33396B"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsmnet-1216c7466308",
+      "compatibilityGroupId": "cg-part-display-gh81-25791a",
+      "sourceKey": "gsmnet",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSMnet",
+      "sourceUrl": "https://www.gsmnet.ro/piese-componente-display-cu-touchscreen/display-cu-touchscreen-samsung-galaxy-m55-cu-rama-negru-service-pack-gh81-25791a",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-25791A"
+      ],
+      "citedModelCodes": [
+        "SM-M556B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsmnet-351d54c00ab1",
+      "compatibilityGroupId": "cg-part-display-gh82-33287a",
+      "sourceKey": "gsmnet",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSMnet",
+      "sourceUrl": "https://www.gsmnet.ro/piese-componente-display-cu-touchscreen/display-cu-touchscreen-samsung-galaxy-s24-s921-cu-rama-negru-onyx-black-service-pack-gh82-33287a",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33287A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-gsmnet-73d4466eb2d3",
@@ -709,6 +1573,74 @@
       "notes": "Independent second-source listing with exact part number and exact device model code."
     },
     {
+      "id": "ev-gsmok-d80bb9109756",
+      "compatibilityGroupId": "cg-part-display-gh82-32856a",
+      "sourceKey": "gsmok",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSMOK",
+      "sourceUrl": "https://gsmok.com/en/lcd-display-samsung-f711-galaxy-s23-fe-5g-gh82-32856a-black-no-frame-original-service-pack-a113521",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-32856A"
+      ],
+      "citedModelCodes": [
+        "SM-S711B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsmok-d92f5ab7fd94",
+      "compatibilityGroupId": "cg-part-display-gh82-31843c",
+      "sourceKey": "gsmok",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSMOK",
+      "sourceUrl": "https://gsmok.com/en/lcd-touch-pad-complete-samsung-f946-galaxy-fold5-5g-gh82-31843c-gh82-31842c-blue-original-service-pack-a112426",
+      "checkedAt": "2026-10-03T18:39:28Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31843C"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gultek-367bbf8e6af7",
+      "compatibilityGroupId": "cg-part-display-gh82-31231a",
+      "sourceKey": "gultek",
+      "sourceType": "partsSupplier",
+      "sourceName": "Gultek",
+      "sourceUrl": "https://www.gultek.eu/samsung/galaxy-a-series/galaxy-a54-5g-a546v/",
+      "checkedAt": "2026-10-03T18:39:28Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31231A"
+      ],
+      "citedModelCodes": [
+        "SM-A546V"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gultek-40c71d6e8a47",
+      "compatibilityGroupId": "cg-part-display-gh82-31201a",
+      "sourceKey": "gultek",
+      "sourceType": "partsSupplier",
+      "sourceName": "Gultek",
+      "sourceUrl": "https://www.gultek.eu/galaxy-a34-a346b/",
+      "checkedAt": "2026-10-03T18:39:28Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31201A"
+      ],
+      "citedModelCodes": [
+        "SM-A346E"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-gultek-9509e35e9433",
       "compatibilityGroupId": "cg-part-display-gh82-30465a",
       "sourceKey": "gultek",
@@ -724,6 +1656,23 @@
         "SM-S918B"
       ],
       "notes": "Independent second-source listing with exact part number and exact device model code."
+    },
+    {
+      "id": "ev-handyersatzteilshop-c05d28025dd4",
+      "compatibilityGroupId": "cg-part-display-gh82-33685a",
+      "sourceKey": "handyersatzteilshop",
+      "sourceType": "partsSupplier",
+      "sourceName": "Handyersatzteilshop",
+      "sourceUrl": "https://www.handyersatzteilshop.de/samsung-galaxy-xcover-7-display-einheit/a2815733",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33685A"
+      ],
+      "citedModelCodes": [
+        "SM-G556B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-handyersatzteilshop-d80f3473b24d",
@@ -743,6 +1692,91 @@
       "notes": "Independent second-source listing with exact part number and exact device model code."
     },
     {
+      "id": "ev-icell-0b3d7c1a1c62",
+      "compatibilityGroupId": "cg-part-display-gh82-33286a",
+      "sourceKey": "icell",
+      "sourceType": "partsSupplier",
+      "sourceName": "iCell",
+      "sourceUrl": "https://icell.bg/display-samsung-s24-s921b-original-nf",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33286A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-icell-c1d8d92a5433",
+      "compatibilityGroupId": "cg-part-display-gh82-36143a",
+      "sourceKey": "icell",
+      "sourceType": "partsSupplier",
+      "sourceName": "iCell",
+      "sourceUrl": "https://icell.bg/display-samsung-a16-5g-a166b-service-pack-frame",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-36143A"
+      ],
+      "citedModelCodes": [
+        "SM-A166B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-068b57c8d3eb",
+      "compatibilityGroupId": "cg-part-display-gh82-31231a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-service-pack-housing-housing-super-amoled-with-balck-frame-for-samsung-galaxy-a54-5g-sm-a546v-p1000159023",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31231A"
+      ],
+      "citedModelCodes": [
+        "SM-A546V"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-1b7039c83a96",
+      "compatibilityGroupId": "cg-part-display-gh81-23640a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/eu-version-full-screen-service-pack-housing-housing-pls-lcd-with-frame-for-samsung-galaxy-a14-5g-sm-a146p-p1000159135",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-23640A"
+      ],
+      "citedModelCodes": [
+        "SM-A146P"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-264650d30224",
+      "compatibilityGroupId": "cg-part-display-gh82-30465c",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/green-display-with-frame-for-samsung-galaxy-s23-ultra-p1000179972",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30465C"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-impextrom-291b39022fde",
       "compatibilityGroupId": "cg-part-display-56000300l900",
       "sourceKey": "impextrom",
@@ -758,6 +1792,40 @@
         "2203129G"
       ],
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
+    },
+    {
+      "id": "ev-impextrom-2e737e7f5e4b",
+      "compatibilityGroupId": "cg-part-display-gh81-25791a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/screen-super-amoled-with-housing-for-samsung-galaxy-m55-5g-p1000193104",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-25791A"
+      ],
+      "citedModelCodes": [
+        "SM-M556B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-2fe309125879",
+      "compatibilityGroupId": "cg-part-display-gh82-35014e",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/black-housing-screen-for-samsung-galaxy-z-flip6-5g-p1000195879",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-35014E"
+      ],
+      "citedModelCodes": [
+        "SM-F741B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-impextrom-3ddab8dabbe4",
@@ -797,6 +1865,57 @@
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
     },
     {
+      "id": "ev-impextrom-45987efd9a64",
+      "compatibilityGroupId": "cg-part-display-gh82-33396c",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/original-screen-with-yellow-frame-for-galaxy-s24-ultra-p1000174154",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33396C"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-48122f7ed26d",
+      "compatibilityGroupId": "cg-part-display-gh96-15279a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/screen-for-samsung-galaxy-z-fold4-5g-sm-f936b-p1000196515",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH96-15279A"
+      ],
+      "citedModelCodes": [
+        "SM-F936B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-5188d5fa3496",
+      "compatibilityGroupId": "cg-part-display-gh82-33287c",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-dynamic-ltpo-amoled-2x-with-cobalt-violet-frame-for-samsung-galaxy-s24-5g-sm-s921b-p1000173206",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33287C"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-impextrom-540cfab7b1d2",
       "compatibilityGroupId": "cg-part-display-560001m16u00",
       "sourceKey": "impextrom",
@@ -815,6 +1934,23 @@
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
     },
     {
+      "id": "ev-impextrom-548aeaf0ca86",
+      "compatibilityGroupId": "cg-part-display-gh82-33286a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-dynamic-ltpo-amoled-2x-for-samsung-galaxy-s24-5g-sm-s921b-p1000173198",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33286A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-impextrom-549b493e0dd4",
       "compatibilityGroupId": "cg-part-display-gh82-26414d",
       "sourceKey": "impextrom",
@@ -830,6 +1966,23 @@
         "SM-G990B"
       ],
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
+    },
+    {
+      "id": "ev-impextrom-57db3019818e",
+      "compatibilityGroupId": "cg-part-display-gh82-36588a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/oled-screen-for-samsung-galaxy-s25-ultra-sm-s938b-p1000195706",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-36588A"
+      ],
+      "citedModelCodes": [
+        "SM-S938B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-impextrom-5831f59cfbd5",
@@ -854,6 +2007,23 @@
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
     },
     {
+      "id": "ev-impextrom-5c1ddc4de3d5",
+      "compatibilityGroupId": "cg-part-display-gh82-33396b",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/original-screen-with-black-frame-for-galaxy-s24-ultra-p1000174158",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33396B"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-impextrom-616a678648a9",
       "compatibilityGroupId": "cg-part-display-gh82-30465a",
       "sourceKey": "impextrom",
@@ -869,6 +2039,108 @@
         "SM-S918B"
       ],
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
+    },
+    {
+      "id": "ev-impextrom-619f22d3c998",
+      "compatibilityGroupId": "cg-part-display-gh82-30481c",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-service-pack-dynamic-amoled-2x-with-green-frame-for-samsung-galaxy-s23-sm-s911b-p1000165874",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30481C"
+      ],
+      "citedModelCodes": [
+        "SM-S911B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-62295e582687",
+      "compatibilityGroupId": "cg-part-display-gh82-30466d",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-service-pack-housing-housing-infinity-o-dynamic-amoled-2x-with-frame-lavender-for-samsung-galaxy-s23-ultra-sm-s918b-p1000158875",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30466D"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-62fb212a699e",
+      "compatibilityGroupId": "cg-part-display-gh82-33385a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/frameless-display-for-samsung-galaxy-s24-ultra-p1000174152",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33385A"
+      ],
+      "citedModelCodes": [
+        "SM-S928B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-674beeac4b93",
+      "compatibilityGroupId": "cg-part-display-gh82-33410b",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-for-samsung-galaxy-s24-plus-with-grey-frame-p1000174012",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33410B"
+      ],
+      "citedModelCodes": [
+        "SM-S926B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-696fb90b09e5",
+      "compatibilityGroupId": "cg-part-display-gh82-31201b",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/silver-housing-screen-for-samsung-galaxy-a34-5g-p1000196435",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31201B"
+      ],
+      "citedModelCodes": [
+        "SM-A346E"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-6c7920e85a6a",
+      "compatibilityGroupId": "cg-part-display-gh82-36143a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/black-full-screen-samsung-galaxy-a16-5g-sm-a166b-p1000193560",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-36143A"
+      ],
+      "citedModelCodes": [
+        "SM-A166B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-impextrom-6e5262381820",
@@ -888,6 +2160,23 @@
         "M2101K7BI"
       ],
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
+    },
+    {
+      "id": "ev-impextrom-76f21436aa26",
+      "compatibilityGroupId": "cg-part-display-gh82-36356a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/oled-screen-for-samsung-galaxy-s25-plus-sm-s936b-p1000195707",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-36356A"
+      ],
+      "citedModelCodes": [
+        "SM-S936B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-impextrom-77898b6871aa",
@@ -944,6 +2233,23 @@
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
     },
     {
+      "id": "ev-impextrom-7dcbdedb82bb",
+      "compatibilityGroupId": "cg-part-display-gh82-32950a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-dynamic-amoled-2x-for-samsung-galaxy-z-fold5-5g-sm-f946b-p1000174379",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-32950A"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-impextrom-7f34a0376467",
       "compatibilityGroupId": "cg-part-display-gh82-30477d",
       "sourceKey": "impextrom",
@@ -962,6 +2268,23 @@
         "SM-S916W"
       ],
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
+    },
+    {
+      "id": "ev-impextrom-8038d60ba4d3",
+      "compatibilityGroupId": "cg-part-display-gh82-33685a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-pls-lcd-for-samsung-galaxy-xcover7-p1000175625",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33685A"
+      ],
+      "citedModelCodes": [
+        "SM-G556B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-impextrom-84e215e6cc5a",
@@ -1023,6 +2346,57 @@
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
     },
     {
+      "id": "ev-impextrom-8ee6ab425f14",
+      "compatibilityGroupId": "cg-part-display-gh82-32856a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/screen-for-samsung-galaxy-s23-fe-sm-s711b-p1000196082",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-32856A"
+      ],
+      "citedModelCodes": [
+        "SM-S711B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-94080d63b2c1",
+      "compatibilityGroupId": "cg-part-display-gh82-29461b",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/lcd-screen-for-samsung-galaxy-z-fold4-5g-sm-f936b-p1000196616",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-29461B"
+      ],
+      "citedModelCodes": [
+        "SM-F936B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-96cfa754826b",
+      "compatibilityGroupId": "cg-part-display-gh82-33287b",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-dynamic-ltpo-amoled-2x-with-marble-grey-frame-for-samsung-galaxy-s24-5g-sm-s921b-p1000173202",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33287B"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-impextrom-9e3e4a62929b",
       "compatibilityGroupId": "cg-part-display-gh82-30465e",
       "sourceKey": "impextrom",
@@ -1056,6 +2430,23 @@
         "SM-A156B"
       ],
       "notes": "Original Service Pack display; explicit model list includes both exact Alwan model codes."
+    },
+    {
+      "id": "ev-impextrom-a0fead04ac14",
+      "compatibilityGroupId": "cg-part-display-gh81-21625a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/black-full-screen-service-pack-housing-housing-pls-with-front-housing-for-samsung-galaxy-a03-sm-a035f-non-eu-version-p1000143482",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-21625A"
+      ],
+      "citedModelCodes": [
+        "SM-A035F"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-impextrom-a44a39211850",
@@ -1092,6 +2483,40 @@
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
     },
     {
+      "id": "ev-impextrom-b2c66eb6bafc",
+      "compatibilityGroupId": "cg-part-display-gh82-31201a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/black-full-screen-service-pack-housing-housing-super-amoled-with-front-housing-and-frame-for-samsung-galaxy-a34-5g-sm-a346e-p1000159021",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31201A"
+      ],
+      "citedModelCodes": [
+        "SM-A346E"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-b7a3a02ae59f",
+      "compatibilityGroupId": "cg-part-display-gh82-32854b",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-dynamic-amoled-2x-with-silver-frame-for-samsung-galaxy-s23-fe-sm-s711b-p1000175479",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-32854B"
+      ],
+      "citedModelCodes": [
+        "SM-S711B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-impextrom-b9d9be240edd",
       "compatibilityGroupId": "cg-part-display-5600020k1900",
       "sourceKey": "impextrom",
@@ -1110,6 +2535,74 @@
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
     },
     {
+      "id": "ev-impextrom-c5120e3742f4",
+      "compatibilityGroupId": "cg-part-display-gh82-31843b",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-dynamic-amoled-2x-with-white-cream-frame-for-samsung-galaxy-z-fold5-5g-sm-f946b-p1000174383",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31843B"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-caeda41d8437",
+      "compatibilityGroupId": "cg-part-display-gh82-33287a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-dynamic-ltpo-amoled-2x-with-black-onyx-black-frame-for-samsung-galaxy-s24-5g-sm-s921b-p1000173204",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33287A"
+      ],
+      "citedModelCodes": [
+        "SM-S921B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-cc66f9135077",
+      "compatibilityGroupId": "cg-part-display-gh82-29132a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/black-service-pack-full-screen-pls-for-samsung-galaxy-m13-sm-m135f-p1000145539",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-29132A"
+      ],
+      "citedModelCodes": [
+        "SM-M135F"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-cddcbd556cfe",
+      "compatibilityGroupId": "cg-part-display-gh82-35014f",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/white-housing-screen-for-samsung-galaxy-z-flip6-5g-p1000195874",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-35014F"
+      ],
+      "citedModelCodes": [
+        "SM-F741B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-impextrom-cf27a318c6f8",
       "compatibilityGroupId": "cg-part-display-gh82-30466g",
       "sourceKey": "impextrom",
@@ -1125,6 +2618,57 @@
         "SM-S918B"
       ],
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
+    },
+    {
+      "id": "ev-impextrom-d165f901e41f",
+      "compatibilityGroupId": "cg-part-display-gh82-31843c",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/full-screen-dynamic-amoled-2x-with-blue-frame-for-samsung-galaxy-z-fold5-5g-sm-f946b-p1000174381",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31843C"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-d73adb44cce3",
+      "compatibilityGroupId": "cg-part-display-gh81-21626a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/black-full-screen-service-pack-housing-housing-ips-with-frame-for-samsung-galaxy-a03-sm-a035f-european-version-p1000149329",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-21626A"
+      ],
+      "citedModelCodes": [
+        "SM-A035F"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-impextrom-e3ef3a767926",
+      "compatibilityGroupId": "cg-part-display-gh82-33410a",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/lcd-screen-with-black-frame-for-samsung-galaxy-s24-plus-p1000174014",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33410A"
+      ],
+      "citedModelCodes": [
+        "SM-S926B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-impextrom-e88d2a56663d",
@@ -1167,6 +2711,23 @@
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
     },
     {
+      "id": "ev-impextrom-eb5fda276818",
+      "compatibilityGroupId": "cg-part-display-gh82-33410c",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/original-screen-with-black-frame-for-samsung-galaxy-s24-plus-p1000174016",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-33410C"
+      ],
+      "citedModelCodes": [
+        "SM-S926B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-impextrom-ee259b56f6eb",
       "compatibilityGroupId": "cg-part-display-gh82-30465b",
       "sourceKey": "impextrom",
@@ -1182,6 +2743,23 @@
         "SM-S918B"
       ],
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
+    },
+    {
+      "id": "ev-impextrom-f14095b40f75",
+      "compatibilityGroupId": "cg-part-display-gh82-30476c",
+      "sourceKey": "impextrom",
+      "sourceType": "partsSupplier",
+      "sourceName": "Impextrom",
+      "sourceUrl": "https://impextrom.com/en/green-housing-screen-for-samsung-galaxy-s23-plus-p1000196436",
+      "checkedAt": "2026-10-03T18:24:05Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30476C"
+      ],
+      "citedModelCodes": [
+        "SM-S916B"
+      ],
+      "notes": "Primary product page: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-impextrom-fbffd7319278",
@@ -1262,6 +2840,40 @@
       "notes": "Independent second-source listing with exact part number and exact device model code."
     },
     {
+      "id": "ev-remogsm-2cdacba95ff3",
+      "compatibilityGroupId": "cg-part-display-gh81-21625a",
+      "sourceKey": "remogsm",
+      "sourceType": "partsSupplier",
+      "sourceName": "RemoGSM",
+      "sourceUrl": "https://remogsm.ro/samsung/5325-display-cu-touchscreen-si-rama-samsung-sm-a035f-galaxy-a03-negru-original-service-pack.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-21625A"
+      ],
+      "citedModelCodes": [
+        "SM-A035F"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-remogsm-6dd79e7c9491",
+      "compatibilityGroupId": "cg-part-display-gh81-21626a",
+      "sourceKey": "remogsm",
+      "sourceType": "partsSupplier",
+      "sourceName": "RemoGSM",
+      "sourceUrl": "https://remogsm.ro/samsung/5325-display-cu-touchscreen-si-rama-samsung-sm-a035f-galaxy-a03-negru-original-service-pack.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-21626A"
+      ],
+      "citedModelCodes": [
+        "SM-A035F"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-samparts-837f0dbc5afa",
       "compatibilityGroupId": "cg-part-display-gh82-26590b",
       "sourceKey": "samparts",
@@ -1277,6 +2889,23 @@
         "SM-G990B"
       ],
       "notes": "Independent second-source listing with exact part number and exact device model code."
+    },
+    {
+      "id": "ev-samparts-a6b0046b9bd1",
+      "compatibilityGroupId": "cg-part-display-gh82-29132a",
+      "sourceKey": "samparts",
+      "sourceType": "partsSupplier",
+      "sourceName": "SamParts",
+      "sourceUrl": "https://www.samparts.eu/en/product/samsung-gh82-29132a",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-29132A"
+      ],
+      "citedModelCodes": [
+        "SM-M135F"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
     },
     {
       "id": "ev-servicepack-ro-0fe21d179484",
@@ -1298,6 +2927,23 @@
       "notes": "Independent second-source listing with exact part number and exact device model code."
     },
     {
+      "id": "ev-servicepack-ro-9cf90de3da2e",
+      "compatibilityGroupId": "cg-part-display-gh81-23640a",
+      "sourceKey": "servicepack-ro",
+      "sourceType": "partsSupplier",
+      "sourceName": "ServicePack.ro",
+      "sourceUrl": "https://servicepack.ro/produs/display-a146p/",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH81-23640A"
+      ],
+      "citedModelCodes": [
+        "SM-A146P"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
       "id": "ev-servicepack-ro-b503d0512ee4",
       "compatibilityGroupId": "cg-part-display-5600020k1900",
       "sourceKey": "servicepack-ro",
@@ -1314,6 +2960,40 @@
         "M2103K19I"
       ],
       "notes": "Independent second-source listing with exact part number and exact device model code."
+    },
+    {
+      "id": "ev-servicepack-samsung-cea25992ff6f",
+      "compatibilityGroupId": "cg-part-display-gh82-31843b",
+      "sourceKey": "servicepack-samsung",
+      "sourceType": "partsSupplier",
+      "sourceName": "ServicePackSamsung",
+      "sourceUrl": "https://servicepacksamsung.com/en/galaxy-z-fold5-sm-f946b/18806-screen-samsung-galaxy-z-fold5-sm-f946b-cream-gh82-31843b.html",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-31843B"
+      ],
+      "citedModelCodes": [
+        "SM-F946B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-stels-37eb7ab3d0f3",
+      "compatibilityGroupId": "cg-part-display-gh82-30466d",
+      "sourceKey": "stels",
+      "sourceType": "partsSupplier",
+      "sourceName": "STELS",
+      "sourceUrl": "https://stels.bg/shop/rezervni-chasti-za-mobilni-telefoni-i-tableti/displei-za-mobilni-telefoni-i-tableti/originalen-displej-za-samsung-galaxy-s23-ultra-sm-s918b/",
+      "checkedAt": "2026-10-03T18:36:02Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "GH82-30466D"
+      ],
+      "citedModelCodes": [
+        "SM-S918B"
+      ],
+      "notes": "Independent second source: exact Part Number and exact Model Code verified."
     }
   ],
   "categoryFacts": [
