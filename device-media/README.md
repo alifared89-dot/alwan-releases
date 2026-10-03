@@ -6,4 +6,4 @@ Remote device-media distribution for Alwan.
 - device_media_manifest.json: validated runtime media manifest.
 - chunks/: immutable ZIP payloads referenced by the distribution manifest.
 
-Current payload is a seed/test package; production media must pass the project quality, provenance, model-code, and license checks before publication.
+No test/seed device images are published. Production media must pass the project quality, provenance, model-code, and license checks before publication.
