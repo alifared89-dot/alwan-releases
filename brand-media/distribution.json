@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "brandMediaManifest": {
+    "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/brand-media/manifest-v1.json",
+    "bytes": 13692,
+    "sha256": "4fb34c1062ac2cb6b6b299c00b471ae12658f6e4f57459045061065a141dfcfd"
+  },
+  "chunks": [
+    {
+      "chunkId": "brands-v1-a",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/brand-media/chunks/brands-v1-a.zip",
+      "compressedBytes": 26525,
+      "uncompressedBytes": 25259,
+      "sha256": "6ae914e26cc62a97613490430d4c83a410c8878983f869360879ea29fde0dc6b"
+    },
+    {
+      "chunkId": "brands-v1-b",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/brand-media/chunks/brands-v1-b.zip",
+      "compressedBytes": 31338,
+      "uncompressedBytes": 30180,
+      "sha256": "d17c1dd01c14b9541cbd9d86360380ef2aa343876e864fbda40b6f0fc95e1a23"
+    }
+  ]
+}
