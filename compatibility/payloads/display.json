@@ -23750,6 +23750,256 @@
           }
         }
       ]
+    },
+    {
+      "deviceId": "dev_kpf253wwnezz3ibwsfertmqcmm",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "AMOLED",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro_4g-12876.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40pro4g-x6850",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro_4g-12876.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40pro4g-x6850",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2436",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro_4g-12876.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40pro4g-x6850",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro_4g-12876.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40pro4g-x6850",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_ofvd6iulrvctdawx6s6z4wmnxu",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "AMOLED",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro-12875.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40pro5g-x6851",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro-12875.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40pro5g-x6851",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2436",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro-12875.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40pro5g-x6851",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro-12875.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40pro5g-x6851",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_xdf6646pjuw3zkipkzli6qu2gm",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "AMOLED",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro%2B-12874.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40proplus5g-x6851b",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro%2B-12874.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40proplus5g-x6851b",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2436",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro%2B-12874.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40proplus5g-x6851b",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40_pro%2B-12874.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40proplus5g-x6851b",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_pgt6vh6yxoo46arm3dhkjdfaxe",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "AMOLED",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40s-13460.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40s-x6850b",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40s-13460.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40s-x6850b",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2436",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40s-13460.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40s-x6850b",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40s-13460.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-note40s-x6850b",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_mul7pe4bgmcsziwvcfhrf7mqme",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "AMOLED",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_zero_40_4g-13276.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-zero40-4g-x6860",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_zero_40_4g-13276.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-zero40-4g-x6860",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2436",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_zero_40_4g-13276.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-zero40-4g-x6860",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_zero_40_4g-13276.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-zero40-4g-x6860",
+            "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        }
+      ]
     }
   ],
   "compatibilityDifferences": [
