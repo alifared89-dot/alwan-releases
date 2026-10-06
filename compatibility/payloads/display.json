@@ -433,9 +433,11 @@
       "id": "part-display-smart8-family",
       "category": "display",
       "canonicalPartNumbers": [
-        "L41472-A",
+        "5487FB8/41",
+        "BG6CL",
         "dis/mp/ts20c",
-        "infinix-smart-8-completo-black"
+        "infinix-smart-8-completo-black",
+        "L41472-A"
       ]
     }
   ],
@@ -878,7 +880,10 @@
       "deviceIds": [
         "dev_eb7pjnvyufc3o4m2zwyppac7aq",
         "dev_erngqae7rfgttiok3o3osdp5fm",
-        "dev_vw6vtwmocw4cnmo22gd7wwjdz4"
+        "dev_vw6vtwmocw4cnmo22gd7wwjdz4",
+        "dev_f4sohcz2tjulhyciagnbkexmby",
+        "dev_45xnsyt6x3ga6tsinm6vj7fucu",
+        "dev_eopr2ermkciljky5rio46fih5i"
       ]
     }
   ],
@@ -1580,16 +1585,17 @@
       "sourceType": "partsSupplier",
       "sourceName": "GSMnet.ro",
       "sourceUrl": "https://www.gsmnet.ro/piese-componente-display-cu-touchscreen/display-cu-touchscreen-mp-compatibil-cu-tecno-pop-8-spark-20-spark-20c-spark-go-2024",
-      "checkedAt": "2026-10-05T22:00:00Z",
+      "checkedAt": "2026-10-06T05:30:00Z",
       "claim": "supports",
       "citedPartNumbers": [
         "dis/mp/ts20c"
       ],
       "citedModelCodes": [
         "X6525",
-        "X6525B"
+        "X6525B",
+        "X6528B"
       ],
-      "notes": "Independent aftermarket supplier listing. Product ID 337590, code dis/mp/ts20c; explicitly lists X6525 and X6525B."
+      "notes": "Independent aftermarket listing with product code dis/mp/ts20c explicitly supports Infinix SMART 8/SMART 8 HD (X6525), SMART 8 Pro (X6525B) and HOT 40i (X6528B)."
     },
     {
       "id": "ev-gsmok-4c6a4ff2342f",
@@ -2846,7 +2852,7 @@
       "sourceType": "partsSupplier",
       "sourceName": "IT-Ricambi",
       "sourceUrl": "https://www.it-ricambi.com/vendita-online/ricambi-cellphone-parts/ricambi-infinix/infinixt-smart/infinix-smart-8/infinix-smart-8-completo-black.html",
-      "checkedAt": "2026-10-05T22:00:00Z",
+      "checkedAt": "2026-10-06T05:30:00Z",
       "claim": "supports",
       "citedPartNumbers": [
         "infinix-smart-8-completo-black"
@@ -2854,9 +2860,11 @@
       "citedModelCodes": [
         "X6525",
         "X6525D",
-        "X6525B"
+        "X6525B",
+        "X6526",
+        "X6528B"
       ],
-      "notes": "Independent supplier explicitly lists the same no-frame LCD + touchscreen assembly for X6525, X6525D and X6525B."
+      "notes": "Independent supplier lists one no-frame LCD + touchscreen assembly for Infinix SMART 8 (X6525/X6525D), SMART 8 HD (X6525), SMART 8 Plus (X6526), SMART 8 Pro (X6525B) and HOT 40i (X6528B)."
     },
     {
       "id": "ev-nutel-solutions-c1525621459f",
@@ -3068,6 +3076,45 @@
         "SM-S918B"
       ],
       "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-dama-smart8-display",
+      "compatibilityGroupId": "cg-part-display-smart8-family",
+      "sourceKey": "dama-bg6cl",
+      "sourceType": "partsSupplier",
+      "sourceName": "Dama Mobile Spares",
+      "sourceUrl": "https://damamobilespares.co.ke/product/tecno-bg6-comp-lcd/",
+      "checkedAt": "2026-10-06T05:30:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "BG6CL"
+      ],
+      "citedModelCodes": [
+        "X6525",
+        "X6526",
+        "X6528",
+        "X6528B"
+      ],
+      "notes": "SKU BG6CL is explicitly listed as one complete LCD + touch screen replacement for Infinix SMART 8 (X6525), SMART 8 Plus (X6526) and HOT 40i (X6528/X6528B)."
+    },
+    {
+      "id": "ev-fmparts-smart8-display",
+      "compatibilityGroupId": "cg-part-display-smart8-family",
+      "sourceKey": "fmparts-5487fb8-41",
+      "sourceType": "partsSupplier",
+      "sourceName": "FM Parts",
+      "sourceUrl": "https://fmparts.pk/product/x6525-x6526-x6528-infinix-smart-8-org-crown-unit/",
+      "checkedAt": "2026-10-06T05:30:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "5487FB8/41"
+      ],
+      "citedModelCodes": [
+        "X6525",
+        "X6526",
+        "X6528"
+      ],
+      "notes": "SKU 5487FB8/41 explicitly lists one LCD display + touch screen assembly compatible with Infinix X6525, X6526 and X6528."
     }
   ],
   "categoryFacts": [
@@ -4073,6 +4120,56 @@
         }
       ],
       "deviceId": "dev_45knt4dtqxyhf325uiqoclj3yq"
+    },
+    {
+      "deviceId": "dev_45xnsyt6x3ga6tsinm6vj7fucu",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-infinix-hot-40i/153959",
+            "sourceName": "Cashify device specifications",
+            "sourceKey": "cashify-x6528",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.56",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://wap.iq.infinixmobility.com/hot-40i",
+            "sourceName": "Infinix official HOT 40i",
+            "sourceKey": "infinix-official-hot40i",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-infinix-hot-40i/153959",
+            "sourceName": "Cashify device specifications",
+            "sourceKey": "cashify-x6528",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://wap.iq.infinixmobility.com/hot-40i",
+            "sourceName": "Infinix official HOT 40i",
+            "sourceKey": "infinix-official-hot40i",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        }
+      ]
     },
     {
       "category": "display",
@@ -8332,6 +8429,56 @@
       "deviceId": "dev_elbzd7zm3gviannhu23eaq3pba"
     },
     {
+      "deviceId": "dev_eopr2ermkciljky5rio46fih5i",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_40i-12731.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6528b",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.56",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://wap.iq.infinixmobility.com/hot-40i",
+            "sourceName": "Infinix official HOT 40i",
+            "sourceKey": "infinix-official-hot40i",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_40i-12731.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6528b",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://wap.iq.infinixmobility.com/hot-40i",
+            "sourceName": "Infinix official HOT 40i",
+            "sourceKey": "infinix-official-hot40i",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        }
+      ]
+    },
+    {
       "category": "display",
       "facts": [
         {
@@ -8525,6 +8672,56 @@
         }
       ],
       "deviceId": "dev_f3sqk3b5q7guj75lfoo6pgjfyu"
+    },
+    {
+      "deviceId": "dev_f4sohcz2tjulhyciagnbkexmby",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_8_plus-12817.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6526",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.infinixmobility.com/smart-8-plus",
+            "sourceName": "Infinix official SMART 8 Plus",
+            "sourceKey": "infinix-official-smart8plus",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_8_plus-12817.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6526",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.infinixmobility.com/smart-8-plus",
+            "sourceName": "Infinix official SMART 8 Plus",
+            "sourceKey": "infinix-official-smart8plus",
+            "checkedAt": "2026-10-06T05:30:00Z"
+          }
+        }
+      ]
     },
     {
       "category": "display",
