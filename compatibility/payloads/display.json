@@ -495,6 +495,14 @@
         "660123717A",
         "infinix-hot-10s-completo-black"
       ]
+    },
+    {
+      "id": "part-display-hot10-note8i-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "TXDI680EBGPX-3",
+        "infinix-hot-10-completo-black"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1004,6 +1012,16 @@
         "dev_g2a7me7obrbikk4wwaalwnwdwu",
         "dev_chrcd3f3mr7j22pk4mhzkvk2pm",
         "dev_brhhz2zhhhlbshv7ktpahtqdbi"
+      ]
+    },
+    {
+      "id": "cg-part-display-hot10-note8i-family",
+      "partId": "part-display-hot10-note8i-family",
+      "deviceIds": [
+        "dev_nqulnv2snzodo7z72gaoad2zkm",
+        "dev_uxewn5m2fsway2l4t35zcgpyya",
+        "dev_xun6h7ky44j6sgvv4g7rkathou",
+        "dev_n6n4fmzyo6kkkpz6qyjjrpguzq"
       ]
     }
   ],
@@ -3625,6 +3643,46 @@
         "X689C"
       ],
       "notes": "شاشة LCD كاملة مع لمس بدون فريم؛ المصدر يذكر HOT 10S X689/X689B/X689D وHOT 10T X689C صراحة ضمن نفس قطعة الاستبدال. هذا الدليل خاص بنسخة Without Frame."
+    },
+    {
+      "id": "ev-servicepoint-hot10-note8i-txdi680ebgpx3",
+      "compatibilityGroupId": "cg-part-display-hot10-note8i-family",
+      "sourceKey": "servicepoint-txdi680ebgpx3",
+      "sourceType": "partsSupplier",
+      "sourceName": "Service Point",
+      "sourceUrl": "https://servicepoint.com.ua/shop/dysplej-tecno-spark-6-camon-16-se-z-tachskrinom",
+      "checkedAt": "2026-10-06T09:52:07+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "TXDI680EBGPX-3"
+      ],
+      "citedModelCodes": [
+        "X682B",
+        "X682C",
+        "X683",
+        "X683B"
+      ],
+      "notes": "شاشة IPS LCD مع لمس بدون فريم بالمرجع TXDI680EBGPX-3؛ المصدر يذكر HOT 10 X682B/X682C وNOTE 8i X683/X683B صراحة."
+    },
+    {
+      "id": "ev-itricambi-hot10-note8i-family",
+      "compatibilityGroupId": "cg-part-display-hot10-note8i-family",
+      "sourceKey": "it-ricambi-hot10-note8i",
+      "sourceType": "partsSupplier",
+      "sourceName": "IT-Ricambi",
+      "sourceUrl": "https://www.it-ricambi.com/vendita-online/ricambi-cellphone-parts/ricambi-infinix/infinix-hot/infinix-hot-10/infinix-hot-10-completo-black.html",
+      "checkedAt": "2026-10-06T09:52:07+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-hot-10-completo-black"
+      ],
+      "citedModelCodes": [
+        "X682B",
+        "X682C",
+        "X683",
+        "X683B"
+      ],
+      "notes": "شاشة LCD كاملة مع لمس بدون فريم؛ المصدر يجمع HOT 10 X682B/X682C وNOTE 8i X683/X683B ضمن نفس قطعة الاستبدال."
     }
   ],
   "categoryFacts": [
@@ -21195,6 +21253,162 @@
             "sourceName": "DevCheck Hardware",
             "sourceKey": "devcheck-x689c",
             "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_nqulnv2snzodo7z72gaoad2zkm",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://imei.org/ar/phone-model-lookup/infinix-hot-10_3340",
+            "sourceName": "IMEI.org",
+            "sourceKey": "imei-org-hot10-x682bc",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://imei.org/ar/phone-model-lookup/infinix-hot-10_3340",
+            "sourceName": "IMEI.org",
+            "sourceKey": "imei-org-hot10-x682bc",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://imei.org/ar/phone-model-lookup/infinix-hot-10_3340",
+            "sourceName": "IMEI.org",
+            "sourceKey": "imei-org-hot10-x682bc",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_uxewn5m2fsway2l4t35zcgpyya",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://imei.org/ar/phone-model-lookup/infinix-hot-10_3340",
+            "sourceName": "IMEI.org",
+            "sourceKey": "imei-org-hot10-x682bc",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://imei.org/ar/phone-model-lookup/infinix-hot-10_3340",
+            "sourceName": "IMEI.org",
+            "sourceKey": "imei-org-hot10-x682bc",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://imei.org/ar/phone-model-lookup/infinix-hot-10_3340",
+            "sourceName": "IMEI.org",
+            "sourceKey": "imei-org-hot10-x682bc",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_xun6h7ky44j6sgvv4g7rkathou",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-note-8i-701.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-note8i-x683-family",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-note-8i-701.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-note8i-x683-family",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-note-8i-701.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-note8i-x683-family",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_n6n4fmzyo6kkkpz6qyjjrpguzq",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-note-8i-701.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-note8i-x683-family",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-note-8i-701.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-note8i-x683-family",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-note-8i-701.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-note8i-x683-family",
+            "checkedAt": "2026-10-06T09:52:07+03:00"
           }
         }
       ]
