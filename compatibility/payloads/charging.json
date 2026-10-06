@@ -397,206 +397,10 @@
       "facts": [
         {
           "key": "maxWiredChargingW",
-          "value": "29",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "15",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_f3sqk3b5q7guj75lfoo6pgjfyu"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
           "value": "30",
           "unit": "W",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "15",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_dyhxywxa7x6yke44hyvx7cv2ne"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "30",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "15",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_qpjp2czujzub5rd5molx6lkoqm"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "45",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "25",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_zoeh4tzuf2qjv4lccwvovwteki"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "30",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "10",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_lzhbqhedzdp75qzj3xqyoeynby"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "18",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "0",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_ckyt5angoacmclisdbel7i2cfu"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "20",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "20",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_yvgku523smhfuux52nmmybeeta"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "23",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:09:18Z"
@@ -607,42 +411,14 @@
           "value": "23",
           "unit": "W",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:09:18Z"
           }
         }
       ],
-      "deviceId": "dev_hsj3hutck2geqacze3vgch6mh4"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "18",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "7",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_apfxvxjgtiu63vb7druy6g5ncq"
+      "deviceId": "dev_2t6v2vs7cgqdqjulo7mdyutuni"
     },
     {
       "category": "charging",
@@ -677,66 +453,10 @@
       "facts": [
         {
           "key": "maxWiredChargingW",
-          "value": "30",
+          "value": "90",
           "unit": "W",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "23",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_2t6v2vs7cgqdqjulo7mdyutuni"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "18",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "18",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_ufv55frdu7r5x4uuaxccyvnqz4"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "27",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:09:18Z"
@@ -747,154 +467,14 @@
           "value": "15",
           "unit": "W",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:09:18Z"
           }
         }
       ],
-      "deviceId": "dev_joguedzus6542kh3ty6dr2h2ne"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "27",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "21",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_ixht45q7jommlk77gdes7wv7cy"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "45",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "21",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_vx2g4jijt3ew2l2pdtr7z6esgy"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "37",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "23",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_lz5cfjfcbhqee67by3ekhllk2u"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "23",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "7",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_g3pq7w4ch73c5ou7r4bivyvm54"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "30",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "7",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_y6ump5zonutjkivyt25opkklny"
+      "deviceId": "dev_3mnlihov62yb7xay4l6j3y6xtu"
     },
     {
       "category": "charging",
@@ -912,34 +492,6 @@
         }
       ],
       "deviceId": "dev_4nqzpqgc2jfi5bq33hv5dbbo4u"
-    },
-    {
-      "category": "charging",
-      "facts": [
-        {
-          "key": "maxWiredChargingW",
-          "value": "33",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        },
-        {
-          "key": "maxWirelessChargingW",
-          "value": "0",
-          "unit": "W",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:09:18Z"
-          }
-        }
-      ],
-      "deviceId": "dev_gfutcvhqteuao7cuic7wjsblcu"
     },
     {
       "category": "charging",
@@ -974,6 +526,292 @@
       "facts": [
         {
           "key": "maxWiredChargingW",
+          "value": "18",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "7",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_apfxvxjgtiu63vb7druy6g5ncq"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "18",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "0",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ckyt5angoacmclisdbel7i2cfu"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "30",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "15",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_dyhxywxa7x6yke44hyvx7cv2ne"
+    },
+    {
+      "deviceId": "dev_eb7pjnvyufc3o4m2zwyppac7aq",
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "10",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://ci.infinixmobility.com/shop/619",
+            "sourceName": "Infinix official SMART 8 specifications",
+            "sourceKey": "infinix-official-x6525",
+            "checkedAt": "2026-10-05T22:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_erngqae7rfgttiok3o3osdp5fm",
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "10",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_8-12642.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6525-x6525d",
+            "checkedAt": "2026-10-05T22:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "29",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "15",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_f3sqk3b5q7guj75lfoo6pgjfyu"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "23",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "7",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_g3pq7w4ch73c5ou7r4bivyvm54"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "33",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "0",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_gfutcvhqteuao7cuic7wjsblcu"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "23",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "23",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_hsj3hutck2geqacze3vgch6mh4"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "27",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "21",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ixht45q7jommlk77gdes7wv7cy"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "27",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "15",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_joguedzus6542kh3ty6dr2h2ne"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
           "value": "125",
           "unit": "W",
           "provenance": {
@@ -1002,10 +840,66 @@
       "facts": [
         {
           "key": "maxWiredChargingW",
-          "value": "90",
+          "value": "37",
           "unit": "W",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "23",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_lz5cfjfcbhqee67by3ekhllk2u"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "30",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "10",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_lzhbqhedzdp75qzj3xqyoeynby"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "30",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:09:18Z"
@@ -1016,14 +910,171 @@
           "value": "15",
           "unit": "W",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:09:18Z"
           }
         }
       ],
-      "deviceId": "dev_3mnlihov62yb7xay4l6j3y6xtu"
+      "deviceId": "dev_qpjp2czujzub5rd5molx6lkoqm"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "18",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "18",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ufv55frdu7r5x4uuaxccyvnqz4"
+    },
+    {
+      "deviceId": "dev_vw6vtwmocw4cnmo22gd7wwjdz4",
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "10",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://wap.az.infinixmobility.com/specs/smart-8-pro",
+            "sourceName": "Infinix official SMART 8 Pro specifications",
+            "sourceKey": "infinix-official-x6525b",
+            "checkedAt": "2026-10-05T22:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "45",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "21",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_vx2g4jijt3ew2l2pdtr7z6esgy"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "30",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "7",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_y6ump5zonutjkivyt25opkklny"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "20",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "20",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_yvgku523smhfuux52nmmybeeta"
+    },
+    {
+      "category": "charging",
+      "facts": [
+        {
+          "key": "maxWiredChargingW",
+          "value": "45",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        },
+        {
+          "key": "maxWirelessChargingW",
+          "value": "25",
+          "unit": "W",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:09:18Z"
+          }
+        }
+      ],
+      "deviceId": "dev_zoeh4tzuf2qjv4lccwvovwteki"
     }
   ],
   "compatibilityDifferences": []

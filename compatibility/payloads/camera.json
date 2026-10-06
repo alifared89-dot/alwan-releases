@@ -739,46 +739,7 @@
           "value": "main",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "48",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_f3sqk3b5q7guj75lfoo6pgjfyu"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -789,7 +750,7 @@
           "value": "50",
           "unit": "MP",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -800,287 +761,14 @@
           "value": "true",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
           }
         }
       ],
-      "deviceId": "dev_dyhxywxa7x6yke44hyvx7cv2ne"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "48",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_qpjp2czujzub5rd5molx6lkoqm"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "50",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_zoeh4tzuf2qjv4lccwvovwteki"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "48",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_lzhbqhedzdp75qzj3xqyoeynby"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "12",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_ckyt5angoacmclisdbel7i2cfu"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "50",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_yvgku523smhfuux52nmmybeeta"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "50",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_hsj3hutck2geqacze3vgch6mh4"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "64",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_apfxvxjgtiu63vb7druy6g5ncq"
+      "deviceId": "dev_2t6v2vs7cgqdqjulo7mdyutuni"
     },
     {
       "category": "camera",
@@ -1129,7 +817,7 @@
           "value": "main",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -1140,7 +828,7 @@
           "value": "50",
           "unit": "MP",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -1151,287 +839,14 @@
           "value": "true",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-8-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
           }
         }
       ],
-      "deviceId": "dev_2t6v2vs7cgqdqjulo7mdyutuni"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "64",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_ufv55frdu7r5x4uuaxccyvnqz4"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "50",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_joguedzus6542kh3ty6dr2h2ne"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "50",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_ixht45q7jommlk77gdes7wv7cy"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "48",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_vx2g4jijt3ew2l2pdtr7z6esgy"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "50",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_lz5cfjfcbhqee67by3ekhllk2u"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "48",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_g3pq7w4ch73c5ou7r4bivyvm54"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "48",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "ois",
-          "value": "true",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_y6ump5zonutjkivyt25opkklny"
+      "deviceId": "dev_3mnlihov62yb7xay4l6j3y6xtu"
     },
     {
       "category": "camera",
@@ -1469,35 +884,7 @@
           "value": "main",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/hmd/2025/key/hmd-key-aitoolbuzz-2824-2gb-32gb-4g-lte.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_ue7udgmvtkdlyywriiafi2jzpu"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "50",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-razr-40-ultra.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -1508,14 +895,42 @@
           "value": "true",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-razr-40-ultra.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
           }
         }
       ],
-      "deviceId": "dev_gfutcvhqteuao7cuic7wjsblcu"
+      "deviceId": "dev_62ugkiihcwueyv2fye5ryjuqgm"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2024/edge-50-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2024/edge-50-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_6stk6lyofj6d7wjq5kawvg4qee"
     },
     {
       "category": "camera",
@@ -1564,6 +979,497 @@
           "value": "main",
           "unit": null,
           "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "64",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-7a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_apfxvxjgtiu63vb7druy6g5ncq"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c110/nokia-c110-beridzeg45-5649-3gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "13",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c110/nokia-c110-beridzeg45-5649-3gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_axvkermvfw5wgownnwvst3j25y"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "12",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-6a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ckyt5angoacmclisdbel7i2cfu"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_dyhxywxa7x6yke44hyvx7cv2ne"
+    },
+    {
+      "deviceId": "dev_eb7pjnvyufc3o4m2zwyppac7aq",
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://ci.infinixmobility.com/shop/619",
+            "sourceName": "Infinix official SMART 8 specifications",
+            "sourceKey": "infinix-official-x6525",
+            "checkedAt": "2026-10-05T22:00:00Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "13",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://ci.infinixmobility.com/shop/619",
+            "sourceName": "Infinix official SMART 8 specifications",
+            "sourceKey": "infinix-official-x6525",
+            "checkedAt": "2026-10-05T22:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_erngqae7rfgttiok3o3osdp5fm",
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_8-12642.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6525-x6525d",
+            "checkedAt": "2026-10-05T22:00:00Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "13",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_8-12642.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6525-x6525d",
+            "checkedAt": "2026-10-05T22:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_f3sqk3b5q7guj75lfoo6pgjfyu"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-9a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_g3pq7w4ch73c5ou7r4bivyvm54"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/oppo/2022/a57/oppo-a57-beridzeg45-5293-3gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "13",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/oppo/2022/a57/oppo-a57-beridzeg45-5293-3gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_g6hdufj7sfyqizab2bj6ekd3bq"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/moto-g84.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_gfutcvhqteuao7cuic7wjsblcu"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_hsj3hutck2geqacze3vgch6mh4"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c12-pro/nokia-c12-pro-beridzeg45-5198-2gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "8",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c12-pro/nokia-c12-pro-beridzeg45-5198-2gb.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_hvqk3qnf6h2pnvbdafmi22wkwm"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ixht45q7jommlk77gdes7wv7cy"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_joguedzus6542kh3ty6dr2h2ne"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
             "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-edge-40-pro.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
@@ -1603,7 +1509,7 @@
           "value": "main",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2024/edge-50-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -1614,35 +1520,7 @@
           "value": "50",
           "unit": "MP",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2024/edge-50-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_6stk6lyofj6d7wjq5kawvg4qee"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "50",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -1653,14 +1531,14 @@
           "value": "true",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2025/motorola-edge-60-pro.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-xl.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
           }
         }
       ],
-      "deviceId": "dev_3mnlihov62yb7xay4l6j3y6xtu"
+      "deviceId": "dev_lz5cfjfcbhqee67by3ekhllk2u"
     },
     {
       "category": "camera",
@@ -1670,7 +1548,18 @@
           "value": "main",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-razr-40-ultra.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -1681,14 +1570,14 @@
           "value": "true",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/motorola/2023/motorola-razr-40-ultra.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2026/pixel-10a.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
           }
         }
       ],
-      "deviceId": "dev_62ugkiihcwueyv2fye5ryjuqgm"
+      "deviceId": "dev_lzhbqhedzdp75qzj3xqyoeynby"
     },
     {
       "category": "camera",
@@ -1698,7 +1587,7 @@
           "value": "main",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2022/c200/nokia-c200-beridzeg45-2123-3gb.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/zte/2023/blade-a54/zte-blade-a54-beridzeg45-3923-4gb.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -1709,70 +1598,14 @@
           "value": "13",
           "unit": "MP",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2022/c200/nokia-c200-beridzeg45-2123-3gb.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/zte/2023/blade-a54/zte-blade-a54-beridzeg45-3923-4gb.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
           }
         }
       ],
-      "deviceId": "dev_xy2afcm7k734uikb7yjwa6w7w4"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c110/nokia-c110-beridzeg45-5649-3gb.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "13",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c110/nokia-c110-beridzeg45-5649-3gb.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_axvkermvfw5wgownnwvst3j25y"
-    },
-    {
-      "category": "camera",
-      "facts": [
-        {
-          "key": "cameraPosition",
-          "value": "main",
-          "unit": null,
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c12-pro/nokia-c12-pro-beridzeg45-5198-2gb.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        },
-        {
-          "key": "megapixels",
-          "value": "8",
-          "unit": "MP",
-          "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2023/c12-pro/nokia-c12-pro-beridzeg45-5198-2gb.json",
-            "sourceName": "TechAPI curated open dataset",
-            "sourceKey": "techapi-open",
-            "checkedAt": "2026-10-03T19:14:22Z"
-          }
-        }
-      ],
-      "deviceId": "dev_hvqk3qnf6h2pnvbdafmi22wkwm"
+      "deviceId": "dev_p7ymtr3f2jv4k3wudsqntozafq"
     },
     {
       "category": "camera",
@@ -1810,7 +1643,7 @@
           "value": "main",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/oppo/2022/a57/oppo-a57-beridzeg45-5293-3gb.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -1818,17 +1651,151 @@
         },
         {
           "key": "megapixels",
-          "value": "13",
+          "value": "48",
           "unit": "MP",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/oppo/2022/a57/oppo-a57-beridzeg45-5293-3gb.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-fold.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
           }
         }
       ],
-      "deviceId": "dev_g6hdufj7sfyqizab2bj6ekd3bq"
+      "deviceId": "dev_qpjp2czujzub5rd5molx6lkoqm"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/hmd/2025/key/hmd-key-aitoolbuzz-2824-2gb-32gb-4g-lte.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ue7udgmvtkdlyywriiafi2jzpu"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "64",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-8a.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_ufv55frdu7r5x4uuaxccyvnqz4"
+    },
+    {
+      "deviceId": "dev_vw6vtwmocw4cnmo22gd7wwjdz4",
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://wap.az.infinixmobility.com/specs/smart-8-pro",
+            "sourceName": "Infinix official SMART 8 Pro specifications",
+            "sourceKey": "infinix-official-x6525b",
+            "checkedAt": "2026-10-05T22:00:00Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://wap.az.infinixmobility.com/specs/smart-8-pro",
+            "sourceName": "Infinix official SMART 8 Pro specifications",
+            "sourceKey": "infinix-official-x6525b",
+            "checkedAt": "2026-10-05T22:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2024/pixel-9-pro-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_vx2g4jijt3ew2l2pdtr7z6esgy"
     },
     {
       "category": "camera",
@@ -1866,7 +1833,7 @@
           "value": "main",
           "unit": null,
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/zte/2023/blade-a54/zte-blade-a54-beridzeg45-3923-4gb.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2022/c200/nokia-c200-beridzeg45-2123-3gb.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
@@ -1877,14 +1844,131 @@
           "value": "13",
           "unit": "MP",
           "provenance": {
-            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/zte/2023/blade-a54/zte-blade-a54-beridzeg45-3923-4gb.json",
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/nokia/2022/c200/nokia-c200-beridzeg45-2123-3gb.json",
             "sourceName": "TechAPI curated open dataset",
             "sourceKey": "techapi-open",
             "checkedAt": "2026-10-03T19:14:22Z"
           }
         }
       ],
-      "deviceId": "dev_p7ymtr3f2jv4k3wudsqntozafq"
+      "deviceId": "dev_xy2afcm7k734uikb7yjwa6w7w4"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "48",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2023/pixel-fold.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_y6ump5zonutjkivyt25opkklny"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2022/pixel-7.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_yvgku523smhfuux52nmmybeeta"
+    },
+    {
+      "category": "camera",
+      "facts": [
+        {
+          "key": "cameraPosition",
+          "value": "main",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "megapixels",
+          "value": "50",
+          "unit": "MP",
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        },
+        {
+          "key": "ois",
+          "value": "true",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://raw.githubusercontent.com/GetTechAPI/TechAPI/973453369f7a08e6cf90b08173480e2794801a48/data/smartphone/google/2025/pixel-10-pro-xl.json",
+            "sourceName": "TechAPI curated open dataset",
+            "sourceKey": "techapi-open",
+            "checkedAt": "2026-10-03T19:14:22Z"
+          }
+        }
+      ],
+      "deviceId": "dev_zoeh4tzuf2qjv4lccwvovwteki"
     }
   ],
   "compatibilityDifferences": []
