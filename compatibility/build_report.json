@@ -1,11 +1,11 @@
 {
   "success": true,
-  "manifestVersion": 242316640394873,
-  "manifestSha256": "bbd414ca141631c5d5f75f6a8d3b6e73b96dcbd3c1a0ecd03d2428338ecaccac",
+  "manifestVersion": 260824066379747,
+  "manifestSha256": "a526fb5f16f2c23962bd6d820f2df9323099bfe9ad6d04122db65f48cda646ce",
   "catalog": {
-    "version": "catalog-b4eb9846ce5ec838",
-    "sha256": "b4eb9846ce5ec838fcc75c46aad0a6dcdb5413350b098ca34c11178f1257bfaf",
-    "bytes": 1354998,
+    "version": "catalog-69091c264e0f49b7",
+    "sha256": "69091c264e0f49b76a642b5beab465d419158de7b36b66f08384a2408a4df70a",
+    "bytes": 1354995,
     "devices": 6311,
     "brands": 25
   },
