@@ -487,6 +487,14 @@
         "infinix-smart-6-completo-black",
         "100000069231"
       ]
+    },
+    {
+      "id": "part-display-hot10s-hot10t-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "660123717A",
+        "infinix-hot-10s-completo-black"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -986,6 +994,16 @@
         "dev_kxhdcm3iubsxpsm5g7w5eg22te",
         "dev_t6e2dne25azltlnvam3ilozs3a",
         "dev_44sam6t46lvn7yk6nyrsu6ps2u"
+      ]
+    },
+    {
+      "id": "cg-part-display-hot10s-hot10t-family",
+      "partId": "part-display-hot10s-hot10t-family",
+      "deviceIds": [
+        "dev_6pwwnvbjrqwwlub37s2mzjiuti",
+        "dev_g2a7me7obrbikk4wwaalwnwdwu",
+        "dev_chrcd3f3mr7j22pk4mhzkvk2pm",
+        "dev_brhhz2zhhhlbshv7ktpahtqdbi"
       ]
     }
   ],
@@ -3567,6 +3585,46 @@
         "X6511E"
       ],
       "notes": "شاشة LCD بالمرجع 100000069231؛ المصدر يذكر SMART 6 X6511 وX6511B وX6511E صراحة ضمن نفس قطعة الاستبدال."
+    },
+    {
+      "id": "ev-tvcmall-hot10s-hot10t-660123717a",
+      "compatibilityGroupId": "cg-part-display-hot10s-hot10t-family",
+      "sourceKey": "tvcmall-660123717a",
+      "sourceType": "partsSupplier",
+      "sourceName": "TVCMALL",
+      "sourceUrl": "https://www.tvcmall.com/details/for-infinix-hot-10s-x689-grade-c-lcd-screen-and-digitizer-assembly-frame-replacement-part-without-logo-sku660123717a.html",
+      "checkedAt": "2026-10-06T09:47:08+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "660123717A"
+      ],
+      "citedModelCodes": [
+        "X689",
+        "X689B",
+        "X689D",
+        "X689C"
+      ],
+      "notes": "شاشة LCD مع لمس وإطار؛ المصدر يذكر HOT 10S X689/X689B/X689D وHOT 10T X689C صراحة ضمن نفس قطعة الاستبدال. هذا الدليل خاص بنسخة With Frame."
+    },
+    {
+      "id": "ev-itricambi-hot10s-hot10t-family",
+      "compatibilityGroupId": "cg-part-display-hot10s-hot10t-family",
+      "sourceKey": "it-ricambi-hot10s-family",
+      "sourceType": "partsSupplier",
+      "sourceName": "IT-Ricambi",
+      "sourceUrl": "https://spare-parts.it/vendita-online/ricambi-cellphone-parts/ricambi-infinix/infinix-hot/infinix-hot-10s/infinix-hot-10s-completo-black.html",
+      "checkedAt": "2026-10-06T09:47:08+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-hot-10s-completo-black"
+      ],
+      "citedModelCodes": [
+        "X689",
+        "X689B",
+        "X689D",
+        "X689C"
+      ],
+      "notes": "شاشة LCD كاملة مع لمس بدون فريم؛ المصدر يذكر HOT 10S X689/X689B/X689D وHOT 10T X689C صراحة ضمن نفس قطعة الاستبدال. هذا الدليل خاص بنسخة Without Frame."
     }
   ],
   "categoryFacts": [
@@ -20937,6 +20995,206 @@
             "sourceName": "GSMArena",
             "sourceKey": "gsmarena-smart6-x6511-family",
             "checkedAt": "2026-10-06T09:41:44+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_6pwwnvbjrqwwlub37s2mzjiuti",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_g2a7me7obrbikk4wwaalwnwdwu",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_chrcd3f3mr7j22pk4mhzkvk2pm",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10s-296.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10s-x689-family",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_brhhz2zhhhlbshv7ktpahtqdbi",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://ar.kalvo.com/infinix-hot-10t-267.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10t-x689c",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://ar.kalvo.com/infinix-hot-10t-267.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10t-x689c",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://ar.kalvo.com/infinix-hot-10t-267.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10t-x689c",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://devcheck.app/devices/infinix/infinix-x689c",
+            "sourceName": "DevCheck Hardware",
+            "sourceKey": "devcheck-x689c",
+            "checkedAt": "2026-10-06T09:47:08+03:00"
           }
         }
       ]
