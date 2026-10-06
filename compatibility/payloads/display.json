@@ -439,6 +439,15 @@
       ]
     },
     {
+      "id": "part-display-hot30-note30-hot40-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "infinix-note-30-completo-black",
+        "621",
+        "TXDI680EBQPX-26"
+      ]
+    },
+    {
       "id": "part-display-smart7-hot30i-family",
       "category": "display",
       "canonicalPartNumbers": [
@@ -912,6 +921,17 @@
       ]
     },
     {
+      "id": "cg-part-display-hot30-note30-hot40-family",
+      "partId": "part-display-hot30-note30-hot40-family",
+      "deviceIds": [
+        "dev_6wh664idim7ylsnt6zw6nhrafu",
+        "dev_nazueovjozm2puzhr7oqk5smi4",
+        "dev_rngt42z3ljur2zawvjly3tsbji",
+        "dev_arqrlylfr7eo5uubp2u6oj5ocq",
+        "dev_ztcixnp6rvlgrn665scl6llj7y"
+      ]
+    },
+    {
       "id": "cg-part-display-smart7-hot30i-family",
       "partId": "part-display-smart7-hot30i-family",
       "deviceIds": [
@@ -945,6 +965,25 @@
     }
   ],
   "evidence": [
+    {
+      "id": "ev-all4gsm-hot30-note30-hot40-txdi680",
+      "compatibilityGroupId": "cg-part-display-hot30-note30-hot40-family",
+      "sourceKey": "all4gsm-txdi680ebqpx-26",
+      "sourceType": "partsSupplier",
+      "sourceName": "All4GSM",
+      "sourceUrl": "https://xn--b1aaf2aparck6a6dzbxa.xn--p1ai/catalog/displei/realme-tecno-infinix-oppo/25-3683",
+      "checkedAt": "2026-10-06T06:35:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "TXDI680EBQPX-26"
+      ],
+      "citedModelCodes": [
+        "X6832",
+        "X6711",
+        "X6836"
+      ],
+      "notes": "Independent LCD/touch assembly article TXDI680EBQPX-26 (compatible with FPC6809-1) explicitly includes X6832, X6711 and X6836."
+    },
     {
       "id": "ev-allspares-hot12-hot20-fpc6608",
       "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
@@ -1525,6 +1564,27 @@
         "SM-S916B"
       ],
       "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-fixoem-hot30-note30-hot40-621",
+      "compatibilityGroupId": "cg-part-display-hot30-note30-hot40-family",
+      "sourceKey": "fixoem-sku-621",
+      "sourceType": "partsSupplier",
+      "sourceName": "FixOEM",
+      "sourceUrl": "https://fixoem.com/products/display-infinix-hot-30",
+      "checkedAt": "2026-10-06T06:35:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "621"
+      ],
+      "citedModelCodes": [
+        "X6832",
+        "X6711",
+        "X6836",
+        "X6837",
+        "X6838"
+      ],
+      "notes": "Independent display listing SKU 621 groups the same Infinix HOT/NOTE models in one IPS replacement family."
     },
     {
       "id": "ev-fmparts-smart8-display",
@@ -3072,6 +3132,27 @@
         "X6826"
       ],
       "notes": "Independent no-frame complete LCD/touch listing explicitly includes HOT 12 X6817, HOT 20 Play X6825 and HOT 20 X6826."
+    },
+    {
+      "id": "ev-itricambi-hot30-note30-hot40-family",
+      "compatibilityGroupId": "cg-part-display-hot30-note30-hot40-family",
+      "sourceKey": "it-ricambi-note30-family",
+      "sourceType": "partsSupplier",
+      "sourceName": "IT-Ricambi",
+      "sourceUrl": "https://en.it-ricambi.com/vendita-online/ricambi-cellphone-parts/ricambi-infinix/infinix-note/infinix-note-30/infinix-note-30-completo-black.html",
+      "checkedAt": "2026-10-06T06:35:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-note-30-completo-black"
+      ],
+      "citedModelCodes": [
+        "X6832",
+        "X6711",
+        "X6836",
+        "X6837",
+        "X6838"
+      ],
+      "notes": "No-frame complete LCD/touch listing explicitly includes HOT 30 5G, NOTE 30 5G, HOT 40, HOT 40 Pro and NOTE 40X 5G."
     },
     {
       "id": "ev-itricambi-smart8-display",
