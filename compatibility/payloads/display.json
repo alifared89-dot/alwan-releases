@@ -430,6 +430,25 @@
       ]
     },
     {
+      "id": "part-display-hot12-hot20-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "FPC6608",
+        "1540432341",
+        "infinix-hot-12-play-completo-black"
+      ]
+    },
+    {
+      "id": "part-display-smart7-hot30i-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "FPC6605-05",
+        "FPC6605",
+        "x6515-x6516-x6517-x669",
+        "B0FDSH5MXJ"
+      ]
+    },
+    {
       "id": "part-display-smart8-family",
       "category": "display",
       "canonicalPartNumbers": [
@@ -438,6 +457,15 @@
         "dis/mp/ts20c",
         "infinix-smart-8-completo-black",
         "L41472-A"
+      ]
+    },
+    {
+      "id": "part-display-smart9-hot50-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "1051000097 A2",
+        "TXDI670QBAPX",
+        "X6532CL"
       ]
     }
   ],
@@ -875,6 +903,25 @@
       ]
     },
     {
+      "id": "cg-part-display-hot12-hot20-family",
+      "partId": "part-display-hot12-hot20-family",
+      "deviceIds": [
+        "dev_dvflnk7xy26zkvzyrsssm74qmu",
+        "dev_tc3lq6etp2vr4zhtol4jmjofxm",
+        "dev_kuelsfbei2rculnj7mimhiutsq"
+      ]
+    },
+    {
+      "id": "cg-part-display-smart7-hot30i-family",
+      "partId": "part-display-smart7-hot30i-family",
+      "deviceIds": [
+        "dev_hb7ylb6xohqdygek5h7pmbpu6i",
+        "dev_76qitcgyb5jadgtiejc5jwwoca",
+        "dev_2icdz5jxe2kqebxaothcxuvgfe",
+        "dev_eq4uqjoix7kel63xjiamjcpaze"
+      ]
+    },
+    {
       "id": "cg-part-display-smart8-family",
       "partId": "part-display-smart8-family",
       "deviceIds": [
@@ -885,9 +932,94 @@
         "dev_45xnsyt6x3ga6tsinm6vj7fucu",
         "dev_eopr2ermkciljky5rio46fih5i"
       ]
+    },
+    {
+      "id": "cg-part-display-smart9-hot50-family",
+      "partId": "part-display-smart9-hot50-family",
+      "deviceIds": [
+        "dev_xcxgzcsvuu6ax2drby77wy53be",
+        "dev_l3g6nyf77fej7g76dflvtk6wne",
+        "dev_w5vhza2hixxhefjxc2dthddm6u",
+        "dev_o6mwtbdb6vqbdrfz4s5rqzfnvm"
+      ]
     }
   ],
   "evidence": [
+    {
+      "id": "ev-allspares-hot12-hot20-fpc6608",
+      "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
+      "sourceKey": "all-spares-910496",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-12-play-nfc-black-best-copy-without-frame-copy-x6816d/",
+      "checkedAt": "2026-10-06T06:15:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "FPC6608",
+        "1540432341"
+      ],
+      "citedModelCodes": [
+        "X6817",
+        "X6825",
+        "X6826"
+      ],
+      "notes": "Without-frame LCD/touchscreen listing explicitly groups HOT 12 X6817, HOT 20 Play X6825 and HOT 20 X6826; references FPC6608/1540432341."
+    },
+    {
+      "id": "ev-allspares-hot30i-fpc6605",
+      "compatibilityGroupId": "cg-part-display-smart7-hot30i-family",
+      "sourceKey": "all-spares-918432",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/es/lcd-compatible-with-infinix-hot-30i-x669-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-06T06:15:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "FPC6605"
+      ],
+      "citedModelCodes": [
+        "X669"
+      ],
+      "notes": "HOT 30i X669 without-frame replacement explicitly carries FPC6605 among the display references."
+    },
+    {
+      "id": "ev-allspares-smart7-fpc6605",
+      "compatibilityGroupId": "cg-part-display-smart7-hot30i-family",
+      "sourceKey": "all-spares-916731",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-7-spark-10-spark-go-2023-infinix-smart-7-black-without-frame-original-prc-bf7-bf6-ki5q-ki5k/",
+      "checkedAt": "2026-10-06T06:15:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "FPC6605-05"
+      ],
+      "citedModelCodes": [
+        "X6515",
+        "X6516"
+      ],
+      "notes": "Without-frame IPS display module explicitly lists SMART 7 X6515 and SMART 7 HD X6516, reference FPC6605-05."
+    },
+    {
+      "id": "ev-allspares-smart9-hot50-1051000097a2",
+      "compatibilityGroupId": "cg-part-display-smart9-hot50-family",
+      "sourceKey": "all-spares-921482",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-50i-x6531-smart-9-x6532-black-without-frame-high-copy-1051000097-a2/",
+      "checkedAt": "2026-10-06T06:15:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "1051000097 A2"
+      ],
+      "citedModelCodes": [
+        "X6532",
+        "X6532C",
+        "X6531",
+        "X6720"
+      ],
+      "notes": "Without-frame IPS LCD/touchscreen listing explicitly groups SMART 9, SMART 9 HD, HOT 50i and HOT 50 5G."
+    },
     {
       "id": "ev-brico-phone-068cbbbdc7cc",
       "compatibilityGroupId": "cg-part-display-gh82-36588a",
@@ -1306,6 +1438,44 @@
       "notes": "Independent second source: exact Part Number and exact Model Code verified."
     },
     {
+      "id": "ev-dama-smart8-display",
+      "compatibilityGroupId": "cg-part-display-smart8-family",
+      "sourceKey": "dama-bg6cl",
+      "sourceType": "partsSupplier",
+      "sourceName": "Dama Mobile Spares",
+      "sourceUrl": "https://damamobilespares.co.ke/product/tecno-bg6-comp-lcd/",
+      "checkedAt": "2026-10-06T05:30:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "BG6CL"
+      ],
+      "citedModelCodes": [
+        "X6525",
+        "X6526",
+        "X6528",
+        "X6528B"
+      ],
+      "notes": "SKU BG6CL is explicitly listed as one complete LCD + touch screen replacement for Infinix SMART 8 (X6525), SMART 8 Plus (X6526) and HOT 40i (X6528/X6528B)."
+    },
+    {
+      "id": "ev-dama-smart9-hot50-x6532cl",
+      "compatibilityGroupId": "cg-part-display-smart9-hot50-family",
+      "sourceKey": "dama-x6532cl",
+      "sourceType": "partsSupplier",
+      "sourceName": "Dama Mobile Spares",
+      "sourceUrl": "https://damamobilespares.co.ke/product/infinix-x6532-x6531-kl4-kl5-spark-30c-complete-lcd/",
+      "checkedAt": "2026-10-06T06:15:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "X6532CL"
+      ],
+      "citedModelCodes": [
+        "X6532",
+        "X6531"
+      ],
+      "notes": "Independent complete-LCD listing; SKU X6532CL explicitly lists Infinix SMART 9 X6532 and HOT 50i X6531."
+    },
+    {
       "id": "ev-dutchspares-234ac828d3cd",
       "compatibilityGroupId": "cg-part-display-gh82-31827a",
       "sourceKey": "dutchspares",
@@ -1355,6 +1525,25 @@
         "SM-S916B"
       ],
       "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-fmparts-smart8-display",
+      "compatibilityGroupId": "cg-part-display-smart8-family",
+      "sourceKey": "fmparts-5487fb8-41",
+      "sourceType": "partsSupplier",
+      "sourceName": "FM Parts",
+      "sourceUrl": "https://fmparts.pk/product/x6525-x6526-x6528-infinix-smart-8-org-crown-unit/",
+      "checkedAt": "2026-10-06T05:30:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "5487FB8/41"
+      ],
+      "citedModelCodes": [
+        "X6525",
+        "X6526",
+        "X6528"
+      ],
+      "notes": "SKU 5487FB8/41 explicitly lists one LCD display + touch screen assembly compatible with Infinix X6525, X6526 and X6528."
     },
     {
       "id": "ev-gsm-parts-center-2e676d994cf2",
@@ -1525,6 +1714,26 @@
         "SM-S928B"
       ],
       "notes": "Independent second source: exact Part Number and exact Model Code verified."
+    },
+    {
+      "id": "ev-gsmkomplekt-smart9-hot50-1051000097a2",
+      "compatibilityGroupId": "cg-part-display-smart9-hot50-family",
+      "sourceKey": "gsm-komplekt-168457",
+      "sourceType": "partsSupplier",
+      "sourceName": "GSM-Komplekt",
+      "sourceUrl": "https://gsm-komplekt.ua/ua/product/91571/",
+      "checkedAt": "2026-10-06T06:15:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "1051000097 A2"
+      ],
+      "citedModelCodes": [
+        "X6532",
+        "X6532C",
+        "X6531",
+        "X6720"
+      ],
+      "notes": "Independent service-pack/high-quality listing names the same four Infinix codes with display reference 1051000097 A2."
     },
     {
       "id": "ev-gsmnet-1216c7466308",
@@ -2846,6 +3055,25 @@
       "notes": "Original Service Pack listing; exact product reference and product Model(s) table revalidated."
     },
     {
+      "id": "ev-itricambi-hot12-hot20-family",
+      "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
+      "sourceKey": "it-ricambi-hot12-play",
+      "sourceType": "partsSupplier",
+      "sourceName": "IT-Ricambi",
+      "sourceUrl": "https://en.it-ricambi.com/vendita-online/ricambi-cellphone-parts/ricambi-infinix/infinix-hot/infinix-hot-12-play/infinix-hot-12-play-completo-black.html",
+      "checkedAt": "2026-10-06T06:15:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-hot-12-play-completo-black"
+      ],
+      "citedModelCodes": [
+        "X6817",
+        "X6825",
+        "X6826"
+      ],
+      "notes": "Independent no-frame complete LCD/touch listing explicitly includes HOT 12 X6817, HOT 20 Play X6825 and HOT 20 X6826."
+    },
+    {
       "id": "ev-itricambi-smart8-display",
       "compatibilityGroupId": "cg-part-display-smart8-family",
       "sourceKey": "it-ricambi-smart8-display",
@@ -2882,6 +3110,26 @@
         "SM-F711B"
       ],
       "notes": "Independent second-source listing with exact part number and exact device model code."
+    },
+    {
+      "id": "ev-qaisar-smart7-hot30i-family",
+      "compatibilityGroupId": "cg-part-display-smart7-hot30i-family",
+      "sourceKey": "qaisar-x6515-x6516-x6517-x669",
+      "sourceType": "partsSupplier",
+      "sourceName": "Qaisar Telecom",
+      "sourceUrl": "https://qaisartelecom.com/shop/mobile-parts/unit/x6515-x6516-x6517-x669/",
+      "checkedAt": "2026-10-06T06:15:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "x6515-x6516-x6517-x669"
+      ],
+      "citedModelCodes": [
+        "X6515",
+        "X6516",
+        "X6517",
+        "X669"
+      ],
+      "notes": "Independent SUNLONG LCD unit listing groups X6515, X6516, X6517 and X669 as one replacement unit."
     },
     {
       "id": "ev-rapidgsm-219019c41103",
@@ -3078,43 +3326,23 @@
       "notes": "Independent second source: exact Part Number and exact Model Code verified."
     },
     {
-      "id": "ev-dama-smart8-display",
-      "compatibilityGroupId": "cg-part-display-smart8-family",
-      "sourceKey": "dama-bg6cl",
+      "id": "ev-ubuy-smart7-family-b0fdsh5mxj",
+      "compatibilityGroupId": "cg-part-display-smart7-hot30i-family",
+      "sourceKey": "ubuy-b0fdsh5mxj",
       "sourceType": "partsSupplier",
-      "sourceName": "Dama Mobile Spares",
-      "sourceUrl": "https://damamobilespares.co.ke/product/tecno-bg6-comp-lcd/",
-      "checkedAt": "2026-10-06T05:30:00Z",
+      "sourceName": "Ubuy / SECRETIGER listing",
+      "sourceUrl": "https://www.ubuy.iq/en/productuk/QWQN59LUU-lcd-screen-display-touch",
+      "checkedAt": "2026-10-06T06:15:00Z",
       "claim": "supports",
       "citedPartNumbers": [
-        "BG6CL"
+        "B0FDSH5MXJ"
       ],
       "citedModelCodes": [
-        "X6525",
-        "X6526",
-        "X6528",
-        "X6528B"
+        "X6515",
+        "X6516",
+        "X6517"
       ],
-      "notes": "SKU BG6CL is explicitly listed as one complete LCD + touch screen replacement for Infinix SMART 8 (X6525), SMART 8 Plus (X6526) and HOT 40i (X6528/X6528B)."
-    },
-    {
-      "id": "ev-fmparts-smart8-display",
-      "compatibilityGroupId": "cg-part-display-smart8-family",
-      "sourceKey": "fmparts-5487fb8-41",
-      "sourceType": "partsSupplier",
-      "sourceName": "FM Parts",
-      "sourceUrl": "https://fmparts.pk/product/x6525-x6526-x6528-infinix-smart-8-org-crown-unit/",
-      "checkedAt": "2026-10-06T05:30:00Z",
-      "claim": "supports",
-      "citedPartNumbers": [
-        "5487FB8/41"
-      ],
-      "citedModelCodes": [
-        "X6525",
-        "X6526",
-        "X6528"
-      ],
-      "notes": "SKU 5487FB8/41 explicitly lists one LCD display + touch screen assembly compatible with Infinix X6525, X6526 and X6528."
+      "notes": "Independent LCD/digitizer assembly listing names X6515, X6516 and X6517 together; marketplace product identifier B0FDSH5MXJ."
     }
   ],
   "categoryFacts": [
