@@ -980,7 +980,9 @@
       "deviceIds": [
         "dev_dvflnk7xy26zkvzyrsssm74qmu",
         "dev_tc3lq6etp2vr4zhtol4jmjofxm",
-        "dev_kuelsfbei2rculnj7mimhiutsq"
+        "dev_kuelsfbei2rculnj7mimhiutsq",
+        "dev_6khnaxisqi5ptlx5hhu3vpizai",
+        "dev_i2mbe5mkvbjrm4yykqor23al5y"
       ]
     },
     {
@@ -3961,6 +3963,42 @@
         "X6812B"
       ],
       "notes": "شاشة LCD مع لمس؛ المورد يذكر X6812 وX6812B صراحة ضمن نفس قطعة الاستبدال. تكوين الفريم غير مذكور في هذه الصفحة، لذلك لا يُستنتج منه شيء بخصوص الفريم."
+    },
+    {
+      "id": "ev-itricambi-hot30play-hot12-family",
+      "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
+      "sourceKey": "it-ricambi-hot12-play",
+      "sourceType": "partsSupplier",
+      "sourceName": "IT-Ricambi",
+      "sourceUrl": "https://en.it-ricambi.com/vendita-online/ricambi-cellphone-parts/ricambi-infinix/infinix-hot/infinix-hot-12-play/infinix-hot-12-play-completo-black.html",
+      "checkedAt": "2026-10-06T13:55:34+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-hot-12-play-completo-black"
+      ],
+      "citedModelCodes": [
+        "X6835",
+        "X6835B"
+      ],
+      "notes": "نفس موديول LCD + Touch بدون فريم لعائلة HOT 12/HOT 20؛ المورد يذكر HOT 30 Play NFC X6835/X6835B صراحة ضمن نفس قطعة الاستبدال. لا يُستنتج توافق الفريم."
+    },
+    {
+      "id": "ev-gsmserver-hot30play-1540432341",
+      "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
+      "sourceKey": "gsmserver-921950",
+      "sourceType": "partsSupplier",
+      "sourceName": "GsmServer",
+      "sourceUrl": "https://gsmserver.com/en/lcd-compatible-with-infinix-hot-30-play-nfc-black-without-frame-original-change-glass-x6835b-x6835/",
+      "checkedAt": "2026-10-06T13:55:34+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "1540432341"
+      ],
+      "citedModelCodes": [
+        "X6835",
+        "X6835B"
+      ],
+      "notes": "شاشة IPS مع لمس بدون فريم بالمرجع 1540432341، ومذكور X6835B/X6835 صراحة. وصف «original/change glass» هو تصنيف جودة للمورد وليس إثبات OEM مستقل."
     }
   ],
   "categoryFacts": [
@@ -22138,6 +22176,106 @@
             "sourceName": "GSMArena",
             "sourceKey": "gsmarena-hot11s-x6812-family",
             "checkedAt": "2026-10-06T13:47:13+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_6khnaxisqi5ptlx5hhu3vpizai",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_play_nfc-12289.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot30play-x6835-family",
+            "checkedAt": "2026-10-06T13:55:34+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_play_nfc-12289.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot30play-x6835-family",
+            "checkedAt": "2026-10-06T13:55:34+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_play_nfc-12289.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot30play-x6835-family",
+            "checkedAt": "2026-10-06T13:55:34+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_play_nfc-12289.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot30play-x6835-family",
+            "checkedAt": "2026-10-06T13:55:34+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_i2mbe5mkvbjrm4yykqor23al5y",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_play_nfc-12289.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot30play-x6835-family",
+            "checkedAt": "2026-10-06T13:55:34+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_play_nfc-12289.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot30play-x6835-family",
+            "checkedAt": "2026-10-06T13:55:34+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_play_nfc-12289.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot30play-x6835-family",
+            "checkedAt": "2026-10-06T13:55:34+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_play_nfc-12289.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot30play-x6835-family",
+            "checkedAt": "2026-10-06T13:55:34+03:00"
           }
         }
       ]
