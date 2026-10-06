@@ -435,7 +435,8 @@
       "canonicalPartNumbers": [
         "FPC6608",
         "1540432341",
-        "infinix-hot-12-play-completo-black"
+        "infinix-hot-12-play-completo-black",
+        "replacement-lcd-display-touch-screen-for-infinix-hot-12-hot-12-play-hot-20-play"
       ]
     },
     {
@@ -983,7 +984,8 @@
         "dev_kuelsfbei2rculnj7mimhiutsq",
         "dev_6khnaxisqi5ptlx5hhu3vpizai",
         "dev_i2mbe5mkvbjrm4yykqor23al5y",
-        "dev_avlmtfxmlz2mbxfi73qw4fyv7q"
+        "dev_avlmtfxmlz2mbxfi73qw4fyv7q",
+        "dev_nombolath5i5242uqbnulri5ke"
       ]
     },
     {
@@ -4034,6 +4036,42 @@
         "X6816D"
       ],
       "notes": "شاشة IPS مع لمس بدون فريم لجهاز X6816D؛ المورد يذكر المرجع 1540432341 إضافة إلى FPC6808-1 وBV068DAM-L04-MV00-R0.0. وصف «Original (PRC)» تصنيف للمورد وليس إثبات OEM مستقل."
+    },
+    {
+      "id": "ev-itricambi-hot12play-x6816c",
+      "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
+      "sourceKey": "it-ricambi-hot12-play",
+      "sourceType": "partsSupplier",
+      "sourceName": "IT-Ricambi",
+      "sourceUrl": "https://en.it-ricambi.com/vendita-online/ricambi-cellphone-parts/ricambi-infinix/infinix-hot/infinix-hot-12-play/infinix-hot-12-play-completo-black.html",
+      "checkedAt": "2026-10-06T14:01:55+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-hot-12-play-completo-black"
+      ],
+      "citedModelCodes": [
+        "X6816C"
+      ],
+      "notes": "موديول LCD + Touch بدون فريم؛ المورد يذكر HOT 12 Play X6816C صراحة ضمن نفس عائلة الاستبدال مع X6817 وX6825 وغيرها. لا يُستنتج توافق الفريم."
+    },
+    {
+      "id": "ev-iprogadgets-hot12play-x6816c-family",
+      "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
+      "sourceKey": "iprogadgets-hot12-hot20play",
+      "sourceType": "partsSupplier",
+      "sourceName": "iProGadgets",
+      "sourceUrl": "https://www.iprogadgets.com/products/replacement-lcd-display-touch-screen-for-infinix-hot-12-hot-12-play-hot-20-play",
+      "checkedAt": "2026-10-06T14:01:55+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "replacement-lcd-display-touch-screen-for-infinix-hot-12-hot-12-play-hot-20-play"
+      ],
+      "citedModelCodes": [
+        "X6816C",
+        "X6817",
+        "X6825"
+      ],
+      "notes": "نفس شاشة LCD + Touch مذكورة لـHOT 12 Play X6816C، وHOT 12 X6817، وHOT 20 Play X6825. الصفحة لا تحدد وجود الفريم لهذا المنتج، لذلك لا يُستنتج توافق الفريم."
     }
   ],
   "categoryFacts": [
@@ -22361,6 +22399,56 @@
             "sourceName": "Infinix",
             "sourceKey": "infinix-pl-hot12play-x6816d",
             "checkedAt": "2026-10-06T13:59:00+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_nombolath5i5242uqbnulri5ke",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_12_play-11547.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot12play-x6816c",
+            "checkedAt": "2026-10-06T14:01:55+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_12_play-11547.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot12play-x6816c",
+            "checkedAt": "2026-10-06T14:01:55+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_12_play-11547.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot12play-x6816c",
+            "checkedAt": "2026-10-06T14:01:55+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_12_play-11547.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot12play-x6816c",
+            "checkedAt": "2026-10-06T14:01:55+03:00"
           }
         }
       ]
