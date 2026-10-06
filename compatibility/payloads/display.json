@@ -982,7 +982,8 @@
         "dev_tc3lq6etp2vr4zhtol4jmjofxm",
         "dev_kuelsfbei2rculnj7mimhiutsq",
         "dev_6khnaxisqi5ptlx5hhu3vpizai",
-        "dev_i2mbe5mkvbjrm4yykqor23al5y"
+        "dev_i2mbe5mkvbjrm4yykqor23al5y",
+        "dev_avlmtfxmlz2mbxfi73qw4fyv7q"
       ]
     },
     {
@@ -3999,6 +4000,40 @@
         "X6835B"
       ],
       "notes": "شاشة IPS مع لمس بدون فريم بالمرجع 1540432341، ومذكور X6835B/X6835 صراحة. وصف «original/change glass» هو تصنيف جودة للمورد وليس إثبات OEM مستقل."
+    },
+    {
+      "id": "ev-itricambi-hot12play-nfc-x6816d",
+      "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
+      "sourceKey": "it-ricambi-hot12-play",
+      "sourceType": "partsSupplier",
+      "sourceName": "IT-Ricambi",
+      "sourceUrl": "https://en.it-ricambi.com/vendita-online/ricambi-cellphone-parts/ricambi-infinix/infinix-hot/infinix-hot-12-play/infinix-hot-12-play-completo-black.html",
+      "checkedAt": "2026-10-06T13:59:00+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-hot-12-play-completo-black"
+      ],
+      "citedModelCodes": [
+        "X6816D"
+      ],
+      "notes": "موديول LCD + Touch بدون فريم؛ المورد يذكر HOT 12 Play NFC X6816D صراحة ضمن نفس عائلة الاستبدال مع HOT 12/HOT 20. لا يُستنتج توافق الفريم."
+    },
+    {
+      "id": "ev-gsmserver-hot12play-nfc-x6816d",
+      "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
+      "sourceKey": "gsmserver-910495",
+      "sourceType": "partsSupplier",
+      "sourceName": "GsmServer",
+      "sourceUrl": "https://gsmserver.com/en/lcd-compatible-with-infinix-hot-12-play-nfc-black-without-frame-original-prc-x6816d/",
+      "checkedAt": "2026-10-06T13:59:00+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "1540432341"
+      ],
+      "citedModelCodes": [
+        "X6816D"
+      ],
+      "notes": "شاشة IPS مع لمس بدون فريم لجهاز X6816D؛ المورد يذكر المرجع 1540432341 إضافة إلى FPC6808-1 وBV068DAM-L04-MV00-R0.0. وصف «Original (PRC)» تصنيف للمورد وليس إثبات OEM مستقل."
     }
   ],
   "categoryFacts": [
@@ -22276,6 +22311,56 @@
             "sourceName": "GSMArena",
             "sourceKey": "gsmarena-hot30play-x6835-family",
             "checkedAt": "2026-10-06T13:55:34+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_avlmtfxmlz2mbxfi73qw4fyv7q",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS TFT",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.infinix.pl/pages/specs-hot-12-play",
+            "sourceName": "Infinix",
+            "sourceKey": "infinix-pl-hot12play-x6816d",
+            "checkedAt": "2026-10-06T13:59:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.infinix.pl/pages/specs-hot-12-play",
+            "sourceName": "Infinix",
+            "sourceKey": "infinix-pl-hot12play-x6816d",
+            "checkedAt": "2026-10-06T13:59:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.infinix.pl/pages/specs-hot-12-play",
+            "sourceName": "Infinix",
+            "sourceKey": "infinix-pl-hot12play-x6816d",
+            "checkedAt": "2026-10-06T13:59:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.infinix.pl/pages/specs-hot-12-play",
+            "sourceName": "Infinix",
+            "sourceKey": "infinix-pl-hot12play-x6816d",
+            "checkedAt": "2026-10-06T13:59:00+03:00"
           }
         }
       ]
