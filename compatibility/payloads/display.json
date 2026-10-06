@@ -512,6 +512,15 @@
         "LCIX00069",
         "XSXTXDI680EBGPU-11V2-QLT"
       ]
+    },
+    {
+      "id": "part-display-x657-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "SPS1349",
+        "DS02537",
+        "FPC6504-9"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1039,6 +1048,15 @@
       "deviceIds": [
         "dev_5vccd7r2g7cxii7b2hqdjzohli",
         "dev_pg4jcfgdatzpwnqxpm76bke72a"
+      ]
+    },
+    {
+      "id": "cg-part-display-x657-family",
+      "partId": "part-display-x657-family",
+      "deviceIds": [
+        "dev_5j5zugazeyuhdo2xlxnqv5vhru",
+        "dev_dap6rocctbj5seiqqyhdglrvui",
+        "dev_ndscud6zjj2ndem6c4fveo3jbm"
       ]
     }
   ],
@@ -3754,6 +3772,63 @@
         "X688C"
       ],
       "notes": "مرجع إصلاح يربط X688B/X688C بعائلة الشاشة نفسها ويذكر XSXTXDI680EBGPU-11V2-QLT كمرجع FPC أساسي. يُستخدم كمرجع مطابقة للسوق وليس كإثبات OEM؛ يجب مطابقة الكونكتر ومسار الفلات واختبار الشاشة قبل اللصق. الروابط إلى Tecno/itel في المصدر غير مضافة حالياً لأن نطاق العمل Infinix فقط."
+    },
+    {
+      "id": "ev-garmade-x657-family-sps1349",
+      "compatibilityGroupId": "cg-part-display-x657-family",
+      "sourceKey": "garmade-sps1349",
+      "sourceType": "partsSupplier",
+      "sourceName": "Garmade",
+      "sourceUrl": "https://garmade.com/products/lcd-screen-and-digitizer-full-assembly-for-infinix-smart-5-hot-10-lite-x657-x657b-x657c",
+      "checkedAt": "2026-10-06T10:53:28+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS1349"
+      ],
+      "citedModelCodes": [
+        "X657",
+        "X657B",
+        "X657C"
+      ],
+      "notes": "شاشة LCD مع لمس بمرجع SPS1349؛ المورد يذكر X657 وX657B وX657C صراحة لنفس التجميعة. يوصي باختبار الشاشة قبل التثبيت وعدم ثني فلات الشاشة بزاوية حادة. وصف القطعة تجاري ولا يُعد إثبات OEM."
+    },
+    {
+      "id": "ev-deshgsm-x657-family-ds02537",
+      "compatibilityGroupId": "cg-part-display-x657-family",
+      "sourceKey": "deshgsm-ds02537",
+      "sourceType": "partsSupplier",
+      "sourceName": "DESH GSM",
+      "sourceUrl": "https://deshgsm.com/products/ecran-lcd-infinix-hot-10-lite-x657-x657b-x657c-complete-lcd",
+      "checkedAt": "2026-10-06T10:53:28+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "DS02537"
+      ],
+      "citedModelCodes": [
+        "X657",
+        "X657B",
+        "X657C"
+      ],
+      "notes": "شاشة LCD كاملة بمرجع DS02537؛ المصدر يجمع X657/X657B/X657C صراحة ضمن نفس شاشة الاستبدال."
+    },
+    {
+      "id": "ev-smartdroid-x657-family-fpc6504-9",
+      "compatibilityGroupId": "cg-part-display-x657-family",
+      "sourceKey": "smartdroidtips-x657-family",
+      "sourceType": "repairDatabase",
+      "sourceName": "Smart Droid Tips",
+      "sourceUrl": "https://smartdroidtips.com/x657-lcd-compatible/",
+      "checkedAt": "2026-10-06T10:53:28+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "FPC6504-9"
+      ],
+      "citedModelCodes": [
+        "X657",
+        "X657B",
+        "X657C"
+      ],
+      "notes": "مرجع إصلاح يربط X657/X657B/X657C بمرجع FPC6504-9. هذا مرجع سوق صيانة وليس إثبات OEM؛ يجب مطابقة الكونكتر ومسار وطول الفلات وشكل اللوحة واختبار الشاشة قبل اللصق. أي توافقات Tecno/itel المذكورة بالمصدر غير مضافة حالياً لأن نطاق العمل Infinix فقط."
     }
   ],
   "categoryFacts": [
@@ -21558,6 +21633,123 @@
             "sourceName": "Kalvo",
             "sourceKey": "kalvo-hot10play-x688bc",
             "checkedAt": "2026-10-06T10:49:47+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_5j5zugazeyuhdo2xlxnqv5vhru",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-smart-5-868.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-smart5-x657-x657c",
+            "checkedAt": "2026-10-06T10:53:28+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-smart-5-868.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-smart5-x657-x657c",
+            "checkedAt": "2026-10-06T10:53:28+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-smart-5-868.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-smart5-x657-x657c",
+            "checkedAt": "2026-10-06T10:53:28+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_dap6rocctbj5seiqqyhdglrvui",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10-lite-700.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10lite-x657b",
+            "checkedAt": "2026-10-06T10:53:28+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10-lite-700.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10lite-x657b",
+            "checkedAt": "2026-10-06T10:53:28+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10-lite-700.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10lite-x657b",
+            "checkedAt": "2026-10-06T10:53:28+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_ndscud6zjj2ndem6c4fveo3jbm",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-smart-5-868.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-smart5-x657-x657c",
+            "checkedAt": "2026-10-06T10:53:28+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-smart-5-868.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-smart5-x657-x657c",
+            "checkedAt": "2026-10-06T10:53:28+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-smart-5-868.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-smart5-x657-x657c",
+            "checkedAt": "2026-10-06T10:53:28+03:00"
           }
         }
       ]
