@@ -1,56 +1,56 @@
 {
   "success": true,
-  "manifestVersion": 128119877860421,
-  "manifestSha256": "aa6cf00fd9c3aa38530b8626191db83dcc6431a47df452dca08f9bf57b8cdb0a",
+  "manifestVersion": 45675396196397,
+  "manifestSha256": "32a5d410fe22417cef157c96056dfe746af7db4141d29e1e03b8df8adbaf17fe",
   "catalog": {
-    "version": "catalog-79a951479e427705",
-    "sha256": "79a951479e427705c416a236fdfe3210af2dfbd2c57cb641eba0ce3daee6b1ea",
-    "bytes": 1354990,
+    "version": "catalog-b4eb9846ce5ec838",
+    "sha256": "b4eb9846ce5ec838fcc75c46aad0a6dcdb5413350b098ca34c11178f1257bfaf",
+    "bytes": 1354998,
     "devices": 6311,
     "brands": 25
   },
   "categories": {
     "display": {
-      "sha256": "fe3fe239a89a3a401315fde4fa498b3928a33784ca1bcc12ff975619e9fe3fca",
-      "bytes": 788129,
+      "sha256": "835d170a39ce4f63b8ca2d9a4dbb7804c301c029ce81600914cf7c8225825816",
+      "bytes": 795651,
       "records": {
-        "parts": 61,
-        "compatibilityGroups": 61,
-        "evidence": 122,
-        "categoryFacts": 414,
+        "parts": 62,
+        "compatibilityGroups": 62,
+        "evidence": 125,
+        "categoryFacts": 417,
         "compatibilityDifferences": 1
       }
     },
     "battery": {
-      "sha256": "bca79d10ba5fd4c62357333f7d8625b13f4c1e6cb6f04badb8879ac36a0d7118",
-      "bytes": 283474,
+      "sha256": "f5c5fd5129a50511b0991a4ef7305feadf79737cdfcddef4599769b9bc3dcd14",
+      "bytes": 286742,
       "records": {
-        "parts": 13,
-        "compatibilityGroups": 13,
-        "evidence": 26,
-        "categoryFacts": 408,
+        "parts": 14,
+        "compatibilityGroups": 14,
+        "evidence": 28,
+        "categoryFacts": 411,
         "compatibilityDifferences": 0
       }
     },
     "charging": {
-      "sha256": "ce079a7552ab1908da11919d39cf2e518c7ed4606af7c49be331548719e3abfc",
-      "bytes": 36332,
+      "sha256": "937e2e12db211e5886373fa92cf419f14b371d71b6f0b6b688581b7b424f768f",
+      "bytes": 37829,
       "records": {
         "parts": 8,
         "compatibilityGroups": 8,
         "evidence": 16,
-        "categoryFacts": 23,
+        "categoryFacts": 26,
         "compatibilityDifferences": 0
       }
     },
     "camera": {
-      "sha256": "f9fdeb6ca82a2a1d237a9dde21fb289ed55782e54a08c0eda7a78dc0316ba606",
-      "bytes": 68154,
+      "sha256": "c7d2f972a68f82b3f621536727983243928cd39750cfa7bc9325b53eaa5d0a3d",
+      "bytes": 70767,
       "records": {
         "parts": 15,
         "compatibilityGroups": 15,
         "evidence": 30,
-        "categoryFacts": 33,
+        "categoryFacts": 36,
         "compatibilityDifferences": 0
       }
     },
