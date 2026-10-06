@@ -1,23 +1,23 @@
 {
   "success": true,
-  "manifestVersion": 30789513303918,
-  "manifestSha256": "22ee1ef54c14f9495e292cd88598c3a345299740b5329c528b3e02d29ee031ff",
+  "manifestVersion": 103548543229032,
+  "manifestSha256": "435db64687c50f4f114cdd60efa658270c1038b25a429d5abc1150e9695ddb51",
   "catalog": {
-    "version": "catalog-69091c264e0f49b7",
-    "sha256": "69091c264e0f49b76a642b5beab465d419158de7b36b66f08384a2408a4df70a",
-    "bytes": 1354995,
+    "version": "catalog-e32268e641f6b6a2",
+    "sha256": "e32268e641f6b6a28f15561ce2b8b21102aa3414ab252399ddda775d72c689bb",
+    "bytes": 1355003,
     "devices": 6311,
     "brands": 25
   },
   "categories": {
     "display": {
-      "sha256": "6a02b02d49ba4f6311e01002879bb73ebc958422995125b9eed024565d53ec14",
-      "bytes": 875041,
+      "sha256": "bf688cc87b57c7cca3b4d79ced4c0b760fa9cc3a641b13993ce6bbbe0ac4e4d3",
+      "bytes": 881629,
       "records": {
-        "parts": 70,
-        "compatibilityGroups": 70,
-        "evidence": 152,
-        "categoryFacts": 454,
+        "parts": 71,
+        "compatibilityGroups": 71,
+        "evidence": 155,
+        "categoryFacts": 457,
         "compatibilityDifferences": 1
       }
     },
