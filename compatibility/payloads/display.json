@@ -483,7 +483,9 @@
       "canonicalPartNumbers": [
         "100000063025",
         "ML-SCR-3101",
-        "1540432170"
+        "1540432170",
+        "infinix-smart-6-completo-black",
+        "100000069231"
       ]
     }
   ],
@@ -980,7 +982,10 @@
         "dev_pcdtjyg5n5jhgiv3ebdphedvda",
         "dev_vhzlamtsdghxdgp3zrbdkhcx64",
         "dev_teeymkmut2rz5zc53scjzcsfoy",
-        "dev_dxhgu3p74aw3lt2ojx2wupl2rm"
+        "dev_dxhgu3p74aw3lt2ojx2wupl2rm",
+        "dev_kxhdcm3iubsxpsm5g7w5eg22te",
+        "dev_t6e2dne25azltlnvam3ilozs3a",
+        "dev_44sam6t46lvn7yk6nyrsu6ps2u"
       ]
     }
   ],
@@ -3520,6 +3525,48 @@
         "X665E"
       ],
       "notes": "شاشة IPS مع لمس بدون فريم؛ المصدر يذكر HOT 20i X665C وX665E صراحة مع المرجع 1540432170. لا يُستنتج من ذلك توافق نسخة With Frame."
+    },
+    {
+      "id": "ev-itricambi-smart6-hot12i-hot20i-family",
+      "compatibilityGroupId": "cg-part-display-smart6hd-hot12i-hot20i-family",
+      "sourceKey": "it-ricambi-smart6-family",
+      "sourceType": "partsSupplier",
+      "sourceName": "IT-Ricambi",
+      "sourceUrl": "https://en.it-ricambi.com/vendita-online/ricambi-cellphone-parts/ricambi-infinix/infinixt-smart/infinix-smart-6/infinix-smart-6-completo-black.html",
+      "checkedAt": "2026-10-06T09:41:44+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-smart-6-completo-black"
+      ],
+      "citedModelCodes": [
+        "X6511",
+        "X6511B",
+        "X6511E",
+        "X665",
+        "X665B",
+        "X665C",
+        "X665E"
+      ],
+      "notes": "شاشة LCD كاملة مع لمس بدون فريم؛ المصدر يجمع SMART 6 X6511/X6511B/X6511E مع HOT 12i X665/X665B وHOT 20i X665C/X665E ضمن نفس قطعة الاستبدال."
+    },
+    {
+      "id": "ev-librajaya-smart6-100000069231",
+      "compatibilityGroupId": "cg-part-display-smart6hd-hot12i-hot20i-family",
+      "sourceKey": "libra-jaya-100000069231",
+      "sourceType": "partsSupplier",
+      "sourceName": "Libra Jaya",
+      "sourceUrl": "https://order.librajaya.com/lcd-infinix-x6511-black-new-sunshine-ts-x6511b-x6511e-smart-6-spark-go-222-pop-5-pro-pop-5-lite",
+      "checkedAt": "2026-10-06T09:41:44+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "100000069231"
+      ],
+      "citedModelCodes": [
+        "X6511",
+        "X6511B",
+        "X6511E"
+      ],
+      "notes": "شاشة LCD بالمرجع 100000069231؛ المصدر يذكر SMART 6 X6511 وX6511B وX6511E صراحة ضمن نفس قطعة الاستبدال."
     }
   ],
   "categoryFacts": [
@@ -20773,6 +20820,123 @@
             "sourceName": "GSMchoice",
             "sourceKey": "gsmchoice-x665e",
             "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_kxhdcm3iubsxpsm5g7w5eg22te",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_6-11189.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-smart6-x6511-family",
+            "checkedAt": "2026-10-06T09:41:44+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_6-11189.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-smart6-x6511-family",
+            "checkedAt": "2026-10-06T09:41:44+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_6-11189.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-smart6-x6511-family",
+            "checkedAt": "2026-10-06T09:41:44+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_t6e2dne25azltlnvam3ilozs3a",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_6-11189.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-smart6-x6511-family",
+            "checkedAt": "2026-10-06T09:41:44+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_6-11189.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-smart6-x6511-family",
+            "checkedAt": "2026-10-06T09:41:44+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_6-11189.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-smart6-x6511-family",
+            "checkedAt": "2026-10-06T09:41:44+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_44sam6t46lvn7yk6nyrsu6ps2u",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_6-11189.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-smart6-x6511-family",
+            "checkedAt": "2026-10-06T09:41:44+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_6-11189.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-smart6-x6511-family",
+            "checkedAt": "2026-10-06T09:41:44+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_6-11189.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-smart6-x6511-family",
+            "checkedAt": "2026-10-06T09:41:44+03:00"
           }
         }
       ]
