@@ -503,6 +503,15 @@
         "TXDI680EBGPX-3",
         "infinix-hot-10-completo-black"
       ]
+    },
+    {
+      "id": "part-display-hotplay-x688bc-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "643294",
+        "LCIX00069",
+        "XSXTXDI680EBGPU-11V2-QLT"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1022,6 +1031,14 @@
         "dev_uxewn5m2fsway2l4t35zcgpyya",
         "dev_xun6h7ky44j6sgvv4g7rkathou",
         "dev_n6n4fmzyo6kkkpz6qyjjrpguzq"
+      ]
+    },
+    {
+      "id": "cg-part-display-hotplay-x688bc-family",
+      "partId": "part-display-hotplay-x688bc-family",
+      "deviceIds": [
+        "dev_5vccd7r2g7cxii7b2hqdjzohli",
+        "dev_pg4jcfgdatzpwnqxpm76bke72a"
       ]
     }
   ],
@@ -3683,6 +3700,60 @@
         "X683B"
       ],
       "notes": "شاشة LCD كاملة مع لمس بدون فريم؛ المصدر يجمع HOT 10 X682B/X682C وNOTE 8i X683/X683B ضمن نفس قطعة الاستبدال."
+    },
+    {
+      "id": "ev-aks-hotplay-x688bc-643294",
+      "compatibilityGroupId": "cg-part-display-hotplay-x688bc-family",
+      "sourceKey": "aks-643294",
+      "sourceType": "partsSupplier",
+      "sourceName": "AKS",
+      "sourceUrl": "https://www.aks.ua/catalog/displei-ekrany/brand/infinix/model-telefona-infinix/hot-11-play",
+      "checkedAt": "2026-10-06T10:49:47+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "643294"
+      ],
+      "citedModelCodes": [
+        "X688B",
+        "X688C"
+      ],
+      "notes": "شاشة مع لمس بمرجع المورد 643294؛ المورد يذكر X688B وX688C صراحة ضمن نفس شاشة HOT 10 Play / HOT 11 Play. وصف «Original» هو تصنيف المورد ولا يُعد إثبات OEM."
+    },
+    {
+      "id": "ev-stonescell-hotplay-x688bc-lcix00069",
+      "compatibilityGroupId": "cg-part-display-hotplay-x688bc-family",
+      "sourceKey": "stonescell-lcix00069",
+      "sourceType": "partsSupplier",
+      "sourceName": "Stones Cell",
+      "sourceUrl": "https://www.stonescell.com/products/lcd-infi-hot-10-play-hot-11-play-x688-x688b-x688c-og-super-lcix00069",
+      "checkedAt": "2026-10-06T10:49:47+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "LCIX00069"
+      ],
+      "citedModelCodes": [
+        "X688B",
+        "X688C"
+      ],
+      "notes": "شاشة LCD بمرجع SKU LCIX00069؛ المورد يجمع X688B وX688C صراحة ضمن نفس شاشة الاستبدال."
+    },
+    {
+      "id": "ev-smartdroid-hotplay-x688bc-fpc",
+      "compatibilityGroupId": "cg-part-display-hotplay-x688bc-family",
+      "sourceKey": "smartdroidtips-x688-family",
+      "sourceType": "repairDatabase",
+      "sourceName": "Smart Droid Tips",
+      "sourceUrl": "https://smartdroidtips.com/tecno-pova-neo-lcd-compatible/",
+      "checkedAt": "2026-10-06T10:49:47+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "XSXTXDI680EBGPU-11V2-QLT"
+      ],
+      "citedModelCodes": [
+        "X688B",
+        "X688C"
+      ],
+      "notes": "مرجع إصلاح يربط X688B/X688C بعائلة الشاشة نفسها ويذكر XSXTXDI680EBGPU-11V2-QLT كمرجع FPC أساسي. يُستخدم كمرجع مطابقة للسوق وليس كإثبات OEM؛ يجب مطابقة الكونكتر ومسار الفلات واختبار الشاشة قبل اللصق. الروابط إلى Tecno/itel في المصدر غير مضافة حالياً لأن نطاق العمل Infinix فقط."
     }
   ],
   "categoryFacts": [
@@ -21409,6 +21480,84 @@
             "sourceName": "Kalvo",
             "sourceKey": "kalvo-note8i-x683-family",
             "checkedAt": "2026-10-06T09:52:07+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_5vccd7r2g7cxii7b2hqdjzohli",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10-play-484.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10play-x688bc",
+            "checkedAt": "2026-10-06T10:49:47+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10-play-484.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10play-x688bc",
+            "checkedAt": "2026-10-06T10:49:47+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10-play-484.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10play-x688bc",
+            "checkedAt": "2026-10-06T10:49:47+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_pg4jcfgdatzpwnqxpm76bke72a",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10-play-484.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10play-x688bc",
+            "checkedAt": "2026-10-06T10:49:47+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10-play-484.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10play-x688bc",
+            "checkedAt": "2026-10-06T10:49:47+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10-play-484.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10play-x688bc",
+            "checkedAt": "2026-10-06T10:49:47+03:00"
           }
         }
       ]
