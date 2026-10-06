@@ -521,6 +521,16 @@
         "DS02537",
         "FPC6504-9"
       ]
+    },
+    {
+      "id": "part-display-hot10i-x658-x659-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "780413",
+        "614027",
+        "tecno-spark-7-completo-black",
+        "TXDI650CBAPU-5V3H"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1057,6 +1067,16 @@
         "dev_5j5zugazeyuhdo2xlxnqv5vhru",
         "dev_dap6rocctbj5seiqqyhdglrvui",
         "dev_ndscud6zjj2ndem6c4fveo3jbm"
+      ]
+    },
+    {
+      "id": "cg-part-display-hot10i-x658-x659-family",
+      "partId": "part-display-hot10i-x658-x659-family",
+      "deviceIds": [
+        "dev_dncm2f223taimdtsiwlrddfvba",
+        "dev_inamb5txo5bhzgzndta7ezdsjy",
+        "dev_yruinuwa3k5f6kubtbx6fy7l6q",
+        "dev_yxrzd7m62vmnl6rtyfgiv7xdxe"
       ]
     }
   ],
@@ -3829,6 +3849,66 @@
         "X657C"
       ],
       "notes": "مرجع إصلاح يربط X657/X657B/X657C بمرجع FPC6504-9. هذا مرجع سوق صيانة وليس إثبات OEM؛ يجب مطابقة الكونكتر ومسار وطول الفلات وشكل اللوحة واختبار الشاشة قبل اللصق. أي توافقات Tecno/itel المذكورة بالمصدر غير مضافة حالياً لأن نطاق العمل Infinix فقط."
+    },
+    {
+      "id": "ev-aks-hot10i-x658-x659-780413",
+      "compatibilityGroupId": "cg-part-display-hot10i-x658-x659-family",
+      "sourceKey": "aks-hot10i-780413",
+      "sourceType": "partsSupplier",
+      "sourceName": "AKS",
+      "sourceUrl": "https://www.aks.ua/uk/catalog/displei-ekrany/brand/infinix/model-telefona-infinix/hot-10i",
+      "checkedAt": "2026-10-06T11:03:47+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "780413"
+      ],
+      "citedModelCodes": [
+        "X658B",
+        "X658E",
+        "X659B",
+        "X659"
+      ],
+      "notes": "شاشة مع لمس بمرجع المورد 780413؛ المصدر يذكر X659B وX658E وX658B وX659 صراحة ضمن شاشة HOT 10i نفسها. وصف «original» هو تصنيف المورد ولا يُعد إثبات OEM."
+    },
+    {
+      "id": "ev-itricambi-hot10i-x658-x659-family",
+      "compatibilityGroupId": "cg-part-display-hot10i-x658-x659-family",
+      "sourceKey": "it-ricambi-hot10i-family",
+      "sourceType": "partsSupplier",
+      "sourceName": "IT-Ricambi",
+      "sourceUrl": "https://www.spare-parts.it/vendita-online/ricambi-cellphone-parts/ricambi-tecno/tecno-spark/tecno-spark-7/tecno-spark-7-completo-black.html",
+      "checkedAt": "2026-10-06T11:03:47+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "tecno-spark-7-completo-black"
+      ],
+      "citedModelCodes": [
+        "X658B",
+        "X658E",
+        "X659B",
+        "X659"
+      ],
+      "notes": "شاشة LCD مع لمس بدون فريم؛ المصدر يذكر HOT 10i بالأكواد X659B/X658E/X658B/X659 صراحة ضمن نفس شاشة الاستبدال. أي أجهزة Tecno المذكورة بالمصدر غير مضافة حالياً لأن نطاق العمل Infinix فقط."
+    },
+    {
+      "id": "ev-allspares-hot10i-txdi650cbapu-5v3h",
+      "compatibilityGroupId": "cg-part-display-hot10i-x658-x659-family",
+      "sourceKey": "all-spares-920383",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-spark-7-kf6n-infinix-hot-10i-smart-5-pro-pr652b-black-without-frame-box-fpc6504-txdi650cbapu-5v3h/",
+      "checkedAt": "2026-10-06T11:03:47+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "TXDI650CBAPU-5V3H"
+      ],
+      "citedModelCodes": [
+        "X658B",
+        "X658E",
+        "X659B",
+        "X659"
+      ],
+      "notes": "مرجع عائلة HOT 10i بدون فريم يحدد FPC6504 / TXDI650CBAPU-5V3H. المصدر لا يفصل الأكواد الأربعة داخل الصفحة، لذلك لا يُستخدم وحده لإثبات Variant بعينه؛ الأكواد مثبتة مستقلاً من AKS وIT-Ricambi. كما ينبه المصدر أن شاشة HOT 10i تختلف عن HOT 10 Lite في الزجاج وحساس القرب، لذلك تبقى عائلتا X657 وX658/X659 منفصلتين."
     }
   ],
   "categoryFacts": [
@@ -21750,6 +21830,162 @@
             "sourceName": "Kalvo",
             "sourceKey": "kalvo-smart5-x657-x657c",
             "checkedAt": "2026-10-06T10:53:28+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_dncm2f223taimdtsiwlrddfvba",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.52",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_inamb5txo5bhzgzndta7ezdsjy",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.52",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_yruinuwa3k5f6kubtbx6fy7l6q",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.52",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_yxrzd7m62vmnl6rtyfgiv7xdxe",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.52",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://en.kalvo.com/infinix-hot-10i-62.html",
+            "sourceName": "Kalvo",
+            "sourceKey": "kalvo-hot10i-x658-x659-family",
+            "checkedAt": "2026-10-06T11:03:47+03:00"
           }
         }
       ]
