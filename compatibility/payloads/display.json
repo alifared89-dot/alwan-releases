@@ -531,6 +531,14 @@
         "tecno-spark-7-completo-black",
         "TXDI650CBAPU-5V3H"
       ]
+    },
+    {
+      "id": "part-display-hot11s-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "748870",
+        "replacement-lcd-display-touch-screen-for-infinix-hot-11s-x6812-x6812b"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1077,6 +1085,14 @@
         "dev_inamb5txo5bhzgzndta7ezdsjy",
         "dev_yruinuwa3k5f6kubtbx6fy7l6q",
         "dev_yxrzd7m62vmnl6rtyfgiv7xdxe"
+      ]
+    },
+    {
+      "id": "cg-part-display-hot11s-family",
+      "partId": "part-display-hot11s-family",
+      "deviceIds": [
+        "dev_hvu45rkhdy4ewtxpew2zvfxrze",
+        "dev_ptlm57hnvl4yvo32va4dmmnmeu"
       ]
     }
   ],
@@ -3909,6 +3925,42 @@
         "X659"
       ],
       "notes": "مرجع عائلة HOT 10i بدون فريم يحدد FPC6504 / TXDI650CBAPU-5V3H. المصدر لا يفصل الأكواد الأربعة داخل الصفحة، لذلك لا يُستخدم وحده لإثبات Variant بعينه؛ الأكواد مثبتة مستقلاً من AKS وIT-Ricambi. كما ينبه المصدر أن شاشة HOT 10i تختلف عن HOT 10 Lite في الزجاج وحساس القرب، لذلك تبقى عائلتا X657 وX658/X659 منفصلتين."
+    },
+    {
+      "id": "ev-aks-hot11s-748870",
+      "compatibilityGroupId": "cg-part-display-hot11s-family",
+      "sourceKey": "aks-748870",
+      "sourceType": "partsSupplier",
+      "sourceName": "AKS.ua",
+      "sourceUrl": "https://www.aks.ua/item/view/748870/displei-infinix-hot-11s-hot-11s-nfc-s-tachskrinom-i-ramkoi-original-black.html",
+      "checkedAt": "2026-10-06T13:47:13+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "748870"
+      ],
+      "citedModelCodes": [
+        "X6812",
+        "X6812B"
+      ],
+      "notes": "موديول شاشة مع لمس وإطار؛ المورد يذكر HOT 11S وHOT 11S NFC والأكواد X6812/X6812B صراحة. وصف «original» هو تصنيف المورد ولا يُعامل كإثبات OEM مستقل."
+    },
+    {
+      "id": "ev-iprogadgets-hot11s-family",
+      "compatibilityGroupId": "cg-part-display-hot11s-family",
+      "sourceKey": "iprogadgets-hot11s-x6812-x6812b",
+      "sourceType": "partsSupplier",
+      "sourceName": "iProGadgets",
+      "sourceUrl": "https://www.iprogadgets.com/fr/products/replacement-lcd-display-touch-screen-for-infinix-hot-11s-x6812-x6812b",
+      "checkedAt": "2026-10-06T13:47:13+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "replacement-lcd-display-touch-screen-for-infinix-hot-11s-x6812-x6812b"
+      ],
+      "citedModelCodes": [
+        "X6812",
+        "X6812B"
+      ],
+      "notes": "شاشة LCD مع لمس؛ المورد يذكر X6812 وX6812B صراحة ضمن نفس قطعة الاستبدال. تكوين الفريم غير مذكور في هذه الصفحة، لذلك لا يُستنتج منه شيء بخصوص الفريم."
     }
   ],
   "categoryFacts": [
@@ -21986,6 +22038,106 @@
             "sourceName": "Kalvo",
             "sourceKey": "kalvo-hot10i-x658-x659-family",
             "checkedAt": "2026-10-06T11:03:47+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_hvu45rkhdy4ewtxpew2zvfxrze",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_11s-11162.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot11s-x6812-family",
+            "checkedAt": "2026-10-06T13:47:13+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_11s-11162.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot11s-x6812-family",
+            "checkedAt": "2026-10-06T13:47:13+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2480",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_11s-11162.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot11s-x6812-family",
+            "checkedAt": "2026-10-06T13:47:13+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_11s-11162.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot11s-x6812-family",
+            "checkedAt": "2026-10-06T13:47:13+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_ptlm57hnvl4yvo32va4dmmnmeu",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_11s-11162.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot11s-x6812-family",
+            "checkedAt": "2026-10-06T13:47:13+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_11s-11162.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot11s-x6812-family",
+            "checkedAt": "2026-10-06T13:47:13+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2480",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_11s-11162.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot11s-x6812-family",
+            "checkedAt": "2026-10-06T13:47:13+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_11s-11162.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-hot11s-x6812-family",
+            "checkedAt": "2026-10-06T13:47:13+03:00"
           }
         }
       ]
