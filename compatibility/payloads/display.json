@@ -1494,7 +1494,7 @@
         "X6528",
         "X6528B"
       ],
-      "notes": "SKU BG6CL is explicitly listed as one complete LCD + touch screen replacement for Infinix SMART 8 (X6525), SMART 8 Plus (X6526) and HOT 40i (X6528/X6528B)."
+      "notes": "وحدة LCD كاملة مع لمس؛ المصدر يجمع X6525 وX6526 وX6528 وX6528B ضمن نفس قطعة الاستبدال."
     },
     {
       "id": "ev-dama-smart9-hot50-x6532cl",
@@ -1603,7 +1603,7 @@
         "X6526",
         "X6528"
       ],
-      "notes": "SKU 5487FB8/41 explicitly lists one LCD display + touch screen assembly compatible with Infinix X6525, X6526 and X6528."
+      "notes": "شاشة LCD مع لمس بالمرجع 5487FB8/41؛ المصدر يذكر X6525 وX6526 وX6528 صراحة."
     },
     {
       "id": "ev-gsm-parts-center-2e676d994cf2",
@@ -1864,7 +1864,7 @@
         "X6525B",
         "X6528B"
       ],
-      "notes": "Independent aftermarket listing with product code dis/mp/ts20c explicitly supports Infinix SMART 8/SMART 8 HD (X6525), SMART 8 Pro (X6525B) and HOT 40i (X6528B)."
+      "notes": "مصدر مستقل لشاشة بديلة بدون فريم؛ يذكر X6525 وX6525B صراحة ضمن نفس قطعة الشاشة."
     },
     {
       "id": "ev-gsmok-4c6a4ff2342f",
@@ -3173,7 +3173,7 @@
         "X6526",
         "X6528B"
       ],
-      "notes": "Independent supplier lists one no-frame LCD + touchscreen assembly for Infinix SMART 8 (X6525/X6525D), SMART 8 HD (X6525), SMART 8 Plus (X6526), SMART 8 Pro (X6525B) and HOT 40i (X6528B)."
+      "notes": "شاشة LCD مع لمس بدون فريم؛ المصدر يجمع X6525 وX6525D وX6525B وX6526 وX6528B ضمن نفس عائلة الاستبدال."
     },
     {
       "id": "ev-nutel-solutions-c1525621459f",
@@ -3248,7 +3248,7 @@
         "X6525D",
         "X6525B"
       ],
-      "notes": "Aftermarket IPS LCD + touchscreen assembly. Supplier explicitly lists all three Infinix model codes."
+      "notes": "شاشة IPS LCD مع لمس؛ المصدر يذكر X6525 وX6525D وX6525B صراحة ضمن نفس الشاشة."
     },
     {
       "id": "ev-remogsm-2cdacba95ff3",
