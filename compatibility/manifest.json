@@ -1,31 +1,31 @@
 {
-  "manifestVersion": 30789513303918,
-  "generatedAt": "2026-10-06T07:50:00Z",
+  "manifestVersion": 103548543229032,
+  "generatedAt": "2026-10-06T07:57:05Z",
   "schemaVersion": 3,
   "entries": [
     {
       "id": "catalog",
       "type": "devices",
-      "version": "catalog-69091c264e0f49b7",
+      "version": "catalog-e32268e641f6b6a2",
       "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/catalog.json",
-      "sha256": "69091c264e0f49b76a642b5beab465d419158de7b36b66f08384a2408a4df70a",
-      "compressedBytes": 1354995,
-      "uncompressedBytes": 1354995,
+      "sha256": "e32268e641f6b6a28f15561ce2b8b21102aa3414ab252399ddda775d72c689bb",
+      "compressedBytes": 1355003,
+      "uncompressedBytes": 1355003,
       "archiveFormat": "rawJson"
     },
     {
       "id": "display",
       "type": "displays",
-      "version": "display-6a02b02d49ba4f63",
+      "version": "display-bf688cc87b57c7cc",
       "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/display.json",
-      "sha256": "6a02b02d49ba4f6311e01002879bb73ebc958422995125b9eed024565d53ec14",
-      "compressedBytes": 875041,
-      "uncompressedBytes": 875041,
+      "sha256": "bf688cc87b57c7cca3b4d79ced4c0b760fa9cc3a641b13993ce6bbbe0ac4e4d3",
+      "compressedBytes": 881629,
+      "uncompressedBytes": 881629,
       "archiveFormat": "rawJson",
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-69091c264e0f49b7"
+        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
       }
     },
     {
