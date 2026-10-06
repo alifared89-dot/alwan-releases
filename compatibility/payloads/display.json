@@ -476,6 +476,15 @@
         "TXDI670QBAPX",
         "X6532CL"
       ]
+    },
+    {
+      "id": "part-display-smart6hd-hot12i-hot20i-family",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "100000063025",
+        "ML-SCR-3101",
+        "1540432170"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -961,6 +970,17 @@
         "dev_l3g6nyf77fej7g76dflvtk6wne",
         "dev_w5vhza2hixxhefjxc2dthddm6u",
         "dev_o6mwtbdb6vqbdrfz4s5rqzfnvm"
+      ]
+    },
+    {
+      "id": "cg-part-display-smart6hd-hot12i-hot20i-family",
+      "partId": "part-display-smart6hd-hot12i-hot20i-family",
+      "deviceIds": [
+        "dev_x65abq5oydboizu526xwbthmw4",
+        "dev_pcdtjyg5n5jhgiv3ebdphedvda",
+        "dev_vhzlamtsdghxdgp3zrbdkhcx64",
+        "dev_teeymkmut2rz5zc53scjzcsfoy",
+        "dev_dxhgu3p74aw3lt2ojx2wupl2rm"
       ]
     }
   ],
@@ -3424,6 +3444,82 @@
         "X6517"
       ],
       "notes": "مصدر مستقل لوحدة LCD مع لمس يذكر X6515 وX6516 وX6517 معاً."
+    },
+    {
+      "id": "ev-librajaya-smart6hd-hot12i-hot20i",
+      "compatibilityGroupId": "cg-part-display-smart6hd-hot12i-hot20i-family",
+      "sourceKey": "libra-jaya-100000063025",
+      "sourceType": "partsSupplier",
+      "sourceName": "Libra Jaya",
+      "sourceUrl": "https://order.librajaya.com/lcd-infinix-x6512-black-sunshine-ts-x665b-x665-x665c-x665e-infinix-smart-6-hd-hot-12i-hot-20i",
+      "checkedAt": "2026-10-06T09:18:00+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "100000063025"
+      ],
+      "citedModelCodes": [
+        "X6512",
+        "X665",
+        "X665B",
+        "X665C",
+        "X665E"
+      ],
+      "notes": "وحدة LCD مع لمس؛ المصدر يذكر X6512 وX665 وX665B وX665C وX665E صراحة ضمن نفس قطعة الاستبدال."
+    },
+    {
+      "id": "ev-mobileland-smart6hd-hot12i-mlscr3101",
+      "compatibilityGroupId": "cg-part-display-smart6hd-hot12i-hot20i-family",
+      "sourceKey": "mobileland-ml-scr-3101",
+      "sourceType": "partsSupplier",
+      "sourceName": "MobileLand LCD",
+      "sourceUrl": "https://mobilelandlcd.com/products/3101",
+      "checkedAt": "2026-10-06T09:18:00+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "ML-SCR-3101"
+      ],
+      "citedModelCodes": [
+        "X6512",
+        "X665"
+      ],
+      "notes": "شاشة بالمرجع ML-SCR-3101؛ المصدر يذكر SMART 6 HD X6512 وHOT 12i X665 صراحة. وصف Original هنا تصنيف مورّد ولا يُعامل كإثبات OEM من Infinix."
+    },
+    {
+      "id": "ev-all4gsm-smart6hd-hot12i-hot20i-1540432170",
+      "compatibilityGroupId": "cg-part-display-smart6hd-hot12i-hot20i-family",
+      "sourceKey": "all4gsm-1540432170",
+      "sourceType": "partsSupplier",
+      "sourceName": "ВсёДляСотовых / All4GSM",
+      "sourceUrl": "https://xn--b1aaf2aparck6a6dzbxa.xn--p1ai/catalog/displei/realme-tecno-infinix-oppo/25-4314",
+      "checkedAt": "2026-10-06T09:18:00+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "1540432170"
+      ],
+      "citedModelCodes": [
+        "X6512",
+        "X665B",
+        "X665E"
+      ],
+      "notes": "وحدة شاشة مع لمس بالمرجع 1540432170؛ المصدر يذكر X6512 وX665B وX665E صراحة. لم يُضم X6511 إلى هذه العائلة بسبب تعارض عائلات التوافق بين المصادر."
+    },
+    {
+      "id": "ev-allspares-hot20i-1540432170",
+      "compatibilityGroupId": "cg-part-display-smart6hd-hot12i-hot20i-family",
+      "sourceKey": "all-spares-921002",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-20i-x665c-x665e-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-06T09:18:00+03:00",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "1540432170"
+      ],
+      "citedModelCodes": [
+        "X665C",
+        "X665E"
+      ],
+      "notes": "شاشة IPS مع لمس بدون فريم؛ المصدر يذكر HOT 20i X665C وX665E صراحة مع المرجع 1540432170. لا يُستنتج من ذلك توافق نسخة With Frame."
     }
   ],
   "categoryFacts": [
@@ -20441,6 +20537,245 @@
         }
       ],
       "deviceId": "samsung-galaxy-a55-5g"
+    },
+    {
+      "deviceId": "dev_x65abq5oydboizu526xwbthmw4",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS TFT",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://activity.infinixmobility.com/specs/smart-6-hd",
+            "sourceName": "Infinix official SMART 6 HD",
+            "sourceKey": "infinix-official-x6512",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://activity.infinixmobility.com/specs/smart-6-hd",
+            "sourceName": "Infinix official SMART 6 HD",
+            "sourceKey": "infinix-official-x6512",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://activity.infinixmobility.com/specs/smart-6-hd",
+            "sourceName": "Infinix official SMART 6 HD",
+            "sourceKey": "infinix-official-x6512",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "60",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/smart6hd/?variant=26977",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x6512",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_pcdtjyg5n5jhgiv3ebdphedvda",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS TFT",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot12i/",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x665",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot12i/",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x665",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot12i/",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x665",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "60",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot12i/",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x665",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_vhzlamtsdghxdgp3zrbdkhcx64",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS TFT",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://activity.infinixmobility.com/specs/hot-12i",
+            "sourceName": "Infinix official HOT 12i",
+            "sourceKey": "infinix-official-x665b",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://activity.infinixmobility.com/specs/hot-12i",
+            "sourceName": "Infinix official HOT 12i",
+            "sourceKey": "infinix-official-x665b",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://activity.infinixmobility.com/specs/hot-12i",
+            "sourceName": "Infinix official HOT 12i",
+            "sourceKey": "infinix-official-x665b",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "60",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot12i/",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x665",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_teeymkmut2rz5zc53scjzcsfoy",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS TFT",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/specs/hot-20i?cId=24&cName=Latest+Product",
+            "sourceName": "Infinix official HOT 20i",
+            "sourceKey": "infinix-official-x665c",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/specs/hot-20i?cId=24&cName=Latest+Product",
+            "sourceName": "Infinix official HOT 20i",
+            "sourceKey": "infinix-official-x665c",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/specs/hot-20i?cId=24&cName=Latest+Product",
+            "sourceName": "Infinix official HOT 20i",
+            "sourceKey": "infinix-official-x665c",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_dxhgu3p74aw3lt2ojx2wupl2rm",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS TFT",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot20i/?variant=30608",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x665e",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot20i/?variant=30608",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x665e",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot20i/?variant=30608",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x665e",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "60",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot20i/?variant=30608",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x665e",
+            "checkedAt": "2026-10-06T09:18:00+03:00"
+          }
+        }
+      ]
     }
   ],
   "compatibilityDifferences": [
