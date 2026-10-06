@@ -982,7 +982,7 @@
         "X6711",
         "X6836"
       ],
-      "notes": "Independent LCD/touch assembly article TXDI680EBQPX-26 (compatible with FPC6809-1) explicitly includes X6832, X6711 and X6836."
+      "notes": "وحدة LCD مع لمس بالمرجع TXDI680EBQPX-26؛ المصدر يذكر X6832 وX6711 وX6836 صراحة."
     },
     {
       "id": "ev-allspares-hot12-hot20-fpc6608",
@@ -1002,7 +1002,7 @@
         "X6825",
         "X6826"
       ],
-      "notes": "Without-frame LCD/touchscreen listing explicitly groups HOT 12 X6817, HOT 20 Play X6825 and HOT 20 X6826; references FPC6608/1540432341."
+      "notes": "شاشة مع لمس بدون فريم؛ المصدر يجمع HOT 12 X6817 وHOT 20 Play X6825 وHOT 20 X6826 مع FPC6608 / 1540432341."
     },
     {
       "id": "ev-allspares-hot30i-fpc6605",
@@ -1019,7 +1019,7 @@
       "citedModelCodes": [
         "X669"
       ],
-      "notes": "HOT 30i X669 without-frame replacement explicitly carries FPC6605 among the display references."
+      "notes": "شاشة HOT 30i X669 بدون فريم وتحمل مرجع FPC6605 ضمن مراجع الشاشة."
     },
     {
       "id": "ev-allspares-smart7-fpc6605",
@@ -1037,7 +1037,7 @@
         "X6515",
         "X6516"
       ],
-      "notes": "Without-frame IPS display module explicitly lists SMART 7 X6515 and SMART 7 HD X6516, reference FPC6605-05."
+      "notes": "شاشة IPS مع لمس بدون فريم؛ المصدر يذكر SMART 7 X6515 وSMART 7 HD X6516 مع المرجع FPC6605-05."
     },
     {
       "id": "ev-allspares-smart9-hot50-1051000097a2",
@@ -1057,7 +1057,7 @@
         "X6531",
         "X6720"
       ],
-      "notes": "Without-frame IPS LCD/touchscreen listing explicitly groups SMART 9, SMART 9 HD, HOT 50i and HOT 50 5G."
+      "notes": "شاشة IPS مع لمس بدون فريم؛ المصدر يجمع صراحة SMART 9 وSMART 9 HD وHOT 50i وHOT 50 5G ضمن نفس قطعة الاستبدال."
     },
     {
       "id": "ev-brico-phone-068cbbbdc7cc",
@@ -1494,7 +1494,7 @@
         "X6528",
         "X6528B"
       ],
-      "notes": "SKU BG6CL is explicitly listed as one complete LCD + touch screen replacement for Infinix SMART 8 (X6525), SMART 8 Plus (X6526) and HOT 40i (X6528/X6528B)."
+      "notes": "وحدة LCD كاملة مع لمس؛ المصدر يجمع X6525 وX6526 وX6528 وX6528B ضمن نفس قطعة الاستبدال."
     },
     {
       "id": "ev-dama-smart9-hot50-x6532cl",
@@ -1512,7 +1512,7 @@
         "X6532",
         "X6531"
       ],
-      "notes": "Independent complete-LCD listing; SKU X6532CL explicitly lists Infinix SMART 9 X6532 and HOT 50i X6531."
+      "notes": "شاشة كاملة بدون فريم؛ المصدر يذكر SMART 9 X6532 وHOT 50i X6531 صراحة ضمن نفس القطعة."
     },
     {
       "id": "ev-dutchspares-234ac828d3cd",
@@ -1584,7 +1584,7 @@
         "X6837",
         "X6838"
       ],
-      "notes": "Independent display listing SKU 621 groups the same Infinix HOT/NOTE models in one IPS replacement family."
+      "notes": "مصدر مستقل SKU 621 يجمع نفس أجهزة HOT/NOTE ضمن عائلة شاشة IPS واحدة."
     },
     {
       "id": "ev-fmparts-smart8-display",
@@ -1603,7 +1603,7 @@
         "X6526",
         "X6528"
       ],
-      "notes": "SKU 5487FB8/41 explicitly lists one LCD display + touch screen assembly compatible with Infinix X6525, X6526 and X6528."
+      "notes": "شاشة LCD مع لمس بالمرجع 5487FB8/41؛ المصدر يذكر X6525 وX6526 وX6528 صراحة."
     },
     {
       "id": "ev-gsm-parts-center-2e676d994cf2",
@@ -1793,7 +1793,7 @@
         "X6531",
         "X6720"
       ],
-      "notes": "Independent service-pack/high-quality listing names the same four Infinix codes with display reference 1051000097 A2."
+      "notes": "مصدر مستقل يذكر نفس مجموعة أكواد Infinix مع مرجع الشاشة 1051000097 A2."
     },
     {
       "id": "ev-gsmnet-1216c7466308",
@@ -1864,7 +1864,7 @@
         "X6525B",
         "X6528B"
       ],
-      "notes": "Independent aftermarket listing with product code dis/mp/ts20c explicitly supports Infinix SMART 8/SMART 8 HD (X6525), SMART 8 Pro (X6525B) and HOT 40i (X6528B)."
+      "notes": "مصدر مستقل لشاشة بديلة بدون فريم؛ يذكر X6525 وX6525B صراحة ضمن نفس قطعة الشاشة."
     },
     {
       "id": "ev-gsmok-4c6a4ff2342f",
@@ -3131,7 +3131,7 @@
         "X6825",
         "X6826"
       ],
-      "notes": "Independent no-frame complete LCD/touch listing explicitly includes HOT 12 X6817, HOT 20 Play X6825 and HOT 20 X6826."
+      "notes": "مصدر مستقل لشاشة كاملة بدون فريم يذكر X6817 وX6825 وX6826 ضمن نفس عائلة الاستبدال."
     },
     {
       "id": "ev-itricambi-hot30-note30-hot40-family",
@@ -3152,7 +3152,7 @@
         "X6837",
         "X6838"
       ],
-      "notes": "No-frame complete LCD/touch listing explicitly includes HOT 30 5G, NOTE 30 5G, HOT 40, HOT 40 Pro and NOTE 40X 5G."
+      "notes": "شاشة كاملة بدون فريم؛ المصدر يجمع HOT 30 5G وNOTE 30 5G وHOT 40 وHOT 40 Pro وNOTE 40X 5G."
     },
     {
       "id": "ev-itricambi-smart8-display",
@@ -3173,7 +3173,7 @@
         "X6526",
         "X6528B"
       ],
-      "notes": "Independent supplier lists one no-frame LCD + touchscreen assembly for Infinix SMART 8 (X6525/X6525D), SMART 8 HD (X6525), SMART 8 Plus (X6526), SMART 8 Pro (X6525B) and HOT 40i (X6528B)."
+      "notes": "شاشة LCD مع لمس بدون فريم؛ المصدر يجمع X6525 وX6525D وX6525B وX6526 وX6528B ضمن نفس عائلة الاستبدال."
     },
     {
       "id": "ev-nutel-solutions-c1525621459f",
@@ -3210,7 +3210,7 @@
         "X6517",
         "X669"
       ],
-      "notes": "Independent SUNLONG LCD unit listing groups X6515, X6516, X6517 and X669 as one replacement unit."
+      "notes": "مصدر مستقل يجمع X6515 وX6516 وX6517 وX669 ضمن وحدة شاشة بديلة واحدة."
     },
     {
       "id": "ev-rapidgsm-219019c41103",
@@ -3248,7 +3248,7 @@
         "X6525D",
         "X6525B"
       ],
-      "notes": "Aftermarket IPS LCD + touchscreen assembly. Supplier explicitly lists all three Infinix model codes."
+      "notes": "شاشة IPS LCD مع لمس؛ المصدر يذكر X6525 وX6525D وX6525B صراحة ضمن نفس الشاشة."
     },
     {
       "id": "ev-remogsm-2cdacba95ff3",
@@ -3423,7 +3423,7 @@
         "X6516",
         "X6517"
       ],
-      "notes": "Independent LCD/digitizer assembly listing names X6515, X6516 and X6517 together; marketplace product identifier B0FDSH5MXJ."
+      "notes": "مصدر مستقل لوحدة LCD مع لمس يذكر X6515 وX6516 وX6517 معاً."
     }
   ],
   "categoryFacts": [
@@ -3621,6 +3621,45 @@
         }
       ],
       "deviceId": "dev_2g6srhrrunxxfrj6vr6ia47jdm"
+    },
+    {
+      "deviceId": "dev_2icdz5jxe2kqebxaothcxuvgfe",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://wap.zm.infinixmobility.com/specs/smart-7-plus",
+            "sourceName": "Infinix official SMART 7 PLUS",
+            "sourceKey": "infinix-official-x6517",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://wap.zm.infinixmobility.com/specs/smart-7-plus",
+            "sourceName": "Infinix official SMART 7 PLUS",
+            "sourceKey": "infinix-official-x6517",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://wap.zm.infinixmobility.com/specs/smart-7-plus",
+            "sourceName": "Infinix official SMART 7 PLUS",
+            "sourceKey": "infinix-official-x6517",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
     },
     {
       "category": "display",
@@ -5874,6 +5913,56 @@
       "deviceId": "dev_6w2aoalpayi7afsf72afbu6w4i"
     },
     {
+      "deviceId": "dev_6wh664idim7ylsnt6zw6nhrafu",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_5g-12424.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6832",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_5g-12424.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6832",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2460",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_5g-12424.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6832",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30_5g-12424.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6832",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
+    },
+    {
       "category": "display",
       "facts": [
         {
@@ -5989,6 +6078,45 @@
         }
       ],
       "deviceId": "dev_76q4o27zljlys4olzirzive2cq"
+    },
+    {
+      "deviceId": "dev_76qitcgyb5jadgtiejc5jwwoca",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_7_hd-12243.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6516",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_7_hd-12243.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6516",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_7_hd-12243.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6516",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
     },
     {
       "category": "display",
@@ -6836,6 +6964,56 @@
         }
       ],
       "deviceId": "dev_aqioq47zs7muzp4f7v3eaqr7nq"
+    },
+    {
+      "deviceId": "dev_arqrlylfr7eo5uubp2u6oj5ocq",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_40_pro-12733.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6837",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_40_pro-12733.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6837",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2460",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_40_pro-12733.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6837",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_40_pro-12733.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6837",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
     },
     {
       "category": "display",
@@ -8387,6 +8565,56 @@
       "deviceId": "dev_doqhz6kquh2mcbhqng7vg25gva"
     },
     {
+      "deviceId": "dev_dvflnk7xy26zkvzyrsssm74qmu",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_12-11498.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6817",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_12-11498.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6817",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_12-11498.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6817",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_12-11498.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6817",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
+    },
+    {
       "category": "display",
       "facts": [
         {
@@ -8825,6 +9053,56 @@
         }
       ],
       "deviceId": "dev_epbqzelmplx73mllhqbpwmcux4"
+    },
+    {
+      "deviceId": "dev_eq4uqjoix7kel63xjiamjcpaze",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30i-12216.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x669",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.56",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30i-12216.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x669",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30i-12216.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x669",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_30i-12216.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x669",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
     },
     {
       "deviceId": "dev_erngqae7rfgttiok3o3osdp5fm",
@@ -9878,6 +10156,45 @@
         }
       ],
       "deviceId": "dev_h72oebqwcjgh7gnjjxdafj5dvm"
+    },
+    {
+      "deviceId": "dev_hb7ylb6xohqdygek5h7pmbpu6i",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_7-12116.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6515",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_7-12116.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6515",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_7-12116.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6515",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
     },
     {
       "category": "display",
@@ -12031,6 +12348,56 @@
       "deviceId": "dev_kojypxchhsjdn53h4zvpgq4soq"
     },
     {
+      "deviceId": "dev_kuelsfbei2rculnj7mimhiutsq",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_20-11929.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6826",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_20-11929.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6826",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_20-11929.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6826",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_20-11929.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6826",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
+    },
+    {
       "category": "display",
       "facts": [
         {
@@ -12107,6 +12474,56 @@
         }
       ],
       "deviceId": "dev_kzuswvil6maohx7l5ziz6carpu"
+    },
+    {
+      "deviceId": "dev_l3g6nyf77fej7g76dflvtk6wne",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_9_hd-13590.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6532c",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.7",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://wap.infinixmobility.com/smart-9-hd",
+            "sourceName": "Infinix official SMART 9 HD",
+            "sourceKey": "infinix-official-x6532c",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_9_hd-13590.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6532c",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://wap.infinixmobility.com/smart-9-hd",
+            "sourceName": "Infinix official SMART 9 HD",
+            "sourceKey": "infinix-official-x6532c",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
     },
     {
       "category": "display",
@@ -12911,6 +13328,56 @@
       "deviceId": "dev_nauesgczvgyp4ysksvzgztueby"
     },
     {
+      "deviceId": "dev_nazueovjozm2puzhr7oqk5smi4",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "LTPS IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/products/note-30-5g",
+            "sourceName": "Infinix official NOTE 30 5G",
+            "sourceKey": "infinix-official-x6711",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/products/note-30-5g",
+            "sourceName": "Infinix official NOTE 30 5G",
+            "sourceKey": "infinix-official-x6711",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2460",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/products/note-30-5g",
+            "sourceName": "Infinix official NOTE 30 5G",
+            "sourceKey": "infinix-official-x6711",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://co.infinixmobility.com/specs/note-30-5g",
+            "sourceName": "Infinix official NOTE 30 5G",
+            "sourceKey": "infinix-official-x6711",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
+    },
+    {
       "category": "display",
       "facts": [
         {
@@ -13416,6 +13883,56 @@
         }
       ],
       "deviceId": "dev_o4eqbpqx4jqss2abt2xik2vrlm"
+    },
+    {
+      "deviceId": "dev_o6mwtbdb6vqbdrfz4s5rqzfnvm",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS a-Si LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/shop/1008?cId=24&cName=Latest+Product",
+            "sourceName": "Infinix official HOT 50 5G",
+            "sourceKey": "infinix-official-x6720",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.7",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/shop/1008?cId=24&cName=Latest+Product",
+            "sourceName": "Infinix official HOT 50 5G",
+            "sourceKey": "infinix-official-x6720",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/shop/1008?cId=24&cName=Latest+Product",
+            "sourceName": "Infinix official HOT 50 5G",
+            "sourceKey": "infinix-official-x6720",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/shop/1008?cId=24&cName=Latest+Product",
+            "sourceName": "Infinix official HOT 50 5G",
+            "sourceKey": "infinix-official-x6720",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
     },
     {
       "category": "display",
@@ -15346,6 +15863,56 @@
       "deviceId": "dev_rnd2ojmzcsc64s27gjvhdd5beq"
     },
     {
+      "deviceId": "dev_rngt42z3ljur2zawvjly3tsbji",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_40-12732.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6836",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_40-12732.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6836",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2460",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_40-12732.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6836",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_40-12732.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6836",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
+    },
+    {
       "category": "display",
       "facts": [
         {
@@ -16397,6 +16964,56 @@
         }
       ],
       "deviceId": "dev_t7pqf4xfeqnslyd7xxsz7grcsu"
+    },
+    {
+      "deviceId": "dev_tc3lq6etp2vr4zhtol4jmjofxm",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot20play/",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x6825",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.82",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot20play/",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x6825",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1640",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot20play/",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x6825",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/hot20play/",
+            "sourceName": "GSMchoice",
+            "sourceKey": "gsmchoice-x6825",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
     },
     {
       "category": "display",
@@ -17703,6 +18320,56 @@
       "deviceId": "dev_w4xdn7ugo3pbob7qejoqqjir5y"
     },
     {
+      "deviceId": "dev_w5vhza2hixxhefjxc2dthddm6u",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_50i-13375.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6531",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.7",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_50i-13375.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6531",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_50i-13375.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6531",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_hot_50i-13375.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6531",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
+    },
+    {
       "category": "display",
       "facts": [
         {
@@ -18130,6 +18797,56 @@
         }
       ],
       "deviceId": "dev_x6i5penkezscv4mz4yiokq6sim"
+    },
+    {
+      "deviceId": "dev_xcxgzcsvuu6ax2drby77wy53be",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_9-13374.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6532",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.7",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_9-13374.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6532",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_9-13374.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6532",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_smart_9-13374.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6532",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
     },
     {
       "category": "display",
@@ -19479,6 +20196,56 @@
         }
       ],
       "deviceId": "dev_zsdr2bcygxr2qc5xyrq46op6um"
+    },
+    {
+      "deviceId": "dev_ztcixnp6rvlgrn665scl6llj7y",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40x_5g-13246.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6838",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40x_5g-13246.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6838",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2460",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40x_5g-13246.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6838",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_40x_5g-13246.php",
+            "sourceName": "GSMArena",
+            "sourceKey": "gsmarena-x6838",
+            "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        }
+      ]
     },
     {
       "category": "display",
