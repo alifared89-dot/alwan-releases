@@ -2,8 +2,16 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 85,
-    "sha256": "1c8ca8b4ddf53ede747c94ace67c867edd21c0353b23130648ed9ffc57202afd"
+    "bytes": 804,
+    "sha256": "a63a81f615f141f3eacf7a7f905401e81deb11d858fd0ba5c13f3e317c78e0d0"
   },
-  "chunks": []
+  "chunks": [
+    {
+      "chunkId": "galaxy-a15-image-4457264dbba2",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/galaxy-a15-image-4457264dbba2.zip",
+      "compressedBytes": 6437,
+      "uncompressedBytes": 6297,
+      "sha256": "a40527ab9db408b60de33e4ddde95ba4f36aa1d0a1e22d2e87d64bb8982e16b6"
+    }
+  ]
 }
