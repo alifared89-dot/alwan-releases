@@ -1,9 +1,9 @@
 {
-  "version": "1.0.7",
-  "build": 8,
-  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/download/v1.0.7/app-release.apk",
-  "sha256": "e8a279c85e14b15e52f6b1c33926b9bdfab4bc17122d7f97a4199b48164d6a9c",
-  "size_bytes": 138091978,
+  "version": "1.0.8",
+  "build": 9,
+  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/download/v1.0.8/app-release.apk",
+  "sha256": "f84ec4c4a9b6ebb057d8837aca6f7740f311debefa798d111fbcd3a753167d23",
+  "size_bytes": 138321340,
   "notes": "تحديث تطبيق علوان.",
   "minimum_supported_build": 1
 }
