@@ -1,5 +1,23 @@
 {
-  "manifestVersion": 3,
-  "generatedAt": "2026-10-03T20:07:31Z",
-  "entries": []
+  "manifestVersion": 4,
+  "generatedAt": "2026-10-08T12:58:31Z",
+  "entries": [
+    {
+      "deviceId": "samsung-galaxy-a15",
+      "revision": "gsmarena-a15-preview-1",
+      "view": "frontBack",
+      "filename": "samsung-galaxy-a15-lte-gsmarena.jpg",
+      "chunkId": "galaxy-a15-image-4457264dbba2",
+      "sha256": "4457264dbba2504b2679fb795d24d08c643fb67ebbf5443911883279ceface44",
+      "bytes": 6297,
+      "sourcePageUrl": "https://www.gsmarena.com/samsung_galaxy_a15-12637.php",
+      "creator": "GSMArena (image host; original creator unverified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Image sourced from GSMArena device specification page",
+      "verifiedModelCodes": [
+        "SM-A155F/DSN"
+      ],
+      "checkedAt": "2026-10-08T12:58:31Z"
+    }
+  ]
 }
