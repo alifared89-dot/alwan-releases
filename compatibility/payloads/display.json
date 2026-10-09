@@ -584,6 +584,27 @@
         "tecno-camon-30s-completo-lcd-black",
         "modulo-infinix-note-40-pro-4g-service-pack-sin-marco"
       ]
+    },
+    {
+      "id": "part-display-x655-kd7-t1-1540387341",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "T1 1540387341"
+      ]
+    },
+    {
+      "id": "part-display-cellmaxs-note10-x693-x697-x698-pova",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "cellmaxs-note10-11s-11pro-le7-le8-lf7n"
+      ]
+    },
+    {
+      "id": "part-display-tvc-660101987a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "660101987A"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1199,6 +1220,42 @@
         "dev_z56s5elwblqpuvlztzsijpzd4m",
         "dev_iaesddjthpogjngwvyznghc4zy",
         "dev_kcnitfbhtljnzfckzwfn34wawi"
+      ]
+    },
+    {
+      "id": "cg-part-display-x655-kd7-t1-1540387341",
+      "partId": "part-display-x655-kd7-t1-1540387341",
+      "deviceIds": [
+        "dev_btsbo5qb25xaz6i32ucwapn3pi",
+        "dev_hx6bhixd75xjvqvvi67tw2gnyi",
+        "dev_podpgf276hscvxb4sier5lerly",
+        "dev_niz5hqt5olcz5so7fxxuokxk3y",
+        "dev_nz5vtetlf45eonp42cmip7rg4y",
+        "dev_37ktwnizfsa2qwvozoxii2firu",
+        "dev_hzslx5yjtigmwzt6rybooevamm",
+        "dev_fsd2kzrky4nbumwh6n3flr4hua",
+        "dev_2ep43cqfbcrnlj62oheh5t3fpy"
+      ]
+    },
+    {
+      "id": "cg-part-display-note10-x693-x697-x698-pova",
+      "partId": "part-display-cellmaxs-note10-x693-x697-x698-pova",
+      "deviceIds": [
+        "dev_dumlz2ykjneilqv3stqwwkmbna",
+        "dev_dor7aezqehbheemuj4oh2iwzlq",
+        "dev_tcnxc24etr4kmbnjjbsutnfyze",
+        "dev_rgy3dbq3dw6af7gvoh6nuhkcha",
+        "dev_5pbpwot6kv65zunoxbnxjcd7hu",
+        "dev_vlffypuqrtzqgqvfz3fumucv6i",
+        "dev_5ny7hfab7jdx5rooqo7hcbc23i"
+      ]
+    },
+    {
+      "id": "cg-part-display-zero-x-pro-x6811-x6811b-660101987a",
+      "partId": "part-display-tvc-660101987a",
+      "deviceIds": [
+        "dev_ahbn67aipstd3p5xyvoozllqoy",
+        "dev_bti3lmnxmclcvv6zfzceyg7icu"
       ]
     }
   ],
@@ -4478,6 +4535,161 @@
         "X6532C"
       ],
       "notes": "يذكر المصدر شاشة LCD بديلة تجارية تجمع هذه الأكواد، ومنها X6720B. التوافق يخص نسخة القطعة المعروضة فقط ولا يعني إمكانية تبديل شاشات OEM الأصلية؛ يلزم فحص الفلكس والموصل وعمل اللمس قبل التركيب."
+    },
+    {
+      "id": "ev-universal-display-x655-hot9-family",
+      "sourceKey": "universaldisplay-in-display-infinix-hot-9",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-hot-9",
+      "notes": "صفحة Display Screen تجمع X655 وX655C وX655D وX655F وX656 وCD6 وCD7 وKD7 وKD7S ضمن لائحة واحدة؛ ليست صفحة زجاج حماية.",
+      "compatibilityGroupId": "cg-part-display-x655-kd7-t1-1540387341",
+      "sourceType": "partsSupplier",
+      "checkedAt": "2026-10-09T15:29:12.238288Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "T1 1540387341"
+      ],
+      "citedModelCodes": [
+        "X655",
+        "X655C",
+        "X655D",
+        "X655F",
+        "X656",
+        "CD6",
+        "CD7",
+        "KD7",
+        "KD7S"
+      ]
+    },
+    {
+      "id": "ev-ezana-screen-x655-hot9-family",
+      "sourceKey": "ezana-screen-infinix-x655-l2",
+      "sourceName": "EZANA Screen",
+      "sourceUrl": "https://www.ezana-screen.com/",
+      "notes": "كتالوج المورد يعرض شاشة Infinix x655 L 2 ويدرج HOT9 X655C/X655/X655D وHOT9 Pro X655F وNOTE7 Lite X656 وCAMON15 CD6/CD7 وSPARK5 KD7S/KD7H وSPARK5 Pro KD7؛ يلزم فحص فلكس القطعة قبل التركيب.",
+      "compatibilityGroupId": "cg-part-display-x655-kd7-t1-1540387341",
+      "sourceType": "partsSupplier",
+      "checkedAt": "2026-10-09T15:29:12.238288Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "T1 1540387341"
+      ],
+      "citedModelCodes": [
+        "X655",
+        "X655C",
+        "X655D",
+        "X655F",
+        "X656",
+        "CD6",
+        "CD7",
+        "KD7",
+        "KD7S"
+      ]
+    },
+    {
+      "id": "ev-universal-display-note10-11-pro-pova",
+      "sourceKey": "universaldisplay-display-infinix-note-10",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-note-10",
+      "notes": "صفحة Display Screen تعرض عائلة X693 وX697 وX698 مع POVA 2 LE7 وPOVA 5G LE8 وPOVA 3 LF7. التوافق لشاشة بديلة مشتركة، وليس حكماً على شاشات OEM.",
+      "compatibilityGroupId": "cg-part-display-note10-x693-x697-x698-pova",
+      "sourceType": "partsSupplier",
+      "checkedAt": "2026-10-09T15:29:57.001030Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "cellmaxs-note10-11s-11pro-le7-le8-lf7n"
+      ],
+      "citedModelCodes": [
+        "X693",
+        "X697",
+        "X698",
+        "LE7",
+        "LE7N",
+        "LE8",
+        "LF7N"
+      ]
+    },
+    {
+      "id": "ev-cellmaxs-note10-11s-11pro-pova",
+      "sourceKey": "cellmaxs-x693-x697-x698-le7-le8-lf7n",
+      "sourceName": "Cellmaxs",
+      "sourceUrl": "https://cellmaxs.ph/products/for-tecno-pova-5g-2-3-infinix-note-10-11s-11-pro-le7-le7n-lf7n-le8-x693-x697-x698-lcd-touch-screen-replacement-with-frame",
+      "notes": "قائمة Compatible Model في منتج LCD with frame تذكر X693 وX697 وX698 وLE7/LE7n وLE8 وLF7n صراحة. التوافق يخص هذه الشاشة البديلة؛ يُراجع الفريم والفلكس ونوع القطعة.",
+      "compatibilityGroupId": "cg-part-display-note10-x693-x697-x698-pova",
+      "sourceType": "partsSupplier",
+      "checkedAt": "2026-10-09T15:29:57.001030Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "cellmaxs-note10-11s-11pro-le7-le8-lf7n"
+      ],
+      "citedModelCodes": [
+        "X693",
+        "X697",
+        "X698",
+        "LE7",
+        "LE7N",
+        "LE8",
+        "LF7N"
+      ]
+    },
+    {
+      "id": "ev-gyztechno-note10-11s-11pro-pova",
+      "sourceKey": "gyztechno-metoo-note10-screen",
+      "sourceName": "GyzTechno",
+      "sourceUrl": "https://gyztechno.com/product/metoo-infinix-note-10---original-complete-screen",
+      "notes": "وصف شاشة MeToo Note10 يذكر X693 وX697 وX698 مع Pova 2/3؛ مصدر داعم لا يغني عن فحص الموديل والنسخة.",
+      "compatibilityGroupId": "cg-part-display-note10-x693-x697-x698-pova",
+      "sourceType": "partsSupplier",
+      "checkedAt": "2026-10-09T15:29:57.001030Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "cellmaxs-note10-11s-11pro-le7-le8-lf7n"
+      ],
+      "citedModelCodes": [
+        "X693",
+        "X697",
+        "X698",
+        "LE7",
+        "LE7N",
+        "LE8",
+        "LF7N"
+      ]
+    },
+    {
+      "id": "ev-universaldisplay-x6811-x6811b",
+      "compatibilityGroupId": "cg-part-display-zero-x-pro-x6811-x6811b-660101987a",
+      "sourceKey": "ev-universaldisplay-x6811-x6811b",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-zero-x",
+      "checkedAt": "2026-10-09T15:30:52.828241Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "660101987A"
+      ],
+      "citedModelCodes": [
+        "X6811",
+        "X6811B"
+      ],
+      "notes": "صفحة Display Screen تسرد X6811 وX6811B معاً."
+    },
+    {
+      "id": "ev-tvcmall-tft-660101987a",
+      "compatibilityGroupId": "cg-part-display-zero-x-pro-x6811-x6811b-660101987a",
+      "sourceKey": "ev-tvcmall-tft-660101987a",
+      "sourceType": "partsSupplier",
+      "sourceName": "TVCMALL",
+      "sourceUrl": "https://www.tvcmall.com/details/for-infinix-zero-x-4g-zero-x-pro-4g-x6811-x6811b-grade-c-lcd-screen-and-digitizer-assembly-part-tft-workmanshipp-not-support-under-screen-fingerprint-signification-without-logo-sku660101987a.html",
+      "checkedAt": "2026-10-09T15:30:52.828241Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "660101987A"
+      ],
+      "citedModelCodes": [
+        "X6811",
+        "X6811B"
+      ],
+      "notes": "قطعة TFT بديلة رقم 660101987A تدعم X6811 وX6811B؛ لا تدعم بصمة الشاشة، لذا لا تعتبر بديلاً مطابقاً لجميع خصائص OLED الأصلي."
     }
   ],
   "categoryFacts": [
