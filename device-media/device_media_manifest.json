@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 7,
-  "generatedAt": "2026-10-09T17:16:51Z",
+  "manifestVersion": 8,
+  "generatedAt": "2026-10-09T17:23:40Z",
   "entries": [
     {
       "deviceId": "samsung-galaxy-a15",
@@ -307,6 +307,261 @@
         "X6891"
       ],
       "checkedAt": "2026-10-09T17:16:51Z"
+    },
+    {
+      "deviceId": "dev_yizqou3tens6c26vof4qgtrrqy",
+      "revision": "infinix-official-x6731-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6731-frontback.png",
+      "chunkId": "infinix-x6731-084e5958b7e0",
+      "sha256": "084e5958b7e00507f2b345ffb6f15dd9773a6da924a117561e0ff54de780e6e4",
+      "bytes": 705633,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/617",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6731"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_icawjqybl3awvebwln5z4njadq",
+      "revision": "infinix-official-x6882-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6882-frontback.png",
+      "chunkId": "infinix-x6882-d869ec2a3b8f",
+      "sha256": "d869ec2a3b8ff42fbec6c0c2dadc75c010927a200fc513733e85db60f0f18ccf",
+      "bytes": 680727,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/974",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6882"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_aghvl3pa4afwcybq7oiq3mvmz4",
+      "revision": "infinix-official-x6725d-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6725d-frontback.png",
+      "chunkId": "infinix-x6725d-38a058dae03a",
+      "sha256": "38a058dae03a3c0504fbd55fb77e700418a00046c6466d3248573eaddac607f4",
+      "bytes": 555716,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1319",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6725D"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_2wwfy6fz7ve4aoyih5r7q2jvp4",
+      "revision": "infinix-official-x6886-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6886-frontback.png",
+      "chunkId": "infinix-x6886-abe5507d276e",
+      "sha256": "abe5507d276eeab7dc2d0504d8f4fdc828bed66865562f8e37b65b204a235ddd",
+      "bytes": 209166,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1351",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6886"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_7kxxon2kwixonc4h2mu7xdic6q",
+      "revision": "infinix-official-x6728-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6728-frontback.png",
+      "chunkId": "infinix-x6728-55eecf21d863",
+      "sha256": "55eecf21d863a661c2993169158720cbabdd07b8ec5fad59ed6a9e398da727cb",
+      "bytes": 129457,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1361",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6728"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_kioyysn7v2xbyjfiaasykc2k7y",
+      "revision": "infinix-official-x6885-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6885-frontback.png",
+      "chunkId": "infinix-x6885-2576fcdaea04",
+      "sha256": "2576fcdaea04d21cf74cc7cec81a157f9304fff8ae8c60c00adbd99d1b5e2f3f",
+      "bytes": 149878,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1403",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6885"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_otji2tcgaw6rmajgqvatjod5vu",
+      "revision": "infinix-official-x1201-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x1201-frontback.png",
+      "chunkId": "infinix-x1201-5fcac592dd4d",
+      "sha256": "5fcac592dd4da87288fcb0550ac5ea9fa5b92ef763e5e9e629b14594de170f6a",
+      "bytes": 360400,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1442",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X1201"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_hlvbp4nsol4xkzdgsjzbo6qiae",
+      "revision": "infinix-official-x6730-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6730-frontback.png",
+      "chunkId": "infinix-x6730-73f2d5e51465",
+      "sha256": "73f2d5e51465358c5a4b37852d4367920c081185f6eb95b9310e6696bb6b2269",
+      "bytes": 285713,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1476",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6730"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_f27nkvdj2ifblkptrwq5xkodsq",
+      "revision": "infinix-official-x6730b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6730b-frontback.png",
+      "chunkId": "infinix-x6730b-73f2d5e51465",
+      "sha256": "73f2d5e51465358c5a4b37852d4367920c081185f6eb95b9310e6696bb6b2269",
+      "bytes": 285713,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1481",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6730B"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_h7jair4kkmta2jrsgdm77tuv5u",
+      "revision": "infinix-official-x1302-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x1302-frontback.png",
+      "chunkId": "infinix-x1302-e7302838be66",
+      "sha256": "e7302838be666cc3725e9cff643c5e5686b156cdf2c91e02fb33705f6920bd3f",
+      "bytes": 455010,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1548",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X1302"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_7b2542dpbroluaqlcyhcpdcisi",
+      "revision": "infinix-official-x6878-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6878-frontback.png",
+      "chunkId": "infinix-x6878-2095e87d0e1c",
+      "sha256": "2095e87d0e1ce4562e4273b604e244f2fbbe7984514a0c41e350d7a97754afff",
+      "bytes": 480268,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1577",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6878"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_dv4fmouhvftvavubk6wlbidoiu",
+      "revision": "infinix-official-x1102b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x1102b-frontback.png",
+      "chunkId": "infinix-x1102b-119bcd4ddccb",
+      "sha256": "119bcd4ddccb6e9cfd2668e1d9b920c04b68a46e2b4c0f77e1fc253067e82325",
+      "bytes": 279798,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1592",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X1102B"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_ihjpyixyt6oomn3yr47t4lppxi",
+      "revision": "infinix-official-x6896-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6896-frontback.png",
+      "chunkId": "infinix-x6896-8be1bcb4eebe",
+      "sha256": "8be1bcb4eebe1ae48a3cf52b0f630ef5aa678250f15585180c170d44a30f785a",
+      "bytes": 132484,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1754",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6896"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_mcgxyph43j7omjivz5gbr2ihbu",
+      "revision": "infinix-official-x6877-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6877-frontback.png",
+      "chunkId": "infinix-x6877-0ea8ae2955bd",
+      "sha256": "0ea8ae2955bdc8056d841c6f754a96c5647dabb7fa3b66a8694b22be0e1706dd",
+      "bytes": 274685,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1631",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6877"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
+    },
+    {
+      "deviceId": "dev_5ppkptsdkd2fgprkpfapjalivy",
+      "revision": "infinix-official-x6895b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6895b-frontback.png",
+      "chunkId": "infinix-x6895b-15d9d471c6a6",
+      "sha256": "15d9d471c6a6c686f2c99b747c59e699d02baaf417b344e8f4aa32a276bfc38c",
+      "bytes": 280280,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1665",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6895B"
+      ],
+      "checkedAt": "2026-10-09T17:23:40Z"
     }
   ]
 }
