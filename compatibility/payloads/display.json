@@ -691,6 +691,13 @@
       "canonicalPartNumbers": [
         "infinix-note-7-x690-lcd-screen-digitizer-assembly"
       ]
+    },
+    {
+      "id": "part-display-kniezon-x624-kb7",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "metoo-x624-kb7-lcd-touch"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1362,7 +1369,9 @@
       "deviceIds": [
         "dev_2mpmom3hc6x3o5homnxhgfj5xe",
         "dev_vzxnuxqgyl6db23ut7nfbqts4u",
-        "dev_qrcapfxvcdimflvyg3wr7pr4su"
+        "dev_qrcapfxvcdimflvyg3wr7pr4su",
+        "dev_qqk2r3l275t42pojvlq272dgyy",
+        "dev_dqyoi3nreifu2zjwf2dvik65oi"
       ]
     },
     {
@@ -1456,6 +1465,16 @@
       "deviceIds": [
         "dev_wzmuloejkqnbta2xqpgii7zyti",
         "dev_pnqngabcnicgr4mflmc7womtx4"
+      ]
+    },
+    {
+      "id": "cg-part-display-hot7-x624-spark3-kb7",
+      "partId": "part-display-kniezon-x624-kb7",
+      "deviceIds": [
+        "dev_tikiasmgot345lpf3ogv4jtiae",
+        "dev_hwmridtnl4ssdov2au7eszhyha",
+        "dev_davrgkztlenzo7ciuwmx72aj64",
+        "dev_iykg4wjhqumpkz6qpqy7kxq4ta"
       ]
     }
   ],
@@ -5636,6 +5655,108 @@
         "X652C"
       ],
       "notes": "إعلانات شاشة LCD+Touch بديلة تذكر X652/X652A/X652B/X652C بصورة صريحة؛ يراجع فلكس القطعة قبل التركيب."
+    },
+    {
+      "id": "ev-hot7-spark3-kb7-0",
+      "compatibilityGroupId": "cg-part-display-hot7-x624-spark3-kb7",
+      "sourceKey": "hot7-spark3-kb7-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-spark-3-kb7",
+      "checkedAt": "2026-10-09T15:54:26.377082Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "metoo-x624-kb7-lcd-touch"
+      ],
+      "citedModelCodes": [
+        "X624",
+        "X624B",
+        "KB7",
+        "KB7J"
+      ],
+      "notes": "المورد يذكر شاشة LCD+Touch مشتركة لـHOT7 X624/X624B وSpark3 KB7/KB7J. التوافق للقطعة التجارية المعلنة فقط."
+    },
+    {
+      "id": "ev-hot7-spark3-kb7-1",
+      "compatibilityGroupId": "cg-part-display-hot7-x624-spark3-kb7",
+      "sourceKey": "hot7-spark3-kb7-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "KniezOn Uganda",
+      "sourceUrl": "https://www.kniezon.com/products/screen-for-tecno-spark-3-kb7",
+      "checkedAt": "2026-10-09T15:54:26.377082Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "metoo-x624-kb7-lcd-touch"
+      ],
+      "citedModelCodes": [
+        "X624",
+        "X624B",
+        "KB7",
+        "KB7J"
+      ],
+      "notes": "المورد يذكر شاشة LCD+Touch مشتركة لـHOT7 X624/X624B وSpark3 KB7/KB7J. التوافق للقطعة التجارية المعلنة فقط."
+    },
+    {
+      "id": "ev-hot7-spark3-kb7-2",
+      "compatibilityGroupId": "cg-part-display-hot7-x624-spark3-kb7",
+      "sourceKey": "hot7-spark3-kb7-2",
+      "sourceType": "partsSupplier",
+      "sourceName": "KniezOn Uganda MeToo",
+      "sourceUrl": "https://www.kniezon.com/products/authentic-metoo-infinix-hot-7-x624-full-screen-replacement-compatible-with-lcds-tecno-spark-3-kb7-and-more",
+      "checkedAt": "2026-10-09T15:54:26.377082Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "metoo-x624-kb7-lcd-touch"
+      ],
+      "citedModelCodes": [
+        "X624",
+        "X624B",
+        "KB7",
+        "KB7J"
+      ],
+      "notes": "المورد يذكر شاشة LCD+Touch مشتركة لـHOT7 X624/X624B وSpark3 KB7/KB7J. التوافق للقطعة التجارية المعلنة فقط."
+    },
+    {
+      "id": "ev-hot9play-x680d-f-0",
+      "compatibilityGroupId": "cg-part-display-hot9play-x680-x680b-x680c",
+      "sourceKey": "hot9play-x680d-f-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-hot-9-play",
+      "checkedAt": "2026-10-09T15:54:26.377082Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "FPCHJ068A152"
+      ],
+      "citedModelCodes": [
+        "X680",
+        "X680B",
+        "X680C",
+        "X680D",
+        "X680F"
+      ],
+      "notes": "مذكورة كعائلة شاشة بديلة مع X680D Smart4 Plus وX680F Hot9 Play؛ يعتمد التوافق على تصميم الفلكس والموصل، ويُختبر قبل التركيب."
+    },
+    {
+      "id": "ev-hot9play-x680d-f-1",
+      "compatibilityGroupId": "cg-part-display-hot9play-x680-x680b-x680c",
+      "sourceKey": "hot9play-x680d-f-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "SmartDroidTips display repair guide",
+      "sourceUrl": "https://smartdroidtips.com/x680-lcd-compatible/",
+      "checkedAt": "2026-10-09T15:54:26.377082Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "FPCHJ068A152"
+      ],
+      "citedModelCodes": [
+        "X680",
+        "X680B",
+        "X680C",
+        "X680D",
+        "X680F"
+      ],
+      "notes": "مذكورة كعائلة شاشة بديلة مع X680D Smart4 Plus وX680F Hot9 Play؛ يعتمد التوافق على تصميم الفلكس والموصل، ويُختبر قبل التركيب."
     }
   ],
   "categoryFacts": [
