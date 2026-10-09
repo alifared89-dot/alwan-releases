@@ -676,6 +676,14 @@
         "916730",
         "CK7n CK8n CK9n AMOLED"
       ]
+    },
+    {
+      "id": "part-display-note10pro-x695-variants-sps2767",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "SPS2767",
+        "1267484375"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1423,6 +1431,15 @@
         "dev_tlevainraydh3mu53qyufi7ckm",
         "dev_eu4ca4blbwc6rdkryqu5rc225u",
         "dev_x62xq6gwj2f55oyt54lh4hpa7i"
+      ]
+    },
+    {
+      "id": "cg-part-display-note10pro-x695-variants-sps2767",
+      "partId": "part-display-note10pro-x695-variants-sps2767",
+      "deviceIds": [
+        "dev_chg5roy3pdh3jakebr73wqwguq",
+        "dev_7hgdg7mrb5qup2rcwx5gth6y34",
+        "dev_xzqdatijwtcm3dd76hazehml6i"
       ]
     }
   ],
@@ -5415,6 +5432,80 @@
         "CK9N"
       ],
       "notes": "يوجد أيضاً بديل TFT مختلف رقم 920972 لنفس قائمة الأجهزة؛ لا يجوز الخلط بين فئة TFT وAMOLED أو افتراض دعم البصمة من قطعة TFT."
+    },
+    {
+      "id": "ev-note10pro-x695-variants-0",
+      "compatibilityGroupId": "cg-part-display-note10pro-x695-variants-sps2767",
+      "sourceKey": "note10pro-x695-variants-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-note-10-pro-x695",
+      "checkedAt": "2026-10-09T15:44:55.040535Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "X695-LCD-assembly"
+      ],
+      "citedModelCodes": [
+        "X695",
+        "X695C"
+      ],
+      "notes": "صفحة Display Screen تسرد X695 وX695C؛ إضافة X695D مدعومة بموردي LCD."
+    },
+    {
+      "id": "ev-note10pro-x695-variants-1",
+      "compatibilityGroupId": "cg-part-display-note10pro-x695-variants-sps2767",
+      "sourceKey": "note10pro-x695-variants-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "iProGadgets",
+      "sourceUrl": "https://www.iprogadgets.com/products/replacement-lcd-display-touch-screen-for-infinix-note-10-pro-x695-note-10-pro-nfc-x695c",
+      "checkedAt": "2026-10-09T15:44:55.040535Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "X695-LCD-assembly"
+      ],
+      "citedModelCodes": [
+        "X695",
+        "X695C",
+        "X695D"
+      ],
+      "notes": "منتج شاشة LCD+Digitizer واحدة يسرد X695/X695C/X695D صراحة."
+    },
+    {
+      "id": "ev-note10pro-x695-variants-2",
+      "compatibilityGroupId": "cg-part-display-note10pro-x695-variants-sps2767",
+      "sourceKey": "note10pro-x695-variants-2",
+      "sourceType": "partsSupplier",
+      "sourceName": "Max Phone",
+      "sourceUrl": "https://max-phone.com/azoVjGz",
+      "checkedAt": "2026-10-09T15:44:55.040535Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "1267484375"
+      ],
+      "citedModelCodes": [
+        "X695",
+        "X695C",
+        "X695D"
+      ],
+      "notes": "بائع شاشة Note10 Pro كاملة برقم 1267484375 يذكر X695/X695D/X695C صراحة."
+    },
+    {
+      "id": "ev-note10pro-x695-variants-3",
+      "compatibilityGroupId": "cg-part-display-note10pro-x695-variants-sps2767",
+      "sourceKey": "note10pro-x695-variants-3",
+      "sourceType": "partsSupplier",
+      "sourceName": "Repairfully",
+      "sourceUrl": "https://www.repairfully.com/products/SPS2767",
+      "checkedAt": "2026-10-09T15:44:55.040535Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS2767"
+      ],
+      "citedModelCodes": [
+        "X695",
+        "X695C"
+      ],
+      "notes": "شاشة بديلة SPS2767 بعنوان X695/X695C؛ تأكيد إضافي للطراز X695 فقط في حقل fitment بالموقع."
     }
   ],
   "categoryFacts": [
