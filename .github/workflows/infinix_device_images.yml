@@ -1,6 +1,9 @@
 name: Infinix Device Images
 
 on:
+  push:
+    branches:
+      - diagnostic/infinix-three-reference-pages-20261009
   workflow_dispatch:
     inputs:
       mode:
@@ -40,6 +43,7 @@ concurrency:
 
 jobs:
   images:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -85,3 +89,50 @@ jobs:
           git add device-media/
           git commit -m "Publish approved Infinix device photos"
           git push origin HEAD:main
+
+  reference-diagnostics:
+    if: github.event_name == 'push'
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install only current bot dependency
+        run: python -m pip install -r tools/infinix-image-bot/requirements.txt
+      - name: Diagnose exactly three known official device pages
+        run: |
+          python - <<'PY'
+          import sys, json, re, html, urllib.request
+          from pathlib import Path
+          sys.path.insert(0, str(Path.cwd() / "tools/infinix-image-bot"))
+          import bot
+          published = {entry["deviceId"] for entry in json.loads((bot.MEDIA / "device_media_manifest.json").read_text())["entries"]}
+          for pid in (1351, 1453, 1555):
+              url = f"https://wap.my.infinixmobility.com/shop/{pid}"
+              row = {"pageId": pid, "sourceUrl": url}
+              try:
+                  request = urllib.request.Request(url, headers={"User-Agent": bot.USER_AGENT})
+                  with urllib.request.urlopen(request, timeout=18) as response:
+                      data = response.read(1300001)
+                      row.update(httpStatus=response.status, finalUrl=response.url, contentType=response.headers.get("Content-Type"), htmlBytes=len(data))
+                  text = data.decode("utf-8", "replace")
+                  title_match = re.search(r"<title[^>]*>(.*?)</title>", text, re.IGNORECASE | re.DOTALL)
+                  title = html.unescape(title_match.group(1).strip()) if title_match else ""
+                  skus = re.findall(r'(?i)(?:\\\\\\\"|")sku(?:\\\\\\\"|")\\s*:\\s*(?:\\\\\\\"|")([A-Z][A-Z0-9-]{3,15})', text)
+                  if not skus:
+                      skus = re.findall(r"(?i)extra_info:.{0,90}?sku.{0,12}?(X[0-9]{3,6}[A-Z]?)", text)
+                  row.update(title=title, skuCodes=skus[:15], skuKeywordOccurrences=len(re.findall(r"sku", text, re.I)), hasGalleryMarker=("images:[{alt:" in text), possibleCatalogImageUrls=len(re.findall(r"/media/catalog/product/", text)), codeMatches=[{"code": code, "catalogCount": len(bot.BY_CODE.get(code.upper(), [])), "nameMatch": any(bot.normalized(d["name"]) in bot.normalized(title) for d in bot.BY_CODE.get(code.upper(), []))} for code in skus[:10]])
+                  result = bot.official_page(pid)
+                  row["strictParserResult"] = result
+                  if result:
+                      row["alreadyPublished"] = result["deviceId"] in published
+                  else:
+                      row["alreadyPublished"] = "undetermined_by_current_parser"
+              except Exception as error:
+                  row["error"] = f"{type(error).__name__}: {str(error)[:250]}"
+              print("ALWAN_DIAGNOSTIC " + json.dumps(row, ensure_ascii=False))
+          PY
