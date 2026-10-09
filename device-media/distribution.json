@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 10804,
-    "sha256": "0ab3162594c558c112092b6197729fe9128e6a17bb385f51c45fa2dfd9f54378"
+    "bytes": 12950,
+    "sha256": "f565611f87344c039d7ada27d5f4f8e970c03627006613ab8680498539528f16"
   },
   "chunks": [
     {
@@ -110,6 +110,27 @@
       "compressedBytes": 350430,
       "uncompressedBytes": 350462,
       "sha256": "da5616629ea6fa4584576ffb55d7f87f992302ff829e35be450106c5d07a5e4f"
+    },
+    {
+      "chunkId": "infinix-x6879-4c5e4138bb94",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-x6879-4c5e4138bb94.zip",
+      "compressedBytes": 269823,
+      "uncompressedBytes": 269824,
+      "sha256": "5b3685be0003f2581b508e92d5acc980c8ec8149ec67e02bc55e19c077001bd5"
+    },
+    {
+      "chunkId": "infinix-x6840b-fc56d596620b",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-x6840b-fc56d596620b.zip",
+      "compressedBytes": 432824,
+      "uncompressedBytes": 432875,
+      "sha256": "d4e736775bce93dde692a49ca312ce994e30aa058b72bbe74984393ea40b2807"
+    },
+    {
+      "chunkId": "infinix-x6891-1989fd589863",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-x6891-1989fd589863.zip",
+      "compressedBytes": 484710,
+      "uncompressedBytes": 485370,
+      "sha256": "e4915f85ec2852d115236fba3e9411ef63315b1dd7179dfa8a7536334b44ebcf"
     }
   ]
 }

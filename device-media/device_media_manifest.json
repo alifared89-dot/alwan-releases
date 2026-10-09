@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 6,
-  "generatedAt": "2026-10-09T17:10:06Z",
+  "manifestVersion": 7,
+  "generatedAt": "2026-10-09T17:16:51Z",
   "entries": [
     {
       "deviceId": "samsung-galaxy-a15",
@@ -256,6 +256,57 @@
         "X6887"
       ],
       "checkedAt": "2026-10-09T17:10:06Z"
+    },
+    {
+      "deviceId": "dev_b3dr2u5lugusaajihf36z5u5mi",
+      "revision": "infinix-official-x6879-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6879-frontback.png",
+      "chunkId": "infinix-x6879-4c5e4138bb94",
+      "sha256": "4c5e4138bb94b1b04c709d4880abff3baa630effaca0766158e540b609fd3f44",
+      "bytes": 269824,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1610",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6879"
+      ],
+      "checkedAt": "2026-10-09T17:16:51Z"
+    },
+    {
+      "deviceId": "dev_rl3opja24dyoqecq7r2mgzrd4u",
+      "revision": "infinix-official-x6840b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6840b-frontback.png",
+      "chunkId": "infinix-x6840b-fc56d596620b",
+      "sha256": "fc56d596620bf357cd0f04c534e6338607dd28721b5b0f8f43d2fba1a442bf8b",
+      "bytes": 432875,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1622",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6840B"
+      ],
+      "checkedAt": "2026-10-09T17:16:51Z"
+    },
+    {
+      "deviceId": "dev_43vfsnzmwprvw64fndxoickyk4",
+      "revision": "infinix-official-x6891-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6891-frontback.png",
+      "chunkId": "infinix-x6891-1989fd589863",
+      "sha256": "1989fd5898635bee92a76e524f7ce4e3d36277182ff089bdc7785008a4cece86",
+      "bytes": 485370,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1649",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product photograph; rights not independently verified",
+      "verifiedModelCodes": [
+        "X6891"
+      ],
+      "checkedAt": "2026-10-09T17:16:51Z"
     }
   ]
 }
