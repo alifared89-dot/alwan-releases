@@ -605,6 +605,55 @@
       "canonicalPartNumbers": [
         "660101987A"
       ]
+    },
+    {
+      "id": "part-display-smart-hd-x612-x612b",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "SPS2422"
+      ]
+    },
+    {
+      "id": "part-display-hot9play-x680-x680b-x680c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "SPS2424"
+      ]
+    },
+    {
+      "id": "part-display-s5pro-x660-x660b-x660c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "SPS1347"
+      ]
+    },
+    {
+      "id": "part-display-smart4-x653-x653c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "660100036A"
+      ]
+    },
+    {
+      "id": "part-display-s5-x652-x652b-x652c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "ipartsbuy-s5-lite-x652-x652b-x652c"
+      ]
+    },
+    {
+      "id": "part-display-hot7pro-x625b-x625d",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "SPS1341"
+      ]
+    },
+    {
+      "id": "part-display-smart6plus-x6823-x6823c",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "100001892"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1050,7 +1099,10 @@
         "dev_6khnaxisqi5ptlx5hhu3vpizai",
         "dev_i2mbe5mkvbjrm4yykqor23al5y",
         "dev_avlmtfxmlz2mbxfi73qw4fyv7q",
-        "dev_nombolath5i5242uqbnulri5ke"
+        "dev_nombolath5i5242uqbnulri5ke",
+        "dev_rfylhgxawsc73bcwrzggsae2ae",
+        "dev_ax4mkj3l6c4is34jztyziuxtbi",
+        "dev_tjeednaran7v2sn3ldmbayfpxq"
       ]
     },
     {
@@ -1256,6 +1308,65 @@
       "deviceIds": [
         "dev_ahbn67aipstd3p5xyvoozllqoy",
         "dev_bti3lmnxmclcvv6zfzceyg7icu"
+      ]
+    },
+    {
+      "id": "cg-part-display-smart-hd-x612-x612b",
+      "partId": "part-display-smart-hd-x612-x612b",
+      "deviceIds": [
+        "dev_yn72fjqxljm3sgr55r57fqwagi",
+        "dev_wujuknhsyoclkub4u6eagh6znq"
+      ]
+    },
+    {
+      "id": "cg-part-display-hot9play-x680-x680b-x680c",
+      "partId": "part-display-hot9play-x680-x680b-x680c",
+      "deviceIds": [
+        "dev_2mpmom3hc6x3o5homnxhgfj5xe",
+        "dev_vzxnuxqgyl6db23ut7nfbqts4u",
+        "dev_qrcapfxvcdimflvyg3wr7pr4su"
+      ]
+    },
+    {
+      "id": "cg-part-display-s5pro-x660-x660b-x660c",
+      "partId": "part-display-s5pro-x660-x660b-x660c",
+      "deviceIds": [
+        "dev_fkmolrzsytgvzst4vebtoafuda",
+        "dev_7zvr3m6zb47ojthlm6w6cxcxmm",
+        "dev_7vzyjfxlfkhgsnazvj5jqzqrkq"
+      ]
+    },
+    {
+      "id": "cg-part-display-smart4-x653-x653c",
+      "partId": "part-display-smart4-x653-x653c",
+      "deviceIds": [
+        "dev_c6iu3mj2e4iaipcnwoxqjisvva",
+        "dev_3pxfr6vlzfvd3lnadgqz47mdjm"
+      ]
+    },
+    {
+      "id": "cg-part-display-s5-x652-x652b-x652c",
+      "partId": "part-display-s5-x652-x652b-x652c",
+      "deviceIds": [
+        "dev_uom7xakuef33ww5z5ems7tkngi",
+        "dev_7nfcx22ex2esjr4jdfpcwsraqi",
+        "dev_rl5snycg7gvuzhlvembdyy6neu"
+      ]
+    },
+    {
+      "id": "cg-part-display-hot7pro-x625b-x625d",
+      "partId": "part-display-hot7pro-x625b-x625d",
+      "deviceIds": [
+        "dev_bfav6w5cvdgorcep7jcvlozaqu",
+        "dev_mpjt2my3bwcdw5jep2mjvu5x5a"
+      ]
+    },
+    {
+      "id": "cg-part-display-smart6plus-x6823-x6823c",
+      "partId": "part-display-smart6plus-x6823-x6823c",
+      "deviceIds": [
+        "dev_jwlkjzb7ovrbxkhpfxtgbwo57a",
+        "dev_73uhjglbzdaylvs6mjn27idvva"
       ]
     }
   ],
@@ -4690,6 +4801,338 @@
         "X6811B"
       ],
       "notes": "قطعة TFT بديلة رقم 660101987A تدعم X6811 وX6811B؛ لا تدعم بصمة الشاشة، لذا لا تعتبر بديلاً مطابقاً لجميع خصائص OLED الأصلي."
+    },
+    {
+      "id": "ev-smart-hd-x612-x612b-0",
+      "compatibilityGroupId": "cg-part-display-smart-hd-x612-x612b",
+      "sourceKey": "smart-hd-x612-x612b-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-smart-hd",
+      "checkedAt": "2026-10-09T15:32:13.819291Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS2422"
+      ],
+      "citedModelCodes": [
+        "X612",
+        "X612B"
+      ],
+      "notes": "قطعة LCD+digitizer كاملة تدعم X612 وX612B تحديداً؛ لا يثبت ذلك توافقها مع موديلات HOT12i بالرغم من وجود روابط تسويقية مشابهة."
+    },
+    {
+      "id": "ev-smart-hd-x612-x612b-1",
+      "compatibilityGroupId": "cg-part-display-smart-hd-x612-x612b",
+      "sourceKey": "smart-hd-x612-x612b-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "Dama Mobile Spares",
+      "sourceUrl": "https://damamobilespares.co.ke/product/infinix-x612-comp-org/",
+      "checkedAt": "2026-10-09T15:32:13.819291Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS2422"
+      ],
+      "citedModelCodes": [
+        "X612",
+        "X612B"
+      ],
+      "notes": "قطعة LCD+digitizer كاملة تدعم X612 وX612B تحديداً؛ لا يثبت ذلك توافقها مع موديلات HOT12i بالرغم من وجود روابط تسويقية مشابهة."
+    },
+    {
+      "id": "ev-smart-hd-x612-x612b-2",
+      "compatibilityGroupId": "cg-part-display-smart-hd-x612-x612b",
+      "sourceKey": "smart-hd-x612-x612b-2",
+      "sourceType": "partsSupplier",
+      "sourceName": "SUNSKY",
+      "sourceUrl": "https://www.sunsky-online.com/ar/p/SPS2422/",
+      "checkedAt": "2026-10-09T15:32:13.819291Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS2422"
+      ],
+      "citedModelCodes": [
+        "X612",
+        "X612B"
+      ],
+      "notes": "قطعة LCD+digitizer كاملة تدعم X612 وX612B تحديداً؛ لا يثبت ذلك توافقها مع موديلات HOT12i بالرغم من وجود روابط تسويقية مشابهة."
+    },
+    {
+      "id": "ev-hot9play-x680-x680b-x680c-0",
+      "compatibilityGroupId": "cg-part-display-hot9play-x680-x680b-x680c",
+      "sourceKey": "hot9play-x680-x680b-x680c-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-hot-9-play",
+      "checkedAt": "2026-10-09T15:32:13.819291Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS2424"
+      ],
+      "citedModelCodes": [
+        "X680",
+        "X680B",
+        "X680C"
+      ],
+      "notes": "مورّد الشاشة يسرد X680 وX680B وX680C. تنبيه: الكتالوج يعرّف X680 باسم SMART 4؛ لا نفترض مطابقته للاسم التجاري Hot 9 Play دون مراجعة كود الجهاز."
+    },
+    {
+      "id": "ev-hot9play-x680-x680b-x680c-1",
+      "compatibilityGroupId": "cg-part-display-hot9play-x680-x680b-x680c",
+      "sourceKey": "hot9play-x680-x680b-x680c-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "SUNSKY",
+      "sourceUrl": "https://www.sunsky-online.com/ar/p/SPS2424/",
+      "checkedAt": "2026-10-09T15:32:13.819291Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS2424"
+      ],
+      "citedModelCodes": [
+        "X680",
+        "X680B",
+        "X680C"
+      ],
+      "notes": "مورّد الشاشة يسرد X680 وX680B وX680C. تنبيه: الكتالوج يعرّف X680 باسم SMART 4؛ لا نفترض مطابقته للاسم التجاري Hot 9 Play دون مراجعة كود الجهاز."
+    },
+    {
+      "id": "ev-s5pro-x660-x660b-x660c-0",
+      "compatibilityGroupId": "cg-part-display-s5pro-x660-x660b-x660c",
+      "sourceKey": "s5pro-x660-x660b-x660c-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-s5-pro-x660",
+      "checkedAt": "2026-10-09T15:32:13.819291Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS1347"
+      ],
+      "citedModelCodes": [
+        "X660",
+        "X660B",
+        "X660C"
+      ],
+      "notes": "منتج TFT LCD + Touch لشاشة S5 Pro يدعم صراحة X660 وX660B وX660C؛ التوافق يخص هذا المنتج."
+    },
+    {
+      "id": "ev-s5pro-x660-x660b-x660c-1",
+      "compatibilityGroupId": "cg-part-display-s5pro-x660-x660b-x660c",
+      "sourceKey": "s5pro-x660-x660b-x660c-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "SUNSKY",
+      "sourceUrl": "https://www.sunsky-online.com/ko/p/SPS1347/Infinix-S5-Pro-X660-X660C-X660B-%EB%94%94%EC%A7%80%ED%83%80%EC%9D%B4%EC%A0%80-%EC%A0%84%EC%B2%B4-%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%ED%8F%AC%ED%95%A8-%EC%9A%A9-TFT-LCD-%ED%99%94%EB%A9%B4.htm",
+      "checkedAt": "2026-10-09T15:32:13.819291Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS1347"
+      ],
+      "citedModelCodes": [
+        "X660",
+        "X660B",
+        "X660C"
+      ],
+      "notes": "منتج TFT LCD + Touch لشاشة S5 Pro يدعم صراحة X660 وX660B وX660C؛ التوافق يخص هذا المنتج."
+    },
+    {
+      "id": "ev-smart4-x653-x653c-0",
+      "compatibilityGroupId": "cg-part-display-smart4-x653-x653c",
+      "sourceKey": "display-smart4-x653-x653c-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-smart-4",
+      "checkedAt": "2026-10-09T15:33:45.626032Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "660100036A"
+      ],
+      "citedModelCodes": [
+        "X653",
+        "X653C"
+      ],
+      "notes": "قطعة LCD+digitizer للموديلين X653 وX653C. لا تُمدد تلقائياً لأي أجهزة TECNO مجاورة بالقائمة."
+    },
+    {
+      "id": "ev-smart4-x653-x653c-1",
+      "compatibilityGroupId": "cg-part-display-smart4-x653-x653c",
+      "sourceKey": "display-smart4-x653-x653c-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "TVCMALL",
+      "sourceUrl": "https://www.tvcmall.com/details/lcd-screen-and-digitizer-assembly-for-infinix-smart-4-x653-sku660100036a.html",
+      "checkedAt": "2026-10-09T15:33:45.626032Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "660100036A"
+      ],
+      "citedModelCodes": [
+        "X653",
+        "X653C"
+      ],
+      "notes": "قطعة LCD+digitizer للموديلين X653 وX653C. لا تُمدد تلقائياً لأي أجهزة TECNO مجاورة بالقائمة."
+    },
+    {
+      "id": "ev-smart4-x653-x653c-2",
+      "compatibilityGroupId": "cg-part-display-smart4-x653-x653c",
+      "sourceKey": "display-smart4-x653-x653c-2",
+      "sourceType": "partsSupplier",
+      "sourceName": "Garmade",
+      "sourceUrl": "https://garmade.com/products/lcd-screen-and-digitizer-full-assembly-for-infinix-smart-4-smart-4c-x653-x653c",
+      "checkedAt": "2026-10-09T15:33:45.626032Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "660100036A"
+      ],
+      "citedModelCodes": [
+        "X653",
+        "X653C"
+      ],
+      "notes": "قطعة LCD+digitizer للموديلين X653 وX653C. لا تُمدد تلقائياً لأي أجهزة TECNO مجاورة بالقائمة."
+    },
+    {
+      "id": "ev-s5-x652-x652b-x652c-0",
+      "compatibilityGroupId": "cg-part-display-s5-x652-x652b-x652c",
+      "sourceKey": "display-s5-x652-x652b-x652c-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-s5",
+      "checkedAt": "2026-10-09T15:33:45.626032Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "ipartsbuy-s5-lite-x652-x652b-x652c"
+      ],
+      "citedModelCodes": [
+        "X652",
+        "X652B",
+        "X652C"
+      ],
+      "notes": "إعلان شاشة LCD+Digitizer واحدة للموديلات X652/X652B/X652C. لم ندرج X652A لأنها تحتاج إثباتاً مستقلاً لنفس وحدة الاستبدال."
+    },
+    {
+      "id": "ev-s5-x652-x652b-x652c-1",
+      "compatibilityGroupId": "cg-part-display-s5-x652-x652b-x652c",
+      "sourceKey": "display-s5-x652-x652b-x652c-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "iPartsBuy",
+      "sourceUrl": "https://www.ipartsbuy.com/products/lcd-screen-and-digitizer-full-assembly-for-infinix-s5-s5-lite-x652-x652b-x652c",
+      "checkedAt": "2026-10-09T15:33:45.626032Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "ipartsbuy-s5-lite-x652-x652b-x652c"
+      ],
+      "citedModelCodes": [
+        "X652",
+        "X652B",
+        "X652C"
+      ],
+      "notes": "إعلان شاشة LCD+Digitizer واحدة للموديلات X652/X652B/X652C. لم ندرج X652A لأنها تحتاج إثباتاً مستقلاً لنفس وحدة الاستبدال."
+    },
+    {
+      "id": "ev-hot7pro-x625b-x625d-0",
+      "compatibilityGroupId": "cg-part-display-hot7pro-x625b-x625d",
+      "sourceKey": "display-hot7pro-x625b-x625d-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-hot-7-pro-x625",
+      "checkedAt": "2026-10-09T15:33:45.626032Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS1341"
+      ],
+      "citedModelCodes": [
+        "X625B",
+        "X625D"
+      ],
+      "notes": "SUNSKY يسرد X625B وX625D لشاشة HOT7 Pro كاملة. لم ندرج X625C حتى يتحقق مصدر مستقل من توافق قطعة SPS1341 معه."
+    },
+    {
+      "id": "ev-hot7pro-x625b-x625d-1",
+      "compatibilityGroupId": "cg-part-display-hot7pro-x625b-x625d",
+      "sourceKey": "display-hot7pro-x625b-x625d-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "SUNSKY",
+      "sourceUrl": "https://www.sunsky-online.com/ar/p/SPS1341/",
+      "checkedAt": "2026-10-09T15:33:45.626032Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS1341"
+      ],
+      "citedModelCodes": [
+        "X625B",
+        "X625D"
+      ],
+      "notes": "SUNSKY يسرد X625B وX625D لشاشة HOT7 Pro كاملة. لم ندرج X625C حتى يتحقق مصدر مستقل من توافق قطعة SPS1341 معه."
+    },
+    {
+      "id": "ev-smart6plus-x6823-x6823c-0",
+      "compatibilityGroupId": "cg-part-display-smart6plus-x6823-x6823c",
+      "sourceKey": "display-smart6plus-x6823-x6823c-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-smart-6-plus",
+      "checkedAt": "2026-10-09T15:33:45.626032Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "100001892"
+      ],
+      "citedModelCodes": [
+        "X6823",
+        "X6823C"
+      ],
+      "notes": "شاشة Smart 6 Plus X6823/X6823C حسب بائع سعودي مع ذكر رقم القطعة 100001892، والنسختان ضمن صفحة Display Screen بالمصدر الأساسي."
+    },
+    {
+      "id": "ev-smart6plus-x6823-x6823c-1",
+      "compatibilityGroupId": "cg-part-display-smart6plus-x6823-x6823c",
+      "sourceKey": "display-smart6plus-x6823-x6823c-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "Max Phone",
+      "sourceUrl": "https://max-phone.com/EXxoBPG",
+      "checkedAt": "2026-10-09T15:33:45.626032Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "100001892"
+      ],
+      "citedModelCodes": [
+        "X6823",
+        "X6823C"
+      ],
+      "notes": "شاشة Smart 6 Plus X6823/X6823C حسب بائع سعودي مع ذكر رقم القطعة 100001892، والنسختان ضمن صفحة Display Screen بالمصدر الأساسي."
+    },
+    {
+      "id": "ev-hot12-hot20-extra-variants-0",
+      "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
+      "sourceKey": "hot12-hot20-extra-variants-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-hot-20",
+      "checkedAt": "2026-10-09T15:34:49.417884Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "Crown X6816/X6825/X6835/LG6/LG7"
+      ],
+      "citedModelCodes": [
+        "X6819",
+        "X6826B",
+        "X6826C"
+      ],
+      "notes": "Crown تسرد X6819 وX6826B وX6826C داخل عائلة شاشة X6816/X6825/X6835/LG6/LG7، وUniversal Display يسرد نفس مجموعة التوافق. هذا خاص بشاشة بديلة معينة؛ تُفحص مطابقة الفلكس قبل الاستبدال."
+    },
+    {
+      "id": "ev-hot12-hot20-extra-variants-1",
+      "compatibilityGroupId": "cg-part-display-hot12-hot20-family",
+      "sourceKey": "hot12-hot20-extra-variants-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "Crown LCD wholesale price list",
+      "sourceUrl": "https://www.scribd.com/document/854447083/Crown-Lcd-Qt-Lcd-2025-04-09",
+      "checkedAt": "2026-10-09T15:34:49.417884Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "Crown X6816/X6825/X6835/LG6/LG7"
+      ],
+      "citedModelCodes": [
+        "X6819",
+        "X6826B",
+        "X6826C"
+      ],
+      "notes": "Crown تسرد X6819 وX6826B وX6826C داخل عائلة شاشة X6816/X6825/X6835/LG6/LG7، وUniversal Display يسرد نفس مجموعة التوافق. هذا خاص بشاشة بديلة معينة؛ تُفحص مطابقة الفلكس قبل الاستبدال."
     }
   ],
   "categoryFacts": [
