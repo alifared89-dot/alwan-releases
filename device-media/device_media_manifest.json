@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 4,
-  "generatedAt": "2026-10-08T12:58:31Z",
+  "manifestVersion": 5,
+  "generatedAt": "2026-10-09T16:46:50Z",
   "entries": [
     {
       "deviceId": "samsung-galaxy-a15",
@@ -18,6 +18,23 @@
         "SM-A155F/DSN"
       ],
       "checkedAt": "2026-10-08T12:58:31Z"
+    },
+    {
+      "deviceId": "dev_cmlmabpzttxi63e6r7zcixge3q",
+      "revision": "infinix-official-x6739-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-gt10pro-x6739-frontback.png",
+      "chunkId": "infinix-gt10pro-x6739-b9c39fd3c3da",
+      "sha256": "b9c39fd3c3dab207bc68ff5d8afd8b1b690cd50213a0ad11fd14233e1649e52c",
+      "bytes": 660646,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/575",
+      "creator": "Infinix official product image",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official device product image; rights unverified",
+      "verifiedModelCodes": [
+        "X6739"
+      ],
+      "checkedAt": "2026-10-09T16:46:50Z"
     }
   ]
 }

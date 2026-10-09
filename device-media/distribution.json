@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 804,
-    "sha256": "a63a81f615f141f3eacf7a7f905401e81deb11d858fd0ba5c13f3e317c78e0d0"
+    "bytes": 1519,
+    "sha256": "4618fe79602f548ee24bf95dbd62c4e8566459cc616efa4c8c47e1b5a52986e6"
   },
   "chunks": [
     {
@@ -12,6 +12,13 @@
       "compressedBytes": 6437,
       "uncompressedBytes": 6297,
       "sha256": "a40527ab9db408b60de33e4ddde95ba4f36aa1d0a1e22d2e87d64bb8982e16b6"
+    },
+    {
+      "chunkId": "infinix-gt10pro-x6739-b9c39fd3c3da",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-gt10pro-x6739-b9c39fd3c3da.zip",
+      "compressedBytes": 660860,
+      "uncompressedBytes": 660646,
+      "sha256": "67af096ab0c06c27d7c3a468cd6d3f4f9c3a292ff680b1d89300a17737065942"
     }
   ]
 }
