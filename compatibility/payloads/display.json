@@ -1075,7 +1075,8 @@
         "dev_l3g6nyf77fej7g76dflvtk6wne",
         "dev_w5vhza2hixxhefjxc2dthddm6u",
         "dev_o6mwtbdb6vqbdrfz4s5rqzfnvm",
-        "dev_ogtfcubnvicqyedjcav7wxrzxm"
+        "dev_ogtfcubnvicqyedjcav7wxrzxm",
+        "dev_5opakxh2awcmadye6xcgzkftcu"
       ]
     },
     {
@@ -4452,6 +4453,31 @@
         "S686LN"
       ],
       "notes": "Service Pack AMOLED منحني 3D؛ المصدر يذكر نفس عائلة الموديلات صراحة ويصفها بأنها تشترك في نفس اللوحة."
+    },
+    {
+      "id": "ev-cpglcd-smart9-hot50-x6720b-aftermarket",
+      "compatibilityGroupId": "cg-part-display-smart9-hot50-family",
+      "sourceKey": "cpglcd-smart9-x6720b-aftermarket-20261009",
+      "sourceType": "partsSupplier",
+      "sourceName": "CPG LCD",
+      "sourceUrl": "https://www.cpglcd.com/product/for-infinix-smart-9-lcd-display-touch-screen-digitizer-assembly-replacement",
+      "checkedAt": "2026-10-09T14:34:24.136462Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "1051000097 A2",
+        "FPC6715-1",
+        "TXD6700",
+        "15-3260A-14821-51"
+      ],
+      "citedModelCodes": [
+        "X6532",
+        "X6531",
+        "X6720",
+        "X6720B",
+        "X6531B",
+        "X6532C"
+      ],
+      "notes": "يذكر المصدر شاشة LCD بديلة تجارية تجمع هذه الأكواد، ومنها X6720B. التوافق يخص نسخة القطعة المعروضة فقط ولا يعني إمكانية تبديل شاشات OEM الأصلية؛ يلزم فحص الفلكس والموصل وعمل اللمس قبل التركيب."
     }
   ],
   "categoryFacts": [
