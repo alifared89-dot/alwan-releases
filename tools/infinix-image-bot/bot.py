@@ -103,7 +103,6 @@ def discover(start: int, stop: int, max_devices: int):
     results = list(reversed(list(unique.values())))[:max_devices]
     out = BOT / "output"
     out.mkdir(exist_ok=True)
-    (out / "candidates.json").write_bytes(json_bytes(results))
     from PIL import ImageDraw
     thumbs = []
     for entry in results:
@@ -115,6 +114,8 @@ def discover(start: int, stop: int, max_devices: int):
             thumbs.append((entry["name"] + " / " + entry["modelCode"], img))
         except Exception:
             continue
+    # Persist discovered source fingerprints for review and approval.
+    (out / "candidates.json").write_bytes(json_bytes(results))
     cols = 5
     sheet = Image.new("RGB", (cols * 224, max(245, ((len(thumbs) + cols - 1) // cols) * 245)), "white")
     pen = ImageDraw.Draw(sheet)
