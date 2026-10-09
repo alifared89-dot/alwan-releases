@@ -654,6 +654,28 @@
       "canonicalPartNumbers": [
         "100001892"
       ]
+    },
+    {
+      "id": "part-display-etsjoe-x626-x627-cb7",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "etsjoe-lcd-x626-x627-cb7"
+      ]
+    },
+    {
+      "id": "part-display-itricambi-tecno-spark8-kg6k",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "tecno-spark-8-completo-black"
+      ]
+    },
+    {
+      "id": "part-display-gt10-note30pro-vip-camon20-916730",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "916730",
+        "CK7n CK8n CK9n AMOLED"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1210,7 +1232,8 @@
         "dev_dncm2f223taimdtsiwlrddfvba",
         "dev_inamb5txo5bhzgzndta7ezdsjy",
         "dev_yruinuwa3k5f6kubtbx6fy7l6q",
-        "dev_yxrzd7m62vmnl6rtyfgiv7xdxe"
+        "dev_yxrzd7m62vmnl6rtyfgiv7xdxe",
+        "dev_edsh6kn6nswpflt5ivc5iagut4"
       ]
     },
     {
@@ -1367,6 +1390,39 @@
       "deviceIds": [
         "dev_jwlkjzb7ovrbxkhpfxtgbwo57a",
         "dev_73uhjglbzdaylvs6mjn27idvva"
+      ]
+    },
+    {
+      "id": "cg-part-display-x626-x627-cb7-s4-smart3plus",
+      "partId": "part-display-etsjoe-x626-x627-cb7",
+      "deviceIds": [
+        "dev_uxhsi2ux4pbtlrtpaf37pz6azi",
+        "dev_wzydlq4kuvtp7glim4uctz44da",
+        "dev_xooavmqtpkcbform27nw3kji3y",
+        "dev_oimjs2lzoawzwt67dc47xgwx5q"
+      ]
+    },
+    {
+      "id": "cg-part-display-x6511g-a661w-s661w",
+      "partId": "part-display-itricambi-tecno-spark8-kg6k",
+      "deviceIds": [
+        "dev_qv3yevjqeqcr65ovwtt5r6mww4",
+        "dev_tvet24ghhbdffc2qx6ogm3w344",
+        "dev_tbf6rpn3bkw5odewqzdaqgpt4q",
+        "dev_6n2qpdfbq6kozete2uoi45cm7u"
+      ]
+    },
+    {
+      "id": "cg-part-display-gt10-note30pro-vip-camon20-916730",
+      "partId": "part-display-gt10-note30pro-vip-camon20-916730",
+      "deviceIds": [
+        "dev_cmlmabpzttxi63e6r7zcixge3q",
+        "dev_cv2a4wnfljxjs7qxsfdii55jse",
+        "dev_v376lpbrjpaa7wqpypyhq4gjl4",
+        "dev_z7d4p7kpvfuon5mingscncurgu",
+        "dev_tlevainraydh3mu53qyufi7ckm",
+        "dev_eu4ca4blbwc6rdkryqu5rc225u",
+        "dev_x62xq6gwj2f55oyt54lh4hpa7i"
       ]
     }
   ],
@@ -5133,6 +5189,232 @@
         "X6826C"
       ],
       "notes": "Crown تسرد X6819 وX6826B وX6826C داخل عائلة شاشة X6816/X6825/X6835/LG6/LG7، وUniversal Display يسرد نفس مجموعة التوافق. هذا خاص بشاشة بديلة معينة؛ تُفحص مطابقة الفلكس قبل الاستبدال."
+    },
+    {
+      "id": "ev-x626-x627-cb7-0",
+      "compatibilityGroupId": "cg-part-display-x626-x627-cb7-s4-smart3plus",
+      "sourceKey": "x626-x627-cb7-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-s4",
+      "checkedAt": "2026-10-09T15:37:25.958786Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "etsjoe-lcd-x626-x627-cb7"
+      ],
+      "citedModelCodes": [
+        "X626",
+        "X626B",
+        "X627",
+        "CB7"
+      ],
+      "notes": "صفحة Display Screen تجمع X626 وX627 كقطع شاشة بديلة."
+    },
+    {
+      "id": "ev-x626-x627-cb7-1",
+      "compatibilityGroupId": "cg-part-display-x626-x627-cb7-s4-smart3plus",
+      "sourceKey": "x626-x627-cb7-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "EtsJoe",
+      "sourceUrl": "https://shop.etsjoe.com/en/lcd-screens/7190-infinix-x626-x627-tecno-cb7-lcd.html",
+      "checkedAt": "2026-10-09T15:37:25.958786Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "etsjoe-lcd-x626-x627-cb7"
+      ],
+      "citedModelCodes": [
+        "X626",
+        "X626B",
+        "X627",
+        "CB7"
+      ],
+      "notes": "مورد يعرض LCD كاملة X626/X626B/X627 وTECNO CB7 لنفس قائمة Compatible Models."
+    },
+    {
+      "id": "ev-x626-x627-cb7-2",
+      "compatibilityGroupId": "cg-part-display-x626-x627-cb7-s4-smart3plus",
+      "sourceKey": "x626-x627-cb7-2",
+      "sourceType": "partsSupplier",
+      "sourceName": "Al-Sebtawi",
+      "sourceUrl": "https://www.sebtawi.com/",
+      "checkedAt": "2026-10-09T15:37:25.958786Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "etsjoe-lcd-x626-x627-cb7"
+      ],
+      "citedModelCodes": [
+        "X626",
+        "X626B",
+        "X627",
+        "CB7"
+      ],
+      "notes": "قائمة محل قطع تعرض LCD INFINIX X626/S4/X627/SMART3+/CB7/I4؛ تأكيد مصدر محلي إضافي."
+    },
+    {
+      "id": "ev-x6511g-crossbrand-0",
+      "compatibilityGroupId": "cg-part-display-x6511g-a661w-s661w",
+      "sourceKey": "x6511g-crossbrand-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/itel-a58-pro",
+      "checkedAt": "2026-10-09T15:38:43.180329Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "tecno-spark-8-completo-black"
+      ],
+      "citedModelCodes": [
+        "X6511G",
+        "A661W",
+        "A661WP",
+        "S661W"
+      ],
+      "notes": "صفحة Display Screen تذكر X6511G وA661W وS661W ضمن مجموعة KG6K، ولا تشمل زجاج حماية."
+    },
+    {
+      "id": "ev-x6511g-crossbrand-1",
+      "compatibilityGroupId": "cg-part-display-x6511g-a661w-s661w",
+      "sourceKey": "x6511g-crossbrand-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "IT-Ricambi",
+      "sourceUrl": "https://spare-parts.it/vendita-online/ricambi-cellphone-parts/ricambi-tecno/tecno-spark/tecno-spark-8/tecno-spark-8-completo-black.html",
+      "checkedAt": "2026-10-09T15:38:43.180329Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "tecno-spark-8-completo-black"
+      ],
+      "citedModelCodes": [
+        "X6511G",
+        "A661W",
+        "A661WP",
+        "S661W"
+      ],
+      "notes": "مورد شاشة كاملة LCD+Touch بدون فريم يذكر X6511G وKG6K وA661W وA661WP وS661W صراحة ضمن المنتج نفسه."
+    },
+    {
+      "id": "ev-hot10i-pr652b-0",
+      "compatibilityGroupId": "cg-part-display-hot10i-x658-x659-family",
+      "sourceKey": "hot10i-pr652b-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-hot-10i-659b",
+      "checkedAt": "2026-10-09T15:39:36.157201Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS4299"
+      ],
+      "citedModelCodes": [
+        "X659B",
+        "PR652B",
+        "X658E"
+      ],
+      "notes": "صفحة شاشة LCD كاملة + Touch Screen Digitizer تسرد X659B وPR652B وX658E صراحة. التوافق يخص هذه الشاشة التجارية وليس جميع شاشات OEM."
+    },
+    {
+      "id": "ev-hot10i-pr652b-1",
+      "compatibilityGroupId": "cg-part-display-hot10i-x658-x659-family",
+      "sourceKey": "hot10i-pr652b-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "Garmade",
+      "sourceUrl": "https://garmade.com/products/lcd-screen-and-digitizer-full-assembly-for-infinix-hot-10i-x659b-pr652b-x658e",
+      "checkedAt": "2026-10-09T15:39:36.157201Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS4299"
+      ],
+      "citedModelCodes": [
+        "X659B",
+        "PR652B",
+        "X658E"
+      ],
+      "notes": "صفحة شاشة LCD كاملة + Touch Screen Digitizer تسرد X659B وPR652B وX658E صراحة. التوافق يخص هذه الشاشة التجارية وليس جميع شاشات OEM."
+    },
+    {
+      "id": "ev-hot10i-pr652b-2",
+      "compatibilityGroupId": "cg-part-display-hot10i-x658-x659-family",
+      "sourceKey": "hot10i-pr652b-2",
+      "sourceType": "partsSupplier",
+      "sourceName": "SUNSKY",
+      "sourceUrl": "https://www.sunsky-online.com/ar/p/SPS4299/",
+      "checkedAt": "2026-10-09T15:39:36.157201Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "SPS4299"
+      ],
+      "citedModelCodes": [
+        "X659B",
+        "PR652B",
+        "X658E"
+      ],
+      "notes": "صفحة شاشة LCD كاملة + Touch Screen Digitizer تسرد X659B وPR652B وX658E صراحة. التوافق يخص هذه الشاشة التجارية وليس جميع شاشات OEM."
+    },
+    {
+      "id": "ev-gt10-note30vip-amoled-0",
+      "compatibilityGroupId": "cg-part-display-gt10-note30pro-vip-camon20-916730",
+      "sourceKey": "gt10-note30vip-amoled-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-x6739",
+      "checkedAt": "2026-10-09T15:44:09.575944Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "916730"
+      ],
+      "citedModelCodes": [
+        "X6739",
+        "X678B",
+        "X6710",
+        "CK6",
+        "CK7N",
+        "CK8N",
+        "CK9N"
+      ],
+      "notes": "تجمع صفحة Display Screen كود GT10 Pro X6739 وNOTE30 Pro X678B وNOTE30 VIP X6710 وموديلات Tecno Camon20. لا تتعلق بزجاج الحماية."
+    },
+    {
+      "id": "ev-gt10-note30vip-amoled-1",
+      "compatibilityGroupId": "cg-part-display-gt10-note30pro-vip-camon20-916730",
+      "sourceKey": "gt10-note30vip-amoled-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/es/lcd-compatible-with-tecno-camon-20-pro-black-without-frame-original-prc-ck7n/",
+      "checkedAt": "2026-10-09T15:44:09.575944Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "916730"
+      ],
+      "citedModelCodes": [
+        "X6739",
+        "X678B",
+        "X6710",
+        "CK6",
+        "CK7N",
+        "CK8N",
+        "CK9N"
+      ],
+      "notes": "منتج AMOLED بلا فريم رقم 916730، يسرد نفس أجهزة Infinix الثلاثة وTecno Camon 20/Pro/Pro5G/Premier. اختيار الجودة AMOLED الأصلي المعروض، وليس TFT البديل."
+    },
+    {
+      "id": "ev-gt10-note30vip-amoled-2",
+      "compatibilityGroupId": "cg-part-display-gt10-note30pro-vip-camon20-916730",
+      "sourceKey": "gt10-note30vip-amoled-2",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares (TFT alternative)",
+      "sourceUrl": "https://all-spares.com/es/lcd-compatible-with-tecno-camon-20-camon-20-premier-camon-20-pro-camon-20-pro-5g-infinix-gt-10-pro-x6739-note-30-pro-x678b-note-30-vip-x6710-black-best-copy-without-frame-copy-tft-ck7n-ck8n-ck9n/",
+      "checkedAt": "2026-10-09T15:44:09.575944Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "920972"
+      ],
+      "citedModelCodes": [
+        "X6739",
+        "X678B",
+        "X6710",
+        "CK6",
+        "CK7N",
+        "CK8N",
+        "CK9N"
+      ],
+      "notes": "يوجد أيضاً بديل TFT مختلف رقم 920972 لنفس قائمة الأجهزة؛ لا يجوز الخلط بين فئة TFT وAMOLED أو افتراض دعم البصمة من قطعة TFT."
     }
   ],
   "categoryFacts": [
