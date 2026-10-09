@@ -50,6 +50,29 @@ def fetch(url: str, limit: int = 6_000_000) -> bytes:
 def normalized(value):
     return re.sub("[^a-z0-9]", "", value.lower())
 
+# Color/storage storefront SKUs may suffix the immutable hardware model code.
+# Only clearly identified cosmetic variants qualify; never strip arbitrary suffixes.
+COLOR_VARIANTS = frozenset({
+    "MEADOW", "NEON", "SHADOW", "SLEEK", "SOUL", "TITANIUM",
+    "BLACK", "BLUE", "GREEN", "SILVER", "GOLD", "GREY", "GRAY",
+    "WHITE", "PURPLE", "RED", "PINK", "ORANGE", "CYAN",
+})
+
+def match_storefront_code(raw_sku: str):
+    sku = raw_sku.strip().upper()
+    exact = BY_CODE.get(sku, [])
+    if len(exact) == 1:
+        return sku, exact[0], "exact"
+    if exact:
+        return None  # ambiguous model IDs are never auto-selected
+    if "-" not in sku:
+        return None
+    base, suffix = sku.split("-", 1)
+    matches = BY_CODE.get(base, [])
+    if len(matches) == 1 and suffix in COLOR_VARIANTS:
+        return base, matches[0], "verified_color_variant"
+    return None
+
 def official_page(page_id: int):
     page_url = f"https://wap.my.infinixmobility.com/shop/{page_id}"
     page = fetch(page_url, 1_300_000).decode("utf-8", "replace")
@@ -58,11 +81,11 @@ def official_page(page_id: int):
     skus = re.findall(r'(?i)(?:\\\"|")sku(?:\\\"|")\s*:\s*(?:\\\"|")([A-Z][A-Z0-9-]{3,15})', page)
     if not skus:
         skus = re.findall(r"(?i)extra_info:.{0,90}?sku.{0,12}?(X[0-9]{3,6}[A-Z]?)", page)
-    matches = [c.upper() for c in skus if len(BY_CODE.get(c.upper(), [])) == 1]
+    matches = [match_storefront_code(c) for c in skus]
+    matches = [m for m in matches if m is not None]
     if not matches:
         return None
-    code = matches[0]
-    device = BY_CODE[code][0]
+    code, device, match_type = matches[0]
     if normalized(device["name"]) not in normalized(title):
         return None
     at = page.find("images:[{alt:")
@@ -80,7 +103,9 @@ def official_page(page_id: int):
         if uri.startswith(f"https://{HOST}/media/catalog/product/") and uri not in unique:
             unique.append(uri)
     return {"deviceId": device["deviceId"], "name": device["name"],
-            "modelCode": code, "sourcePageUrl": page_url, "imageUrls": unique[:10]}
+            "modelCode": code, "sourceSku": skus[0].upper(),
+            "matchType": match_type,
+            "sourcePageUrl": page_url, "imageUrls": unique[:10]}
 
 def discover(start: int, stop: int, max_devices: int):
     if start < 1 or stop <= start or stop - start > 250:
@@ -103,7 +128,6 @@ def discover(start: int, stop: int, max_devices: int):
     results = list(reversed(list(unique.values())))[:max_devices]
     out = BOT / "output"
     out.mkdir(exist_ok=True)
-    (out / "candidates.json").write_bytes(json_bytes(results))
     from PIL import ImageDraw
     thumbs = []
     for entry in results:
@@ -113,8 +137,14 @@ def discover(start: int, stop: int, max_devices: int):
             img = Image.open(io.BytesIO(body)).convert("RGBA")
             img.thumbnail((195, 195))
             thumbs.append((entry["name"] + " / " + entry["modelCode"], img))
-        except Exception:
+        except Exception as exc:
+            entry["imageError"] = f"{type(exc).__name__}: {str(exc)[:160]}"
             continue
+    # Never output an approvable candidate without a verified image hash.
+    verified = [entry for entry in results if entry.get("sourceSha256")]
+    rejected = [entry for entry in results if not entry.get("sourceSha256")]
+    (out / "candidates.json").write_bytes(json_bytes(verified))
+    (out / "rejected_candidates.json").write_bytes(json_bytes(rejected))
     cols = 5
     sheet = Image.new("RGB", (cols * 224, max(245, ((len(thumbs) + cols - 1) // cols) * 245)), "white")
     pen = ImageDraw.Draw(sheet)
@@ -123,7 +153,10 @@ def discover(start: int, stop: int, max_devices: int):
         sheet.paste(thumb, (x + (224 - thumb.width) // 2, y), thumb)
         pen.text((x + 4, y + 202), name[:30], fill="#111111")
     sheet.save(out / "review_contact_sheet.jpg", quality=85)
-    print(json.dumps({"matchedDevices": len(results), "failedPages": failed,
+    print(json.dumps({"matchedDevices": len(verified),
+                      "discoveredBeforeImageVerification": len(results),
+                      "rejectedCandidateImages": len(rejected),
+                      "failedPages": failed,
                       "report": "output/candidates.json", "review": "output/review_contact_sheet.jpg"}))
 
 def crop_png(image: Image.Image) -> bytes:

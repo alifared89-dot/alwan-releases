@@ -70,14 +70,18 @@ def page_result(page_id: int) -> dict:
         known = []
         ambiguous = []
         for code in skus:
-            matches = bot.BY_CODE.get(code, [])
+            resolved = bot.match_storefront_code(code)
+            matches = [resolved[1]] if resolved else bot.BY_CODE.get(code, [])
+            canonical_code = resolved[0] if resolved else code
             row["catalogMatches"].append({
-                "modelCode": code, "deviceIds": [d["deviceId"] for d in matches],
+                "modelCode": code, "resolvedModelCode": canonical_code,
+                "matchType": resolved[2] if resolved else "unmatched",
+                "deviceIds": [d["deviceId"] for d in matches],
                 "deviceNames": [d["name"] for d in matches],
                 "nameMatched": [d["deviceId"] for d in matches if bot.normalized(d["name"]) in bot.normalized(row["title"])],
             })
-            if len(matches) == 1:
-                known.append((code, matches[0]))
+            if resolved:
+                known.append((canonical_code, resolved[1]))
             elif len(matches) > 1:
                 ambiguous.append(code)
         if not known:
@@ -172,8 +176,10 @@ def run(start: int, stop: int) -> int:
     devices_seen_by_code = defaultdict(set)
     for row in pages:
         for code in row["skuCodes"]:
-            seen_catalog_codes[code].append(row["pageId"])
-            for device in bot.BY_CODE.get(code, []):
+            resolved = bot.match_storefront_code(code)
+            effective_code = resolved[0] if resolved else code
+            seen_catalog_codes[effective_code].append(row["pageId"])
+            for device in bot.BY_CODE.get(effective_code, []):
                 devices_seen_by_code[device["deviceId"]].add(row["status"])
         uri = row["canonicalUrl"]
         if row["httpStatus"] == 200 and uri:
