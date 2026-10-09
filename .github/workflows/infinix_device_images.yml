@@ -106,7 +106,7 @@ jobs:
       - name: Diagnose exactly three known official device pages
         run: |
           python - <<'PY'
-          import sys, json, re, html, urllib.request
+          import sys, json, re, html, urllib.request, io
           from pathlib import Path
           sys.path.insert(0, str(Path.cwd() / "tools/infinix-image-bot"))
           import bot
@@ -128,6 +128,19 @@ jobs:
                   row.update(title=title, skuCodes=skus[:15], skuKeywordOccurrences=len(re.findall(r"sku", text, re.I)), hasGalleryMarker=("images:[{alt:" in text), possibleCatalogImageUrls=len(re.findall(r"/media/catalog/product/", text)), codeMatches=[{"code": code, "catalogCount": len(bot.BY_CODE.get(code.upper(), [])), "nameMatch": any(bot.normalized(d["name"]) in bot.normalized(title) for d in bot.BY_CODE.get(code.upper(), []))} for code in skus[:10]])
                   result = bot.official_page(pid)
                   row["strictParserResult"] = result
+                  if result and result.get("imageUrls"):
+                      image_url = result["imageUrls"][0]
+                      try:
+                          req = urllib.request.Request(image_url, headers={"User-Agent": bot.USER_AGENT})
+                          with urllib.request.urlopen(req, timeout=18) as response:
+                              image_data = response.read(6000001)
+                              img_meta = {"url": response.url, "httpStatus": response.status, "contentType": response.headers.get("Content-Type"), "bytes": len(image_data)}
+                          im = bot.Image.open(io.BytesIO(image_data))
+                          im.load()
+                          img_meta.update(width=im.width, height=im.height, mode=im.mode, sha256=bot.sha(image_data))
+                          row["firstImage"] = img_meta
+                      except Exception as image_error:
+                          row["firstImageError"] = f"{type(image_error).__name__}: {str(image_error)[:200]}"
                   if result:
                       row["alreadyPublished"] = result["deviceId"] in published
                   else:
