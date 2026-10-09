@@ -1,7 +1,7 @@
 {
   "success": true,
-  "manifestVersion": 111114273591761,
-  "manifestSha256": "0559936da94d36894f6c4ed73cf05a7a019633faa91828da158546e0113759ad",
+  "manifestVersion": 34101491666677,
+  "manifestSha256": "982e858983a62ffe49e9e4a0bc282a2193ccf262bcbae0611c0b6f76ffe9b9dd",
   "catalog": {
     "version": "catalog-e32268e641f6b6a2",
     "sha256": "e32268e641f6b6a28f15561ce2b8b21102aa3414ab252399ddda775d72c689bb",
@@ -11,13 +11,13 @@
   },
   "categories": {
     "display": {
-      "sha256": "108ab72c7772372a7efc29255a7d7d5854d72d74edc7838d2a2e4686edd74f30",
-      "bytes": 1192643,
+      "sha256": "dda97b174f09ff4579b6db3045f2762c903dbeec612408cfbf264a1cd9536899",
+      "bytes": 1207968,
       "records": {
         "parts": 78,
         "compatibilityGroups": 78,
         "evidence": 180,
-        "categoryFacts": 651,
+        "categoryFacts": 660,
         "compatibilityDifferences": 3
       }
     },

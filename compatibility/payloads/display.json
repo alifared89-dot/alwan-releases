@@ -30866,6 +30866,412 @@
           }
         }
       ]
+    },
+    {
+      "deviceId": "dev_3vwtieapdbkb6575tr46q3jtv4",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://phonedb.net/index.php?c=infinix_hot_7_pro_dual_sim_lte_emea_32gb_x625c&id=16607&m=Device",
+            "sourceName": "PhoneDB X625C; catalog mislabels Hot 7 Pro",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.2",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://phonedb.net/index.php?c=infinix_hot_7_pro_dual_sim_lte_emea_32gb_x625c&id=16607&m=Device",
+            "sourceName": "PhoneDB X625C; catalog mislabels Hot 7 Pro",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1520",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://phonedb.net/index.php?c=infinix_hot_7_pro_dual_sim_lte_emea_32gb_x625c&id=16607&m=Device",
+            "sourceName": "PhoneDB X625C; catalog mislabels Hot 7 Pro",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_2fl6m3bbw2y73ems7ukuec3afy",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://devcheck.app/devices/infinix/infinix-x6895",
+            "sourceName": "DevCheck X6895 + Infinix official X6895B",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://devcheck.app/devices/infinix/infinix-x6895",
+            "sourceName": "DevCheck X6895 + Infinix official X6895B",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1576",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://devcheck.app/devices/infinix/infinix-x6895",
+            "sourceName": "DevCheck X6895 + Infinix official X6895B",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://devcheck.app/devices/infinix/infinix-x6895",
+            "sourceName": "DevCheck X6895 + Infinix official X6895B",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_ihjpyixyt6oomn3yr47t4lppxi",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "LTPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/products/hot-70-pro?variant=53675402723604",
+            "sourceName": "Infinix official X6896; brightness typical nits",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.76",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/products/hot-70-pro?variant=53675402723604",
+            "sourceName": "Infinix official X6896; brightness typical nits",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2344",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/products/hot-70-pro?variant=53675402723604",
+            "sourceName": "Infinix official X6896; brightness typical nits",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "144",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/products/hot-70-pro?variant=53675402723604",
+            "sourceName": "Infinix official X6896; brightness typical nits",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "760",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/products/hot-70-pro?variant=53675402723604",
+            "sourceName": "Infinix official X6896; brightness typical nits",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_bk4v7edg33shaou7grv53u3zvi",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.01net.com/tests/comparateur/infinix-race-bolt-2-x454-huawei-p10-25277-36717.html",
+            "sourceName": "01net tested Race Bolt 2 X454; catalog typo Blot2",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "4.5",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.01net.com/tests/comparateur/infinix-race-bolt-2-x454-huawei-p10-25277-36717.html",
+            "sourceName": "01net tested Race Bolt 2 X454; catalog typo Blot2",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "480x854",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.01net.com/tests/comparateur/infinix-race-bolt-2-x454-huawei-p10-25277-36717.html",
+            "sourceName": "01net tested Race Bolt 2 X454; catalog typo Blot2",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_7xclmmg7ounhewhyffx6bim3xu",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_s2_pro-9422.php",
+            "sourceName": "GSMArena S2 Pro, code model S2 or S2 Pro catalog; shared family facts require variant checking",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "5.2",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_s2_pro-9422.php",
+            "sourceName": "GSMArena S2 Pro, code model S2 or S2 Pro catalog; shared family facts require variant checking",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1280",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_s2_pro-9422.php",
+            "sourceName": "GSMArena S2 Pro, code model S2 or S2 Pro catalog; shared family facts require variant checking",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_qv3yevjqeqcr65ovwtt5r6mww4",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.devicespecifications.com/en/model/078d5917",
+            "sourceName": "DeviceSpecifications exact X6511G; alternate 720x1600 in secondary source",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.devicespecifications.com/en/model/078d5917",
+            "sourceName": "DeviceSpecifications exact X6511G; alternate 720x1600 in secondary source",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.devicespecifications.com/en/model/078d5917",
+            "sourceName": "DeviceSpecifications exact X6511G; alternate 720x1600 in secondary source",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_elc5qi6hjvebnb45pqvesnwb3u",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "IPS LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/collections/all/products/smart-10?variant=51123019448596",
+            "sourceName": "Infinix official SMART 10 X6725; catalog uses generic SMART Series; typical brightness nits",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.67",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/collections/all/products/smart-10?variant=51123019448596",
+            "sourceName": "Infinix official SMART 10 X6725; catalog uses generic SMART Series; typical brightness nits",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/collections/all/products/smart-10?variant=51123019448596",
+            "sourceName": "Infinix official SMART 10 X6725; catalog uses generic SMART Series; typical brightness nits",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/collections/all/products/smart-10?variant=51123019448596",
+            "sourceName": "Infinix official SMART 10 X6725; catalog uses generic SMART Series; typical brightness nits",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "560",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://infinixmobiles.in/collections/all/products/smart-10?variant=51123019448596",
+            "sourceName": "Infinix official SMART 10 X6725; catalog uses generic SMART Series; typical brightness nits",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_7tkzmgqifyak6pmly4qvs5w76i",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "TFT LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.hardreset.info/devices/infinix/infinix-surf-x511/tutorials/",
+            "sourceName": "HardReset exact X511",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "5.0",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.hardreset.info/devices/infinix/infinix-surf-x511/tutorials/",
+            "sourceName": "HardReset exact X511",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "480x854",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.hardreset.info/devices/infinix/infinix-surf-x511/tutorials/",
+            "sourceName": "HardReset exact X511",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "dev_ltwojo34x5vqyhvpce6lxski4i",
+      "category": "display",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "TN-TFT LCD",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://phonedb.net/index.php?c=infinix_x505_race_jet_4g_lte-a&d=detailed_specs&id=6828&m=device",
+            "sourceName": "PhoneDB exact X505; display type disputed by a reviewer",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "5.0",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://phonedb.net/index.php?c=infinix_x505_race_jet_4g_lte-a&d=detailed_specs&id=6828&m=device",
+            "sourceName": "PhoneDB exact X505; display type disputed by a reviewer",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "540x960",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://phonedb.net/index.php?c=infinix_x505_race_jet_4g_lte-a&d=detailed_specs&id=6828&m=device",
+            "sourceName": "PhoneDB exact X505; display type disputed by a reviewer",
+            "sourceKey": "web-model-specs-20261009",
+            "checkedAt": "2026-10-09T14:29:22.529199+00:00"
+          }
+        }
+      ]
     }
   ],
   "compatibilityDifferences": [
