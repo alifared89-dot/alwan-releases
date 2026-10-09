@@ -1,0 +1,1761 @@
+{
+  "source": "alifared89-dot/alwan-app/assets/compatibility/devices.json",
+  "sourceSha256": "1d3e31caac888b587cc9d395c0c8294f7fed1957d9fbfb4729efa485c550bc78",
+  "devices": [
+    {
+      "deviceId": "dev_cmlmabpzttxi63e6r7zcixge3q",
+      "name": "GT 10 Pro",
+      "modelCodes": [
+        "X6739"
+      ]
+    },
+    {
+      "deviceId": "dev_cv2ykcvi4ahyaum4svxxavuk2i",
+      "name": "GT 20 Pro",
+      "modelCodes": [
+        "X6871"
+      ]
+    },
+    {
+      "deviceId": "dev_ilcenrdo53rjjrrmqjuh5mnruq",
+      "name": "GT 30",
+      "modelCodes": [
+        "X6876"
+      ]
+    },
+    {
+      "deviceId": "dev_wxs2wrpjubfln7hpvfp2q42sf4",
+      "name": "GT 30 Pro",
+      "modelCodes": [
+        "X6873"
+      ]
+    },
+    {
+      "deviceId": "dev_43vfsnzmwprvw64fndxoickyk4",
+      "name": "GT 50 Pro",
+      "modelCodes": [
+        "X6891"
+      ]
+    },
+    {
+      "deviceId": "dev_4xdhdnfjt3j7gemiu4xrpv2z64",
+      "name": "HOT",
+      "modelCodes": [
+        "X689F"
+      ]
+    },
+    {
+      "deviceId": "dev_nqulnv2snzodo7z72gaoad2zkm",
+      "name": "HOT 10",
+      "modelCodes": [
+        "X682B"
+      ]
+    },
+    {
+      "deviceId": "dev_uxewn5m2fsway2l4t35zcgpyya",
+      "name": "HOT 10",
+      "modelCodes": [
+        "X682C"
+      ]
+    },
+    {
+      "deviceId": "dev_dncm2f223taimdtsiwlrddfvba",
+      "name": "HOT 10i",
+      "modelCodes": [
+        "X658B"
+      ]
+    },
+    {
+      "deviceId": "dev_inamb5txo5bhzgzndta7ezdsjy",
+      "name": "HOT 10i",
+      "modelCodes": [
+        "X658E"
+      ]
+    },
+    {
+      "deviceId": "dev_yruinuwa3k5f6kubtbx6fy7l6q",
+      "name": "HOT 10i",
+      "modelCodes": [
+        "X659B"
+      ]
+    },
+    {
+      "deviceId": "dev_yxrzd7m62vmnl6rtyfgiv7xdxe",
+      "name": "HOT 10i",
+      "modelCodes": [
+        "X659"
+      ]
+    },
+    {
+      "deviceId": "dev_erlxrn4f5mlo3hn256br7ixp24",
+      "name": "HOT 11",
+      "modelCodes": [
+        "X662B"
+      ]
+    },
+    {
+      "deviceId": "dev_g44mbttlas6zcnvtu4bek7vt24",
+      "name": "HOT 11",
+      "modelCodes": [
+        "X662"
+      ]
+    },
+    {
+      "deviceId": "dev_zihw6csvpfxevbuqudzfyxfgsm",
+      "name": "HOT 11 2022",
+      "modelCodes": [
+        "X675"
+      ]
+    },
+    {
+      "deviceId": "dev_hvu45rkhdy4ewtxpew2zvfxrze",
+      "name": "HOT 11S",
+      "modelCodes": [
+        "X6812"
+      ]
+    },
+    {
+      "deviceId": "dev_pcdtjyg5n5jhgiv3ebdphedvda",
+      "name": "HOT 12i",
+      "modelCodes": [
+        "X665"
+      ]
+    },
+    {
+      "deviceId": "dev_vhzlamtsdghxdgp3zrbdkhcx64",
+      "name": "HOT 12i",
+      "modelCodes": [
+        "X665B"
+      ]
+    },
+    {
+      "deviceId": "dev_ac6pf7nzvhw6rco5rsaicy6wuq",
+      "name": "HOT 20 5G",
+      "modelCodes": [
+        "X666"
+      ]
+    },
+    {
+      "deviceId": "dev_tc3lq6etp2vr4zhtol4jmjofxm",
+      "name": "HOT 20 PLAY",
+      "modelCodes": [
+        "X6825"
+      ]
+    },
+    {
+      "deviceId": "dev_dxhgu3p74aw3lt2ojx2wupl2rm",
+      "name": "HOT 20i",
+      "modelCodes": [
+        "X665E"
+      ]
+    },
+    {
+      "deviceId": "dev_teeymkmut2rz5zc53scjzcsfoy",
+      "name": "HOT 20i",
+      "modelCodes": [
+        "X665C"
+      ]
+    },
+    {
+      "deviceId": "dev_uaqzufqzj32q5uofhr5vf6wzhy",
+      "name": "HOT 20S",
+      "modelCodes": [
+        "X6827"
+      ]
+    },
+    {
+      "deviceId": "dev_4rbv6nnjhplxo732tenf673odi",
+      "name": "HOT 3",
+      "modelCodes": [
+        "HOT 3 Pro",
+        "Infinix-X554"
+      ]
+    },
+    {
+      "deviceId": "dev_6wh664idim7ylsnt6zw6nhrafu",
+      "name": "HOT 30 5G",
+      "modelCodes": [
+        "X6832"
+      ]
+    },
+    {
+      "deviceId": "dev_6mzeuekianyuxwon4pjs5ygiiu",
+      "name": "HOT 4",
+      "modelCodes": [
+        "X557"
+      ]
+    },
+    {
+      "deviceId": "dev_uuajlbaikjjkm2at2ytz6aedxm",
+      "name": "HOT 4",
+      "modelCodes": [
+        "HOT4 LTE"
+      ]
+    },
+    {
+      "deviceId": "dev_e7fe4jakrrdv2ktlj3w23tvvq4",
+      "name": "HOT 4 Lite",
+      "modelCodes": [
+        "HOT 4 Lite"
+      ]
+    },
+    {
+      "deviceId": "dev_lopkwasxynnp6kndd2o753pwwu",
+      "name": "HOT 4 PRO",
+      "modelCodes": [
+        "Infinix_X556_LTE"
+      ]
+    },
+    {
+      "deviceId": "dev_5buewpbolfgllbrsesgzufoezi",
+      "name": "HOT 50 Pro+",
+      "modelCodes": [
+        "X6880"
+      ]
+    },
+    {
+      "deviceId": "dev_4kswmstxjibh4t3iiuhxhrubsm",
+      "name": "HOT 6",
+      "modelCodes": [
+        "X606B"
+      ]
+    },
+    {
+      "deviceId": "dev_aqdq2cti33j77plhcg2dyces6i",
+      "name": "HOT 6",
+      "modelCodes": [
+        "X606D"
+      ]
+    },
+    {
+      "deviceId": "dev_dmuuyjiziqmxqwgu6bnyktx5ey",
+      "name": "HOT 6",
+      "modelCodes": [
+        "X606C"
+      ]
+    },
+    {
+      "deviceId": "dev_yt7lqnzm3jfnzvhzmsajmrnnqq",
+      "name": "HOT 6",
+      "modelCodes": [
+        "X606"
+      ]
+    },
+    {
+      "deviceId": "dev_kdbf7lqccrrsvwuj5dzvv5hz6a",
+      "name": "HOT 6 Pro",
+      "modelCodes": [
+        "X608"
+      ]
+    },
+    {
+      "deviceId": "dev_bjutr4shlmojl5hqqmq45myrga",
+      "name": "HOT 60 5G",
+      "modelCodes": [
+        "X6726"
+      ]
+    },
+    {
+      "deviceId": "dev_newm3vahcs74omgx6qqgoseroe",
+      "name": "HOT 60 5G",
+      "modelCodes": [
+        "X6726B"
+      ]
+    },
+    {
+      "deviceId": "dev_2wwfy6fz7ve4aoyih5r7q2jvp4",
+      "name": "HOT 60 Pro+",
+      "modelCodes": [
+        "X6886"
+      ]
+    },
+    {
+      "deviceId": "dev_7kxxon2kwixonc4h2mu7xdic6q",
+      "name": "HOT 60i",
+      "modelCodes": [
+        "X6728"
+      ]
+    },
+    {
+      "deviceId": "dev_f27nkvdj2ifblkptrwq5xkodsq",
+      "name": "HOT 60i 5G",
+      "modelCodes": [
+        "X6730B"
+      ]
+    },
+    {
+      "deviceId": "dev_hlvbp4nsol4xkzdgsjzbo6qiae",
+      "name": "HOT 60i 5G",
+      "modelCodes": [
+        "X6730"
+      ]
+    },
+    {
+      "deviceId": "dev_hwmridtnl4ssdov2au7eszhyha",
+      "name": "HOT 7",
+      "modelCodes": [
+        "X624B"
+      ]
+    },
+    {
+      "deviceId": "dev_tikiasmgot345lpf3ogv4jtiae",
+      "name": "HOT 7",
+      "modelCodes": [
+        "X624"
+      ]
+    },
+    {
+      "deviceId": "dev_bfav6w5cvdgorcep7jcvlozaqu",
+      "name": "HOT 7 PRO",
+      "modelCodes": [
+        "X625B"
+      ]
+    },
+    {
+      "deviceId": "dev_mpjt2my3bwcdw5jep2mjvu5x5a",
+      "name": "HOT 7 PRO",
+      "modelCodes": [
+        "X625D"
+      ]
+    },
+    {
+      "deviceId": "dev_p6oumrfhbtrrwmyjzilguutwky",
+      "name": "HOT 8",
+      "modelCodes": [
+        "X650D"
+      ]
+    },
+    {
+      "deviceId": "dev_xlouu3zqefvm7njgibpy7fuze4",
+      "name": "HOT 8",
+      "modelCodes": [
+        "X650C"
+      ]
+    },
+    {
+      "deviceId": "dev_xnha2gghwv36l2n2vqdep6aqhe",
+      "name": "HOT 8",
+      "modelCodes": [
+        "X650B"
+      ]
+    },
+    {
+      "deviceId": "dev_pfspukh3mta6t6rutuoef4ghzu",
+      "name": "HOT 8 Lite",
+      "modelCodes": [
+        "X650"
+      ]
+    },
+    {
+      "deviceId": "dev_5vccd7r2g7cxii7b2hqdjzohli",
+      "name": "HOT Play",
+      "modelCodes": [
+        "X688B"
+      ]
+    },
+    {
+      "deviceId": "dev_pg4jcfgdatzpwnqxpm76bke72a",
+      "name": "HOT Play",
+      "modelCodes": [
+        "X688C"
+      ]
+    },
+    {
+      "deviceId": "dev_cu23qsyfnffhp7iksfs66bmbre",
+      "name": "HOT S3",
+      "modelCodes": [
+        "X573",
+        "X573S"
+      ]
+    },
+    {
+      "deviceId": "dev_iuukw2hq4gsbhwsoqgn3shheka",
+      "name": "HOT S3",
+      "modelCodes": [
+        "X573B"
+      ]
+    },
+    {
+      "deviceId": "dev_vddjxdpdoma3bc3asakcnnptzu",
+      "name": "HOT S3X",
+      "modelCodes": [
+        "X622"
+      ]
+    },
+    {
+      "deviceId": "dev_7zvvcdgmp6qou5dqbmlvyqgh6u",
+      "name": "HOT5",
+      "modelCodes": [
+        "X559C",
+        "X559F"
+      ]
+    },
+    {
+      "deviceId": "dev_yowowd5egcx5vt367cbkwzfy74",
+      "name": "HOT5 Lite",
+      "modelCodes": [
+        "X559"
+      ]
+    },
+    {
+      "deviceId": "dev_edsh6kn6nswpflt5ivc5iagut4",
+      "name": "Infinix HOT 10i",
+      "modelCodes": [
+        "PR652B"
+      ]
+    },
+    {
+      "deviceId": "dev_o6kf2y3mnkhl5dtir7ppqfohaa",
+      "name": "Infinix HOT 10i",
+      "modelCodes": [
+        "PR652C"
+      ]
+    },
+    {
+      "deviceId": "dev_6pwwnvbjrqwwlub37s2mzjiuti",
+      "name": "Infinix HOT 10S",
+      "modelCodes": [
+        "X689"
+      ]
+    },
+    {
+      "deviceId": "dev_g2a7me7obrbikk4wwaalwnwdwu",
+      "name": "Infinix HOT 10S",
+      "modelCodes": [
+        "X689B"
+      ]
+    },
+    {
+      "deviceId": "dev_chrcd3f3mr7j22pk4mhzkvk2pm",
+      "name": "Infinix HOT 10S NFC",
+      "modelCodes": [
+        "X689D"
+      ]
+    },
+    {
+      "deviceId": "dev_brhhz2zhhhlbshv7ktpahtqdbi",
+      "name": "Infinix HOT 10T",
+      "modelCodes": [
+        "X689C"
+      ]
+    },
+    {
+      "deviceId": "dev_ptlm57hnvl4yvo32va4dmmnmeu",
+      "name": "Infinix HOT 11S NFC",
+      "modelCodes": [
+        "X6812B"
+      ]
+    },
+    {
+      "deviceId": "dev_dvflnk7xy26zkvzyrsssm74qmu",
+      "name": "Infinix HOT 12",
+      "modelCodes": [
+        "X6817"
+      ]
+    },
+    {
+      "deviceId": "dev_nombolath5i5242uqbnulri5ke",
+      "name": "Infinix HOT 12 Play",
+      "modelCodes": [
+        "X6816C"
+      ]
+    },
+    {
+      "deviceId": "dev_avlmtfxmlz2mbxfi73qw4fyv7q",
+      "name": "Infinix HOT 12 Play NFC",
+      "modelCodes": [
+        "X6816D"
+      ]
+    },
+    {
+      "deviceId": "dev_ohsxjet36256y4ijusq5ju7pji",
+      "name": "Infinix HOT 12 PRO",
+      "modelCodes": [
+        "X668"
+      ]
+    },
+    {
+      "deviceId": "dev_v2zi3f5yargld73t7rl3mui3ki",
+      "name": "Infinix HOT 12 PRO",
+      "modelCodes": [
+        "X668C"
+      ]
+    },
+    {
+      "deviceId": "dev_ax4mkj3l6c4is34jztyziuxtbi",
+      "name": "Infinix HOT 20",
+      "modelCodes": [
+        "X6826B"
+      ]
+    },
+    {
+      "deviceId": "dev_kuelsfbei2rculnj7mimhiutsq",
+      "name": "Infinix HOT 20",
+      "modelCodes": [
+        "X6826"
+      ]
+    },
+    {
+      "deviceId": "dev_tjeednaran7v2sn3ldmbayfpxq",
+      "name": "Infinix HOT 20",
+      "modelCodes": [
+        "X6826C"
+      ]
+    },
+    {
+      "deviceId": "dev_6khnaxisqi5ptlx5hhu3vpizai",
+      "name": "Infinix HOT 30 PLAY",
+      "modelCodes": [
+        "X6835"
+      ]
+    },
+    {
+      "deviceId": "dev_i2mbe5mkvbjrm4yykqor23al5y",
+      "name": "Infinix HOT 30 PLAY",
+      "modelCodes": [
+        "X6835B"
+      ]
+    },
+    {
+      "deviceId": "dev_eq4uqjoix7kel63xjiamjcpaze",
+      "name": "Infinix HOT 30i",
+      "modelCodes": [
+        "X669"
+      ]
+    },
+    {
+      "deviceId": "dev_euqfr4tlez3qdpjgepljjwcrge",
+      "name": "Infinix HOT 30i",
+      "modelCodes": [
+        "X669C"
+      ]
+    },
+    {
+      "deviceId": "dev_nc2r5iolvu6c4hnbfmchtg5joa",
+      "name": "Infinix HOT 30i",
+      "modelCodes": [
+        "X669D"
+      ]
+    },
+    {
+      "deviceId": "dev_rngt42z3ljur2zawvjly3tsbji",
+      "name": "Infinix HOT 40",
+      "modelCodes": [
+        "X6836"
+      ]
+    },
+    {
+      "deviceId": "dev_arqrlylfr7eo5uubp2u6oj5ocq",
+      "name": "Infinix HOT 40 Pro",
+      "modelCodes": [
+        "X6837"
+      ]
+    },
+    {
+      "deviceId": "dev_45xnsyt6x3ga6tsinm6vj7fucu",
+      "name": "Infinix HOT 40i",
+      "modelCodes": [
+        "X6528"
+      ]
+    },
+    {
+      "deviceId": "dev_eopr2ermkciljky5rio46fih5i",
+      "name": "Infinix HOT 40i",
+      "modelCodes": [
+        "X6528B"
+      ]
+    },
+    {
+      "deviceId": "dev_icawjqybl3awvebwln5z4njadq",
+      "name": "Infinix HOT 50",
+      "modelCodes": [
+        "X6882"
+      ]
+    },
+    {
+      "deviceId": "dev_spv5asrbsu6fn373uchccqov6e",
+      "name": "Infinix HOT 50",
+      "modelCodes": [
+        "X6882B"
+      ]
+    },
+    {
+      "deviceId": "dev_5opakxh2awcmadye6xcgzkftcu",
+      "name": "Infinix HOT 50 5G",
+      "modelCodes": [
+        "X6720B"
+      ]
+    },
+    {
+      "deviceId": "dev_o6mwtbdb6vqbdrfz4s5rqzfnvm",
+      "name": "Infinix HOT 50 5G",
+      "modelCodes": [
+        "X6720"
+      ]
+    },
+    {
+      "deviceId": "dev_jhpahdlw3rjgaw5wfhwzarjr7m",
+      "name": "Infinix HOT 50 Pro",
+      "modelCodes": [
+        "X6881"
+      ]
+    },
+    {
+      "deviceId": "dev_ogtfcubnvicqyedjcav7wxrzxm",
+      "name": "Infinix HOT 50i",
+      "modelCodes": [
+        "X6531B"
+      ]
+    },
+    {
+      "deviceId": "dev_w5vhza2hixxhefjxc2dthddm6u",
+      "name": "Infinix HOT 50i",
+      "modelCodes": [
+        "X6531"
+      ]
+    },
+    {
+      "deviceId": "dev_kioyysn7v2xbyjfiaasykc2k7y",
+      "name": "Infinix HOT 60 Pro",
+      "modelCodes": [
+        "X6885"
+      ]
+    },
+    {
+      "deviceId": "dev_vgbfk2bgcqkbrzstke4icomp2e",
+      "name": "Infinix HOT 60i",
+      "modelCodes": [
+        "X6728B"
+      ]
+    },
+    {
+      "deviceId": "dev_nldp3aep7p2roaodxs6wa5fdyi",
+      "name": "Infinix HOT 6X",
+      "modelCodes": [
+        "X623",
+        "X623B"
+      ]
+    },
+    {
+      "deviceId": "dev_3vwtieapdbkb6575tr46q3jtv4",
+      "name": "Infinix HOT 7",
+      "modelCodes": [
+        "X625C"
+      ]
+    },
+    {
+      "deviceId": "dev_2fl6m3bbw2y73ems7ukuec3afy",
+      "name": "Infinix HOT 70",
+      "modelCodes": [
+        "X6895"
+      ]
+    },
+    {
+      "deviceId": "dev_5ppkptsdkd2fgprkpfapjalivy",
+      "name": "Infinix HOT 70",
+      "modelCodes": [
+        "X6895B"
+      ]
+    },
+    {
+      "deviceId": "dev_ihjpyixyt6oomn3yr47t4lppxi",
+      "name": "Infinix HOT 70 Pro 5G",
+      "modelCodes": [
+        "X6896"
+      ]
+    },
+    {
+      "deviceId": "dev_btsbo5qb25xaz6i32ucwapn3pi",
+      "name": "Infinix HOT 9",
+      "modelCodes": [
+        "X655"
+      ]
+    },
+    {
+      "deviceId": "dev_hx6bhixd75xjvqvvi67tw2gnyi",
+      "name": "Infinix HOT 9",
+      "modelCodes": [
+        "X655C"
+      ]
+    },
+    {
+      "deviceId": "dev_podpgf276hscvxb4sier5lerly",
+      "name": "Infinix HOT 9",
+      "modelCodes": [
+        "X655D"
+      ]
+    },
+    {
+      "deviceId": "dev_6f4kaagydczt2tn76t5il7sw6q",
+      "name": "Infinix HOT 9 Play",
+      "modelCodes": [
+        "X680E"
+      ]
+    },
+    {
+      "deviceId": "dev_qqk2r3l275t42pojvlq272dgyy",
+      "name": "Infinix HOT 9 Play",
+      "modelCodes": [
+        "X680F"
+      ]
+    },
+    {
+      "deviceId": "dev_qrcapfxvcdimflvyg3wr7pr4su",
+      "name": "Infinix HOT 9 Play",
+      "modelCodes": [
+        "X680C"
+      ]
+    },
+    {
+      "deviceId": "dev_vzxnuxqgyl6db23ut7nfbqts4u",
+      "name": "Infinix HOT 9 Play",
+      "modelCodes": [
+        "X680B"
+      ]
+    },
+    {
+      "deviceId": "dev_niz5hqt5olcz5so7fxxuokxk3y",
+      "name": "Infinix HOT 9 Pro",
+      "modelCodes": [
+        "X655F"
+      ]
+    },
+    {
+      "deviceId": "dev_dumlz2ykjneilqv3stqwwkmbna",
+      "name": "Infinix NOTE 10",
+      "modelCodes": [
+        "X693"
+      ]
+    },
+    {
+      "deviceId": "dev_sefxhiypmic3bqjzpi7sjrbgge",
+      "name": "Infinix NOTE 11",
+      "modelCodes": [
+        "X663B"
+      ]
+    },
+    {
+      "deviceId": "dev_q6dnbp3wormgu3wle35iucznea",
+      "name": "Infinix NOTE 12",
+      "modelCodes": [
+        "X663C"
+      ]
+    },
+    {
+      "deviceId": "dev_eugtq44nxnbmwzokjyjkh26i6e",
+      "name": "Infinix NOTE 12 2023",
+      "modelCodes": [
+        "X676C"
+      ]
+    },
+    {
+      "deviceId": "dev_eqj56qholuogznjusv7nxk7rvq",
+      "name": "Infinix NOTE 12 5G",
+      "modelCodes": [
+        "X671"
+      ]
+    },
+    {
+      "deviceId": "dev_4nscsaob6kv5gpviedpgekcaaa",
+      "name": "Infinix NOTE 12 PRO",
+      "modelCodes": [
+        "X676B"
+      ]
+    },
+    {
+      "deviceId": "dev_wannsdwqxwpwdlygtb34yflyiq",
+      "name": "Infinix NOTE 12 Pro 5G",
+      "modelCodes": [
+        "X671B"
+      ]
+    },
+    {
+      "deviceId": "dev_rfylhgxawsc73bcwrzggsae2ae",
+      "name": "Infinix NOTE 12i",
+      "modelCodes": [
+        "X6819"
+      ]
+    },
+    {
+      "deviceId": "dev_xzyb3vl565aobwbfzebvl6b5ta",
+      "name": "Infinix NOTE 30",
+      "modelCodes": [
+        "X6833B"
+      ]
+    },
+    {
+      "deviceId": "dev_nazueovjozm2puzhr7oqk5smi4",
+      "name": "Infinix NOTE 30 5G",
+      "modelCodes": [
+        "X6711"
+      ]
+    },
+    {
+      "deviceId": "dev_moaoiuqune37kdk27fhx2lssbm",
+      "name": "Infinix NOTE 40",
+      "modelCodes": [
+        "X6853"
+      ]
+    },
+    {
+      "deviceId": "dev_q4u4uczbw7wpcon23uum6ykbbq",
+      "name": "Infinix NOTE 40 5G",
+      "modelCodes": [
+        "X6852"
+      ]
+    },
+    {
+      "deviceId": "dev_kpf253wwnezz3ibwsfertmqcmm",
+      "name": "Infinix NOTE 40 Pro",
+      "modelCodes": [
+        "X6850"
+      ]
+    },
+    {
+      "deviceId": "dev_ofvd6iulrvctdawx6s6z4wmnxu",
+      "name": "Infinix NOTE 40 Pro 5G",
+      "modelCodes": [
+        "X6851"
+      ]
+    },
+    {
+      "deviceId": "dev_pgt6vh6yxoo46arm3dhkjdfaxe",
+      "name": "Infinix NOTE 40S",
+      "modelCodes": [
+        "X6850B"
+      ]
+    },
+    {
+      "deviceId": "dev_ztcixnp6rvlgrn665scl6llj7y",
+      "name": "Infinix NOTE 40X 5G",
+      "modelCodes": [
+        "X6838"
+      ]
+    },
+    {
+      "deviceId": "dev_hw6nshqmenbysohlcig4saeka4",
+      "name": "Infinix NOTE 5",
+      "modelCodes": [
+        "X604",
+        "X604B"
+      ]
+    },
+    {
+      "deviceId": "dev_ggzmsepz2iuh2isekoxpxp554q",
+      "name": "Infinix NOTE 5 Stylus",
+      "modelCodes": [
+        "X605"
+      ]
+    },
+    {
+      "deviceId": "dev_ypolzfxjpk2mdalzigjstltjje",
+      "name": "Infinix NOTE 50S 5G",
+      "modelCodes": [
+        "X6870"
+      ]
+    },
+    {
+      "deviceId": "dev_b3dr2u5lugusaajihf36z5u5mi",
+      "name": "Infinix NOTE 60",
+      "modelCodes": [
+        "X6879"
+      ]
+    },
+    {
+      "deviceId": "dev_mcgxyph43j7omjivz5gbr2ihbu",
+      "name": "Infinix NOTE 60 Ultra",
+      "modelCodes": [
+        "X6877"
+      ]
+    },
+    {
+      "deviceId": "dev_nz5vtetlf45eonp42cmip7rg4y",
+      "name": "Infinix NOTE 7 Lite",
+      "modelCodes": [
+        "X656"
+      ]
+    },
+    {
+      "deviceId": "dev_aghvl3pa4afwcybq7oiq3mvmz4",
+      "name": "Infinix SMART 10",
+      "modelCodes": [
+        "X6725D"
+      ]
+    },
+    {
+      "deviceId": "dev_2mpmom3hc6x3o5homnxhgfj5xe",
+      "name": "Infinix SMART 4",
+      "modelCodes": [
+        "X680"
+      ]
+    },
+    {
+      "deviceId": "dev_dqyoi3nreifu2zjwf2dvik65oi",
+      "name": "Infinix SMART 4 Plus",
+      "modelCodes": [
+        "X680D"
+      ]
+    },
+    {
+      "deviceId": "dev_hb7ylb6xohqdygek5h7pmbpu6i",
+      "name": "Infinix SMART 7",
+      "modelCodes": [
+        "X6515"
+      ]
+    },
+    {
+      "deviceId": "dev_76qitcgyb5jadgtiejc5jwwoca",
+      "name": "Infinix SMART 7 HD",
+      "modelCodes": [
+        "X6516"
+      ]
+    },
+    {
+      "deviceId": "dev_eb7pjnvyufc3o4m2zwyppac7aq",
+      "name": "Infinix SMART 8",
+      "modelCodes": [
+        "X6525"
+      ]
+    },
+    {
+      "deviceId": "dev_erngqae7rfgttiok3o3osdp5fm",
+      "name": "Infinix SMART 8",
+      "modelCodes": [
+        "X6525D"
+      ]
+    },
+    {
+      "deviceId": "dev_l3g6nyf77fej7g76dflvtk6wne",
+      "name": "Infinix SMART 9 HD",
+      "modelCodes": [
+        "X6532C"
+      ]
+    },
+    {
+      "deviceId": "dev_etugpebghskn66gshykcy2djtq",
+      "name": "Infinix X5010",
+      "modelCodes": [
+        "X5010"
+      ]
+    },
+    {
+      "deviceId": "dev_iolzpk7qsmobhgxh7347fx47ky",
+      "name": "Infinix XPAD 30 pro",
+      "modelCodes": [
+        "X1103B"
+      ]
+    },
+    {
+      "deviceId": "dev_wnljp5ylbd2wt4hg34kosdry6u",
+      "name": "Infinix XPAD 30 pro",
+      "modelCodes": [
+        "X1103"
+      ]
+    },
+    {
+      "deviceId": "dev_h7jair4kkmta2jrsgdm77tuv5u",
+      "name": "Infinix XPAD Edge",
+      "modelCodes": [
+        "X1302"
+      ]
+    },
+    {
+      "deviceId": "dev_7bkpo3yjbqqquwjumum6trpknu",
+      "name": "Infinix ZERO 20",
+      "modelCodes": [
+        "X6821"
+      ]
+    },
+    {
+      "deviceId": "dev_orrydxvewfmtqhvv6pk6sc2gjq",
+      "name": "Infinix ZERO 30",
+      "modelCodes": [
+        "X6731B"
+      ]
+    },
+    {
+      "deviceId": "dev_mul7pe4bgmcsziwvcfhrf7mqme",
+      "name": "Infinix ZERO 40",
+      "modelCodes": [
+        "X6860"
+      ]
+    },
+    {
+      "deviceId": "dev_7qj6vl43md22e2pkndyijip2ke",
+      "name": "Infinix ZERO 40 5G",
+      "modelCodes": [
+        "X6861"
+      ]
+    },
+    {
+      "deviceId": "dev_y3daxnhvdjoweb3owrbil7pife",
+      "name": "Infinix ZERO 5G",
+      "modelCodes": [
+        "X6815B"
+      ]
+    },
+    {
+      "deviceId": "dev_tmvympazmxcc7keslabl74pul4",
+      "name": "Infinix ZERO 8i",
+      "modelCodes": [
+        "X687B"
+      ]
+    },
+    {
+      "deviceId": "dev_efrsqdkicmzzk5kyg4qzfgo5mm",
+      "name": "Infinix ZERO Flip",
+      "modelCodes": [
+        "X6962"
+      ]
+    },
+    {
+      "deviceId": "dev_bti3lmnxmclcvv6zfzceyg7icu",
+      "name": "Infinix ZERO X",
+      "modelCodes": [
+        "X6811B"
+      ]
+    },
+    {
+      "deviceId": "dev_ob7x4546yyqyqtgy5bk3c25faq",
+      "name": "Infinix ZERO X NEO",
+      "modelCodes": [
+        "X6810"
+      ]
+    },
+    {
+      "deviceId": "dev_va44wqykkvgau2fey7colgiuri",
+      "name": "Infinix ZERO8",
+      "modelCodes": [
+        "X687"
+      ]
+    },
+    {
+      "deviceId": "dev_emhpr6lv2vqdqqdok33y5dsj6y",
+      "name": "NOTE",
+      "modelCodes": [
+        "X663"
+      ]
+    },
+    {
+      "deviceId": "dev_7hgdg7mrb5qup2rcwx5gth6y34",
+      "name": "NOTE 10 Pro",
+      "modelCodes": [
+        "X695C"
+      ]
+    },
+    {
+      "deviceId": "dev_chg5roy3pdh3jakebr73wqwguq",
+      "name": "NOTE 10 Pro",
+      "modelCodes": [
+        "X695"
+      ]
+    },
+    {
+      "deviceId": "dev_xzqdatijwtcm3dd76hazehml6i",
+      "name": "NOTE 10 Pro",
+      "modelCodes": [
+        "X695D"
+      ]
+    },
+    {
+      "deviceId": "dev_dor7aezqehbheemuj4oh2iwzlq",
+      "name": "NOTE 11 Pro",
+      "modelCodes": [
+        "X697"
+      ]
+    },
+    {
+      "deviceId": "dev_tcnxc24etr4kmbnjjbsutnfyze",
+      "name": "NOTE 11S",
+      "modelCodes": [
+        "X698"
+      ]
+    },
+    {
+      "deviceId": "dev_n32bg6t33fghd76vsetgvqh6gy",
+      "name": "NOTE 12",
+      "modelCodes": [
+        "X670"
+      ]
+    },
+    {
+      "deviceId": "dev_tak7dbpkw4wpixmadnq3itedcq",
+      "name": "NOTE 12 VIP",
+      "modelCodes": [
+        "X672"
+      ]
+    },
+    {
+      "deviceId": "dev_jl6dy66lnbsfewhzimrfx4neki",
+      "name": "NOTE 12i 2022",
+      "modelCodes": [
+        "X677"
+      ]
+    },
+    {
+      "deviceId": "dev_xzhg7ypmflf45ybmhrhl7zlthq",
+      "name": "NOTE 3",
+      "modelCodes": [
+        "NOTE 3"
+      ]
+    },
+    {
+      "deviceId": "dev_q5ez5piydho5pfufuuy7p5j6pq",
+      "name": "NOTE 3 Pro",
+      "modelCodes": [
+        "Infinix_X601_LTE"
+      ]
+    },
+    {
+      "deviceId": "dev_s6tgrv6c6iwepbbnvop3typcci",
+      "name": "NOTE 30",
+      "modelCodes": [
+        "X6716B"
+      ]
+    },
+    {
+      "deviceId": "dev_cv2a4wnfljxjs7qxsfdii55jse",
+      "name": "NOTE 30 Pro",
+      "modelCodes": [
+        "X678B"
+      ]
+    },
+    {
+      "deviceId": "dev_v376lpbrjpaa7wqpypyhq4gjl4",
+      "name": "NOTE 30 VIP",
+      "modelCodes": [
+        "X6710"
+      ]
+    },
+    {
+      "deviceId": "dev_tze37nr7swfmmrtqdf4hrpnc3a",
+      "name": "NOTE 30i",
+      "modelCodes": [
+        "X6716"
+      ]
+    },
+    {
+      "deviceId": "dev_jdq7xvln4hzrpe4bxi55wtzf6m",
+      "name": "NOTE 4 Pro",
+      "modelCodes": [
+        "X571",
+        "X571-LTE"
+      ]
+    },
+    {
+      "deviceId": "dev_xdf6646pjuw3zkipkzli6qu2gm",
+      "name": "NOTE 40 Pro+ 5G",
+      "modelCodes": [
+        "X6851B"
+      ]
+    },
+    {
+      "deviceId": "dev_mzztzfrag4iz23w3xy5rnhi3fe",
+      "name": "NOTE 50",
+      "modelCodes": [
+        "X6858"
+      ]
+    },
+    {
+      "deviceId": "dev_y67jbp65wnfxgwfzwwskzbgn5q",
+      "name": "NOTE 50 Pro",
+      "modelCodes": [
+        "X6855"
+      ]
+    },
+    {
+      "deviceId": "dev_jp4ttbr5jmo4g4epdxa3s6udny",
+      "name": "NOTE 50 Pro+ 5G",
+      "modelCodes": [
+        "X6856"
+      ]
+    },
+    {
+      "deviceId": "dev_7tyd2qevghnmdwkql4k6cdnyve",
+      "name": "NOTE 50X 5G",
+      "modelCodes": [
+        "X6857B"
+      ]
+    },
+    {
+      "deviceId": "dev_muhbetyk7pmyb4jghcg3cmvszu",
+      "name": "NOTE 50X 5G",
+      "modelCodes": [
+        "X6857"
+      ]
+    },
+    {
+      "deviceId": "dev_cdmdrjfj6xyk3so6vsq4lpd5pa",
+      "name": "Note 6",
+      "modelCodes": [
+        "X610B"
+      ]
+    },
+    {
+      "deviceId": "dev_7b2542dpbroluaqlcyhcpdcisi",
+      "name": "NOTE 60 Pro",
+      "modelCodes": [
+        "X6878"
+      ]
+    },
+    {
+      "deviceId": "dev_hm7g4oktwy5kwj5xjzmyjg763m",
+      "name": "NOTE 7",
+      "modelCodes": [
+        "X690C"
+      ]
+    },
+    {
+      "deviceId": "dev_pnqngabcnicgr4mflmc7womtx4",
+      "name": "NOTE 7",
+      "modelCodes": [
+        "X690B"
+      ]
+    },
+    {
+      "deviceId": "dev_wzmuloejkqnbta2xqpgii7zyti",
+      "name": "NOTE 7",
+      "modelCodes": [
+        "X690"
+      ]
+    },
+    {
+      "deviceId": "dev_ztaybmlex7eufcthztogcetzje",
+      "name": "NOTE 8",
+      "modelCodes": [
+        "X692"
+      ]
+    },
+    {
+      "deviceId": "dev_n6n4fmzyo6kkkpz6qyjjrpguzq",
+      "name": "NOTE 8i",
+      "modelCodes": [
+        "X683B"
+      ]
+    },
+    {
+      "deviceId": "dev_xun6h7ky44j6sgvv4g7rkathou",
+      "name": "NOTE 8i",
+      "modelCodes": [
+        "X683"
+      ]
+    },
+    {
+      "deviceId": "dev_ixqhidz4chdwtxfeejka6mckca",
+      "name": "NOTE Edge",
+      "modelCodes": [
+        "X6887"
+      ]
+    },
+    {
+      "deviceId": "dev_bk4v7edg33shaou7grv53u3zvi",
+      "name": "RACE Blot2",
+      "modelCodes": [
+        "X454"
+      ]
+    },
+    {
+      "deviceId": "dev_x637m3wxva45hvj3ybls2ydubq",
+      "name": "RACE Bolt 3",
+      "modelCodes": [
+        "X455"
+      ]
+    },
+    {
+      "deviceId": "dev_7xclmmg7ounhewhyffx6bim3xu",
+      "name": "S2",
+      "modelCodes": [
+        "S2",
+        "S2 Pro"
+      ]
+    },
+    {
+      "deviceId": "dev_uxhsi2ux4pbtlrtpaf37pz6azi",
+      "name": "S4",
+      "modelCodes": [
+        "X626"
+      ]
+    },
+    {
+      "deviceId": "dev_wzydlq4kuvtp7glim4uctz44da",
+      "name": "S4",
+      "modelCodes": [
+        "X626B"
+      ]
+    },
+    {
+      "deviceId": "dev_zknpomokf3uwrr2ndmqv7vsmsu",
+      "name": "S4",
+      "modelCodes": [
+        "X626B LTE"
+      ]
+    },
+    {
+      "deviceId": "dev_uom7xakuef33ww5z5ems7tkngi",
+      "name": "S5",
+      "modelCodes": [
+        "X652"
+      ]
+    },
+    {
+      "deviceId": "dev_zgkenfys6mg3gubjqcsuzgjt7q",
+      "name": "S5",
+      "modelCodes": [
+        "X652A"
+      ]
+    },
+    {
+      "deviceId": "dev_7nfcx22ex2esjr4jdfpcwsraqi",
+      "name": "S5 Lite",
+      "modelCodes": [
+        "X652B"
+      ]
+    },
+    {
+      "deviceId": "dev_rl5snycg7gvuzhlvembdyy6neu",
+      "name": "S5 Lite",
+      "modelCodes": [
+        "X652C"
+      ]
+    },
+    {
+      "deviceId": "dev_7vzyjfxlfkhgsnazvj5jqzqrkq",
+      "name": "S5 Pro",
+      "modelCodes": [
+        "X660C"
+      ]
+    },
+    {
+      "deviceId": "dev_7zvr3m6zb47ojthlm6w6cxcxmm",
+      "name": "S5 Pro",
+      "modelCodes": [
+        "X660B"
+      ]
+    },
+    {
+      "deviceId": "dev_fkmolrzsytgvzst4vebtoafuda",
+      "name": "S5 Pro",
+      "modelCodes": [
+        "X660"
+      ]
+    },
+    {
+      "deviceId": "dev_5j5zugazeyuhdo2xlxnqv5vhru",
+      "name": "SMART",
+      "modelCodes": [
+        "X657"
+      ]
+    },
+    {
+      "deviceId": "dev_dap6rocctbj5seiqqyhdglrvui",
+      "name": "SMART",
+      "modelCodes": [
+        "X657B"
+      ]
+    },
+    {
+      "deviceId": "dev_iba66niq7zyhlukjdopfldbhce",
+      "name": "SMART 10 PLUS",
+      "modelCodes": [
+        "X6725B"
+      ]
+    },
+    {
+      "deviceId": "dev_tmimaaqjxspzqfpi2duj3amcze",
+      "name": "SMART 10 PLUS",
+      "modelCodes": [
+        "X6725C"
+      ]
+    },
+    {
+      "deviceId": "dev_eukfvdffe532thpy5lmklztfpy",
+      "name": "Smart 2",
+      "modelCodes": [
+        "X5515F"
+      ]
+    },
+    {
+      "deviceId": "dev_hrsq4am2g54mazmyhkcu22izwy",
+      "name": "Smart 2",
+      "modelCodes": [
+        "X5515"
+      ]
+    },
+    {
+      "deviceId": "dev_v345iuiy5k6inxnqo7x7ogofti",
+      "name": "Smart 2",
+      "modelCodes": [
+        "X5515I"
+      ]
+    },
+    {
+      "deviceId": "dev_3ttkqtf35cpaztlxrjzknt5cy4",
+      "name": "Smart 2 HD",
+      "modelCodes": [
+        "X609B"
+      ]
+    },
+    {
+      "deviceId": "dev_nqvr76uqbnwomhshbh3mouqygi",
+      "name": "Smart 2 HD",
+      "modelCodes": [
+        "X609"
+      ]
+    },
+    {
+      "deviceId": "dev_lrap44vqtd5q2ggivru63wksye",
+      "name": "Smart 2 Pro",
+      "modelCodes": [
+        "X5514D"
+      ]
+    },
+    {
+      "deviceId": "dev_rl3opja24dyoqecq7r2mgzrd4u",
+      "name": "SMART 20",
+      "modelCodes": [
+        "X6840B"
+      ]
+    },
+    {
+      "deviceId": "dev_uigqwap3qfafm5wlcokjya4twm",
+      "name": "SMART 20",
+      "modelCodes": [
+        "X6840"
+      ]
+    },
+    {
+      "deviceId": "dev_7k75fqynn46adsiaacyvbxromq",
+      "name": "Smart 3",
+      "modelCodes": [
+        "X5516"
+      ]
+    },
+    {
+      "deviceId": "dev_mszyn6tpy3fk2r5onzw2woj7lq",
+      "name": "Smart 3",
+      "modelCodes": [
+        "X5516B"
+      ]
+    },
+    {
+      "deviceId": "dev_zhx53gyhfbq4eagtkxzhydu55e",
+      "name": "Smart 3",
+      "modelCodes": [
+        "X5516C"
+      ]
+    },
+    {
+      "deviceId": "dev_rdcdgeuiaeecaonay62fe6u5zm",
+      "name": "Smart 3 Plus",
+      "modelCodes": [
+        "X627V"
+      ]
+    },
+    {
+      "deviceId": "dev_xooavmqtpkcbform27nw3kji3y",
+      "name": "Smart 3 Plus",
+      "modelCodes": [
+        "X627"
+      ]
+    },
+    {
+      "deviceId": "dev_zoqchz6uvwek6tqw4juzwr77ei",
+      "name": "Smart 3 Plus",
+      "modelCodes": [
+        "X627W"
+      ]
+    },
+    {
+      "deviceId": "dev_3pxfr6vlzfvd3lnadgqz47mdjm",
+      "name": "Smart 4",
+      "modelCodes": [
+        "X653C"
+      ]
+    },
+    {
+      "deviceId": "dev_c6iu3mj2e4iaipcnwoxqjisvva",
+      "name": "Smart 4",
+      "modelCodes": [
+        "X653"
+      ]
+    },
+    {
+      "deviceId": "dev_ndscud6zjj2ndem6c4fveo3jbm",
+      "name": "SMART 5",
+      "modelCodes": [
+        "X657C"
+      ]
+    },
+    {
+      "deviceId": "dev_44sam6t46lvn7yk6nyrsu6ps2u",
+      "name": "SMART 6",
+      "modelCodes": [
+        "X6511E"
+      ]
+    },
+    {
+      "deviceId": "dev_kxhdcm3iubsxpsm5g7w5eg22te",
+      "name": "SMART 6",
+      "modelCodes": [
+        "X6511"
+      ]
+    },
+    {
+      "deviceId": "dev_t6e2dne25azltlnvam3ilozs3a",
+      "name": "SMART 6",
+      "modelCodes": [
+        "X6511B"
+      ]
+    },
+    {
+      "deviceId": "dev_x65abq5oydboizu526xwbthmw4",
+      "name": "SMART 6 HD",
+      "modelCodes": [
+        "X6512"
+      ]
+    },
+    {
+      "deviceId": "dev_73uhjglbzdaylvs6mjn27idvva",
+      "name": "SMART 6 PLUS",
+      "modelCodes": [
+        "X6823C"
+      ]
+    },
+    {
+      "deviceId": "dev_jwlkjzb7ovrbxkhpfxtgbwo57a",
+      "name": "SMART 6 PLUS",
+      "modelCodes": [
+        "X6823"
+      ]
+    },
+    {
+      "deviceId": "dev_qv3yevjqeqcr65ovwtt5r6mww4",
+      "name": "SMART 6 PLUS",
+      "modelCodes": [
+        "X6511G"
+      ]
+    },
+    {
+      "deviceId": "dev_2icdz5jxe2kqebxaothcxuvgfe",
+      "name": "SMART 7 or SMART 7 PLUS",
+      "modelCodes": [
+        "X6517"
+      ]
+    },
+    {
+      "deviceId": "dev_f4sohcz2tjulhyciagnbkexmby",
+      "name": "SMART 8 Plus",
+      "modelCodes": [
+        "X6526"
+      ]
+    },
+    {
+      "deviceId": "dev_xcxgzcsvuu6ax2drby77wy53be",
+      "name": "SMART 9",
+      "modelCodes": [
+        "X6532"
+      ]
+    },
+    {
+      "deviceId": "dev_wujuknhsyoclkub4u6eagh6znq",
+      "name": "SMART HD",
+      "modelCodes": [
+        "X612B"
+      ]
+    },
+    {
+      "deviceId": "dev_yn72fjqxljm3sgr55r57fqwagi",
+      "name": "SMART HD",
+      "modelCodes": [
+        "X612"
+      ]
+    },
+    {
+      "deviceId": "dev_elc5qi6hjvebnb45pqvesnwb3u",
+      "name": "SMART Series",
+      "modelCodes": [
+        "X6725"
+      ]
+    },
+    {
+      "deviceId": "dev_vw6vtwmocw4cnmo22gd7wwjdz4",
+      "name": "SMRAT 8 PRO",
+      "modelCodes": [
+        "X6525B"
+      ]
+    },
+    {
+      "deviceId": "dev_7tkzmgqifyak6pmly4qvs5w76i",
+      "name": "SURF 2",
+      "modelCodes": [
+        "X511"
+      ]
+    },
+    {
+      "deviceId": "dev_ooh2woffhriywsowxhusccocu4",
+      "name": "X405",
+      "modelCodes": [
+        "X405"
+      ]
+    },
+    {
+      "deviceId": "dev_ltwojo34x5vqyhvpce6lxski4i",
+      "name": "X505",
+      "modelCodes": [
+        "X505"
+      ]
+    },
+    {
+      "deviceId": "dev_y3ksbxdm6o3axx5iw6mjv5gknm",
+      "name": "X521",
+      "modelCodes": [
+        "HOT S",
+        "Infinix-X521S",
+        "Infinix_X521S"
+      ]
+    },
+    {
+      "deviceId": "dev_o5ybuwttcbuveivlehkpqzdk7u",
+      "name": "X551",
+      "modelCodes": [
+        "Infinix-X551"
+      ]
+    },
+    {
+      "deviceId": "dev_vqz2oayvbtxxudd6pz6jhwsqra",
+      "name": "X555",
+      "modelCodes": [
+        "Zero 4"
+      ]
+    },
+    {
+      "deviceId": "dev_wxgc2ry2scrkvbmdr7xurh2d2u",
+      "name": "X572",
+      "modelCodes": [
+        "X572",
+        "X572-LTE"
+      ]
+    },
+    {
+      "deviceId": "dev_ztau5xihda2ow6vewjft2yl65i",
+      "name": "X600",
+      "modelCodes": [
+        "Infinix-X600-LTE"
+      ]
+    },
+    {
+      "deviceId": "dev_efumpw7ijfarzllbyn3aftxagy",
+      "name": "XPAD",
+      "modelCodes": [
+        "X1101"
+      ]
+    },
+    {
+      "deviceId": "dev_fuyckbpms7wbevtlfadsu2xcku",
+      "name": "XPAD",
+      "modelCodes": [
+        "X1101B"
+      ]
+    },
+    {
+      "deviceId": "dev_lsvsnjf4euk4k4yoqr36buqxqi",
+      "name": "XPAD 20",
+      "modelCodes": [
+        "X1102"
+      ]
+    },
+    {
+      "deviceId": "dev_otji2tcgaw6rmajgqvatjod5vu",
+      "name": "XPAD 20 Pro",
+      "modelCodes": [
+        "X1201"
+      ]
+    },
+    {
+      "deviceId": "dev_gzfdbyun3ehcrf3znxp2q4eufy",
+      "name": "XPAD 30",
+      "modelCodes": [
+        "X1102D"
+      ]
+    },
+    {
+      "deviceId": "dev_dv4fmouhvftvavubk6wlbidoiu",
+      "name": "XPAD 30E",
+      "modelCodes": [
+        "X1102B"
+      ]
+    },
+    {
+      "deviceId": "dev_vqu2u4l2cga5ow5ceda42ixoem",
+      "name": "Zero 2",
+      "modelCodes": [
+        "X509"
+      ]
+    },
+    {
+      "deviceId": "dev_yizqou3tens6c26vof4qgtrrqy",
+      "name": "ZERO 30 5G",
+      "modelCodes": [
+        "X6731"
+      ]
+    },
+    {
+      "deviceId": "dev_jmdbgi7l4rqfu473yzootd7jey",
+      "name": "Zero 4 Plus",
+      "modelCodes": [
+        "Zero 4 Plus"
+      ]
+    },
+    {
+      "deviceId": "dev_qxjuzu62krdze4whhra5gkgsem",
+      "name": "Zero 5 Pro",
+      "modelCodes": [
+        "X603",
+        "X603-LTE"
+      ]
+    },
+    {
+      "deviceId": "dev_yitlti7sxa3s7j45o5ojzkotnq",
+      "name": "ZERO 5G",
+      "modelCodes": [
+        "X6815"
+      ]
+    },
+    {
+      "deviceId": "dev_3kxshmneotsw4ddh26rffr7yci",
+      "name": "ZERO 5G 2023",
+      "modelCodes": [
+        "X6815D"
+      ]
+    },
+    {
+      "deviceId": "dev_yj3lwlidc5lxsdlqopnfbxumgq",
+      "name": "ZERO 5G 2023",
+      "modelCodes": [
+        "X6815C"
+      ]
+    },
+    {
+      "deviceId": "dev_urffuk42bb6sc42feltclrcmhm",
+      "name": "Zero 6",
+      "modelCodes": [
+        "X620B",
+        "X620"
+      ]
+    },
+    {
+      "deviceId": "dev_kqs5gfwdfhe3cfgt63kiwzkgla",
+      "name": "ZERO ULTRA",
+      "modelCodes": [
+        "X6820"
+      ]
+    },
+    {
+      "deviceId": "dev_ahbn67aipstd3p5xyvoozllqoy",
+      "name": "ZERO X Pro",
+      "modelCodes": [
+        "X6811"
+      ]
+    }
+  ]
+}

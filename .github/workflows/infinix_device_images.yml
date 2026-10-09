@@ -1,0 +1,87 @@
+name: Infinix Device Images
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'discover: review candidates, publish: only approved images'
+        required: true
+        type: choice
+        default: discover
+        options:
+          - discover
+          - publish
+      start_id:
+        description: 'Official storefront numeric start ID'
+        default: '550'
+        required: true
+        type: string
+      end_id:
+        description: 'Official storefront numeric end ID (max 250 pages)'
+        default: '750'
+        required: true
+        type: string
+      limit:
+        description: 'Maximum candidates (1-20)'
+        default: '20'
+        required: true
+        type: string
+      confirm_publish:
+        description: 'For publish ONLY, enter PUBLISH_VERIFIED'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: infinix-media-publishing
+  cancel-in-progress: false
+
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: tools/infinix-image-bot/requirements.txt
+      - name: Install dependencies
+        run: python -m pip install -r tools/infinix-image-bot/requirements.txt
+      - name: Discover verified catalog candidates
+        if: inputs.mode == 'discover'
+        env:
+          START_ID: ${{ inputs.start_id }}
+          END_ID: ${{ inputs.end_id }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          python tools/infinix-image-bot/bot.py discover --start "$START_ID" --stop "$END_ID" --limit "$LIMIT"
+      - name: Upload review report for phone
+        if: inputs.mode == 'discover'
+        uses: actions/upload-artifact@v4
+        with:
+          name: infinix-review-${{ github.run_id }}
+          path: tools/infinix-image-bot/output/
+          retention-days: 30
+      - name: Reject unconfirmed publication
+        if: inputs.mode == 'publish' && inputs.confirm_publish != 'PUBLISH_VERIFIED'
+        run: |
+          echo 'Publication not explicitly confirmed.'
+          exit 1
+      - name: Publish only human-approved media
+        if: inputs.mode == 'publish' && inputs.confirm_publish == 'PUBLISH_VERIFIED'
+        run: |
+          python tools/infinix-image-bot/bot.py publish
+          git diff --check
+          python tools/infinix-image-bot/verify_media.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add device-media/
+          git commit -m "Publish approved Infinix device photos"
+          git push origin HEAD:main
