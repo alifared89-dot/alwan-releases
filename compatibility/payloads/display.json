@@ -684,6 +684,13 @@
         "SPS2767",
         "1267484375"
       ]
+    },
+    {
+      "id": "part-display-note7-x690-x690b-parts4repair",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "infinix-note-7-x690-lcd-screen-digitizer-assembly"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1381,7 +1388,8 @@
       "deviceIds": [
         "dev_uom7xakuef33ww5z5ems7tkngi",
         "dev_7nfcx22ex2esjr4jdfpcwsraqi",
-        "dev_rl5snycg7gvuzhlvembdyy6neu"
+        "dev_rl5snycg7gvuzhlvembdyy6neu",
+        "dev_zgkenfys6mg3gubjqcsuzgjt7q"
       ]
     },
     {
@@ -1440,6 +1448,14 @@
         "dev_chg5roy3pdh3jakebr73wqwguq",
         "dev_7hgdg7mrb5qup2rcwx5gth6y34",
         "dev_xzqdatijwtcm3dd76hazehml6i"
+      ]
+    },
+    {
+      "id": "cg-part-display-note7-x690-x690b-fullassembly",
+      "partId": "part-display-note7-x690-x690b-parts4repair",
+      "deviceIds": [
+        "dev_wzmuloejkqnbta2xqpgii7zyti",
+        "dev_pnqngabcnicgr4mflmc7womtx4"
       ]
     }
   ],
@@ -5506,6 +5522,120 @@
         "X695C"
       ],
       "notes": "شاشة بديلة SPS2767 بعنوان X695/X695C؛ تأكيد إضافي للطراز X695 فقط في حقل fitment بالموقع."
+    },
+    {
+      "id": "ev-note7-x690-variant-0",
+      "compatibilityGroupId": "cg-part-display-note7-x690-x690b-fullassembly",
+      "sourceKey": "note7-x690-variant-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-note-7-x690b",
+      "checkedAt": "2026-10-09T15:46:03.638468Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-note-7-x690-lcd-screen-digitizer-assembly"
+      ],
+      "citedModelCodes": [
+        "X690",
+        "X690B"
+      ],
+      "notes": "تذكر صفحة الشاشة Note7 X690 وX690B معا."
+    },
+    {
+      "id": "ev-note7-x690-variant-1",
+      "compatibilityGroupId": "cg-part-display-note7-x690-x690b-fullassembly",
+      "sourceKey": "note7-x690-variant-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "Parts4Repair",
+      "sourceUrl": "https://www.parts4repair.com/infinix-note-7-x690-lcd-screen-digitizer-assembly/",
+      "checkedAt": "2026-10-09T15:46:03.638468Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-note-7-x690-lcd-screen-digitizer-assembly"
+      ],
+      "citedModelCodes": [
+        "X690",
+        "X690B"
+      ],
+      "notes": "صفحة LCD + digitizer تعرض توافق X690/X690B صراحة."
+    },
+    {
+      "id": "ev-note7-x690-variant-2",
+      "compatibilityGroupId": "cg-part-display-note7-x690-x690b-fullassembly",
+      "sourceKey": "note7-x690-variant-2",
+      "sourceType": "partsSupplier",
+      "sourceName": "Foone Store",
+      "sourceUrl": "https://foone-store.com/شاشة-انفينكس-نوت-7/p109660643",
+      "checkedAt": "2026-10-09T15:46:03.638468Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "infinix-note-7-x690-lcd-screen-digitizer-assembly"
+      ],
+      "citedModelCodes": [
+        "X690",
+        "X690B"
+      ],
+      "notes": "متجر سعودي يعرض شاشة Note7 X690/X690B كاملة."
+    },
+    {
+      "id": "ev-s5-x652a-confirm-0",
+      "compatibilityGroupId": "cg-part-display-s5-x652-x652b-x652c",
+      "sourceKey": "s5-x652a-confirm-0",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-s5",
+      "checkedAt": "2026-10-09T15:46:03.638468Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "S5-X652-X652A-X652B-X652C"
+      ],
+      "citedModelCodes": [
+        "X652",
+        "X652A",
+        "X652B",
+        "X652C"
+      ],
+      "notes": "إعلانات شاشة LCD+Touch بديلة تذكر X652/X652A/X652B/X652C بصورة صريحة؛ يراجع فلكس القطعة قبل التركيب."
+    },
+    {
+      "id": "ev-s5-x652a-confirm-1",
+      "compatibilityGroupId": "cg-part-display-s5-x652-x652b-x652c",
+      "sourceKey": "s5-x652a-confirm-1",
+      "sourceType": "partsSupplier",
+      "sourceName": "Alibaba listed seller Guangzhou Jinzexin",
+      "sourceUrl": "https://electronics.alibaba.com/product/infinix-x652-lcd",
+      "checkedAt": "2026-10-09T15:46:03.638468Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "S5-X652-X652A-X652B-X652C"
+      ],
+      "citedModelCodes": [
+        "X652",
+        "X652A",
+        "X652B",
+        "X652C"
+      ],
+      "notes": "إعلانات شاشة LCD+Touch بديلة تذكر X652/X652A/X652B/X652C بصورة صريحة؛ يراجع فلكس القطعة قبل التركيب."
+    },
+    {
+      "id": "ev-s5-x652a-confirm-2",
+      "compatibilityGroupId": "cg-part-display-s5-x652-x652b-x652c",
+      "sourceKey": "s5-x652a-confirm-2",
+      "sourceType": "partsSupplier",
+      "sourceName": "Alibaba S5 wholesale listing",
+      "sourceUrl": "https://www.alibaba.com/wholesale/infinix-s5-mobile-phone.html",
+      "checkedAt": "2026-10-09T15:46:03.638468Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "S5-X652-X652A-X652B-X652C"
+      ],
+      "citedModelCodes": [
+        "X652",
+        "X652A",
+        "X652B",
+        "X652C"
+      ],
+      "notes": "إعلانات شاشة LCD+Touch بديلة تذكر X652/X652A/X652B/X652C بصورة صريحة؛ يراجع فلكس القطعة قبل التركيب."
     }
   ],
   "categoryFacts": [
