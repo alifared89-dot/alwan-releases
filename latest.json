@@ -1,9 +1,9 @@
 {
-  "version": "1.0.8",
-  "build": 9,
-  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/download/v1.0.8/app-release.apk",
-  "sha256": "f84ec4c4a9b6ebb057d8837aca6f7740f311debefa798d111fbcd3a753167d23",
-  "size_bytes": 138321340,
-  "notes": "تحديث تطبيق علوان.",
+  "version": "1.0.9",
+  "build": 12,
+  "apk_url": "https://github.com/alifared89-dot/alwan-releases/releases/download/v1.0.9/app-release.apk",
+  "sha256": "f7171cca3acd7ae7b685254a40a02339ad4d72c2776483527cffcc4c444ca0ae",
+  "size_bytes": 138590015,
+  "notes": "تحسين واجهات التوافقات لجميع الأقسام، عرض المواصفات والأدلة وأرقام القطع والبحث؛ الحفاظ على البيانات والتراخيص.",
   "minimum_supported_build": 1
 }
