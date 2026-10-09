@@ -698,6 +698,13 @@
       "canonicalPartNumbers": [
         "metoo-x624-kb7-lcd-touch"
       ]
+    },
+    {
+      "id": "part-display-note11-note12-note30i-asa",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "ASA-NOTE11-NOTE12-NOTE30I-UNIVERSAL-DISPLAY"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1475,6 +1482,19 @@
         "dev_hwmridtnl4ssdov2au7eszhyha",
         "dev_davrgkztlenzo7ciuwmx72aj64",
         "dev_iykg4wjhqumpkz6qpqy7kxq4ta"
+      ]
+    },
+    {
+      "id": "cg-part-display-note11-note12-note30i-asa",
+      "partId": "part-display-note11-note12-note30i-asa",
+      "deviceIds": [
+        "dev_emhpr6lv2vqdqqdok33y5dsj6y",
+        "dev_n32bg6t33fghd76vsetgvqh6gy",
+        "dev_eqj56qholuogznjusv7nxk7rvq",
+        "dev_tze37nr7swfmmrtqdf4hrpnc3a",
+        "dev_wannsdwqxwpwdlygtb34yflyiq",
+        "dev_jl6dy66lnbsfewhzimrfx4neki",
+        "dev_eugtq44nxnbmwzokjyjkh26i6e"
       ]
     }
   ],
@@ -5757,6 +5777,49 @@
         "X680F"
       ],
       "notes": "مذكورة كعائلة شاشة بديلة مع X680D Smart4 Plus وX680F Hot9 Play؛ يعتمد التوافق على تصميم الفلكس والموصل، ويُختبر قبل التركيب."
+    },
+    {
+      "id": "ev-asa-note11-note12-note30i-crossfit",
+      "compatibilityGroupId": "cg-part-display-note11-note12-note30i-asa",
+      "sourceKey": "asa-note11-note12-note30i-20261009",
+      "sourceType": "partsSupplier",
+      "sourceName": "ASA السيفي لتجارة قطع الغيار",
+      "sourceUrl": "https://www.alsaifiasa.com/item/%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA-%D8%B4%D8%A7%D9%85%D9%84-NOTE11-X663-NOTE12-X670-NOTE12-5G-X671-NOTE-30i-X6716",
+      "checkedAt": "2026-10-09T16:02:48.521637Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "ASA-NOTE11-NOTE12-NOTE30I-UNIVERSAL-DISPLAY"
+      ],
+      "citedModelCodes": [
+        "X663",
+        "X670",
+        "X671",
+        "X6716",
+        "X671B",
+        "X677",
+        "X676C"
+      ],
+      "notes": "قطعة شاشة شاملة تعرض الأكواد X663 وX670 وX671 وX6716 صراحة، مع موديلات توافق إضافية X671B وX677 وX676C. هذا توافق للقطعة التجارية المعروضة، وليس توافق شاشات المصنع."
+    },
+    {
+      "id": "ev-universaldisplay-note11-note12-selected",
+      "compatibilityGroupId": "cg-part-display-note11-note12-note30i-asa",
+      "sourceKey": "universaldisplay-display-infinix-note-11",
+      "sourceType": "partsSupplier",
+      "sourceName": "Universal Display",
+      "sourceUrl": "https://universaldisplay.in/display/infinix-note-11",
+      "checkedAt": "2026-10-09T16:02:48.521637Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "ASA-NOTE11-NOTE12-NOTE30I-UNIVERSAL-DISPLAY"
+      ],
+      "citedModelCodes": [
+        "X663",
+        "X670",
+        "X671",
+        "X6716"
+      ],
+      "notes": "صفحة شاشات Universal Display تدعم مجموعة X663 وX670 وX671 وX6716؛ الدليل على الأكواد الأخرى من عرض مورد ASA المحدد."
     }
   ],
   "categoryFacts": [
