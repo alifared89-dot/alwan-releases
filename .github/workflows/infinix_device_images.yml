@@ -67,6 +67,17 @@ jobs:
           git fetch --no-tags --depth=1 origin main
           git show FETCH_HEAD:device-media/device_media_manifest.json > "$RUNNER_TEMP/media-before.json"
           python tools/infinix-image-bot/verify_media.py --baseline-manifest "$RUNNER_TEMP/media-before.json"
+      - name: Compare all 28 real published images without changing media
+        if: github.event_name == 'pull_request'
+        run: |
+          python tools/infinix-image-bot/audit_media.py --report-dir "$RUNNER_TEMP/infinix-image-qa"
+      - name: Upload original vs normalized real-image contact sheet
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: infinix-real-image-qa-${{ github.run_id }}
+          path: ${{ runner.temp }}/infinix-image-qa/
+          retention-days: 14
   images:
     if: github.event_name == 'workflow_dispatch'
     needs: quality-checks
