@@ -34,8 +34,8 @@ class CompositorTests(unittest.TestCase):
             composer.compose_photos(original,original,overlap_fraction=.5)
 
 
-    def test_normalization_preserves_pixels_and_fit_on_phone_or_tablet(self):
-        # Portrait phone, wide tablet, legacy 500x500 source and regular phone.
+    def test_normalization_preserves_every_visible_pixel_and_original_aspect(self):
+        # Portrait, landscape tablet, old 500px photo, thin phone.
         for width, height, box in [
             (900, 1200, (250, 80, 650, 1120)),
             (1200, 800, (90, 150, 1110, 650)),
@@ -43,39 +43,46 @@ class CompositorTests(unittest.TestCase):
             (720, 826, (12, 12, 708, 814)),
         ]:
             with self.subTest(size=(width, height)):
-                original=Image.new("RGBA", (width, height), (0, 0, 0, 0))
-                ImageDraw.Draw(original).rectangle(
-                    (box[0], box[1], box[2]-1, box[3]-1),
+                source = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+                ImageDraw.Draw(source).rectangle(
+                    (box[0], box[1], box[2] - 1, box[3] - 1),
                     fill=(12, 45, 90, 255),
                 )
-                image=composer.normalize_presentation(original)
-                self.assertEqual(image.width, image.height)
-                self.assertEqual(image.getchannel("A").getbbox()[2] - image.getchannel("A").getbbox()[0], box[2]-box[0])
-                self.assertEqual(image.getchannel("A").getbbox()[3] - image.getchannel("A").getbbox()[1], box[3]-box[1])
-                self.assertEqual(image.getchannel("A").getpixel((0, 0)), 0)
-                prepared=io.BytesIO()
-                image.save(prepared, "PNG")
-                metrics=verify_media.check_new_presentation(prepared.getvalue())
-                self.assertAlmostEqual(metrics["longAxisCoverage"], .90, delta=.005)
-                # Square ensures existing BoxFit.cover at any square thumbnail
-                # dimension never removes any of the normalized subject.
-                for thumbnail_size in (40, 80, 240):
-                    self.assertEqual(image.resize((thumbnail_size, thumbnail_size)).size,
-                                     (thumbnail_size, thumbnail_size))
+                # Anti-alias/shadow-like transparent pixel MUST survive trim.
+                source.putpixel((box[0] - 1, box[1]), (1, 2, 3, 1))
+                normalized = composer.normalize_presentation(source)
+                subject = source.crop(source.getchannel("A").getbbox())
+                normalized_box = normalized.getchannel("A").getbbox()
+                self.assertEqual(normalized.crop(normalized_box).tobytes(), subject.tobytes())
+                self.assertEqual(normalized.getpixel((0, 0))[3], 0)
+                self.assertEqual(
+                    normalized.width - normalized_box[2],
+                    normalized_box[0],
+                )
+                self.assertEqual(
+                    normalized.height - normalized_box[3],
+                    normalized_box[1],
+                )
+                encoded = io.BytesIO()
+                normalized.save(encoded, "PNG")
+                metrics = verify_media.check_new_presentation(encoded.getvalue())
+                self.assertLessEqual(max(metrics["margins"]) - min(metrics["margins"]), 1)
+                self.assertGreater(metrics["longAxisCoverage"], .96)
 
-    def test_quality_gate_rejects_legacy_small_subject_and_non_square(self):
-        legacy=Image.new("RGBA", (500, 500), (0, 0, 0, 0))
-        ImageDraw.Draw(legacy).rectangle((97, 51, 403, 448),fill="black")
-        buf=io.BytesIO()
-        legacy.save(buf, "PNG")
-        with self.assertRaisesRegex(ValueError, "foreground scale"):
-            verify_media.check_new_presentation(buf.getvalue())
-        tall=Image.new("RGBA", (300, 600), (0, 0, 0, 0))
-        ImageDraw.Draw(tall).rectangle((30, 30, 270, 570),fill="black")
-        buf=io.BytesIO()
-        tall.save(buf,"PNG")
-        with self.assertRaisesRegex(ValueError, "square"):
-            verify_media.check_new_presentation(buf.getvalue())
+    def test_quality_gate_rejects_legacy_big_margins_not_rectangular_images(self):
+        legacy = Image.new("RGBA", (500, 500), (0, 0, 0, 0))
+        ImageDraw.Draw(legacy).rectangle((97, 51, 403, 448), fill="black")
+        raw = io.BytesIO()
+        legacy.save(raw, "PNG")
+        with self.assertRaisesRegex(ValueError, "margins"):
+            verify_media.check_new_presentation(raw.getvalue())
+
+        rectangular = Image.new("RGBA", (400, 600), (0, 0, 0, 0))
+        ImageDraw.Draw(rectangular).rectangle((8, 8, 391, 591), fill="black")
+        normalized = composer.normalize_presentation(rectangular)
+        raw = io.BytesIO()
+        normalized.save(raw, "PNG")
+        verify_media.check_new_presentation(raw.getvalue())
 
     def test_normalization_fails_closed_on_invalid_or_oversized_sources(self):
         with self.assertRaisesRegex(ValueError, "opaque"):
