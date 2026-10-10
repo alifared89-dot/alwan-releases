@@ -219,7 +219,16 @@ def publish():
         im.load()
         if min(im.size) < 650:
             raise ValueError("image too small")
-        payload = crop_png(im)
+        # Preserve source pixels; use a centered square canvas so Flutter's
+        # existing 40x40 BoxFit.cover thumbnail cannot crop the phone.
+        from image_compositor import normalize_presentation
+        cropped = Image.open(io.BytesIO(crop_png(im)))
+        normalized = normalize_presentation(cropped)
+        prepared = io.BytesIO()
+        normalized.save(prepared, "PNG", optimize=True)
+        payload = prepared.getvalue()
+        from verify_media import check_new_presentation
+        check_new_presentation(payload, label=code)
         filename = f"infinix-{code.lower()}-frontback.png"
         chunk_id = f"infinix-{code.lower()}-{sha(payload)[:12]}"
         dest = MEDIA / "chunks" / (chunk_id + ".zip")
