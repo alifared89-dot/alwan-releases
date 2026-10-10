@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 44256,
-    "sha256": "7acc9e84ebf8d5c943a2c7e1beb0ff42e3eec9a35d43ebaff32efddcecff427b"
+    "bytes": 44994,
+    "sha256": "e36c8e16c257b0dd0254ed4274b6c101cf47b59be8088dc4ff2b86866b8c9c2d"
   },
   "chunks": [
     {
@@ -334,6 +334,13 @@
       "compressedBytes": 1461052,
       "uncompressedBytes": 1462549,
       "sha256": "680c339f92261f1480d018b35b8e69519cc476712551cfb789690d4ae8ad77f7"
+    },
+    {
+      "chunkId": "infinix-x6817-preview2-1cb8c5cedd54",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-x6817-preview2-1cb8c5cedd54.zip",
+      "compressedBytes": 142878,
+      "uncompressedBytes": 142693,
+      "sha256": "8b794e21dbb5d4798379184d482640f759246e3f7ef8ea86b4b95bad80c2abfd"
     }
   ]
 }

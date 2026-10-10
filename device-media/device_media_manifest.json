@@ -1,7 +1,24 @@
 {
-  "manifestVersion": 9,
-  "generatedAt": "2026-10-10T01:48:06Z",
+  "manifestVersion": 10,
+  "generatedAt": "2026-10-10T14:38:25Z",
   "entries": [
+    {
+      "deviceId": "dev_dvflnk7xy26zkvzyrsssm74qmu",
+      "revision": "infinix-approved-x6817-frontback-v2-trial",
+      "view": "frontBack",
+      "filename": "infinix-x6817-frontback-v2-trial.png",
+      "chunkId": "infinix-x6817-preview2-1cb8c5cedd54",
+      "sha256": "1cb8c5cedd543e4b23a9da21bcdf5e695bd15169de3a04bdfd7ffbc7780e81e4",
+      "bytes": 142693,
+      "sourcePageUrl": "https://wap.np.infinixmobility.com/shop/45",
+      "creator": "Infinix official product media",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official product media; reuse rights not independently verified",
+      "verifiedModelCodes": [
+        "X6817"
+      ],
+      "checkedAt": "2026-10-10T14:38:25Z"
+    },
     {
       "deviceId": "samsung-galaxy-a15",
       "revision": "gsmarena-a15-preview-1",
