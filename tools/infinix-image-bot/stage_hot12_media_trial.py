@@ -92,7 +92,7 @@ def build_trial(media: Path = ROOT) -> dict:
         raise ValueError("unsafe output size")
     result = Image.new("RGBA", (side, side), (0, 0, 0, 0))
     origin = ((side - visible.width) // 2, (side - visible.height) // 2)
-    result.alpha_composite(visible, origin)
+    result.paste(visible, origin)  # Exact RGBA copy, including invisible RGB channels
     assert result.crop((*origin, origin[0] + visible.width,
                         origin[1] + visible.height)).tobytes() == visible.tobytes()
     final_box = result.getchannel("A").getbbox()
