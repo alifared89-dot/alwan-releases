@@ -23,10 +23,12 @@ jobs:
       - name: Install pinned image engine
         run: python -m pip install --disable-pip-version-check Pillow==11.3.0
       - name: Stage HOT12 image from immutable published PNG
-        run: python tools/infinix-image-bot/stage_hot12_media_trial.py
+        run: |
+          cp device-media/device_media_manifest.json "$RUNNER_TEMP/hot12-baseline.json"
+          python tools/infinix-image-bot/stage_hot12_media_trial.py
       - name: Verify all previous chunks, SHA and exactly one new image
         run: |
-          python tools/infinix-image-bot/verify_media.py
+          python tools/infinix-image-bot/verify_media.py --baseline-manifest "$RUNNER_TEMP/hot12-baseline.json"
           python - <<'PY'
           import json, hashlib, pathlib
           root=pathlib.Path('device-media')
