@@ -42,3 +42,34 @@ def compose_photos(back: Image.Image, front: Image.Image,
     output.alpha_composite(rear,(x,y))
     output.alpha_composite(screen,(x+rear.width-overlap,y))
     return output
+
+
+def normalize_presentation(image: Image.Image, *, max_dimension: int = 2500) -> Image.Image:
+    """Center real, unscaled source pixels on a square transparent preview canvas.
+
+    The visible subject occupies about 90% of its longest axis. Square output
+    avoids BoxFit.cover clipping in Alwan's existing 40x40 thumbnails, while
+    natural proportions and source resolution remain unchanged.
+    """
+    from math import ceil
+
+    if image.width <= 0 or image.height <= 0 or image.width * image.height > 12_000_000:
+        raise ValueError("unsafe source image dimensions")
+    rgba = image.convert("RGBA")
+    alpha = rgba.getchannel("A")
+    if alpha.getextrema()[0] == 255:
+        raise ValueError("opaque source is not verified transparent")
+    bbox = alpha.point(lambda a: 255 if a > 12 else 0).getbbox()
+    if bbox is None:
+        raise ValueError("empty source image")
+    subject = rgba.crop(bbox)
+    if min(subject.size) < 180:
+        raise ValueError("visible subject resolution too low")
+    side = ceil(max(subject.size) / 0.90)
+    if side > max_dimension:
+        raise ValueError("preview canvas exceeds size budget")
+    result = Image.new("RGBA", (side, side), (0, 0, 0, 0))
+    result.alpha_composite(
+        subject, ((side - subject.width) // 2, (side - subject.height) // 2)
+    )
+    return result
