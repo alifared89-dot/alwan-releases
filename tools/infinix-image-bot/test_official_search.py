@@ -11,8 +11,8 @@ import official_search as search
 
 class MatchingTest(unittest.TestCase):
     def setUp(self):
-        self.published = {r["deviceId"] for r in json.loads(
-            (search.bot.MEDIA / "device_media_manifest.json").read_text())["entries"]}
+        # Unit tests express published status explicitly; real releases evolve.
+        self.published = set()
 
     def test_exact_code_and_name_is_cautious_candidate(self):
         r = search.classify_item({"id": "1311", "name": "SMART 10 Plus", "sku": "X6725B"},
@@ -32,8 +32,9 @@ class MatchingTest(unittest.TestCase):
         self.assertEqual(r["reason"], "sku_name_conflicts_with_catalog")
 
     def test_official_published_device_is_excluded(self):
+        published_device=search.bot.match_storefront_code("X6728")[1]["deviceId"]
         r = search.classify_item({"id": "1373", "name": "HOT 60i", "sku": "X6728"},
-                                 "HOT 60i", self.published)
+                                 "HOT 60i", {published_device})
         self.assertEqual(r["reason"], "device_already_published")
 
     def test_item_must_be_exact_name(self):
@@ -48,6 +49,16 @@ class MatchingTest(unittest.TestCase):
 
 
 class PipelineTest(unittest.TestCase):
+    def setUp(self):
+        # Externally published images must not change deterministic search tests.
+        self.media_dir=tempfile.TemporaryDirectory()
+        self.addCleanup(self.media_dir.cleanup)
+        media=Path(self.media_dir.name)
+        (media/"device_media_manifest.json").write_text('{"entries":[]}')
+        media_override=patch.object(search.bot,"MEDIA",media)
+        media_override.start()
+        self.addCleanup(media_override.stop)
+
     def test_verified_detail_is_required(self):
         mock_item = {"id": "1311", "name": "SMART 10 Plus", "sku": "X6725B"}
         mock_result = {"total": 1, "items": [mock_item], "apiUrl": "https://wap.my.infinixmobility.com/api/V1/xpark-app/app-search?q=SMART"}
@@ -81,7 +92,7 @@ class PipelineTest(unittest.TestCase):
                 data = json.loads((Path(directory) / "output/official-search-report.json").read_text())
         candidate = data["candidatesForVisualReview"][0]
         self.assertEqual(status, 0)
-        self.assertEqual(data["summary"]["missingDevices"], 217)
+        self.assertEqual(data["summary"]["missingDevices"], len(search.bot.CATALOG))
         self.assertEqual(candidate["modelCode"], "X6725B")
         self.assertFalse(candidate["frontBackApproved"])
         self.assertFalse(candidate["rightsVerified"])
