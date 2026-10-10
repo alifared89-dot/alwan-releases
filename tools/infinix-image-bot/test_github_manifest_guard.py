@@ -33,7 +33,7 @@ class GithubGuardTests(unittest.TestCase):
             status=guard.check_remote_manifest()
         self.assertTrue(status["manifestsIdentical"])
         self.assertTrue(status["readOnly"])
-        self.assertEqual(status["githubImages"],33)
+        self.assertEqual(status["githubImages"],len(manifest["entries"]))
 
     def test_guard_rejects_foreign_redirect(self):
         with patch.object(guard.urllib.request,"urlopen",
