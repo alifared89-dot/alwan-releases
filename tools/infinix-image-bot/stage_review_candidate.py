@@ -14,7 +14,7 @@ import bot
 import multimarket_scan as mm
 
 
-def stage(model_code: str, index: int) -> dict:
+def stage(model_code: str, index: int, *, allow_compact_review: bool = False) -> dict:
     review_path=bot.BOT/"output/multimarket-review.json"
     data=json.loads(review_path.read_text())
     candidates=[c for c in data["candidatesForReview"] if c["modelCode"]==model_code]
@@ -26,8 +26,10 @@ def stage(model_code: str, index: int) -> dict:
     if index<0 or index>=len(device["images"]):
         raise ValueError("image index not found")
     image=device["images"][index]
-    if not(image.get("downloadOk") and image.get("minimum650") and image.get("transparent")):
-        raise ValueError("image is not fully downloaded, transparent, or high resolution")
+    if not(image.get("downloadOk") and image.get("transparent")
+           and (image.get("minimum650")
+                or (allow_compact_review and image.get("compactCandidate") is True))):
+        raise ValueError("image must be verified transparent and high resolution, or manually approved compact")
     published={x["deviceId"] for x in json.loads(
         (bot.MEDIA/"device_media_manifest.json").read_text())["entries"]}
     if device["deviceId"] in published:
@@ -73,7 +75,7 @@ def stage(model_code: str, index: int) -> dict:
             "file":str(downloads),"sha256":prepared_sha}
 
 
-def stage_model_evidence(model_code: str, index: int) -> dict:
+def stage_model_evidence(model_code: str, index: int, *, allow_compact_review: bool = False) -> dict:
     """Stage an explicitly visually inspected composite from corroborated
     OFFICIAL model-code image filenames; publication remains disabled.
     """
@@ -92,8 +94,10 @@ def stage_model_evidence(model_code: str, index: int) -> dict:
     if index<0 or index>=len(candidate["images"]):
         raise ValueError("invalid visual review image index")
     image=candidate["images"][index]
-    if not(image.get("downloadOk") and image.get("minimum650") and image.get("transparent")):
-        raise ValueError("source image insufficient resolution / transparency")
+    if not(image.get("downloadOk") and image.get("transparent")
+           and (image.get("minimum650")
+                or (allow_compact_review and image.get("compactCandidate") is True))):
+        raise ValueError("source must be high resolution, or manually reviewed compact transparent")
     source=next((s for s in candidate["verifiedOfficialPageSource"]
                  if s["market"]==image["market"] and image["url"] in s["images"]
                  and s["reason"]=="OFFICIAL_NAME_PLUS_EXACT_IMAGE_CODE"),None)
@@ -110,8 +114,10 @@ def stage_model_evidence(model_code: str, index: int) -> dict:
     if original_sha!=image["sourceSha256"]:
         raise ValueError("source changed since photo evidence scan")
     photo=Image.open(io.BytesIO(raw));photo.load()
-    if min(photo.size)<650:
-        raise ValueError("source dimensions changed / too small")
+    if min(photo.size)<650 and not (
+            allow_compact_review and image.get("compactCandidate") is True
+            and min(photo.size)>=500):
+        raise ValueError("compact source requires manual review approval")
     compressed=bot.crop_png(photo)
     png_sha=hashlib.sha256(compressed).hexdigest()
     fname=f"Alwan-Infinix-{model_code}-front-back-REVIEW.png"
@@ -152,8 +158,10 @@ if __name__=="__main__":
     parser.add_argument("--code",required=True)
     parser.add_argument("--image-index",type=int,required=True)
     parser.add_argument("--official-model-evidence",action="store_true",help="Use official model-code filename corroboration review report")
+    parser.add_argument("--allow-compact-reviewed",action="store_true",
+                        help="Explicit human full-size visual review of 500-649 px source; NEVER automatic")
     arg=parser.parse_args()
     if arg.official_model_evidence:
-        print(json.dumps(stage_model_evidence(arg.code,arg.image_index),ensure_ascii=False))
+        print(json.dumps(stage_model_evidence(arg.code,arg.image_index, allow_compact_review=arg.allow_compact_reviewed),ensure_ascii=False))
     else:
-        print(json.dumps(stage(arg.code,arg.image_index),ensure_ascii=False))
+        print(json.dumps(stage(arg.code,arg.image_index, allow_compact_review=arg.allow_compact_reviewed),ensure_ascii=False))

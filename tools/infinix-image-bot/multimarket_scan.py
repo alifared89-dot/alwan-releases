@@ -206,7 +206,13 @@ def read_image(url: str, market: str):
                     sourceSha256=hashlib.sha256(raw).hexdigest(),
                     bytes=len(raw), size=list(pic.size), mode=pic.mode,
                     transparent=alpha[0] == 0,
-                    minimum650=min(pic.size) >= 650)
+                    minimum650=min(pic.size) >= 650,
+                    compactCandidate=(500 <= min(pic.size) < 650
+                        and alpha[0] == 0
+                        and (lambda box: box is not None
+                             and min(box[2]-box[0],box[3]-box[1])>=280
+                             and (box[2]-box[0])*(box[3]-box[1])>=.25*pic.width*pic.height)(
+                                 pic.convert("RGBA").getchannel("A").getbbox())))
         return info, pic
     except Exception as exc:
         info["error"] = f"{type(exc).__name__}: {str(exc)[:160]}"

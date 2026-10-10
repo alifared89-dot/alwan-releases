@@ -24,7 +24,14 @@ def inspect(image: Image.Image, info: dict, exact_code: str) -> dict:
         return {"eligibleForReview":False, "reason":"file_does_not_match_hardware_model_code",
                 "priority":0, "publishable":False}
     if min(image.size) < 650:
+        alpha=image.convert("RGBA").getchannel("A")
+        box=alpha.getbbox()
+        compact=(min(image.size)>=500 and alpha.getextrema()[0]==0
+                 and box is not None and min(box[2]-box[0],box[3]-box[1])>=280
+                 and ((box[2]-box[0])*(box[3]-box[1]))/(image.width*image.height)>=.25)
         return {"eligibleForReview":False, "reason":"resolution_below_650px",
+                "compactCandidateForManualVisualReview":bool(compact),
+                "compactImageUserApprovalRequired":bool(compact),
                 "tier":"high_resolution_source_search_reference_only",
                 "referenceForHighResSearch": min(image.size) >= 300,
                 "doNotUpscale":True, "publishable":False, "priority":0}

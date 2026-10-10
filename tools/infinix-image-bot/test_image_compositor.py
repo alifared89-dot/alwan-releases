@@ -37,6 +37,7 @@ class CompositorTests(unittest.TestCase):
     def test_bot_trim_preserves_every_rgba_pixel_across_phone_and_tablet(self):
         for size, bounds in [
             ((500, 500), (97, 51, 404, 449)),
+            ((500, 500), (107, 51, 394, 450)),  # reviewed NOTE 12i, 287px wide
             ((1200, 900), (70, 250, 1130, 670)),
             ((900, 1200), (220, 55, 680, 1145)),
         ]:
@@ -60,6 +61,10 @@ class CompositorTests(unittest.TestCase):
                 self.assertEqual(actual.width - actual_box[2], actual_box[0])
                 self.assertEqual(actual.height - actual_box[3], actual_box[1])
                 self.assertEqual(actual.getpixel((0, 0))[3], 0)
+                # Tight framing without modifying original subject pixels.
+                self.assertLessEqual(actual_box[0], max(4, round(max(
+                    original_box[2]-original_box[0],
+                    original_box[3]-original_box[1]) * .012)))
 
     def test_bot_trim_rejects_opaque_background_and_empty_subject(self):
         with self.assertRaisesRegex(ValueError, "opaque source"):

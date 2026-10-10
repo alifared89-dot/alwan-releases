@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 44994,
-    "sha256": "eedf31b48f6fefc98bd1a0425dc610bd3ecd533785dd1e5804175f34c03a9a11"
+    "bytes": 49323,
+    "sha256": "d1f21bfc5d2b2ae5fed248809e654fc0b4e59bcc732ae55266f109c6e65f6989"
   },
   "chunks": [
     {
@@ -341,6 +341,48 @@
       "compressedBytes": 142878,
       "uncompressedBytes": 142693,
       "sha256": "8b794e21dbb5d4798379184d482640f759246e3f7ef8ea86b4b95bad80c2abfd"
+    },
+    {
+      "chunkId": "infinix-tightcrop-x6817-3a5046790653",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-tightcrop-x6817-3a5046790653.zip",
+      "compressedBytes": 140191,
+      "uncompressedBytes": 139994,
+      "sha256": "df1deb0d80752784d7616a1e387c508e94ac26ce092d2a2d66ee3e629ceb2927"
+    },
+    {
+      "chunkId": "infinix-tightcrop-x6821-fdb36bf2b1be",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-tightcrop-x6821-fdb36bf2b1be.zip",
+      "compressedBytes": 131733,
+      "uncompressedBytes": 131563,
+      "sha256": "3525bb6b6aad3b299af10cc0f33b60546e68629929ffa44b3b4d6d7ca077a6cb"
+    },
+    {
+      "chunkId": "infinix-tightcrop-x6820-fde9387b7d4f",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-tightcrop-x6820-fde9387b7d4f.zip",
+      "compressedBytes": 141018,
+      "uncompressedBytes": 140847,
+      "sha256": "611fe20463e37f696af931edbc6533eca0751c51f58c8ec2c846e57ba933a47e"
+    },
+    {
+      "chunkId": "infinix-tightcrop-x672-72bc6ab9bce7",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-tightcrop-x672-72bc6ab9bce7.zip",
+      "compressedBytes": 153392,
+      "uncompressedBytes": 153199,
+      "sha256": "702993c03a540b65d628b718580dd7c226ec782d130118a2fe9790ca359694f4"
+    },
+    {
+      "chunkId": "infinix-tightcrop-x677-0e7975d201c3",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-tightcrop-x677-0e7975d201c3.zip",
+      "compressedBytes": 129381,
+      "uncompressedBytes": 129191,
+      "sha256": "8382bfe17bfb37fc9a0e9c4a995c32ee5173502451be2facc01e34fbc8ef23cc"
+    },
+    {
+      "chunkId": "infinix-tightcrop-x676c-e692f549b474",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-tightcrop-x676c-e692f549b474.zip",
+      "compressedBytes": 168681,
+      "uncompressedBytes": 168483,
+      "sha256": "dd54142339d6143690c66143210d4a727b75e5e5487055d3b529e52bca2fe486"
     }
   ]
 }

@@ -162,7 +162,7 @@ def discover(start: int, stop: int, max_devices: int):
 def crop_png(image: Image.Image) -> bytes:
     """Trim only transparent padding, preserving all device RGBA pixels.
 
-    The existing 1.5% margin is maintained, but now symmetrical and
+    A 1.2% safety margin is maintained symmetrically and
     independent of whether the subject touches the original canvas edge.
     No resampling, scaling, background synthesis or opaque-pixel removal.
     """
@@ -175,9 +175,9 @@ def crop_png(image: Image.Image) -> bytes:
     if box is None:
         raise ValueError("empty image")
     subject = rgba.crop(box)
-    if min(subject.size) < 300:
+    if min(subject.size) < 280:
         raise ValueError("crop resolution too low")
-    margin = max(4, round(max(subject.size) * 0.015))
+    margin = max(4, round(max(subject.size) * 0.012))
     canvas = Image.new(
         "RGBA",
         (subject.width + 2 * margin, subject.height + 2 * margin),
@@ -229,8 +229,8 @@ def publish():
             raise ValueError("image content changed since review")
         im = Image.open(io.BytesIO(original))
         im.load()
-        if min(im.size) < 650:
-            raise ValueError("image too small")
+        if min(im.size) < 650 and not (min(im.size) >= 500 and row.get("compactImageUserApproved") is True):
+            raise ValueError("small photo requires explicit compact-image visual approval")
         payload = crop_png(im)
         filename = f"infinix-{code.lower()}-frontback.png"
         chunk_id = f"infinix-{code.lower()}-{sha(payload)[:12]}"

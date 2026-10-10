@@ -173,3 +173,17 @@ python -m unittest test_discovery test_official_index test_official_search test_
 **Important before promoting this architecture across brands**: The existing `bot.py`, `catalog_first.py`, `evidence_cache.py` and Infinix registry contain vendor-specific assumptions. They remain isolated in Infinix adapter files for backward compatibility. No claim is made that Samsung/Tecno online discovery is currently implemented. Next adapter should consume shared `SourcePolicy` and `compose_photos`, have its own catalog/matching rules, and pass separate brand smoke tests before rollout. Until then only Infinix is allowed to run against live network sources.
 
 No source pushes, merges, publication, protected branch writes, stage image approval or cache purge were performed in this round.
+
+### Phone image framing and small-but-clear sources
+Every newly staged transparent handset PNG is framed against its **true nonzero alpha
+bounds**, with 1.2% transparent safety margin, without cutting any rendered phone
+pixel, changing the aspect ratio, inventing image content, or automatically upscaling.
+For 500–649 px sources, exact catalog/model evidence and hash remain mandatory.
+A sufficiently large transparent subject may be flagged for **human review**, but
+cannot silently pass the normal >=650px pipeline. Only after visual verification at
+the target app display size can the operator stage via
+`stage_review_candidate.py --allow-compact-reviewed`. Publication additionally
+requires the existing `frontBackApproved` **and** explicit
+`compactImageUserApproved: true`. Small fuzzy/partial images remain rejected.
+The app's final fit/layout scales the trimmed image visually; interpolation cannot
+restore detail absent from the original pixels.
