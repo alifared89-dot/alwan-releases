@@ -160,21 +160,33 @@ def discover(start: int, stop: int, max_devices: int):
                       "report": "output/candidates.json", "review": "output/review_contact_sheet.jpg"}))
 
 def crop_png(image: Image.Image) -> bytes:
+    """Trim only transparent padding, preserving all device RGBA pixels.
+
+    The existing 1.5% margin is maintained, but now symmetrical and
+    independent of whether the subject touches the original canvas edge.
+    No resampling, scaling, background synthesis or opaque-pixel removal.
+    """
     rgba = image.convert("RGBA")
     alpha = rgba.getchannel("A")
     if alpha.getextrema()[0] != 0:
         raise ValueError("opaque source: background removal not verified, reject")
-    box = alpha.point(lambda a: 255 if a > 12 else 0).getbbox()
+    # Every nonzero alpha pixel belongs to the subject, including faint edges.
+    box = alpha.getbbox()
     if box is None:
         raise ValueError("empty image")
-    left, top, right, bottom = box
-    margin = max(4, round(max(right - left, bottom - top) * 0.015))
-    crop = rgba.crop((max(0, left - margin), max(0, top - margin),
-                     min(rgba.width, right + margin), min(rgba.height, bottom + margin)))
-    if min(crop.size) < 300:
+    subject = rgba.crop(box)
+    if min(subject.size) < 300:
         raise ValueError("crop resolution too low")
+    margin = max(4, round(max(subject.size) * 0.015))
+    canvas = Image.new(
+        "RGBA",
+        (subject.width + 2 * margin, subject.height + 2 * margin),
+        (0, 0, 0, 0),
+    )
+    # paste, not alpha_composite: preserves original RGBA bytes exactly.
+    canvas.paste(subject, (margin, margin))
     buf = io.BytesIO()
-    crop.save(buf, "PNG", optimize=True)
+    canvas.save(buf, "PNG", optimize=True)
     return buf.getvalue()
 
 def publish():
