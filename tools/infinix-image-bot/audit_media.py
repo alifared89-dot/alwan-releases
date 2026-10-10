@@ -17,21 +17,27 @@ import image_compositor
 import verify_media
 
 
-def preview(image: Image.Image, size: int = 240) -> Image.Image:
-    """Simulate Alwan's existing square BoxFit.cover thumbnail."""
+def preview(image: Image.Image, size: int = 240, *, fit: str = "cover") -> Image.Image:
+    """Simulate current square cover versus responsive contain thumbnail."""
     rgba = image.convert("RGBA")
-    factor = max(size / rgba.width, size / rgba.height)
+    if fit not in ("cover", "contain"):
+        raise ValueError("invalid thumbnail fit")
+    factor = (max if fit == "cover" else min)(
+        size / rgba.width, size / rgba.height
+    )
     fitted = rgba.resize(
-        (round(rgba.width * factor), round(rgba.height * factor)),
+        (max(1, round(rgba.width * factor)), max(1, round(rgba.height * factor))),
         Image.Resampling.LANCZOS,
     )
-    x = (fitted.width - size) // 2
-    y = (fitted.height - size) // 2
-    square = fitted.crop((x, y, x + size, y + size))
     result = Image.new("RGB", (size, size), "white")
-    result.paste(square, (0, 0), square)
+    if fit == "cover":
+        x, y = (fitted.width - size) // 2, (fitted.height - size) // 2
+        fitted = fitted.crop((x, y, x + size, y + size))
+        result.paste(fitted, (0, 0), fitted)
+    else:
+        x, y = (size - fitted.width) // 2, (size - fitted.height) // 2
+        result.paste(fitted, (x, y), fitted)
     return result
-
 
 def audit(media: Path, output: Path) -> dict:
     manifest = json.loads((media / "device_media_manifest.json").read_bytes())
@@ -56,9 +62,7 @@ def audit(media: Path, output: Path) -> dict:
                 with Image.open(io.BytesIO(data)) as source:
                     source.load()
                     original = source.convert("RGBA")
-                alpha_box = original.getchannel("A").point(
-                    lambda a: 255 if a > 12 else 0
-                ).getbbox()
+                alpha_box = original.getchannel("A").getbbox()
                 if alpha_box is None:
                     raise ValueError("published image has no visible subject")
                 prepared = image_compositor.normalize_presentation(original)
@@ -81,7 +85,7 @@ def audit(media: Path, output: Path) -> dict:
                     "upscaledOriginalPixels": False,
                     "existingMediaUnchanged": True,
                 })
-                panels.append((code, preview(original), preview(prepared)))
+                panels.append((code, preview(original, fit="cover"), preview(prepared, fit="contain")))
     panel_w, panel_h = 500, 292
     columns = 3
     rows_count = (len(panels) + columns - 1) // columns
@@ -92,7 +96,7 @@ def audit(media: Path, output: Path) -> dict:
         sheet.paste(before, (x, y + 27))
         sheet.paste(after, (x + 250, y + 27))
         pen.text((x + 10, y + 5), f"{code} / CURRENT", fill="black")
-        pen.text((x + 260, y + 5), "PREVIEW / NORMALIZED", fill="black")
+        pen.text((x + 260, y + 5), "CONTAIN / NORMALIZED", fill="black")
     sheet.save(output / "real-images-before-after.png", optimize=True)
     result = {
         "cohort": "published-user-reviewed-Infinix",
