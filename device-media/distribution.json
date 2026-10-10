@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 49323,
-    "sha256": "d1f21bfc5d2b2ae5fed248809e654fc0b4e59bcc732ae55266f109c6e65f6989"
+    "bytes": 44225,
+    "sha256": "7da3babd1d126d057d4d8b7fefda8935ee4b96fd56c0054b6e4efef335f51356"
   },
   "chunks": [
     {
@@ -266,25 +266,11 @@
       "sha256": "5140a30571cfdfeb372e594d7b9a981525f17bd20e570b90bc573ecd668a6ec4"
     },
     {
-      "chunkId": "infinix-user-reviewed-batch05-4b40eb2fef8c",
-      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch05-4b40eb2fef8c.zip",
-      "compressedBytes": 309700,
-      "uncompressedBytes": 311214,
-      "sha256": "4b40eb2fef8c41a8b119b516819be1a9d8c530c555c2231a82770e24fc90100e"
-    },
-    {
       "chunkId": "infinix-user-reviewed-batch06-cb885872ede7",
       "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch06-cb885872ede7.zip",
       "compressedBytes": 633560,
       "uncompressedBytes": 634656,
       "sha256": "cb885872ede735b36d0aeb2e756ac51331cfeb5296037711d49c07d8573e25a2"
-    },
-    {
-      "chunkId": "infinix-user-reviewed-batch07-fee126140c3a",
-      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch07-fee126140c3a.zip",
-      "compressedBytes": 283433,
-      "uncompressedBytes": 284632,
-      "sha256": "fee126140c3a921e12044cc4853913f8df4454beb7940063a92ad96b9848ec4d"
     },
     {
       "chunkId": "infinix-user-reviewed-batch08-312b63e6cfb6",
@@ -334,13 +320,6 @@
       "compressedBytes": 1461052,
       "uncompressedBytes": 1462549,
       "sha256": "680c339f92261f1480d018b35b8e69519cc476712551cfb789690d4ae8ad77f7"
-    },
-    {
-      "chunkId": "infinix-x6817-preview2-1cb8c5cedd54",
-      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-x6817-preview2-1cb8c5cedd54.zip",
-      "compressedBytes": 142878,
-      "uncompressedBytes": 142693,
-      "sha256": "8b794e21dbb5d4798379184d482640f759246e3f7ef8ea86b4b95bad80c2abfd"
     },
     {
       "chunkId": "infinix-tightcrop-x6817-3a5046790653",

@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 12,
-  "generatedAt": "2026-10-10T20:21:51Z",
+  "manifestVersion": 13,
+  "generatedAt": "2026-10-10T21:01:56Z",
   "entries": [
     {
       "deviceId": "dev_eugtq44nxnbmwzokjyjkh26i6e",
@@ -103,40 +103,6 @@
         "X6817"
       ],
       "checkedAt": "2026-10-10T20:21:51Z"
-    },
-    {
-      "deviceId": "dev_dvflnk7xy26zkvzyrsssm74qmu",
-      "revision": "infinix-approved-x6817-frontback-v1",
-      "view": "frontBack",
-      "filename": "infinix-x6817-frontback.png",
-      "chunkId": "infinix-user-reviewed-batch06-cb885872ede7",
-      "sha256": "65b01207790d53ad15122fe753caf73b091b3af37a3cc20469a69b9bc3857bf7",
-      "bytes": 146327,
-      "sourcePageUrl": "https://wap.np.infinixmobility.com/shop/45",
-      "creator": "Infinix official product media",
-      "licenseId": "usage-rights-not-verified",
-      "attribution": "Infinix official product media; reuse rights not independently verified",
-      "verifiedModelCodes": [
-        "X6817"
-      ],
-      "checkedAt": "2026-10-10T01:48:06Z"
-    },
-    {
-      "deviceId": "dev_dvflnk7xy26zkvzyrsssm74qmu",
-      "revision": "infinix-approved-x6817-frontback-v2-trial",
-      "view": "frontBack",
-      "filename": "infinix-x6817-frontback-v2-trial.png",
-      "chunkId": "infinix-x6817-preview2-1cb8c5cedd54",
-      "sha256": "1cb8c5cedd543e4b23a9da21bcdf5e695bd15169de3a04bdfd7ffbc7780e81e4",
-      "bytes": 142693,
-      "sourcePageUrl": "https://wap.np.infinixmobility.com/shop/45",
-      "creator": "Infinix official product media",
-      "licenseId": "usage-rights-not-verified",
-      "attribution": "Infinix official product media; reuse rights not independently verified",
-      "verifiedModelCodes": [
-        "X6817"
-      ],
-      "checkedAt": "2026-10-10T14:38:25Z"
     },
     {
       "deviceId": "samsung-galaxy-a15",
@@ -785,23 +751,6 @@
       "checkedAt": "2026-10-10T01:48:06Z"
     },
     {
-      "deviceId": "dev_tak7dbpkw4wpixmadnq3itedcq",
-      "revision": "infinix-approved-x672-frontback-v1",
-      "view": "frontBack",
-      "filename": "infinix-x672-frontback.png",
-      "chunkId": "infinix-user-reviewed-batch03-6ee86eb50e13",
-      "sha256": "57293cfe45e1ea54c5cf5372bfb6edf92448e83294949f5e424ef538be96f29d",
-      "bytes": 158279,
-      "sourcePageUrl": "https://wap.ng.infinixmobility.com/shop/3",
-      "creator": "Infinix official product media",
-      "licenseId": "usage-rights-not-verified",
-      "attribution": "Infinix official product media; reuse rights not independently verified",
-      "verifiedModelCodes": [
-        "X672"
-      ],
-      "checkedAt": "2026-10-10T01:48:06Z"
-    },
-    {
       "deviceId": "dev_iba66niq7zyhlukjdopfldbhce",
       "revision": "infinix-approved-x6725b-frontback-v1",
       "view": "frontBack",
@@ -836,40 +785,6 @@
       "checkedAt": "2026-10-10T01:48:06Z"
     },
     {
-      "deviceId": "dev_eugtq44nxnbmwzokjyjkh26i6e",
-      "revision": "infinix-approved-x676c-frontback-v1",
-      "view": "frontBack",
-      "filename": "infinix-x676c-frontback.png",
-      "chunkId": "infinix-user-reviewed-batch05-4b40eb2fef8c",
-      "sha256": "d21c4199c2b4e9f187c9da4afab36fad93aa66820476b30e2863fd23eb80dd6f",
-      "bytes": 175282,
-      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/234",
-      "creator": "Infinix official product media",
-      "licenseId": "usage-rights-not-verified",
-      "attribution": "Infinix official product media; reuse rights not independently verified",
-      "verifiedModelCodes": [
-        "X676C"
-      ],
-      "checkedAt": "2026-10-10T01:48:06Z"
-    },
-    {
-      "deviceId": "dev_jl6dy66lnbsfewhzimrfx4neki",
-      "revision": "infinix-approved-x677-frontback-v1",
-      "view": "frontBack",
-      "filename": "infinix-x677-frontback.png",
-      "chunkId": "infinix-user-reviewed-batch05-4b40eb2fef8c",
-      "sha256": "84c9f8df05d8a219670c930ae8b7ea4d68c8c814418679c66676d2805c4d9dd3",
-      "bytes": 135932,
-      "sourcePageUrl": "https://wap.id.infinixmobility.com/shop/194",
-      "creator": "Infinix official product media",
-      "licenseId": "usage-rights-not-verified",
-      "attribution": "Infinix official product media; reuse rights not independently verified",
-      "verifiedModelCodes": [
-        "X677"
-      ],
-      "checkedAt": "2026-10-10T01:48:06Z"
-    },
-    {
       "deviceId": "dev_cv2a4wnfljxjs7qxsfdii55jse",
       "revision": "infinix-approved-x678b-frontback-v1",
       "view": "frontBack",
@@ -883,40 +798,6 @@
       "attribution": "Infinix official product media; reuse rights not independently verified",
       "verifiedModelCodes": [
         "X678B"
-      ],
-      "checkedAt": "2026-10-10T01:48:06Z"
-    },
-    {
-      "deviceId": "dev_kqs5gfwdfhe3cfgt63kiwzkgla",
-      "revision": "infinix-approved-x6820-frontback-v1",
-      "view": "frontBack",
-      "filename": "infinix-x6820-frontback.png",
-      "chunkId": "infinix-user-reviewed-batch07-fee126140c3a",
-      "sha256": "a7391144b41858338b43a1d6424d433e5d0dbecc61b1142a55af7a64320b1a17",
-      "bytes": 147111,
-      "sourcePageUrl": "https://iq.infinixmobility.com/shop/69",
-      "creator": "Infinix official product media",
-      "licenseId": "usage-rights-not-verified",
-      "attribution": "Infinix official product media; reuse rights not independently verified",
-      "verifiedModelCodes": [
-        "X6820"
-      ],
-      "checkedAt": "2026-10-10T01:48:06Z"
-    },
-    {
-      "deviceId": "dev_7bkpo3yjbqqquwjumum6trpknu",
-      "revision": "infinix-approved-x6821-frontback-v1",
-      "view": "frontBack",
-      "filename": "infinix-x6821-frontback.png",
-      "chunkId": "infinix-user-reviewed-batch07-fee126140c3a",
-      "sha256": "8b020b61ad88e4aec73c38eedd325ca7c779b47e7bac181950dcd3f8d11d08cc",
-      "bytes": 137521,
-      "sourcePageUrl": "https://iq.infinixmobility.com/shop/28",
-      "creator": "Infinix official product media",
-      "licenseId": "usage-rights-not-verified",
-      "attribution": "Infinix official product media; reuse rights not independently verified",
-      "verifiedModelCodes": [
-        "X6821"
       ],
       "checkedAt": "2026-10-10T01:48:06Z"
     },
