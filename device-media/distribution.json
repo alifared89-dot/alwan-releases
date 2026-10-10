@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 23674,
-    "sha256": "7b3f0a59217f9e3147f29306f21d1746f7a0f59b0f0a9bd650a3fb0150638230"
+    "bytes": 44256,
+    "sha256": "7acc9e84ebf8d5c943a2c7e1beb0ff42e3eec9a35d43ebaff32efddcecff427b"
   },
   "chunks": [
     {
@@ -236,6 +236,104 @@
       "compressedBytes": 280277,
       "uncompressedBytes": 280280,
       "sha256": "b7e1bb7a1a15b4be095ff37a5d664267ee382505284f4a0d44c86ebc5f3e4d0f"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch01-635e274dc013",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch01-635e274dc013.zip",
+      "compressedBytes": 1270928,
+      "uncompressedBytes": 1271001,
+      "sha256": "635e274dc013e1666ab5c77961f47cb4e9233e03b05ffed8e04d422d5a06c1fc"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch02-b83cb0473809",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch02-b83cb0473809.zip",
+      "compressedBytes": 1541265,
+      "uncompressedBytes": 1541236,
+      "sha256": "b83cb0473809123625fa7484e59b58194a1325c07c4a6200a2af78b723d2e367"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch03-6ee86eb50e13",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch03-6ee86eb50e13.zip",
+      "compressedBytes": 700858,
+      "uncompressedBytes": 701506,
+      "sha256": "6ee86eb50e13aa96e804b1f78d5519690b6c606b5ccd390cfc1771bbbfcc0b9b"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch04-5140a30571cf",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch04-5140a30571cf.zip",
+      "compressedBytes": 1050285,
+      "uncompressedBytes": 1050295,
+      "sha256": "5140a30571cfdfeb372e594d7b9a981525f17bd20e570b90bc573ecd668a6ec4"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch05-4b40eb2fef8c",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch05-4b40eb2fef8c.zip",
+      "compressedBytes": 309700,
+      "uncompressedBytes": 311214,
+      "sha256": "4b40eb2fef8c41a8b119b516819be1a9d8c530c555c2231a82770e24fc90100e"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch06-cb885872ede7",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch06-cb885872ede7.zip",
+      "compressedBytes": 633560,
+      "uncompressedBytes": 634656,
+      "sha256": "cb885872ede735b36d0aeb2e756ac51331cfeb5296037711d49c07d8573e25a2"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch07-fee126140c3a",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch07-fee126140c3a.zip",
+      "compressedBytes": 283433,
+      "uncompressedBytes": 284632,
+      "sha256": "fee126140c3a921e12044cc4853913f8df4454beb7940063a92ad96b9848ec4d"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch08-312b63e6cfb6",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch08-312b63e6cfb6.zip",
+      "compressedBytes": 918442,
+      "uncompressedBytes": 918749,
+      "sha256": "312b63e6cfb612d0f64125f0fc0726f04777ae647864b09d9163a880393cda15"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch09-ecde490be6e4",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch09-ecde490be6e4.zip",
+      "compressedBytes": 1314667,
+      "uncompressedBytes": 1314677,
+      "sha256": "ecde490be6e419224f22c1e4d229a66f40d9250788996d15a475cd6fb827b287"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch10-891759355121",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch10-891759355121.zip",
+      "compressedBytes": 1384235,
+      "uncompressedBytes": 1387071,
+      "sha256": "891759355121cb75a25b55abc42ead0617728add285d799f67efc2839b0c2c62"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch11-319cb8c59323",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch11-319cb8c59323.zip",
+      "compressedBytes": 1202113,
+      "uncompressedBytes": 1202665,
+      "sha256": "319cb8c5932365fc8a67574d79c97c05143c9cf4a477ec206929415dc7bed471"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch12-aa1690db6a85",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch12-aa1690db6a85.zip",
+      "compressedBytes": 1217786,
+      "uncompressedBytes": 1217835,
+      "sha256": "aa1690db6a857f20ed9a91d4d1dd26a87f37d279017d34a3bdf2ff036572a0ed"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch13-c1e7d8640eb5",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch13-c1e7d8640eb5.zip",
+      "compressedBytes": 1214274,
+      "uncompressedBytes": 1216339,
+      "sha256": "c1e7d8640eb5b29b78dfa0d9646cdb47eba182c5e58dd114a132f78089f03762"
+    },
+    {
+      "chunkId": "infinix-user-reviewed-batch14-680c339f9226",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-user-reviewed-batch14-680c339f9226.zip",
+      "compressedBytes": 1461052,
+      "uncompressedBytes": 1462549,
+      "sha256": "680c339f92261f1480d018b35b8e69519cc476712551cfb789690d4ae8ad77f7"
     }
   ]
 }
