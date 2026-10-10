@@ -71,5 +71,5 @@ def normalize_presentation(image: Image.Image, *, max_dimension: int = 2500) -> 
     if max(width, height) > max_dimension:
         raise ValueError("preview dimensions exceed size budget")
     result = Image.new("RGBA", (width, height), (0, 0, 0, 0))
-    result.alpha_composite(subject, (margin, margin))
+    result.paste(subject, (margin, margin))  # Exact RGBA copy, including faint edges
     return result
