@@ -160,21 +160,25 @@ def discover(start: int, stop: int, max_devices: int):
                       "report": "output/candidates.json", "review": "output/review_contact_sheet.jpg"}))
 
 def crop_png(image: Image.Image) -> bytes:
+    """Existing entry point, now shared by both staging and publication.
+
+    Trim only transparent pixels, never the device or anti-aliased edges; keep
+    the native image aspect ratio and use minimal symmetrical alpha padding.
+    """
+    from image_compositor import normalize_presentation
+
     rgba = image.convert("RGBA")
     alpha = rgba.getchannel("A")
-    if alpha.getextrema()[0] != 0:
+    if alpha.getextrema()[0] == 255:
         raise ValueError("opaque source: background removal not verified, reject")
-    box = alpha.point(lambda a: 255 if a > 12 else 0).getbbox()
+    box = alpha.getbbox()
     if box is None:
         raise ValueError("empty image")
-    left, top, right, bottom = box
-    margin = max(4, round(max(right - left, bottom - top) * 0.015))
-    crop = rgba.crop((max(0, left - margin), max(0, top - margin),
-                     min(rgba.width, right + margin), min(rgba.height, bottom + margin)))
-    if min(crop.size) < 300:
+    if min(box[2] - box[0], box[3] - box[1]) < 300:
         raise ValueError("crop resolution too low")
+    normalized = normalize_presentation(rgba)
     buf = io.BytesIO()
-    crop.save(buf, "PNG", optimize=True)
+    normalized.save(buf, "PNG", optimize=True)
     return buf.getvalue()
 
 def publish():
@@ -219,14 +223,8 @@ def publish():
         im.load()
         if min(im.size) < 650:
             raise ValueError("image too small")
-        # Preserve source pixels; use a centered square canvas so Flutter's
-        # existing 40x40 BoxFit.cover thumbnail cannot crop the phone.
-        from image_compositor import normalize_presentation
-        cropped = Image.open(io.BytesIO(crop_png(im)))
-        normalized = normalize_presentation(cropped)
-        prepared = io.BytesIO()
-        normalized.save(prepared, "PNG", optimize=True)
-        payload = prepared.getvalue()
+        # Same audited normalization used by the existing review/stage path.
+        payload = crop_png(im)
         from verify_media import check_new_presentation
         check_new_presentation(payload, label=code)
         filename = f"infinix-{code.lower()}-frontback.png"
