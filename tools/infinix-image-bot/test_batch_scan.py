@@ -1,5 +1,7 @@
 """No-network checks for bounded concurrent review discovery."""
 import json
+import tempfile
+from pathlib import Path
 import unittest
 from unittest.mock import patch
 
@@ -8,7 +10,16 @@ import batch_scan as batch
 
 class BatchTest(unittest.TestCase):
     def test_20_indexed_names_and_no_duplicates(self):
-        names = batch.source_names(20)
+        # Deterministic offline fixture, independent of a prior manual discovery.
+        with tempfile.TemporaryDirectory() as root:
+            output=Path(root)/"output"
+            output.mkdir()
+            devices=[{"name":f"TEST DEVICE {i}"} for i in range(21)]
+            (output/"official-index-report.json").write_text(json.dumps(
+                {"products":[{"missingDevices":devices}]}
+            ))
+            with patch.object(batch.bot,"BOT",Path(root)):
+                names = batch.source_names(20)
         self.assertEqual(len(names), 20)
         self.assertEqual(len({batch.idx.normalize_name(n) for n in names}), 20)
 
