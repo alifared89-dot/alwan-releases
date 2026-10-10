@@ -22,34 +22,43 @@ def digest(payload: bytes) -> str:
 
 
 def check_new_presentation(payload: bytes, *, label: str = "image") -> dict:
-    """Check the exact pixel geometry uploaded to users, not source dimensions.
+    """Validate small symmetric transparent margins without imposing a canvas ratio.
 
-    A square preview prevents cover cropping in the existing Android thumbnail.
-    Normalized visible content has a 90%-of-longest-axis target with tolerance
-    for integer rounding. All measurements use visible alpha pixels, not file size.
+    Uses the complete alpha bounding box: faint nonzero pixels must not be cut.
+    The image's native aspect ratio is kept so phone/tablet products are natural.
+    Actual upscaling/source identity is enforced before this gate by the bot.
     """
     with Image.open(io.BytesIO(payload)) as source:
         if source.format != "PNG":
             raise ValueError(f"{label}: PNG required")
         source.load()
         width, height = source.size
-        if width != height or not 300 <= width <= 2500:
-            raise ValueError(f"{label}: expected bounded square image")
+        if not 180 <= min(width, height) and max(width, height) >= 300:
+            raise ValueError(f"{label}: output resolution too low")
+        if max(width, height) > 2500 or width * height > 6_250_000:
+            raise ValueError(f"{label}: output dimensions exceed budget")
         alpha = source.convert("RGBA").getchannel("A")
         if alpha.getextrema()[0] != 0:
             raise ValueError(f"{label}: transparent background required")
-        box = alpha.point(lambda a: 255 if a > 12 else 0).getbbox()
+        box = alpha.getbbox()
         if box is None:
             raise ValueError(f"{label}: empty foreground")
         left, top, right, bottom = box
-        coverage = max(right - left, bottom - top) / width
-        if not 0.86 <= coverage <= 0.93:
-            raise ValueError(f"{label}: inconsistent foreground scale ({coverage:.3f})")
-        if abs((left + right) / 2 - width / 2) > width * 0.025 or (
-            abs((top + bottom) / 2 - height / 2) > height * 0.025
-        ):
-            raise ValueError(f"{label}: foreground not centered")
-        return {"pixels": [width, height], "longAxisCoverage": round(coverage, 4)}
+        subject_width, subject_height = right - left, bottom - top
+        if min(subject_width, subject_height) < 180 or max(subject_width, subject_height) < 300:
+            raise ValueError(f"{label}: visible subject resolution too low")
+        expected = max(4, round(max(subject_width, subject_height) * .015))
+        margins = (left, top, width - right, height - bottom)
+        if any(abs(value - expected) > 1 for value in margins):
+            raise ValueError(f"{label}: asymmetric or excessive transparent margins: {margins}")
+        return {
+            "pixels": [width, height],
+            "subjectPixels": [subject_width, subject_height],
+            "margins": list(margins),
+            "longAxisCoverage": round(
+                max(subject_width, subject_height) / max(width, height), 4
+            ),
+        }
 
 
 def checked_new_entries(entries: list[dict], baseline: dict) -> set[str]:
