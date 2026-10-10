@@ -33,7 +33,7 @@ def check_new_presentation(payload: bytes, *, label: str = "image") -> dict:
             raise ValueError(f"{label}: PNG required")
         source.load()
         width, height = source.size
-        if not 180 <= min(width, height) and max(width, height) >= 300:
+        if min(width, height) < 180 or max(width, height) < 300:
             raise ValueError(f"{label}: output resolution too low")
         if max(width, height) > 2500 or width * height > 6_250_000:
             raise ValueError(f"{label}: output dimensions exceed budget")
