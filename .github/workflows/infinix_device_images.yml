@@ -1,6 +1,11 @@
 name: Infinix Device Images
 
 on:
+  pull_request:
+    paths:
+      - 'tools/infinix-image-bot/**'
+      - 'device-media/**'
+      - '.github/workflows/infinix_device_images.yml'
   workflow_dispatch:
     inputs:
       mode:
@@ -32,14 +37,41 @@ on:
         type: string
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: infinix-media-publishing
   cancel-in-progress: false
 
 jobs:
+  quality-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: tools/infinix-image-bot/requirements.txt
+      - name: Install pinned dependencies
+        run: python -m pip install -r tools/infinix-image-bot/requirements.txt
+      - name: Run Infinix bot regressions
+        run: |
+          mkdir -p tools/infinix-image-bot/output
+          python -m unittest discover -s tools/infinix-image-bot -p 'test_*.py' -q
+      - name: Verify immutable media and presentation of newly added images
+        run: |
+          git fetch --no-tags --depth=1 origin main
+          git show FETCH_HEAD:device-media/device_media_manifest.json > "$RUNNER_TEMP/media-before.json"
+          python tools/infinix-image-bot/verify_media.py --baseline-manifest "$RUNNER_TEMP/media-before.json"
   images:
+    if: github.event_name == 'workflow_dispatch'
+    needs: quality-checks
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -77,9 +109,10 @@ jobs:
       - name: Publish only human-approved media
         if: inputs.mode == 'publish' && inputs.confirm_publish == 'PUBLISH_VERIFIED'
         run: |
+          git show HEAD:device-media/device_media_manifest.json > "$RUNNER_TEMP/media-before.json"
           python tools/infinix-image-bot/bot.py publish
           git diff --check
-          python tools/infinix-image-bot/verify_media.py
+          python tools/infinix-image-bot/verify_media.py --baseline-manifest "$RUNNER_TEMP/media-before.json"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add device-media/
