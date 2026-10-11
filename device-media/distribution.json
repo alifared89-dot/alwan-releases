@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 44225,
-    "sha256": "7da3babd1d126d057d4d8b7fefda8935ee4b96fd56c0054b6e4efef335f51356"
+    "bytes": 52044,
+    "sha256": "9fdf218f863f5f0014ad2d25ae50e5c3c6796c0156e78be469c8b8cab11b4be0"
   },
   "chunks": [
     {
@@ -362,6 +362,76 @@
       "compressedBytes": 168681,
       "uncompressedBytes": 168483,
       "sha256": "dd54142339d6143690c66143210d4a727b75e5e5487055d3b529e52bca2fe486"
+    },
+    {
+      "chunkId": "infinix-new10-x6516-2005c668c9c8",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-new10-x6516-2005c668c9c8.zip",
+      "compressedBytes": 1551827,
+      "uncompressedBytes": 1552174,
+      "sha256": "7b65230b3c40d8dc9a0d88b28b0ddef39cabadcfc7ddf020be9c8310d49852ff"
+    },
+    {
+      "chunkId": "infinix-new10-x6711-9782ade7b36b",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-new10-x6711-9782ade7b36b.zip",
+      "compressedBytes": 1302600,
+      "uncompressedBytes": 1305484,
+      "sha256": "80adda0d2f5700abb4fde0658695631000b7444082c09fc233af78bccaac3101"
+    },
+    {
+      "chunkId": "infinix-new10-x671-b11ce5d76130",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-new10-x671-b11ce5d76130.zip",
+      "compressedBytes": 2163854,
+      "uncompressedBytes": 2164442,
+      "sha256": "a57c9db92a190130b4c0462f8a3b232db38f42f9e30b9bfd4e6d063f72eee8b3"
+    },
+    {
+      "chunkId": "infinix-new10-x6528b-be0795f155ea",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-new10-x6528b-be0795f155ea.zip",
+      "compressedBytes": 500877,
+      "uncompressedBytes": 500820,
+      "sha256": "be62140202a3d5b967f4086a36aa2a61c7b1e4884933d13e71b6e2d09b1ef34b"
+    },
+    {
+      "chunkId": "infinix-new10-x6852-e0609e9d466d",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-new10-x6852-e0609e9d466d.zip",
+      "compressedBytes": 755720,
+      "uncompressedBytes": 755657,
+      "sha256": "ccff401752a2b1bd14236c5fb76341d5c4856f274678c48f5ccdee45bdc88f8d"
+    },
+    {
+      "chunkId": "infinix-new10-x6857b-7e6a792f4f69",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-new10-x6857b-7e6a792f4f69.zip",
+      "compressedBytes": 2291800,
+      "uncompressedBytes": 2300720,
+      "sha256": "f034f47e17725772b70a6cf81adc32d8f87a98531b847acd24f9176ddfdd42d3"
+    },
+    {
+      "chunkId": "infinix-new10-x6726-9d646702bf43",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-new10-x6726-9d646702bf43.zip",
+      "compressedBytes": 2805386,
+      "uncompressedBytes": 2805261,
+      "sha256": "737cec27d2da409830d6665328a72c14ce165c22b8abb3747af03284d4cb9731"
+    },
+    {
+      "chunkId": "infinix-new10-x1101-368fbee9bcf4",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-new10-x1101-368fbee9bcf4.zip",
+      "compressedBytes": 2683300,
+      "uncompressedBytes": 2684811,
+      "sha256": "924c74baa5f5acf25bdeea05b12fad6a53954c136d3418ebf8e0fbd60f29013b"
+    },
+    {
+      "chunkId": "infinix-new10-x665c-591c1371954e",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-new10-x665c-591c1371954e.zip",
+      "compressedBytes": 199487,
+      "uncompressedBytes": 199295,
+      "sha256": "8073648366099abe739eccfb8fd44a17d6600e52a899bb30856e2f151c561672"
+    },
+    {
+      "chunkId": "infinix-new10-x6837-64caf10fc7b9",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-new10-x6837-64caf10fc7b9.zip",
+      "compressedBytes": 210750,
+      "uncompressedBytes": 211036,
+      "sha256": "0faa5fd3514ad1434b8172a7c2b79c38768efcb17a0f6daeaac760251c245399"
     }
   ]
 }
