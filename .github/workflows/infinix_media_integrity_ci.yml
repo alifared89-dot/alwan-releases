@@ -44,43 +44,30 @@ jobs:
           git fetch origin "$GITHUB_BASE_REF" --depth=1
           git show "origin/$GITHUB_BASE_REF:device-media/device_media_manifest.json" > "$RUNNER_TEMP/device_media_manifest.baseline.json"
           git show "origin/$GITHUB_BASE_REF:device-media/distribution.json" > "$RUNNER_TEMP/distribution.baseline.json"
-      - name: Protect previously published distribution descriptors
+      - name: Protect published media or validate an intentional migration
         if: github.event_name == 'pull_request'
         run: |
-          python - <<'PY'
-          import json
-          import os
-          from pathlib import Path
-
-          temp = Path(os.environ["RUNNER_TEMP"])
-          old = json.loads((temp / "distribution.baseline.json").read_text())
-          new = json.loads(Path("device-media/distribution.json").read_text())
-
-          if old.get("schemaVersion") != new.get("schemaVersion"):
-              raise SystemExit("ERROR: distribution schemaVersion changed")
-          if old.get("mediaManifest", {}).get("url") != new.get("mediaManifest", {}).get("url"):
-              raise SystemExit("ERROR: stable mediaManifest URL changed")
-
-          old_chunks = {x["chunkId"]: x for x in old["chunks"]}
-          new_chunks = {x["chunkId"]: x for x in new["chunks"]}
-          missing = sorted(set(old_chunks) - set(new_chunks))
-          if missing:
-              raise SystemExit(f"ERROR: previously published chunks removed: {missing}")
-          changed = sorted(k for k, v in old_chunks.items() if new_chunks[k] != v)
-          if changed:
-              raise SystemExit(f"ERROR: immutable chunk descriptors changed: {changed}")
-          print(f"PASS: {len(old_chunks)} previous chunk descriptors are immutable")
-          PY
-      - name: Verify current media against PR base
-        if: github.event_name == 'pull_request'
+          BASE_SHA="$(git rev-parse "origin/$GITHUB_BASE_REF")"
+          PLAN_ARGS=()
+          if git diff --name-only "origin/$GITHUB_BASE_REF"...HEAD -- device-media/migration_plan.json | grep -q .; then
+            PLAN_ARGS=(--migration-plan device-media/migration_plan.json)
+          fi
+          python tools/infinix-image-bot/media_integrity_guard.py             --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"             --baseline-distribution "$RUNNER_TEMP/distribution.baseline.json"             --current-manifest device-media/device_media_manifest.json             --current-distribution device-media/distribution.json             --base-commit "$BASE_SHA"             "${PLAN_ARGS[@]}"
+      - name: Verify media payloads and presentation
         run: |
-          python tools/infinix-image-bot/verify_media.py --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"
-      - name: Verify current media standalone
-        if: github.event_name != 'pull_request'
-        run: python tools/infinix-image-bot/verify_media.py
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ] &&              ! git diff --name-only "origin/$GITHUB_BASE_REF"...HEAD -- device-media/migration_plan.json | grep -q .; then
+            python tools/infinix-image-bot/verify_media.py               --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"
+          else
+            python tools/infinix-image-bot/verify_media.py
+          fi
       - name: Run offline regression suite
         run: |
           mkdir -p tools/infinix-image-bot/output
           python -m unittest discover -s tools/infinix-image-bot -p 'test_*.py' -v
       - name: Reject whitespace damage
-        run: git diff --check
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            git diff --check "origin/$GITHUB_BASE_REF"...HEAD
+          else
+            git diff --check HEAD^ HEAD
+          fi
