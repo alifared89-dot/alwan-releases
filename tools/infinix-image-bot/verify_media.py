@@ -15,6 +15,11 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2] / "device-media"
+MEDIA_RAW_BASE = (
+    "https://raw.githubusercontent.com/alifared89-dot/"
+    "alwan-releases/main/device-media/"
+)
+MEDIA_MANIFEST_URL = MEDIA_RAW_BASE + "device_media_manifest.json"
 
 
 def digest(payload: bytes) -> str:
@@ -116,8 +121,14 @@ def verify_media(
     manifest_data = (root / "device_media_manifest.json").read_bytes()
     distribution = json.loads((root / "distribution.json").read_bytes())
     manifest = json.loads(manifest_data)
-    if len(manifest_data) != distribution["mediaManifest"]["bytes"] or (
-        digest(manifest_data) != distribution["mediaManifest"]["sha256"]
+    media_descriptor = distribution["mediaManifest"]
+    if media_descriptor.get("url") != MEDIA_MANIFEST_URL:
+        raise ValueError(
+            "invalid media manifest URL: "
+            f"expected {MEDIA_MANIFEST_URL}, got {media_descriptor.get('url')}"
+        )
+    if len(manifest_data) != media_descriptor["bytes"] or (
+        digest(manifest_data) != media_descriptor["sha256"]
     ):
         raise ValueError("manifest size or SHA mismatch")
 
@@ -142,6 +153,12 @@ def verify_media(
         )
     inspected = 0
     for chunk_id, descriptor in chunks.items():
+        expected_url = MEDIA_RAW_BASE + "chunks/" + chunk_id + ".zip"
+        if descriptor.get("url") != expected_url:
+            raise ValueError(
+                f"invalid chunk URL for {chunk_id}: "
+                f"expected {expected_url}, got {descriptor.get('url')}"
+            )
         archive_file = root / "chunks" / (chunk_id + ".zip")
         archive = archive_file.read_bytes()
         if len(archive) != descriptor["compressedBytes"] or (
