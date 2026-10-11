@@ -70,7 +70,7 @@ class ContractTests(unittest.TestCase):
             h=hashlib.sha256(b).hexdigest()
             entries.append({
                 "id":ids[typ],"type":typ,"version":f'{ids[typ]}-{h[:16]}',
-                "url":"https://example.com/"+fn,"sha256":h,
+                "url":v.PAYLOAD_URL_PREFIX+fn,"sha256":h,
                 "compressedBytes":len(b),"uncompressedBytes":len(b),
                 "archiveFormat":"rawJson",
             })
@@ -149,6 +149,49 @@ class ContractTests(unittest.TestCase):
         (r/"manifest.json").write_text(json.dumps(m,indent=2)+"\n")
         self.assertIn(
             "ALWAN-DATA-CATALOG-VERSION",
+            {x["code"] for x in self.audit(r).errors},
+        )
+
+
+    def test_rejects_payload_url_mismatch(self):
+        td,r=self.fixture()
+        self.addCleanup(td.cleanup)
+        m=json.loads((r/"manifest.json").read_text())
+        next(x for x in m["entries"] if x["type"]=="displays")["url"]="https://example.com/wrong.json"
+        (r/"manifest.json").write_text(json.dumps(m,indent=2)+"\n")
+        self.assertIn(
+            "ALWAN-DATA-PAYLOAD-URL",
+            {x["code"] for x in self.audit(r).errors},
+        )
+
+    def test_rejects_uncovered_group_device(self):
+        td,r=self.fixture()
+        self.addCleanup(td.cleanup)
+        catalog_path=r/"payloads/catalog.json"
+        catalog=json.loads(catalog_path.read_text())
+        catalog["devices"].append({
+            "id":"dev_x2","brandId":"infinix","name":"Y",
+            "aliases":[],"modelCodes":["X2"],"images":[]
+        })
+        b=(json.dumps(catalog,indent=2)+"\n").encode()
+        catalog_path.write_bytes(b)
+        m=json.loads((r/"manifest.json").read_text())
+        ce=next(x for x in m["entries"] if x["type"]=="devices")
+        h=hashlib.sha256(b).hexdigest()
+        ce.update(
+            sha256=h,compressedBytes=len(b),uncompressedBytes=len(b),
+            version="catalog-"+h[:16],
+        )
+        for e in m["entries"]:
+            if e["type"]!="devices":
+                e["catalogDependency"]["builtAgainstVersion"]=ce["version"]
+        (r/"manifest.json").write_text(json.dumps(m,indent=2)+"\n")
+        self.mutate_display(
+            r,
+            lambda d:d["compatibilityGroups"][0]["deviceIds"].append("dev_x2"),
+        )
+        self.assertIn(
+            "ALWAN-DATA-EVIDENCE-COVERAGE",
             {x["code"] for x in self.audit(r).errors},
         )
 
