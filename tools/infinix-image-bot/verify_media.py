@@ -24,7 +24,7 @@ def digest(payload: bytes) -> str:
 def check_new_presentation(payload: bytes, *, label: str = "image") -> dict:
     """Validate pixel-safe normalized device media in two supported layouts.
 
-    Native aspect: 1.5% symmetric transparent margin on all sides for clients
+    Native aspect: 1.2% symmetric transparent margin on all sides for clients
     using BoxFit.contain.
     Square fallback: same margin on the longer subject axis; short-axis
     letterboxing is symmetric and the *entire* device remains visible in older
@@ -50,7 +50,7 @@ def check_new_presentation(payload: bytes, *, label: str = "image") -> dict:
         if min(sw, sh) < 180 or max(sw, sh) < 300:
             raise ValueError(f"{label}: visible device too small")
         margins = (left, top, width - right, height - bottom)
-        expected = max(4, round(max(sw, sh) * 0.015))
+        expected = max(4, round(max(sw, sh) * 0.012))
         if abs(left - (width - right)) > 1 or abs(top - (height - bottom)) > 1:
             raise ValueError(f"{label}: asymmetric transparent margins")
         if width == height:
