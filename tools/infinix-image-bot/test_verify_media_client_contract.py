@@ -57,6 +57,30 @@ class FreshDeviceMediaContractTests(unittest.TestCase):
         self.addCleanup(td.cleanup)
         self.assertEqual((1,0),verify_media.verify_media(root=root))
 
+    def test_migration_rechecks_only_changed_image_content(self):
+        baseline={"entries":[{
+            "deviceId":"dev_x","revision":"r1","view":"frontBack",
+            "filename":"phone.png","chunkId":"old-chunk",
+            "sha256":"a"*64,"bytes":10,
+        }]}
+        metadata_only=[dict(baseline["entries"][0],chunkId="new-chunk")]
+        self.assertEqual(
+            set(),
+            verify_media.presentation_check_entries(
+                metadata_only,baseline,migration_mode=True
+            ),
+        )
+        content_changed=[dict(
+            baseline["entries"][0],chunkId="new-chunk",
+            sha256="b"*64,bytes=11
+        )]
+        self.assertEqual(
+            {"phone.png"},
+            verify_media.presentation_check_entries(
+                content_changed,baseline,migration_mode=True
+            ),
+        )
+
     def test_extra_superseded_file_is_rejected(self):
         td,root=self.make_root(extra=True)
         self.addCleanup(td.cleanup)
