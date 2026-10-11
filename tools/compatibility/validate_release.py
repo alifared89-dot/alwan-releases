@@ -10,6 +10,10 @@ TYPE_FILES={
 }
 TYPE_CATEGORY={"displays":"display","batteries":"battery","charging":"charging",
                "cameras":"camera","flexes":"flex","audio":"audio"}
+PAYLOAD_URL_PREFIX=(
+    "https://raw.githubusercontent.com/alifared89-dot/"
+    "alwan-releases/main/compatibility/payloads/"
+)
 STABLE=re.compile(r"^[A-Za-z0-9._-]+$")
 def norm_model(s): return re.sub(r"[^A-Za-z0-9]","",str(s)).lower()
 def load(path):
@@ -51,6 +55,18 @@ def validate(root:Path,a:Audit):
             a.err("ALWAN-DATA-TYPE",p,f"unsupported type {typ!r}"); continue
         if typ in by_type: a.err("ALWAN-DATA-TYPE-DUPLICATE",p,f"duplicate dataset type {typ}")
         by_type[typ]=e
+        expected_url=PAYLOAD_URL_PREFIX+TYPE_FILES[typ]
+        if e.get("url")!=expected_url:
+            a.err(
+                "ALWAN-DATA-PAYLOAD-URL",p,
+                f"url must be {expected_url!r}; got {e.get('url')!r}",
+                "use the canonical main-branch raw payload URL",
+            )
+        if e.get("archiveFormat")!="rawJson":
+            a.err(
+                "ALWAN-DATA-ARCHIVE-FORMAT",p,
+                f"archiveFormat must be 'rawJson'; got {e.get('archiveFormat')!r}",
+            )
         f=root/"payloads"/TYPE_FILES[typ]
         if not f.exists(): a.err("ALWAN-DATA-PAYLOAD-MISSING",str(f),f"payload for {typ} is missing"); continue
         b=f.read_bytes(); payloads[typ]=load(f)
@@ -162,6 +178,43 @@ def validate(root:Path,a:Audit):
                     d=devmap.get(did)
                     if d and any(norm_model(x) in cm for x in d.get("modelCodes",[])): ok=True; break
                 if not ok: a.err("ALWAN-DATA-EVIDENCE-MODEL",path,f"{evid}: no cited model code matches any device in group {g.get('id')}")
+        support_by_group={}
+        for ev in evidence:
+            if isinstance(ev,dict) and ev.get("claim")=="supports":
+                support_by_group.setdefault(
+                    ev.get("compatibilityGroupId"),[]
+                ).append(ev)
+        for i,g in enumerate(groups):
+            if not isinstance(g,dict):
+                continue
+            path=f"{base}#/compatibilityGroups/{i}"
+            cited_models={
+                norm_model(code)
+                for ev in support_by_group.get(g.get("id"),[])
+                for code in ev.get("citedModelCodes",[])
+                if norm_model(code)
+            }
+            uncovered=[]
+            for device_id in g.get("deviceIds",[]):
+                device=devmap.get(device_id)
+                if device is None:
+                    continue
+                if not any(
+                    norm_model(code) in cited_models
+                    for code in device.get("modelCodes",[])
+                ):
+                    uncovered.append({
+                        "deviceId":device_id,
+                        "modelCodes":device.get("modelCodes",[]),
+                    })
+            if uncovered:
+                a.err(
+                    "ALWAN-DATA-EVIDENCE-COVERAGE",path,
+                    f"group {g.get('id')} has devices without supporting "
+                    f"model-code evidence: {uncovered}",
+                    "add verified supports evidence for every grouped device "
+                    "or remove unsupported devices from the group",
+                )
         factkeys=set()
         for i,f in enumerate(facts):
             path=f"{base}#/categoryFacts/{i}"; did=f.get("deviceId") if isinstance(f,dict) else None
