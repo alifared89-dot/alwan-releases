@@ -39,11 +39,11 @@ class FreshDeviceMediaContractTests(unittest.TestCase):
         distribution={
             "schemaVersion":1,
             "mediaManifest":{
-                "url":"https://example.com/device_media_manifest.json",
+                "url":verify_media.MEDIA_MANIFEST_URL,
                 "bytes":len(manifest_bytes),"sha256":sha(manifest_bytes),
             },
             "chunks":[{
-                "chunkId":chunk_id,"url":"https://example.com/chunk.zip",
+                "chunkId":chunk_id,"url":verify_media.MEDIA_RAW_BASE+"chunks/"+chunk_id+".zip",
                 "compressedBytes":len(archive),
                 "uncompressedBytes":len(payload)+(3 if extra else 0),
                 "sha256":sha(archive),
@@ -80,6 +80,27 @@ class FreshDeviceMediaContractTests(unittest.TestCase):
                 content_changed,baseline,migration_mode=True
             ),
         )
+
+
+    def test_rejects_wrong_chunk_url(self):
+        td,root=self.make_root(extra=False)
+        self.addCleanup(td.cleanup)
+        path=root/"distribution.json"
+        distribution=json.loads(path.read_text())
+        distribution["chunks"][0]["url"]="https://example.com/wrong.zip"
+        path.write_text(json.dumps(distribution,indent=2)+"\n")
+        with self.assertRaisesRegex(ValueError,"invalid chunk URL"):
+            verify_media.verify_media(root=root)
+
+    def test_rejects_wrong_manifest_url(self):
+        td,root=self.make_root(extra=False)
+        self.addCleanup(td.cleanup)
+        path=root/"distribution.json"
+        distribution=json.loads(path.read_text())
+        distribution["mediaManifest"]["url"]="https://example.com/wrong.json"
+        path.write_text(json.dumps(distribution,indent=2)+"\n")
+        with self.assertRaisesRegex(ValueError,"invalid media manifest URL"):
+            verify_media.verify_media(root=root)
 
     def test_extra_superseded_file_is_rejected(self):
         td,root=self.make_root(extra=True)
