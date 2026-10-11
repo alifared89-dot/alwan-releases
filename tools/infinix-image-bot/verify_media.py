@@ -66,21 +66,53 @@ def check_new_presentation(payload: bytes, *, label: str = "image") -> dict:
                 "margins": list(margins), "longAxisCoverage": round(coverage, 4)}
 
 
-def checked_new_entries(entries: list[dict], baseline: dict) -> set[str]:
-    """Fail closed on mutation/removal of immutable old media entries."""
+def presentation_check_entries(
+    entries: list[dict],
+    baseline: dict,
+    *,
+    migration_mode: bool = False,
+) -> set[str]:
+    """Select images that must pass the current presentation gate.
+
+    Normal PRs remain immutable. Intentional migrations may rewrite metadata,
+    but any newly introduced or content-rewritten image is still revalidated.
+    Packaging-only changes such as chunkId rewrites do not retroactively impose
+    new geometry rules on unchanged published image bytes.
+    """
     old = {(x["deviceId"], x["revision"], x["view"]): x
            for x in baseline["entries"]}
     new = {(x["deviceId"], x["revision"], x["view"]): x for x in entries}
-    missing = set(old) - set(new)
-    if missing:
-        raise ValueError(f"previously published media entries removed: {len(missing)}")
-    for key, row in old.items():
-        if row != new[key]:
-            raise ValueError(f"immutable published media entry modified: {key}")
-    return {x["filename"] for key, x in new.items() if key not in old}
+
+    if not migration_mode:
+        missing = set(old) - set(new)
+        if missing:
+            raise ValueError(
+                f"previously published media entries removed: {len(missing)}"
+            )
+        for key, row in old.items():
+            if row != new[key]:
+                raise ValueError(
+                    f"immutable published media entry modified: {key}"
+                )
+        return {x["filename"] for key, x in new.items() if key not in old}
+
+    content_fields = ("filename", "sha256", "bytes")
+    to_check = set()
+    for key, row in new.items():
+        previous = old.get(key)
+        if previous is None or any(
+            previous.get(field) != row.get(field) for field in content_fields
+        ):
+            to_check.add(row["filename"])
+    return to_check
 
 
-def verify_media(root: Path = ROOT, baseline_manifest: Path | None = None) -> tuple[int, int]:
+def verify_media(
+    root: Path = ROOT,
+    baseline_manifest: Path | None = None,
+    *,
+    migration_mode: bool = False,
+) -> tuple[int, int]:
     manifest_data = (root / "device_media_manifest.json").read_bytes()
     distribution = json.loads((root / "distribution.json").read_bytes())
     manifest = json.loads(manifest_data)
@@ -98,10 +130,15 @@ def verify_media(root: Path = ROOT, baseline_manifest: Path | None = None) -> tu
     if len({(e["deviceId"], e["revision"], e["view"]) for e in entries}) != len(entries):
         raise ValueError("duplicate media identity")
 
+    if migration_mode and baseline_manifest is None:
+        raise ValueError("migration mode requires --baseline-manifest")
+
     to_check = set()
     if baseline_manifest is not None:
-        to_check = checked_new_entries(
-            entries, json.loads(baseline_manifest.read_bytes())
+        to_check = presentation_check_entries(
+            entries,
+            json.loads(baseline_manifest.read_bytes()),
+            migration_mode=migration_mode,
         )
     inspected = 0
     for chunk_id, descriptor in chunks.items():
@@ -139,6 +176,10 @@ def verify_media(root: Path = ROOT, baseline_manifest: Path | None = None) -> tu
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--baseline-manifest", type=Path)
+    parser.add_argument("--migration-mode", action="store_true")
     args = parser.parse_args()
-    count, new_count = verify_media(baseline_manifest=args.baseline_manifest)
+    count, new_count = verify_media(
+        baseline_manifest=args.baseline_manifest,
+        migration_mode=args.migration_mode,
+    )
     print(f"PASS: {count} media entries with verified hashes; {new_count} newly published images passed geometry gate")
