@@ -41,7 +41,7 @@ jobs:
       - name: Build immutable base metadata
         if: github.event_name == 'pull_request'
         run: |
-          git fetch origin "$GITHUB_BASE_REF" --depth=1
+          git fetch origin "$GITHUB_BASE_REF:refs/remotes/origin/$GITHUB_BASE_REF" --depth=1
           git show "origin/$GITHUB_BASE_REF:device-media/device_media_manifest.json" > "$RUNNER_TEMP/device_media_manifest.baseline.json"
           git show "origin/$GITHUB_BASE_REF:device-media/distribution.json" > "$RUNNER_TEMP/distribution.baseline.json"
       - name: Protect published media or validate an intentional migration
