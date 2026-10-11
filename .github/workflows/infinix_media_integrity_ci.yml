@@ -55,8 +55,15 @@ jobs:
           python tools/infinix-image-bot/media_integrity_guard.py             --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"             --baseline-distribution "$RUNNER_TEMP/distribution.baseline.json"             --current-manifest device-media/device_media_manifest.json             --current-distribution device-media/distribution.json             --base-commit "$BASE_SHA"             "${PLAN_ARGS[@]}"
       - name: Verify media payloads and presentation
         run: |
-          if [ "$GITHUB_EVENT_NAME" = "pull_request" ] &&              ! git diff --name-only "origin/$GITHUB_BASE_REF"...HEAD -- device-media/migration_plan.json | grep -q .; then
-            python tools/infinix-image-bot/verify_media.py               --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            if git diff --name-only "origin/$GITHUB_BASE_REF"...HEAD -- device-media/migration_plan.json | grep -q .; then
+              python tools/infinix-image-bot/verify_media.py \
+                --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json" \
+                --migration-mode
+            else
+              python tools/infinix-image-bot/verify_media.py \
+                --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"
+            fi
           else
             python tools/infinix-image-bot/verify_media.py
           fi
