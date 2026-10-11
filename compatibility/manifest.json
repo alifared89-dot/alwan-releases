@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 255223953260582,
-  "generatedAt": "2026-10-09T16:02:48.527Z",
+  "manifestVersion": 255223953260583,
+  "generatedAt": "2026-10-11T20:31:02.748Z",
   "schemaVersion": 3,
   "entries": [
     {
@@ -16,11 +16,11 @@
     {
       "id": "display",
       "type": "displays",
-      "version": "display-bf683f6b590dd515",
+      "version": "display-2ff6684f672f8553",
       "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/display.json",
-      "sha256": "bf683f6b590dd51545846d20ba2650280c3bc05703f999d7f38b93a16dc67b87",
-      "compressedBytes": 1258661,
-      "uncompressedBytes": 1258661,
+      "sha256": "2ff6684f672f855333843ebbc6b23cfad2a04ac3a8a9b739d1e7e6ff4b670a7e",
+      "compressedBytes": 1259465,
+      "uncompressedBytes": 1259465,
       "archiveFormat": "rawJson",
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
@@ -40,7 +40,7 @@
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-69091c264e0f49b7"
+        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
       }
     },
     {
@@ -55,7 +55,7 @@
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-69091c264e0f49b7"
+        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
       }
     },
     {
@@ -70,7 +70,7 @@
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-69091c264e0f49b7"
+        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
       }
     },
     {
@@ -85,7 +85,7 @@
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-69091c264e0f49b7"
+        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
       }
     },
     {
@@ -100,7 +100,7 @@
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-69091c264e0f49b7"
+        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
       }
     }
   ]

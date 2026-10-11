@@ -1,0 +1,57 @@
+name: Compatibility Data Contract
+
+on:
+  pull_request:
+    paths:
+      - 'compatibility/**'
+      - 'tools/compatibility/**'
+      - '.github/workflows/compatibility_integrity_ci.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'compatibility/**'
+      - 'tools/compatibility/**'
+      - '.github/workflows/compatibility_integrity_ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compatibility-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Run production-compatible data contract
+        id: validate
+        shell: bash
+        run: |
+          set +e
+          python tools/compatibility/validate_release.py \
+            --root compatibility \
+            --report compatibility-validation-report.json
+          status=$?
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Upload machine-readable rejection report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compatibility-validation-${{ github.run_id }}
+          path: compatibility-validation-report.json
+          retention-days: 30
+      - name: Run validator regression tests
+        run: python -m unittest discover -s tools/compatibility -p 'test_*.py' -v
+      - name: Enforce contract result
+        shell: bash
+        run: |
+          if [ "${{ steps.validate.outputs.status }}" != "0" ]; then
+            echo "Compatibility data rejected. Read the ALWAN-DATA-* error above or the uploaded JSON report."
+            exit 1
+          fi
