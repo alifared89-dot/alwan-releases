@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 52044,
-    "sha256": "9fdf218f863f5f0014ad2d25ae50e5c3c6796c0156e78be469c8b8cab11b4be0"
+    "bytes": 52812,
+    "sha256": "3011e5195d4f65a874cf88b1491acfa3672fd4e7f8f87ab25b5ea89af149d547"
   },
   "chunks": [
     {
@@ -432,6 +432,13 @@
       "compressedBytes": 210750,
       "uncompressedBytes": 211036,
       "sha256": "0faa5fd3514ad1434b8172a7c2b79c38768efcb17a0f6daeaac760251c245399"
+    },
+    {
+      "chunkId": "infinix-next-x6857-896278463eed",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-next-x6857-896278463eed.zip",
+      "compressedBytes": 612446,
+      "uncompressedBytes": 612618,
+      "sha256": "7bbb16b9311343ad05bfa9772d7f24d022c7c917abd03e1d93ef783c0deade33"
     }
   ]
 }

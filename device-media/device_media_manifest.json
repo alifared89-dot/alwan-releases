@@ -1,7 +1,24 @@
 {
-  "manifestVersion": 14,
-  "generatedAt": "2026-10-10T22:46:27Z",
+  "manifestVersion": 15,
+  "generatedAt": "2026-10-11T11:25:01Z",
   "entries": [
+    {
+      "deviceId": "dev_muhbetyk7pmyb4jghcg3cmvszu",
+      "revision": "infinix-verified-x6857-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next-x6857-frontback.png",
+      "chunkId": "infinix-next-x6857-896278463eed",
+      "sha256": "896278463eed74b5f9281df4c203a0022c8d57b3300e893eee37cc4aa3fa71a8",
+      "bytes": 612618,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/1193",
+      "creator": "Infinix Malaysia official NOTE 50X 5G front/back render",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix Malaysia official NOTE 50X 5G front/back render; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X6857"
+      ],
+      "checkedAt": "2026-10-11T11:25:01Z"
+    },
     {
       "deviceId": "dev_76qitcgyb5jadgtiejc5jwwoca",
       "revision": "infinix-verified-new10-x6516-frontback-v1",
