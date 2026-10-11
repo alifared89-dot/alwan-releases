@@ -65,23 +65,30 @@ class ComposeTest(unittest.TestCase):
                                "visualRoleVerified":True,"modelMatchVerified":True}
             record={"modelCode":"X6858","deviceId":bot.BY_CODE["X6858"][0]["deviceId"],
                     "colorKey":"GOLD","sources":[samples["front"],samples["back"]]}
-            with patch.object(cv,"OUTPUT_DIR",directory/"composites"):
+            media = directory / "media"
+            media.mkdir()
+            (media / "device_media_manifest.json").write_text(
+                json.dumps({"entries": []})
+            )
+            with patch.object(cv,"OUTPUT_DIR",directory/"composites"), \
+                 patch.object(cv.bot,"MEDIA",media):
                 output=cv.execute(record)
                 self.assertFalse(output["publishable"])
                 self.assertEqual(output["size"],[960,960])
                 self.assertTrue(Path(output["outputFile"]).exists())
-            altered=json.loads(json.dumps(record))
-            altered["sources"][1]["colorKey"]="RED"
-            with self.assertRaisesRegex(cv.UnsafeImage,"color mismatch"):
-                cv.execute(altered)
-            altered=json.loads(json.dumps(record))
-            altered["sources"][1]["sourceSha256"]="0"*64
-            with self.assertRaisesRegex(cv.UnsafeImage,"digest mismatch"):
-                cv.execute(altered)
-            altered=json.loads(json.dumps(record))
-            altered["sources"][0]["visualRoleVerified"]=False
-            with self.assertRaisesRegex(cv.UnsafeImage,"verification"):
-                cv.execute(altered)
+            with patch.object(cv.bot,"MEDIA",media):
+                altered=json.loads(json.dumps(record))
+                altered["sources"][1]["colorKey"]="RED"
+                with self.assertRaisesRegex(cv.UnsafeImage,"color mismatch"):
+                    cv.execute(altered)
+                altered=json.loads(json.dumps(record))
+                altered["sources"][1]["sourceSha256"]="0"*64
+                with self.assertRaisesRegex(cv.UnsafeImage,"digest mismatch"):
+                    cv.execute(altered)
+                altered=json.loads(json.dumps(record))
+                altered["sources"][0]["visualRoleVerified"]=False
+                with self.assertRaisesRegex(cv.UnsafeImage,"verification"):
+                    cv.execute(altered)
 
 
 if __name__=="__main__":
