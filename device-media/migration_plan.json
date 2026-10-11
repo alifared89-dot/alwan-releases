@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "intentional-media-migration",
-  "baseCommit": "f4241fe879e89b39b7fa357f85397a3a99caf1ff",
+  "baseCommit": "f4241fe879e89a39b7fa357f85397a3a99caf1ff",
   "reason": "Replace legacy multi-file chunks whose extra superseded PNGs are rejected by the production fresh-device installer.",
   "targetManifestVersion": 16,
   "allow": {
