@@ -113,9 +113,16 @@ def verify_media(root: Path = ROOT, baseline_manifest: Path | None = None) -> tu
             raise ValueError(f"invalid archive checksum: {chunk_id}")
         matching = [e for e in entries if e["chunkId"] == chunk_id]
         with zipfile.ZipFile(io.BytesIO(archive)) as z:
-            if z.testzip() is not None or (
-                sorted(z.namelist()) != sorted(e["filename"] for e in matching)
-            ):
+            # Immutable older chunks can still contain a superseded PNG.
+            # Their signed ZIP SHA and size remain authoritative, while the
+            # active manifest lists only current image entries (v13 onward).
+            # New chunks must still contain exactly the declared images.
+            actual_names = z.namelist()
+            expected_names = {e["filename"] for e in matching}
+            new_chunk = any(e["filename"] in to_check for e in matching)
+            if (z.testzip() is not None
+                    or not expected_names.issubset(set(actual_names))
+                    or (new_chunk and sorted(actual_names) != sorted(expected_names))):
                 raise ValueError(f"invalid ZIP contents: {chunk_id}")
             for entry in matching:
                 payload = z.read(entry["filename"])

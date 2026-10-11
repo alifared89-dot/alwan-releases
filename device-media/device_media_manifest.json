@@ -1,7 +1,177 @@
 {
-  "manifestVersion": 13,
-  "generatedAt": "2026-10-10T21:01:56Z",
+  "manifestVersion": 14,
+  "generatedAt": "2026-10-10T22:46:27Z",
   "entries": [
+    {
+      "deviceId": "dev_76qitcgyb5jadgtiejc5jwwoca",
+      "revision": "infinix-verified-new10-x6516-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next10-x6516-frontback.png",
+      "chunkId": "infinix-new10-x6516-2005c668c9c8",
+      "sha256": "2005c668c9c819545c5b726c1117f21914a0dce42d5a1daf6f831ffdca6e390a",
+      "bytes": 1552174,
+      "sourcePageUrl": "https://infinixstore.eu/products/infinix-smart-7-hd",
+      "creator": "Infinix product render via InfinixStore EU",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix product render via InfinixStore EU; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X6516"
+      ],
+      "checkedAt": "2026-10-10T22:46:27Z"
+    },
+    {
+      "deviceId": "dev_nazueovjozm2puzhr7oqk5smi4",
+      "revision": "infinix-verified-new10-x6711-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next10-x6711-frontback.png",
+      "chunkId": "infinix-new10-x6711-9782ade7b36b",
+      "sha256": "9782ade7b36b6c6993c6314ca4cf7f5f6b74a8165871fe050455910b79fe1cbe",
+      "bytes": 1305484,
+      "sourcePageUrl": "https://infinixstore.eu/products/infinix-note-30-5g",
+      "creator": "Infinix product render via InfinixStore EU",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix product render via InfinixStore EU; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X6711"
+      ],
+      "checkedAt": "2026-10-10T22:46:27Z"
+    },
+    {
+      "deviceId": "dev_eqj56qholuogznjusv7nxk7rvq",
+      "revision": "infinix-verified-new10-x671-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next10-x671-frontback.png",
+      "chunkId": "infinix-new10-x671-b11ce5d76130",
+      "sha256": "b11ce5d761308c707321219f10c6b5c33399eda9a02ae3e0ad68a82ba448a47b",
+      "bytes": 2164442,
+      "sourcePageUrl": "https://infinixmobiles.in/products/note-12-5g",
+      "creator": "Infinix India device product render",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix India device product render; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X671"
+      ],
+      "checkedAt": "2026-10-10T22:46:27Z"
+    },
+    {
+      "deviceId": "dev_eopr2ermkciljky5rio46fih5i",
+      "revision": "infinix-verified-new10-x6528b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next10-x6528b-frontback.png",
+      "chunkId": "infinix-new10-x6528b-be0795f155ea",
+      "sha256": "be0795f155eaabe827d346b25f233df05d7fbd18114a7175e87595b2282279c0",
+      "bytes": 500820,
+      "sourcePageUrl": "https://infinixmobiles.in/products/hot-40i",
+      "creator": "Infinix India product render; exact X6528B in image source filename",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix India product render; exact X6528B in image source filename; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X6528B"
+      ],
+      "checkedAt": "2026-10-10T22:46:27Z"
+    },
+    {
+      "deviceId": "dev_q4u4uczbw7wpcon23uum6ykbbq",
+      "revision": "infinix-verified-new10-x6852-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next10-x6852-frontback.png",
+      "chunkId": "infinix-new10-x6852-e0609e9d466d",
+      "sha256": "e0609e9d466deac106b52acd50c5231f5191bb179b53915189deb86dc4621bcf",
+      "bytes": 755657,
+      "sourcePageUrl": "https://infinixmobiles.in/products/note-40-5g",
+      "creator": "Infinix India product render; exact X6852 in image source filename",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix India product render; exact X6852 in image source filename; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X6852"
+      ],
+      "checkedAt": "2026-10-10T22:46:27Z"
+    },
+    {
+      "deviceId": "dev_7tyd2qevghnmdwkql4k6cdnyve",
+      "revision": "infinix-verified-new10-x6857b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next10-x6857b-frontback.png",
+      "chunkId": "infinix-new10-x6857b-7e6a792f4f69",
+      "sha256": "7e6a792f4f6988d6dc11af83c1a6a44c2174c3fc864cad5e90ea12954139293d",
+      "bytes": 2300720,
+      "sourcePageUrl": "https://infinixmobiles.in/products/note-50x-5g",
+      "creator": "Infinix India official X6857B product render",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix India official X6857B product render; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X6857B"
+      ],
+      "checkedAt": "2026-10-10T22:46:27Z"
+    },
+    {
+      "deviceId": "dev_bjutr4shlmojl5hqqmq45myrga",
+      "revision": "infinix-verified-new10-x6726-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next10-x6726-frontback.png",
+      "chunkId": "infinix-new10-x6726-9d646702bf43",
+      "sha256": "9d646702bf430e732c7dddae73aec93721bbe6d024b0b37a08358a189138af22",
+      "bytes": 2805261,
+      "sourcePageUrl": "https://infinixmobiles.in/products/hot-60-5g",
+      "creator": "Infinix India official X6726 product render",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix India official X6726 product render; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X6726"
+      ],
+      "checkedAt": "2026-10-10T22:46:27Z"
+    },
+    {
+      "deviceId": "dev_efumpw7ijfarzllbyn3aftxagy",
+      "revision": "infinix-verified-new10-x1101-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next10-x1101-frontback.png",
+      "chunkId": "infinix-new10-x1101-368fbee9bcf4",
+      "sha256": "368fbee9bcf491b919134c3952e5809732c26894ed70a55135e8481d48216328",
+      "bytes": 2684811,
+      "sourcePageUrl": "https://infinixmobiles.in/products/xpad",
+      "creator": "Infinix India official XPAD X1101 render",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix India official XPAD X1101 render; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X1101"
+      ],
+      "checkedAt": "2026-10-10T22:46:27Z"
+    },
+    {
+      "deviceId": "dev_teeymkmut2rz5zc53scjzcsfoy",
+      "revision": "infinix-verified-new10-x665c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next10-x665c-frontback.png",
+      "chunkId": "infinix-new10-x665c-591c1371954e",
+      "sha256": "591c1371954efb361691efea960ea03b87d5bbf22f9bf6bdc05adec2d0238eb7",
+      "bytes": 199295,
+      "sourcePageUrl": "https://wap.my.infinixmobility.com/shop/70",
+      "creator": "Infinix Malaysia official store product render; exact X665C filename",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix Malaysia official store product render; exact X665C filename; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X665C"
+      ],
+      "checkedAt": "2026-10-10T22:46:27Z"
+    },
+    {
+      "deviceId": "dev_arqrlylfr7eo5uubp2u6oj5ocq",
+      "revision": "infinix-verified-new10-x6837-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-next10-x6837-frontback.png",
+      "chunkId": "infinix-new10-x6837-64caf10fc7b9",
+      "sha256": "64caf10fc7b95925d121c9cfe705277306939a97ee1a726bc4392b8bf2cbfb06",
+      "bytes": 211036,
+      "sourcePageUrl": "https://mobilike.net.ua/image/cache/catalog/easyphoto/4760/infinix-hot-40-pro-x6837-8-256gb-starfall-green-3-600x600.jpg",
+      "creator": "Infinix HOT 40 Pro X6837 retail product render; redistribution rights unverified",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix HOT 40 Pro X6837 retail product render; redistribution rights unverified; redistribution rights unverified",
+      "verifiedModelCodes": [
+        "X6837"
+      ],
+      "checkedAt": "2026-10-10T22:46:27Z"
+    },
     {
       "deviceId": "dev_eugtq44nxnbmwzokjyjkh26i6e",
       "revision": "infinix-tightcrop-x676c-frontback-v2",
