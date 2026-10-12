@@ -51,6 +51,15 @@ def guard(old_manifest: dict, old_distribution: dict,
         old_manifest=old_manifest, new_manifest=new_manifest,
     )
 
+    old_version = old_manifest.get("manifestVersion")
+    new_version = new_manifest.get("manifestVersion")
+    if type(old_version) is not int or old_version < 1 or type(new_version) is not int or new_version < 1:
+        raise ValueError("ALWAN-MEDIA-VERSION-INVALID: manifestVersion must be a positive integer")
+    if new_version < old_version:
+        raise ValueError("ALWAN-MEDIA-VERSION-ROLLBACK: manifestVersion may not decrease")
+    if (new_manifest != old_manifest or new_distribution != old_distribution) and new_version <= old_version:
+        raise ValueError("ALWAN-MEDIA-VERSION-NOT-ADVANCED: changed delivery must advance manifestVersion")
+
     if (old_distribution.get("schemaVersion") != new_distribution.get("schemaVersion")
             and not allow["schemaVersionChange"]):
         raise ValueError("distribution schemaVersion changed without migration permission")
@@ -64,10 +73,10 @@ def guard(old_manifest: dict, old_distribution: dict,
                    for x in old_manifest["entries"]}
     new_entries = {(x["deviceId"], x["revision"], x["view"]): x
                    for x in new_manifest["entries"]}
+    missing = sorted(set(old_entries) - set(new_entries))
+    if missing:
+        raise ValueError(f"previously published media entries removed: {len(missing)}")
     if not allow["entryRewrite"]:
-        missing = sorted(set(old_entries) - set(new_entries))
-        if missing:
-            raise ValueError(f"previously published media entries removed: {len(missing)}")
         changed = sorted(k for k, v in old_entries.items() if new_entries[k] != v)
         if changed:
             raise ValueError(f"immutable published media entries changed: {len(changed)}")
