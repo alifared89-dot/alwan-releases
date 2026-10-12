@@ -34,8 +34,25 @@ class Audit:
         if os.getenv("GITHUB_ACTIONS")=="true":
             print(f"::error title={row['code']}::{message}")
 
-def validate(root:Path,a:Audit):
+def validate(root:Path,a:Audit,baseline_manifest:dict|None=None):
     mfpath=root/"manifest.json"; manifest=load(mfpath)
+    version=manifest.get("manifestVersion")
+    if type(version) is not int or version<1:
+        a.err("ALWAN-DATA-MANIFEST-VERSION","manifest.json",
+              "manifestVersion must be a positive integer")
+    if baseline_manifest is not None:
+        previous=baseline_manifest.get("manifestVersion")
+        if type(previous) is not int or previous<1:
+            a.err("ALWAN-DATA-BASELINE-VERSION","manifest.json",
+                  "previous production manifestVersion is invalid")
+        elif type(version) is int:
+            if version<previous:
+                a.err("ALWAN-DATA-VERSION-REGRESSION","manifest.json",
+                      f"manifestVersion decreased from {previous} to {version}")
+            elif manifest.get("entries")!=baseline_manifest.get("entries") and version<=previous:
+                a.err("ALWAN-DATA-VERSION-NOT-ADVANCED","manifest.json",
+                      "dataset metadata changed without increasing manifestVersion",
+                      "run tools/compatibility/rebuild_release.py before publishing")
     if manifest.get("schemaVersion")!=3:
         a.err("ALWAN-DATA-MANIFEST-SCHEMA","manifest.json","schemaVersion must be 3")
     try: datetime.fromisoformat(str(manifest.get("generatedAt","")).replace("Z","+00:00"))
@@ -237,8 +254,9 @@ def validate(root:Path,a:Audit):
 
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument("--root",type=Path,default=Path("compatibility")); ap.add_argument("--report",type=Path)
+    ap.add_argument("--baseline-manifest",type=Path)
     ns=ap.parse_args(); a=Audit()
-    try: validate(ns.root,a)
+    try: validate(ns.root,a,load(ns.baseline_manifest) if ns.baseline_manifest else None)
     except Exception as e: a.err("ALWAN-DATA-VALIDATOR",str(ns.root),str(e))
     report={"success":not a.errors,"errors":a.errors,"warnings":a.warnings,
             "summary":{"errors":len(a.errors),"warnings":len(a.warnings)}}
