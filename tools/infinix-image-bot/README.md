@@ -9,7 +9,7 @@
 1. على الهاتف افتح رابط Actions، واضغط **Run workflow**، واختر `discover` ونطاق أرقام صفحات المتجر الرسمية (حتى 250 صفحة في التشغيل الواحد).
 2. انتظر نجاح التشغيل؛ افتح **Artifacts → infinix-review** لتحميل تقرير `candidates.json` ولوحة `review_contact_sheet.jpg`. هذا *بحث فقط* ولا ينشر صوراً.
 3. راجع الصور بنفسك أو اطلب من ChatGPT مراجعتها. لا تعتمد صورة أمام فقط أو خلف فقط؛ المطلوب **frontBack** حقيقي. راجع تطابق اسم وكود الجهاز مع الصفحة الرسمية، وكذلك حقوق إعادة الاستخدام قبل أي نشر.
-4. عدّل [approved.json](./approved.json) من GitHub، وأضف فقط الصور الموافق عليها مع `deviceId`, `modelCode`, `officialPageId`, `imageUrl`, `sourceSha256`, `frontBackApproved: true`. يلزم بصمة الملف الأصلي من تقرير الاكتشاف، ولا يُقبل غياب أي حقل. مثال:
+4. حدّث [approved.json](./approved.json) عبر فرع وPull Request (بعد تفعيل حماية `main`) وأضف فقط الصور الموافق عليها مع `deviceId`, `modelCode`, `officialPageId`, `imageUrl`, `sourceSha256`, `frontBackApproved: true`. يلزم بصمة الملف الأصلي من تقرير الاكتشاف، ولا يُقبل غياب أي حقل. مثال:
 
 ```json
 {
