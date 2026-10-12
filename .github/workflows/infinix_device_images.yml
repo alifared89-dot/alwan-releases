@@ -33,6 +33,8 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
+  actions: write
 
 concurrency:
   group: infinix-media-publishing
@@ -43,11 +45,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:
+          ref: main
           persist-credentials: true
           fetch-depth: 1
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12'
           cache: 'pip'
@@ -74,9 +77,12 @@ jobs:
         run: |
           echo 'Publication not explicitly confirmed.'
           exit 1
-      - name: Publish only human-approved media
+      - name: Stage human-approved media into a review pull request
         if: inputs.mode == 'publish' && inputs.confirm_publish == 'PUBLISH_VERIFIED'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          set -euo pipefail
           cp device-media/device_media_manifest.json "$RUNNER_TEMP/device_media_manifest.baseline.json"
           cp device-media/distribution.json "$RUNNER_TEMP/distribution.baseline.json"
           python tools/infinix-image-bot/bot.py publish
@@ -87,9 +93,35 @@ jobs:
             --current-manifest device-media/device_media_manifest.json \
             --current-distribution device-media/distribution.json \
             --base-commit "$(git rev-parse HEAD)"
-          python tools/infinix-image-bot/verify_media.py --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"
+          python tools/infinix-image-bot/verify_media.py \
+            --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json" \
+            --catalog compatibility/payloads/catalog.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add device-media/
-          git commit -m "Publish approved Infinix device photos"
-          git push origin HEAD:main
+          if git diff --cached --quiet; then
+            echo "ALWAN-MEDIA-NO-CHANGES: no approved media staged for publication"
+            exit 1
+          fi
+          if git diff --cached --name-only --diff-filter=D -- device-media/ | grep -q .; then
+            echo "ALWAN-MEDIA-DELETE-DENIED: existing media files may not be removed"
+            exit 1
+          fi
+          branch="media/reviewed-infinix-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch -c "$branch"
+          git commit -m "Stage approved Infinix photos for protected review"
+          git push --set-upstream origin "$branch"
+          echo "Published media staged on $branch; production main was NOT modified."
+          if ! gh pr create --base main --head "$branch" \
+             --title "Review approved Infinix photos (run ${GITHUB_RUN_ID})" \
+             --body "Human-approved device images, staged for protected production review. Verify the Compatibility Data Contract and Infinix Media Integrity checks before merging. No existing media files were deleted."; then
+            echo "ALWAN-PUBLISH-PR-DENIED: branch is safe, but GitHub did not allow workflow PR creation."
+            echo "Enable Settings > Actions > General > Allow GitHub Actions to create and approve pull requests."
+            echo "Then open https://github.com/${GITHUB_REPOSITORY}/compare/main...${branch}?expand=1"
+            exit 1
+          fi
+          # PRs created by GITHUB_TOKEN do not trigger pull_request workflows.
+          # Dispatch checks explicitly on the exact staged branch/head instead.
+          gh workflow run compatibility_integrity_ci.yml --ref "$branch"
+          gh workflow run infinix_media_integrity_ci.yml --ref "$branch"
+          echo "ALWAN-PUBLISH-REVIEW-REQUIRED: wait for both checks, then merge PR; never push directly to main."

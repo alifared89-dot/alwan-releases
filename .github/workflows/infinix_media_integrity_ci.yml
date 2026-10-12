@@ -2,18 +2,8 @@ name: Infinix Media Integrity
 
 on:
   pull_request:
-    paths:
-      - 'device-media/**'
-      - 'tools/infinix-image-bot/**'
-      - '.github/workflows/infinix_device_images.yml'
-      - '.github/workflows/infinix_media_integrity_ci.yml'
   push:
     branches: [main]
-    paths:
-      - 'device-media/**'
-      - 'tools/infinix-image-bot/**'
-      - '.github/workflows/infinix_device_images.yml'
-      - '.github/workflows/infinix_media_integrity_ci.yml'
   workflow_dispatch:
 
 permissions:
@@ -45,53 +35,69 @@ jobs:
               json.loads(path.read_text())
               print(f"PASS JSON: {path}")
           PY
-      - name: Build immutable base metadata
-        if: github.event_name == 'pull_request'
+      - name: Read immutable production baseline for every execution mode
+        shell: bash
+        env:
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BEFORE_SHA: ${{ github.event.before }}
         run: |
-          git fetch origin "$GITHUB_BASE_REF:refs/remotes/origin/$GITHUB_BASE_REF" --depth=1
-          git show "origin/$GITHUB_BASE_REF:device-media/device_media_manifest.json" > "$RUNNER_TEMP/device_media_manifest.baseline.json"
-          git show "origin/$GITHUB_BASE_REF:device-media/distribution.json" > "$RUNNER_TEMP/distribution.baseline.json"
+          set -euo pipefail
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            base="$PR_BASE_SHA"
+          elif [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            base="$PUSH_BEFORE_SHA"
+          else
+            git fetch origin main
+            base="$(git rev-parse origin/main)"
+          fi
+          if ! [[ "$base" =~ ^[0-9a-f]{40}$ ]] || [[ "$base" =~ ^0{40}$ ]]; then
+            echo "ALWAN-MEDIA-BASELINE-MISSING: cannot safely validate without published base"
+            exit 1
+          fi
+          git cat-file -e "$base^{commit}"
+          git show "$base:device-media/device_media_manifest.json" > "$RUNNER_TEMP/device_media_manifest.baseline.json"
+          git show "$base:device-media/distribution.json" > "$RUNNER_TEMP/distribution.baseline.json"
+          echo "BASE_SHA=$base" >> "$GITHUB_ENV"
       - name: Reject deletion of existing media files
-        if: github.event_name == 'pull_request'
         shell: bash
         run: |
-          deleted="$(git diff --name-only --diff-filter=D "origin/$GITHUB_BASE_REF"...HEAD -- device-media/)"
+          set -euo pipefail
+          deleted="$(git diff --name-only --diff-filter=D "$BASE_SHA"...HEAD -- device-media/)"
           if [ -n "$deleted" ]; then
             echo "ALWAN-MEDIA-DELETE-DENIED: existing media files must be preserved:"
             echo "$deleted"
             exit 1
           fi
       - name: Protect published media or validate an intentional migration
-        if: github.event_name == 'pull_request'
+        shell: bash
         run: |
-          BASE_SHA="$(git rev-parse "origin/$GITHUB_BASE_REF")"
+          set -euo pipefail
           PLAN_ARGS=()
-          if git diff --name-only "origin/$GITHUB_BASE_REF"...HEAD -- device-media/migration_plan.json | grep -q .; then
+          if git diff --name-only "$BASE_SHA"...HEAD -- device-media/migration_plan.json | grep -q .; then
             PLAN_ARGS=(--migration-plan device-media/migration_plan.json)
           fi
-          python tools/infinix-image-bot/media_integrity_guard.py             --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"             --baseline-distribution "$RUNNER_TEMP/distribution.baseline.json"             --current-manifest device-media/device_media_manifest.json             --current-distribution device-media/distribution.json             --base-commit "$BASE_SHA"             "${PLAN_ARGS[@]}"
-      - name: Verify media payloads and presentation
+          python tools/infinix-image-bot/media_integrity_guard.py \
+            --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json" \
+            --baseline-distribution "$RUNNER_TEMP/distribution.baseline.json" \
+            --current-manifest device-media/device_media_manifest.json \
+            --current-distribution device-media/distribution.json \
+            --base-commit "$BASE_SHA" \
+            "${PLAN_ARGS[@]}"
+      - name: Verify media payloads, downloads, and presentation
+        shell: bash
         run: |
-          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
-            if git diff --name-only "origin/$GITHUB_BASE_REF"...HEAD -- device-media/migration_plan.json | grep -q .; then
-              python tools/infinix-image-bot/verify_media.py \
-                --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json" \
-                --migration-mode
-            else
-              python tools/infinix-image-bot/verify_media.py \
-                --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"
-            fi
-          else
-            python tools/infinix-image-bot/verify_media.py
+          set -euo pipefail
+          PLAN_ARGS=()
+          if git diff --name-only "$BASE_SHA"...HEAD -- device-media/migration_plan.json | grep -q .; then
+            PLAN_ARGS=(--migration-mode)
           fi
+          python tools/infinix-image-bot/verify_media.py \
+            --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json" \
+            --catalog compatibility/payloads/catalog.json \
+            "${PLAN_ARGS[@]}"
       - name: Run offline regression suite
         run: |
           mkdir -p tools/infinix-image-bot/output
           python -m unittest discover -s tools/infinix-image-bot -p 'test_*.py' -v
       - name: Reject whitespace damage
-        run: |
-          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
-            git diff --check "origin/$GITHUB_BASE_REF"...HEAD
-          else
-            git diff --check HEAD^ HEAD
-          fi
+        run: git diff --check "$BASE_SHA"...HEAD

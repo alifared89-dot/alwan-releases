@@ -2,16 +2,8 @@ name: Compatibility Data Contract
 
 on:
   pull_request:
-    paths:
-      - 'compatibility/**'
-      - 'tools/compatibility/**'
-      - '.github/workflows/compatibility_integrity_ci.yml'
   push:
     branches: [main]
-    paths:
-      - 'compatibility/**'
-      - 'tools/compatibility/**'
-      - '.github/workflows/compatibility_integrity_ci.yml'
   workflow_dispatch:
 
 permissions:
@@ -29,33 +21,41 @@ jobs:
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12'
-      - name: Read prior published manifest (without altering production data)
-        if: github.event_name != 'workflow_dispatch'
+      - name: Read previous release data for every execution mode
         shell: bash
         env:
-          EVENT_NAME: ${{ github.event_name }}
           PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
           PUSH_BEFORE_SHA: ${{ github.event.before }}
         run: |
-          if [ "$EVENT_NAME" = "pull_request" ]; then
-            baseline="$PR_BASE_SHA"
+          set -euo pipefail
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            base="$PR_BASE_SHA"
+          elif [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            base="$PUSH_BEFORE_SHA"
           else
-            baseline="$PUSH_BEFORE_SHA"
+            git fetch origin main
+            base="$(git rev-parse origin/main)"
           fi
-          if [[ "$baseline" =~ ^[0-9a-f]{40}$ ]] && [[ "$baseline" != "0000000000000000000000000000000000000000" ]]; then
-            git show "$baseline:compatibility/manifest.json" > "$RUNNER_TEMP/compatibility-baseline.json"
-          else
-            echo "No prior manifest baseline available; validating current payloads."
+          if ! [[ "$base" =~ ^[0-9a-f]{40}$ ]] || [[ "$base" =~ ^0{40}$ ]]; then
+            echo "ALWAN-DATA-BASELINE-MISSING: refusing to publish without production baseline"
+            exit 1
           fi
+          git cat-file -e "$base^{commit}"
+          folder="$RUNNER_TEMP/compatibility-previous"
+          mkdir -p "$folder/payloads"
+          git show "$base:compatibility/manifest.json" > "$folder/manifest.json"
+          for name in catalog display battery charging camera flex audio; do
+            git show "$base:compatibility/payloads/$name.json" > "$folder/payloads/$name.json"
+          done
+          echo "BASE_SHA=$base" >> "$GITHUB_ENV"
+          echo "PREVIOUS_RELEASE_ROOT=$folder" >> "$GITHUB_ENV"
       - name: Run production-compatible data contract
         id: validate
         shell: bash
         run: |
           set +e
           BASELINE_ARGS=()
-          if [ -f "$RUNNER_TEMP/compatibility-baseline.json" ]; then
-            BASELINE_ARGS=(--baseline-manifest "$RUNNER_TEMP/compatibility-baseline.json")
-          fi
+          BASELINE_ARGS=(--baseline-manifest "$PREVIOUS_RELEASE_ROOT/manifest.json")
           python tools/compatibility/validate_release.py \
             --root compatibility \
             --report compatibility-validation-report.json \
@@ -70,8 +70,22 @@ jobs:
           name: compatibility-validation-${{ github.run_id }}
           path: compatibility-validation-report.json
           retention-days: 30
-      - name: Run validator regression tests
+      - name: Preserve every published device and compatibility record
+        shell: bash
+        run: |
+          set -euo pipefail
+          deleted="$(git diff --name-only --diff-filter=D "$BASE_SHA"...HEAD -- compatibility/)"
+          if [ -n "$deleted" ]; then
+            echo "ALWAN-DATA-DELETE-DENIED: published files may not be removed"
+            echo "$deleted"
+            exit 1
+          fi
+          python tools/compatibility/preserve_records.py \
+            --previous "$PREVIOUS_RELEASE_ROOT" --current compatibility
+      - name: Run validator and data preservation regression tests
         run: python -m unittest discover -s tools/compatibility -p 'test_*.py' -v
+      - name: Reject committed whitespace damage
+        run: git diff --check "$BASE_SHA"...HEAD
       - name: Enforce contract result
         shell: bash
         run: |
