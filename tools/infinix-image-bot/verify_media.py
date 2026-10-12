@@ -126,7 +126,7 @@ def check_media_catalog(entries: list[dict], catalog: dict, baseline: dict | Non
             continue
         device = devices.get(entry["deviceId"])
         if device is None:
-            raise ValueError(f"ALWAN-MEDIA-UNKNOWN-DEVICE: {entry[\'deviceId\']}")
+            raise ValueError(f"ALWAN-MEDIA-UNKNOWN-DEVICE: {entry['deviceId']}")
         expected = {str(code).strip().upper() for code in device.get("modelCodes", [])}
         declared = entry.get("verifiedModelCodes")
         if not isinstance(declared, list) or not declared or any(
@@ -134,7 +134,7 @@ def check_media_catalog(entries: list[dict], catalog: dict, baseline: dict | Non
             for code in declared
         ):
             raise ValueError(
-                f"ALWAN-MEDIA-MODEL-MISMATCH: {entry[\'deviceId\']} "
+                f"ALWAN-MEDIA-MODEL-MISMATCH: {entry['deviceId']} "
                 f"claims {declared}, catalog declares {sorted(expected)}"
             )
         checked += 1
