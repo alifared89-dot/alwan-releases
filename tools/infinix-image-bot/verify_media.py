@@ -112,11 +112,41 @@ def presentation_check_entries(
     return to_check
 
 
+def check_media_catalog(entries: list[dict], catalog: dict, baseline: dict | None) -> int:
+    """Validate new/revised media identities against the entire multi-brand catalog."""
+    devices = {d["id"]: d for d in catalog["devices"]}
+    old = {} if baseline is None else {
+        (x["deviceId"], x["revision"], x["view"]): x
+        for x in baseline["entries"]
+    }
+    checked = 0
+    for entry in entries:
+        identity = (entry["deviceId"], entry["revision"], entry["view"])
+        if old.get(identity) == entry:
+            continue
+        device = devices.get(entry["deviceId"])
+        if device is None:
+            raise ValueError(f"ALWAN-MEDIA-UNKNOWN-DEVICE: {entry[\'deviceId\']}")
+        expected = {str(code).strip().upper() for code in device.get("modelCodes", [])}
+        declared = entry.get("verifiedModelCodes")
+        if not isinstance(declared, list) or not declared or any(
+            not isinstance(code, str) or code.strip().upper() not in expected
+            for code in declared
+        ):
+            raise ValueError(
+                f"ALWAN-MEDIA-MODEL-MISMATCH: {entry[\'deviceId\']} "
+                f"claims {declared}, catalog declares {sorted(expected)}"
+            )
+        checked += 1
+    return checked
+
+
 def verify_media(
     root: Path = ROOT,
     baseline_manifest: Path | None = None,
     *,
     migration_mode: bool = False,
+    catalog_path: Path | None = None,
 ) -> tuple[int, int]:
     manifest_data = (root / "device_media_manifest.json").read_bytes()
     distribution = json.loads((root / "distribution.json").read_bytes())
@@ -145,12 +175,14 @@ def verify_media(
         raise ValueError("migration mode requires --baseline-manifest")
 
     to_check = set()
-    if baseline_manifest is not None:
+    baseline = json.loads(baseline_manifest.read_bytes()) if baseline_manifest else None
+    if baseline is not None:
         to_check = presentation_check_entries(
-            entries,
-            json.loads(baseline_manifest.read_bytes()),
-            migration_mode=migration_mode,
+            entries, baseline, migration_mode=migration_mode,
         )
+    if catalog_path is not None:
+        checked = check_media_catalog(entries, json.loads(catalog_path.read_bytes()), baseline)
+        print(f"PASS: {checked} newly published or revised media catalog/model links verified")
     inspected = 0
     for chunk_id, descriptor in chunks.items():
         expected_url = MEDIA_RAW_BASE + "chunks/" + chunk_id + ".zip"
@@ -194,9 +226,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--baseline-manifest", type=Path)
     parser.add_argument("--migration-mode", action="store_true")
+    parser.add_argument("--catalog", type=Path)
     args = parser.parse_args()
     count, new_count = verify_media(
         baseline_manifest=args.baseline_manifest,
         migration_mode=args.migration_mode,
+        catalog_path=args.catalog,
     )
     print(f"PASS: {count} media entries with verified hashes; {new_count} newly published images passed geometry gate")
