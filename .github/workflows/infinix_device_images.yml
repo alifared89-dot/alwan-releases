@@ -77,9 +77,17 @@ jobs:
       - name: Publish only human-approved media
         if: inputs.mode == 'publish' && inputs.confirm_publish == 'PUBLISH_VERIFIED'
         run: |
+          cp device-media/device_media_manifest.json "$RUNNER_TEMP/device_media_manifest.baseline.json"
+          cp device-media/distribution.json "$RUNNER_TEMP/distribution.baseline.json"
           python tools/infinix-image-bot/bot.py publish
           git diff --check
-          python tools/infinix-image-bot/verify_media.py
+          python tools/infinix-image-bot/media_integrity_guard.py \
+            --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json" \
+            --baseline-distribution "$RUNNER_TEMP/distribution.baseline.json" \
+            --current-manifest device-media/device_media_manifest.json \
+            --current-distribution device-media/distribution.json \
+            --base-commit "$(git rev-parse HEAD)"
+          python tools/infinix-image-bot/verify_media.py --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add device-media/

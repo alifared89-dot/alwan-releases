@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 15,
-  "generatedAt": "2026-10-11T11:25:01Z",
+  "manifestVersion": 16,
+  "generatedAt": "2026-10-11T20:31:02.748Z",
   "entries": [
     {
       "deviceId": "dev_muhbetyk7pmyb4jghcg3cmvszu",
@@ -925,7 +925,7 @@
       "revision": "infinix-approved-x669c-frontback-v1",
       "view": "frontBack",
       "filename": "infinix-x669c-frontback.png",
-      "chunkId": "infinix-user-reviewed-batch03-6ee86eb50e13",
+      "chunkId": "infinix-user-reviewed-batch03-6ee86eb50e13-clean-5109c1ad4f55",
       "sha256": "3ac8253b4d494c9c1e0361560d5493c01560fef318caf5586ad363dcdb51480e",
       "bytes": 543227,
       "sourcePageUrl": "https://wap.id.infinixmobility.com/shop/375",
@@ -976,7 +976,7 @@
       "revision": "infinix-approved-x678b-frontback-v1",
       "view": "frontBack",
       "filename": "infinix-x678b-frontback.png",
-      "chunkId": "infinix-user-reviewed-batch06-cb885872ede7",
+      "chunkId": "infinix-user-reviewed-batch06-cb885872ede7-clean-132b5ac0265e",
       "sha256": "182dec25e7b2e8599a35fa5787de88d7abb4a03df05bde139d70257b69db5405",
       "bytes": 488329,
       "sourcePageUrl": "https://iq.infinixmobility.com/shop/472",

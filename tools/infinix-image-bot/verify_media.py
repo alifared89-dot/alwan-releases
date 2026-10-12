@@ -15,6 +15,11 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2] / "device-media"
+MEDIA_RAW_BASE = (
+    "https://raw.githubusercontent.com/alifared89-dot/"
+    "alwan-releases/main/device-media/"
+)
+MEDIA_MANIFEST_URL = MEDIA_RAW_BASE + "device_media_manifest.json"
 
 
 def digest(payload: bytes) -> str:
@@ -24,7 +29,7 @@ def digest(payload: bytes) -> str:
 def check_new_presentation(payload: bytes, *, label: str = "image") -> dict:
     """Validate pixel-safe normalized device media in two supported layouts.
 
-    Native aspect: 1.5% symmetric transparent margin on all sides for clients
+    Native aspect: 1.2% symmetric transparent margin on all sides for clients
     using BoxFit.contain.
     Square fallback: same margin on the longer subject axis; short-axis
     letterboxing is symmetric and the *entire* device remains visible in older
@@ -50,7 +55,7 @@ def check_new_presentation(payload: bytes, *, label: str = "image") -> dict:
         if min(sw, sh) < 180 or max(sw, sh) < 300:
             raise ValueError(f"{label}: visible device too small")
         margins = (left, top, width - right, height - bottom)
-        expected = max(4, round(max(sw, sh) * 0.015))
+        expected = max(4, round(max(sw, sh) * 0.012))
         if abs(left - (width - right)) > 1 or abs(top - (height - bottom)) > 1:
             raise ValueError(f"{label}: asymmetric transparent margins")
         if width == height:
@@ -66,26 +71,64 @@ def check_new_presentation(payload: bytes, *, label: str = "image") -> dict:
                 "margins": list(margins), "longAxisCoverage": round(coverage, 4)}
 
 
-def checked_new_entries(entries: list[dict], baseline: dict) -> set[str]:
-    """Fail closed on mutation/removal of immutable old media entries."""
+def presentation_check_entries(
+    entries: list[dict],
+    baseline: dict,
+    *,
+    migration_mode: bool = False,
+) -> set[str]:
+    """Select images that must pass the current presentation gate.
+
+    Normal PRs remain immutable. Intentional migrations may rewrite metadata,
+    but any newly introduced or content-rewritten image is still revalidated.
+    Packaging-only changes such as chunkId rewrites do not retroactively impose
+    new geometry rules on unchanged published image bytes.
+    """
     old = {(x["deviceId"], x["revision"], x["view"]): x
            for x in baseline["entries"]}
     new = {(x["deviceId"], x["revision"], x["view"]): x for x in entries}
-    missing = set(old) - set(new)
-    if missing:
-        raise ValueError(f"previously published media entries removed: {len(missing)}")
-    for key, row in old.items():
-        if row != new[key]:
-            raise ValueError(f"immutable published media entry modified: {key}")
-    return {x["filename"] for key, x in new.items() if key not in old}
+
+    if not migration_mode:
+        missing = set(old) - set(new)
+        if missing:
+            raise ValueError(
+                f"previously published media entries removed: {len(missing)}"
+            )
+        for key, row in old.items():
+            if row != new[key]:
+                raise ValueError(
+                    f"immutable published media entry modified: {key}"
+                )
+        return {x["filename"] for key, x in new.items() if key not in old}
+
+    content_fields = ("filename", "sha256", "bytes")
+    to_check = set()
+    for key, row in new.items():
+        previous = old.get(key)
+        if previous is None or any(
+            previous.get(field) != row.get(field) for field in content_fields
+        ):
+            to_check.add(row["filename"])
+    return to_check
 
 
-def verify_media(root: Path = ROOT, baseline_manifest: Path | None = None) -> tuple[int, int]:
+def verify_media(
+    root: Path = ROOT,
+    baseline_manifest: Path | None = None,
+    *,
+    migration_mode: bool = False,
+) -> tuple[int, int]:
     manifest_data = (root / "device_media_manifest.json").read_bytes()
     distribution = json.loads((root / "distribution.json").read_bytes())
     manifest = json.loads(manifest_data)
-    if len(manifest_data) != distribution["mediaManifest"]["bytes"] or (
-        digest(manifest_data) != distribution["mediaManifest"]["sha256"]
+    media_descriptor = distribution["mediaManifest"]
+    if media_descriptor.get("url") != MEDIA_MANIFEST_URL:
+        raise ValueError(
+            "invalid media manifest URL: "
+            f"expected {MEDIA_MANIFEST_URL}, got {media_descriptor.get('url')}"
+        )
+    if len(manifest_data) != media_descriptor["bytes"] or (
+        digest(manifest_data) != media_descriptor["sha256"]
     ):
         raise ValueError("manifest size or SHA mismatch")
 
@@ -98,13 +141,24 @@ def verify_media(root: Path = ROOT, baseline_manifest: Path | None = None) -> tu
     if len({(e["deviceId"], e["revision"], e["view"]) for e in entries}) != len(entries):
         raise ValueError("duplicate media identity")
 
+    if migration_mode and baseline_manifest is None:
+        raise ValueError("migration mode requires --baseline-manifest")
+
     to_check = set()
     if baseline_manifest is not None:
-        to_check = checked_new_entries(
-            entries, json.loads(baseline_manifest.read_bytes())
+        to_check = presentation_check_entries(
+            entries,
+            json.loads(baseline_manifest.read_bytes()),
+            migration_mode=migration_mode,
         )
     inspected = 0
     for chunk_id, descriptor in chunks.items():
+        expected_url = MEDIA_RAW_BASE + "chunks/" + chunk_id + ".zip"
+        if descriptor.get("url") != expected_url:
+            raise ValueError(
+                f"invalid chunk URL for {chunk_id}: "
+                f"expected {expected_url}, got {descriptor.get('url')}"
+            )
         archive_file = root / "chunks" / (chunk_id + ".zip")
         archive = archive_file.read_bytes()
         if len(archive) != descriptor["compressedBytes"] or (
@@ -113,17 +167,17 @@ def verify_media(root: Path = ROOT, baseline_manifest: Path | None = None) -> tu
             raise ValueError(f"invalid archive checksum: {chunk_id}")
         matching = [e for e in entries if e["chunkId"] == chunk_id]
         with zipfile.ZipFile(io.BytesIO(archive)) as z:
-            # Immutable older chunks can still contain a superseded PNG.
-            # Their signed ZIP SHA and size remain authoritative, while the
-            # active manifest lists only current image entries (v13 onward).
-            # New chunks must still contain exactly the declared images.
+            # Mirror DeviceMediaInstaller exactly: a fresh device accepts
+            # neither missing nor extra files in any downloaded chunk.
             actual_names = z.namelist()
             expected_names = {e["filename"] for e in matching}
-            new_chunk = any(e["filename"] in to_check for e in matching)
-            if (z.testzip() is not None
-                    or not expected_names.issubset(set(actual_names))
-                    or (new_chunk and sorted(actual_names) != sorted(expected_names))):
-                raise ValueError(f"invalid ZIP contents: {chunk_id}")
+            if z.testzip() is not None or sorted(actual_names) != sorted(expected_names):
+                missing = sorted(expected_names.difference(actual_names))
+                extra = sorted(set(actual_names).difference(expected_names))
+                raise ValueError(
+                    f"client-incompatible ZIP contents: {chunk_id}; "
+                    f"missing={missing}; extra={extra}"
+                )
             for entry in matching:
                 payload = z.read(entry["filename"])
                 if len(payload) != entry["bytes"] or digest(payload) != entry["sha256"]:
@@ -139,6 +193,10 @@ def verify_media(root: Path = ROOT, baseline_manifest: Path | None = None) -> tu
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--baseline-manifest", type=Path)
+    parser.add_argument("--migration-mode", action="store_true")
     args = parser.parse_args()
-    count, new_count = verify_media(baseline_manifest=args.baseline_manifest)
+    count, new_count = verify_media(
+        baseline_manifest=args.baseline_manifest,
+        migration_mode=args.migration_mode,
+    )
     print(f"PASS: {count} media entries with verified hashes; {new_count} newly published images passed geometry gate")

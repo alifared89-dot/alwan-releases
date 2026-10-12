@@ -436,7 +436,8 @@
         "FPC6608",
         "1540432341",
         "infinix-hot-12-play-completo-black",
-        "replacement-lcd-display-touch-screen-for-infinix-hot-12-hot-12-play-hot-20-play"
+        "replacement-lcd-display-touch-screen-for-infinix-hot-12-hot-12-play-hot-20-play",
+        "Crown X6816/X6825/X6835/LG6/LG7"
       ]
     },
     {
@@ -534,7 +535,8 @@
         "780413",
         "614027",
         "tecno-spark-7-completo-black",
-        "TXDI650CBAPU-5V3H"
+        "TXDI650CBAPU-5V3H",
+        "SPS4299"
       ]
     },
     {
@@ -617,7 +619,8 @@
       "id": "part-display-hot9play-x680-x680b-x680c",
       "category": "display",
       "canonicalPartNumbers": [
-        "SPS2424"
+        "SPS2424",
+        "FPCHJ068A152"
       ]
     },
     {
@@ -638,7 +641,8 @@
       "id": "part-display-s5-x652-x652b-x652c",
       "category": "display",
       "canonicalPartNumbers": [
-        "ipartsbuy-s5-lite-x652-x652b-x652c"
+        "ipartsbuy-s5-lite-x652-x652b-x652c",
+        "S5-X652-X652A-X652B-X652C"
       ]
     },
     {
@@ -682,7 +686,8 @@
       "category": "display",
       "canonicalPartNumbers": [
         "SPS2767",
-        "1267484375"
+        "1267484375",
+        "X695-LCD-assembly"
       ]
     },
     {
@@ -704,6 +709,13 @@
       "category": "display",
       "canonicalPartNumbers": [
         "ASA-NOTE11-NOTE12-NOTE30I-UNIVERSAL-DISPLAY"
+      ]
+    },
+    {
+      "id": "part-display-gt10-note30pro-vip-camon20-tft-920972",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "920972"
       ]
     }
   ],
@@ -1495,6 +1507,19 @@
         "dev_wannsdwqxwpwdlygtb34yflyiq",
         "dev_jl6dy66lnbsfewhzimrfx4neki",
         "dev_eugtq44nxnbmwzokjyjkh26i6e"
+      ]
+    },
+    {
+      "id": "cg-part-display-gt10-note30pro-vip-camon20-tft-920972",
+      "partId": "part-display-gt10-note30pro-vip-camon20-tft-920972",
+      "deviceIds": [
+        "dev_cmlmabpzttxi63e6r7zcixge3q",
+        "dev_cv2a4wnfljxjs7qxsfdii55jse",
+        "dev_v376lpbrjpaa7wqpypyhq4gjl4",
+        "dev_z7d4p7kpvfuon5mingscncurgu",
+        "dev_tlevainraydh3mu53qyufi7ckm",
+        "dev_eu4ca4blbwc6rdkryqu5rc225u",
+        "dev_x62xq6gwj2f55oyt54lh4hpa7i"
       ]
     }
   ],
@@ -5467,7 +5492,7 @@
     },
     {
       "id": "ev-gt10-note30vip-amoled-2",
-      "compatibilityGroupId": "cg-part-display-gt10-note30pro-vip-camon20-916730",
+      "compatibilityGroupId": "cg-part-display-gt10-note30pro-vip-camon20-tft-920972",
       "sourceKey": "gt10-note30vip-amoled-2",
       "sourceType": "partsSupplier",
       "sourceName": "All-Spares (TFT alternative)",
@@ -5486,7 +5511,7 @@
         "CK8N",
         "CK9N"
       ],
-      "notes": "يوجد أيضاً بديل TFT مختلف رقم 920972 لنفس قائمة الأجهزة؛ لا يجوز الخلط بين فئة TFT وAMOLED أو افتراض دعم البصمة من قطعة TFT."
+      "notes": "بديل TFT منفصل رقم 920972 لنفس قائمة الأجهزة؛ محفوظ كقطعة مستقلة عن AMOLED 916730 حتى لا تختلط التقنية أو خصائص مثل بصمة الشاشة."
     },
     {
       "id": "ev-note10pro-x695-variants-0",

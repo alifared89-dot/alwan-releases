@@ -11,8 +11,7 @@ import official_search as search
 
 class MatchingTest(unittest.TestCase):
     def setUp(self):
-        self.published = {r["deviceId"] for r in json.loads(
-            (search.bot.MEDIA / "device_media_manifest.json").read_text())["entries"]}
+        self.published = set()
 
     def test_exact_code_and_name_is_cautious_candidate(self):
         r = search.classify_item({"id": "1311", "name": "SMART 10 Plus", "sku": "X6725B"},
@@ -32,8 +31,11 @@ class MatchingTest(unittest.TestCase):
         self.assertEqual(r["reason"], "sku_name_conflicts_with_catalog")
 
     def test_official_published_device_is_excluded(self):
+        mapped = search.bot.match_storefront_code("X6728")
+        self.assertIsNotNone(mapped)
+        published = {mapped[1]["deviceId"]}
         r = search.classify_item({"id": "1373", "name": "HOT 60i", "sku": "X6728"},
-                                 "HOT 60i", self.published)
+                                 "HOT 60i", published)
         self.assertEqual(r["reason"], "device_already_published")
 
     def test_item_must_be_exact_name(self):
@@ -48,11 +50,21 @@ class MatchingTest(unittest.TestCase):
 
 
 class PipelineTest(unittest.TestCase):
+    def _empty_media(self, directory: str) -> Path:
+        media = Path(directory) / "media"
+        media.mkdir()
+        (media / "device_media_manifest.json").write_text(
+            json.dumps({"entries": []})
+        )
+        return media
+
     def test_verified_detail_is_required(self):
         mock_item = {"id": "1311", "name": "SMART 10 Plus", "sku": "X6725B"}
         mock_result = {"total": 1, "items": [mock_item], "apiUrl": "https://wap.my.infinixmobility.com/api/V1/xpark-app/app-search?q=SMART"}
         with tempfile.TemporaryDirectory() as directory:
+            media = self._empty_media(directory)
             with patch.object(search.bot, "BOT", Path(directory)), \
+                 patch.object(search.bot, "MEDIA", media), \
                  patch.object(search, "api_search", return_value=mock_result), \
                  patch.object(search.bot, "official_page", return_value=None), \
                  patch.object(search, "make_contact_sheet", return_value=None):
@@ -72,7 +84,9 @@ class PipelineTest(unittest.TestCase):
         fake_images = [{"url": mock_official["imageUrls"][0], "state": "downloaded",
                         "sourceSha256": "f" * 64, "width": 1000, "height": 1000}]
         with tempfile.TemporaryDirectory() as directory:
+            media = self._empty_media(directory)
             with patch.object(search.bot, "BOT", Path(directory)), \
+                 patch.object(search.bot, "MEDIA", media), \
                  patch.object(search, "api_search", return_value=mock_result), \
                  patch.object(search.bot, "official_page", return_value=mock_official), \
                  patch.object(search, "collect_image_evidence", return_value=fake_images), \
@@ -81,7 +95,7 @@ class PipelineTest(unittest.TestCase):
                 data = json.loads((Path(directory) / "output/official-search-report.json").read_text())
         candidate = data["candidatesForVisualReview"][0]
         self.assertEqual(status, 0)
-        self.assertEqual(data["summary"]["missingDevices"], 217)
+        self.assertEqual(data["summary"]["missingDevices"], len(search.bot.CATALOG))
         self.assertEqual(candidate["modelCode"], "X6725B")
         self.assertFalse(candidate["frontBackApproved"])
         self.assertFalse(candidate["rightsVerified"])
@@ -90,7 +104,9 @@ class PipelineTest(unittest.TestCase):
     def test_broken_reference_is_not_functional_success(self):
         fake = {"total": 0, "items": [], "apiUrl": "https://wap.my.infinixmobility.com/api/V1/xpark-app/app-search"}
         with tempfile.TemporaryDirectory() as directory:
+            media = self._empty_media(directory)
             with patch.object(search.bot, "BOT", Path(directory)), \
+                 patch.object(search.bot, "MEDIA", media), \
                  patch.object(search, "api_search", return_value=fake), \
                  patch.object(search, "make_contact_sheet", return_value=None):
                 result = search.run(["SMART 10 Plus"], ("malaysia",), 0)
@@ -98,7 +114,9 @@ class PipelineTest(unittest.TestCase):
 
     def test_all_api_errors_are_not_success(self):
         with tempfile.TemporaryDirectory() as directory:
+            media = self._empty_media(directory)
             with patch.object(search.bot, "BOT", Path(directory)), \
+                 patch.object(search.bot, "MEDIA", media), \
                  patch.object(search, "api_search", side_effect=TimeoutError("offline")), \
                  patch.object(search, "make_contact_sheet", return_value=None):
                 code = search.run(["SMART 10 Plus"], ("malaysia",), 0)
