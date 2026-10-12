@@ -7,6 +7,13 @@ on:
       - 'tools/infinix-image-bot/**'
       - '.github/workflows/infinix_device_images.yml'
       - '.github/workflows/infinix_media_integrity_ci.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'device-media/**'
+      - 'tools/infinix-image-bot/**'
+      - '.github/workflows/infinix_device_images.yml'
+      - '.github/workflows/infinix_media_integrity_ci.yml'
   workflow_dispatch:
 
 permissions:
@@ -44,6 +51,16 @@ jobs:
           git fetch origin "$GITHUB_BASE_REF:refs/remotes/origin/$GITHUB_BASE_REF" --depth=1
           git show "origin/$GITHUB_BASE_REF:device-media/device_media_manifest.json" > "$RUNNER_TEMP/device_media_manifest.baseline.json"
           git show "origin/$GITHUB_BASE_REF:device-media/distribution.json" > "$RUNNER_TEMP/distribution.baseline.json"
+      - name: Reject deletion of existing media files
+        if: github.event_name == 'pull_request'
+        shell: bash
+        run: |
+          deleted="$(git diff --name-only --diff-filter=D "origin/$GITHUB_BASE_REF"...HEAD -- device-media/)"
+          if [ -n "$deleted" ]; then
+            echo "ALWAN-MEDIA-DELETE-DENIED: existing media files must be preserved:"
+            echo "$deleted"
+            exit 1
+          fi
       - name: Protect published media or validate an intentional migration
         if: github.event_name == 'pull_request'
         run: |
