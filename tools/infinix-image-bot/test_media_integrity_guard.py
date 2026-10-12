@@ -27,6 +27,7 @@ class MediaIntegrityGuardTests(unittest.TestCase):
 
     def test_normal_rewrite_is_rejected(self):
         new_m=copy.deepcopy(self.old_m)
+        new_m["manifestVersion"]=16
         new_m["entries"][0]["filename"]="a.webp"
         with self.assertRaisesRegex(ValueError,"immutable published media"):
             guard.guard(self.old_m,self.old_d,new_m,self.old_d,base_commit="abc")
