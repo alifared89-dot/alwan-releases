@@ -93,6 +93,7 @@ jobs:
           fi
           python tools/infinix-image-bot/verify_media.py \
             --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json" \
+            --catalog compatibility/payloads/catalog.json \
             "${PLAN_ARGS[@]}"
       - name: Run offline regression suite
         run: |
