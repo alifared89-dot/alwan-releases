@@ -58,5 +58,37 @@ class MediaIntegrityGuardTests(unittest.TestCase):
                         base_commit="abc",migration_plan=plan)
 
 
+
+    def test_rejects_append_without_manifest_version_increment(self):
+        new_m=copy.deepcopy(self.old_m)
+        new_m["entries"].append(
+            {"deviceId":"d2","revision":"r1","view":"frontBack","filename":"b.png","chunkId":"c2"}
+        )
+        with self.assertRaisesRegex(ValueError,"ALWAN-MEDIA-VERSION-NOT-ADVANCED"):
+            guard.guard(self.old_m,self.old_d,new_m,self.old_d,base_commit="abc")
+
+    def test_rejects_version_rollback(self):
+        new_m=copy.deepcopy(self.old_m)
+        new_m["manifestVersion"]=14
+        with self.assertRaisesRegex(ValueError,"ALWAN-MEDIA-VERSION-ROLLBACK"):
+            guard.guard(self.old_m,self.old_d,new_m,self.old_d,base_commit="abc")
+
+    def test_rejects_invalid_version(self):
+        new_m=copy.deepcopy(self.old_m)
+        new_m["manifestVersion"]=None
+        with self.assertRaisesRegex(ValueError,"ALWAN-MEDIA-VERSION-INVALID"):
+            guard.guard(self.old_m,self.old_d,new_m,self.old_d,base_commit="abc")
+
+    def test_rejects_data_removal_even_with_migration_permission(self):
+        new_m=copy.deepcopy(self.old_m)
+        new_m.update(manifestVersion=16,entries=[])
+        plan={"schemaVersion":1,"mode":"intentional-media-migration",
+              "baseCommit":"abc","targetManifestVersion":16,
+              "reason":"Explicit migration cannot remove published image data",
+              "allow":{"entryRewrite":True,"chunkRewrite":True}}
+        with self.assertRaisesRegex(ValueError,"previously published media entries removed"):
+            guard.guard(self.old_m,self.old_d,new_m,self.old_d,
+                        base_commit="abc",migration_plan=plan)
+
 if __name__=="__main__":
     unittest.main()
