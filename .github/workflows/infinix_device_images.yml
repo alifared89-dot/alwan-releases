@@ -93,7 +93,9 @@ jobs:
             --current-manifest device-media/device_media_manifest.json \
             --current-distribution device-media/distribution.json \
             --base-commit "$(git rev-parse HEAD)"
-          python tools/infinix-image-bot/verify_media.py --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json"
+          python tools/infinix-image-bot/verify_media.py \
+            --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json" \
+            --catalog compatibility/payloads/catalog.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add device-media/
