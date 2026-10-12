@@ -92,9 +92,9 @@ class ContractTests(unittest.TestCase):
         }, indent=2)+"\n")
         return td,root
 
-    def audit(self,root):
+    def audit(self,root,baseline=None):
         a=v.Audit()
-        v.validate(root,a)
+        v.validate(root,a,baseline_manifest=baseline)
         return a
 
     def mutate_display(self,root,fn):
@@ -205,6 +205,44 @@ class ContractTests(unittest.TestCase):
             "ALWAN-DATA-HASH",
             {x["code"] for x in self.audit(r).errors},
         )
+
+    def test_rejects_missing_version(self):
+        td,r=self.fixture()
+        self.addCleanup(td.cleanup)
+        p=r/"manifest.json"
+        m=json.loads(p.read_text())
+        m.pop("manifestVersion")
+        p.write_text(json.dumps(m,indent=2)+"\n")
+        self.assertIn("ALWAN-DATA-MANIFEST-VERSION",
+                      {x["code"] for x in self.audit(r).errors})
+
+    def test_rejects_unchanged_version_when_payload_changes(self):
+        td,r=self.fixture()
+        self.addCleanup(td.cleanup)
+        baseline=json.loads((r/"manifest.json").read_text())
+        self.mutate_display(r,lambda x:x["parts"][0]["canonicalPartNumbers"].append("P2"))
+        self.assertIn("ALWAN-DATA-VERSION-NOT-ADVANCED",
+                      {x["code"] for x in self.audit(r,baseline).errors})
+
+    def test_accepts_advanced_version_when_payload_changes(self):
+        td,r=self.fixture()
+        self.addCleanup(td.cleanup)
+        p=r/"manifest.json"
+        baseline=json.loads(p.read_text())
+        self.mutate_display(r,lambda x:x["parts"][0]["canonicalPartNumbers"].append("P2"))
+        m=json.loads(p.read_text())
+        m["manifestVersion"]+=1
+        p.write_text(json.dumps(m,indent=2)+"\n")
+        self.assertEqual([],self.audit(r,baseline).errors)
+
+    def test_rejects_version_rollback_without_payload_change(self):
+        td,r=self.fixture()
+        self.addCleanup(td.cleanup)
+        p=r/"manifest.json"
+        baseline=json.loads(p.read_text())
+        baseline["manifestVersion"]=2
+        self.assertIn("ALWAN-DATA-VERSION-REGRESSION",
+                      {x["code"] for x in self.audit(r,baseline).errors})
 
 if __name__=="__main__":
     unittest.main()
