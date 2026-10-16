@@ -717,6 +717,20 @@
       "canonicalPartNumbers": [
         "920972"
       ]
+    },
+    {
+      "id": "part-display-infinix-x6885-x6886-commercial-929506",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "929506"
+      ]
+    },
+    {
+      "id": "part-display-infinix-x687-x687b-commercial-660101241a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "660101241A"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1520,6 +1534,22 @@
         "dev_tlevainraydh3mu53qyufi7ckm",
         "dev_eu4ca4blbwc6rdkryqu5rc225u",
         "dev_x62xq6gwj2f55oyt54lh4hpa7i"
+      ]
+    },
+    {
+      "id": "cg-infinix-x6885-x6886-commercial-929506",
+      "partId": "part-display-infinix-x6885-x6886-commercial-929506",
+      "deviceIds": [
+        "dev_kioyysn7v2xbyjfiaasykc2k7y",
+        "dev_2wwfy6fz7ve4aoyih5r7q2jvp4"
+      ]
+    },
+    {
+      "id": "cg-infinix-x687-x687b-commercial-660101241a",
+      "partId": "part-display-infinix-x687-x687b-commercial-660101241a",
+      "deviceIds": [
+        "dev_va44wqykkvgau2fey7colgiuri",
+        "dev_tmvympazmxcc7keslabl74pul4"
       ]
     }
   ],
@@ -5845,6 +5875,42 @@
         "X6716"
       ],
       "notes": "صفحة شاشات Universal Display تدعم مجموعة X663 وX670 وX671 وX6716؛ الدليل على الأكواد الأخرى من عرض مورد ASA المحدد."
+    },
+    {
+      "id": "ev-infinix-x6885-x6886-commercial-929506",
+      "compatibilityGroupId": "cg-infinix-x6885-x6886-commercial-929506",
+      "sourceKey": "supplier-infinix-x6885-x6886-commercial-929506",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-60-pro-x6885-hot-60-pro-plus-x6886-black-without-frame-original-prc/",
+      "checkedAt": "2026-10-16T00:00:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "929506"
+      ],
+      "citedModelCodes": [
+        "X6885",
+        "X6886"
+      ],
+      "notes": "شاشة بديلة يعرضها المورد للموديلين X6885 وX6886. وصف Original PRC تصنيف تجاري، وليس إثباتاً لشاشة المصنع. يلزم التأكد من رقم اللوحة والفلات والكونكتر قبل التركيب."
+    },
+    {
+      "id": "ev-infinix-x687-x687b-commercial-660101241a",
+      "compatibilityGroupId": "cg-infinix-x687-x687b-commercial-660101241a",
+      "sourceKey": "supplier-infinix-x687-x687b-commercial-660101241a",
+      "sourceType": "partsSupplier",
+      "sourceName": "TVCMALL",
+      "sourceUrl": "https://www.tvcmall.com/details/grade-c-lcd-screen-and-digitizer-assembly-replacement-without-logo-for-infinix-zero-8-x687-zero-8i-x687b-sku660101241a.html",
+      "checkedAt": "2026-10-16T00:00:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "660101241A"
+      ],
+      "citedModelCodes": [
+        "X687",
+        "X687B"
+      ],
+      "notes": "شاشة Grade C تجارية لـZERO 8 X687 وZERO 8i X687B حسب البائع. قد لا تدعم البصمة أسفل الشاشة؛ اختبرها قبل التركيب. لا يوجد إثبات بتبادل شاشة المصنع الأصلية."
     }
   ],
   "categoryFacts": [
@@ -33046,6 +33112,58 @@
         "checkedAt": "2026-10-06T12:55:00Z"
       },
       "deviceId": "dev_5buewpbolfgllbrsesgzufoezi"
+    },
+    {
+      "id": "diff-infinix-x6885-x6886-commercial-929506-dev_kioyysn7v2xbyjfiaasykc2k7y",
+      "partId": "part-display-infinix-x6885-x6886-commercial-929506",
+      "title": "توافق تجاري غير مؤكد — لا تثبت شاشة المصنع",
+      "description": "شاشة بديلة يعرضها المورد للموديلين X6885 وX6886. وصف Original PRC تصنيف تجاري، وليس إثباتاً لشاشة المصنع. يلزم التأكد من رقم اللوحة والفلات والكونكتر قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-60-pro-x6885-hot-60-pro-plus-x6886-black-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "supplier-infinix-x6885-x6886-commercial-929506",
+        "checkedAt": "2026-10-16T00:00:00Z"
+      },
+      "deviceId": "dev_kioyysn7v2xbyjfiaasykc2k7y"
+    },
+    {
+      "id": "diff-infinix-x6885-x6886-commercial-929506-dev_2wwfy6fz7ve4aoyih5r7q2jvp4",
+      "partId": "part-display-infinix-x6885-x6886-commercial-929506",
+      "title": "توافق تجاري غير مؤكد — لا تثبت شاشة المصنع",
+      "description": "شاشة بديلة يعرضها المورد للموديلين X6885 وX6886. وصف Original PRC تصنيف تجاري، وليس إثباتاً لشاشة المصنع. يلزم التأكد من رقم اللوحة والفلات والكونكتر قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-60-pro-x6885-hot-60-pro-plus-x6886-black-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "supplier-infinix-x6885-x6886-commercial-929506",
+        "checkedAt": "2026-10-16T00:00:00Z"
+      },
+      "deviceId": "dev_2wwfy6fz7ve4aoyih5r7q2jvp4"
+    },
+    {
+      "id": "diff-infinix-x687-x687b-commercial-660101241a-dev_va44wqykkvgau2fey7colgiuri",
+      "partId": "part-display-infinix-x687-x687b-commercial-660101241a",
+      "title": "توافق تجاري غير مؤكد — لا تثبت شاشة المصنع",
+      "description": "شاشة Grade C تجارية لـZERO 8 X687 وZERO 8i X687B حسب البائع. قد لا تدعم البصمة أسفل الشاشة؛ اختبرها قبل التركيب. لا يوجد إثبات بتبادل شاشة المصنع الأصلية.",
+      "provenance": {
+        "sourceUrl": "https://www.tvcmall.com/details/grade-c-lcd-screen-and-digitizer-assembly-replacement-without-logo-for-infinix-zero-8-x687-zero-8i-x687b-sku660101241a.html",
+        "sourceName": "TVCMALL",
+        "sourceKey": "supplier-infinix-x687-x687b-commercial-660101241a",
+        "checkedAt": "2026-10-16T00:00:00Z"
+      },
+      "deviceId": "dev_va44wqykkvgau2fey7colgiuri"
+    },
+    {
+      "id": "diff-infinix-x687-x687b-commercial-660101241a-dev_tmvympazmxcc7keslabl74pul4",
+      "partId": "part-display-infinix-x687-x687b-commercial-660101241a",
+      "title": "توافق تجاري غير مؤكد — لا تثبت شاشة المصنع",
+      "description": "شاشة Grade C تجارية لـZERO 8 X687 وZERO 8i X687B حسب البائع. قد لا تدعم البصمة أسفل الشاشة؛ اختبرها قبل التركيب. لا يوجد إثبات بتبادل شاشة المصنع الأصلية.",
+      "provenance": {
+        "sourceUrl": "https://www.tvcmall.com/details/grade-c-lcd-screen-and-digitizer-assembly-replacement-without-logo-for-infinix-zero-8-x687-zero-8i-x687b-sku660101241a.html",
+        "sourceName": "TVCMALL",
+        "sourceKey": "supplier-infinix-x687-x687b-commercial-660101241a",
+        "checkedAt": "2026-10-16T00:00:00Z"
+      },
+      "deviceId": "dev_tmvympazmxcc7keslabl74pul4"
     }
   ]
 }
