@@ -3,6 +3,7 @@
 from __future__ import annotations
 import argparse
 import json
+import re
 from pathlib import Path
 
 
@@ -73,11 +74,43 @@ def guard(old_manifest: dict, old_distribution: dict,
                    for x in old_manifest["entries"]}
     new_entries = {(x["deviceId"], x["revision"], x["view"]): x
                    for x in new_manifest["entries"]}
-    missing = sorted(set(old_entries) - set(new_entries))
-    if missing:
-        raise ValueError(f"previously published media entries removed: {len(missing)}")
+    # Exception limited to exact, explicitly listed identity corrections.
+    # No image bytes, chunk ID, filename, source or model metadata may change.
+    declared = [] if migration_plan is None else migration_plan.get("revisionCorrections", [])
+    if not isinstance(declared, list):
+        raise ValueError("revisionCorrections must be a list")
+    approved_old, approved_new = set(), set()
+    for correction in declared:
+        if not isinstance(correction, dict) or set(correction) != {
+            "deviceId", "view", "oldRevision", "newRevision"
+        }:
+            raise ValueError("invalid revision correction fields")
+        device_id, view = correction["deviceId"], correction["view"]
+        old_rev, new_rev = correction["oldRevision"], correction["newRevision"]
+        old_key, new_key = (device_id, old_rev, view), (device_id, new_rev, view)
+        if old_key in approved_old or new_key in approved_new:
+            raise ValueError("duplicate revision correction")
+        if not isinstance(new_rev, str) or not re.fullmatch(r"[A-Za-z0-9._-]+", new_rev):
+            raise ValueError("corrected revision is not client-compatible")
+        if old_key not in old_entries or new_key not in new_entries:
+            raise ValueError("revision correction identity missing")
+        old_row = old_entries[old_key]
+        expected = dict(old_row, revision=new_rev)
+        if new_entries[new_key] != expected:
+            raise ValueError("revision correction changes protected image metadata")
+        if old_key in new_entries or new_key in old_entries:
+            raise ValueError("revision correction duplicates an existing identity")
+        approved_old.add(old_key)
+        approved_new.add(new_key)
+    missing = set(old_entries) - set(new_entries)
+    if missing != approved_old:
+        raise ValueError(f"previously published media entries removed: {len(missing - approved_old)}")
     if not allow["entryRewrite"]:
-        changed = sorted(k for k, v in old_entries.items() if new_entries[k] != v)
+        changed = sorted(k for k, v in old_entries.items()
+                         if k not in approved_old and new_entries[k] != v)
+        unexpected = set(new_entries) - set(old_entries) - approved_new
+        # Additional entries are allowed in ordinary append-only publishing;
+        # only declared corrections may alter an existing identity.
         if changed:
             raise ValueError(f"immutable published media entries changed: {len(changed)}")
 

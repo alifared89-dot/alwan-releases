@@ -47,6 +47,40 @@ class MediaIntegrityGuardTests(unittest.TestCase):
                            base_commit="abc",migration_plan=plan)
         self.assertTrue(result["migrationMode"])
 
+    def test_exact_revision_correction_preserves_image_and_rejects_other_changes(self):
+        new_m = copy.deepcopy(self.old_m)
+        new_m["manifestVersion"] = 16
+        new_m["entries"][0]["revision"] = "fixed-r1"
+        plan = {
+            "schemaVersion": 1, "mode": "intentional-media-migration",
+            "baseCommit": "abc", "targetManifestVersion": 16,
+            "reason": "Fix a published revision identifier incompatible with Android",
+            "allow": {"entryRewrite": False},
+            "revisionCorrections": [{
+                "deviceId": "d1", "view": "frontBack",
+                "oldRevision": "r1", "newRevision": "fixed-r1"
+            }],
+        }
+        result = guard.guard(
+            self.old_m, self.old_d, new_m, self.old_d,
+            base_commit="abc", migration_plan=plan,
+        )
+        self.assertTrue(result["migrationMode"])
+        modified = copy.deepcopy(new_m)
+        modified["entries"][0]["filename"] = "different.png"
+        with self.assertRaisesRegex(ValueError, "protected image metadata"):
+            guard.guard(
+                self.old_m, self.old_d, modified, self.old_d,
+                base_commit="abc", migration_plan=plan,
+            )
+        deleted = copy.deepcopy(new_m)
+        deleted["entries"] = []
+        with self.assertRaises(ValueError):
+            guard.guard(
+                self.old_m, self.old_d, deleted, self.old_d,
+                base_commit="abc", migration_plan=plan,
+            )
+
     def test_stale_migration_plan_is_rejected(self):
         new_m=copy.deepcopy(self.old_m)
         new_m["manifestVersion"]=16

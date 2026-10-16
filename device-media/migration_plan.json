@@ -1,13 +1,27 @@
 {
   "schemaVersion": 1,
   "mode": "intentional-media-migration",
-  "baseCommit": "f4241fe879e89a39b7fa357f85397a3a99caf1ff",
-  "reason": "Replace legacy multi-file chunks whose extra superseded PNGs are rejected by the production fresh-device installer.",
-  "targetManifestVersion": 16,
+  "baseCommit": "ef6f0b8ee6136ca1efe56ee3c132b8f9fa75f31e",
+  "targetManifestVersion": 18,
+  "reason": "Correct exactly two invalid published Infinix revision identifiers that reject the complete media manifest in Android release while retaining identical image payload bytes, chunks and all other entries.",
   "allow": {
-    "entryRewrite": true,
-    "chunkRewrite": true,
+    "entryRewrite": false,
+    "chunkRewrite": false,
     "schemaVersionChange": false,
     "manifestUrlChange": false
-  }
+  },
+  "revisionCorrections": [
+    {
+      "deviceId": "dev_xzhg7ypmflf45ybmhrhl7zlthq",
+      "view": "frontBack",
+      "oldRevision": "infinix-user-reviewed-note 3-frontback-v1",
+      "newRevision": "infinix-user-reviewed-note-3-frontback-v1"
+    },
+    {
+      "deviceId": "dev_jmdbgi7l4rqfu473yzootd7jey",
+      "view": "frontBack",
+      "oldRevision": "infinix-user-reviewed-zero 4 plus-frontback-v1",
+      "newRevision": "infinix-user-reviewed-zero-4-plus-frontback-v1"
+    }
+  ]
 }

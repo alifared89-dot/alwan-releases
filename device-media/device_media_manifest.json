@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 17,
-  "generatedAt": "2026-10-16T13:21:20Z",
+  "manifestVersion": 18,
+  "generatedAt": "2026-10-16T15:40:00Z",
   "entries": [
     {
       "deviceId": "dev_muhbetyk7pmyb4jghcg3cmvszu",
@@ -1840,7 +1840,7 @@
     },
     {
       "deviceId": "dev_xzhg7ypmflf45ybmhrhl7zlthq",
-      "revision": "infinix-user-reviewed-note 3-frontback-v1",
+      "revision": "infinix-user-reviewed-note-3-frontback-v1",
       "view": "frontBack",
       "filename": "infinix-note 3-frontback.png",
       "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
@@ -1908,7 +1908,7 @@
     },
     {
       "deviceId": "dev_jmdbgi7l4rqfu473yzootd7jey",
-      "revision": "infinix-user-reviewed-zero 4 plus-frontback-v1",
+      "revision": "infinix-user-reviewed-zero-4-plus-frontback-v1",
       "view": "frontBack",
       "filename": "infinix-zero 4 plus-frontback.png",
       "chunkId": "infinix-review-20261016-b03-0c660f9c1df0",

@@ -9,6 +9,7 @@ import argparse
 import hashlib
 import io
 import json
+import re
 import zipfile
 from pathlib import Path
 
@@ -102,11 +103,21 @@ def presentation_check_entries(
         return {x["filename"] for key, x in new.items() if key not in old}
 
     content_fields = ("filename", "sha256", "bytes")
+    baseline_payloads = {
+        (x["deviceId"], x["view"], x["filename"], x["sha256"], x["bytes"])
+        for x in baseline["entries"]
+    }
     to_check = set()
     for key, row in new.items():
         previous = old.get(key)
-        if previous is None or any(
-            previous.get(field) != row.get(field) for field in content_fields
+        unchanged_payload = (
+            row["deviceId"], row["view"], row["filename"],
+            row["sha256"], row["bytes"]
+        ) in baseline_payloads
+        if not unchanged_payload and (
+            previous is None or any(
+                previous.get(field) != row.get(field) for field in content_fields
+            )
         ):
             to_check.add(row["filename"])
     return to_check
@@ -163,6 +174,12 @@ def verify_media(
         raise ValueError("manifest size or SHA mismatch")
 
     entries = manifest["entries"]
+    # Match Android DeviceMediaManifestValidator before publishing any update.
+    # One invalid revision makes the whole client manifest unusable.
+    for index, entry in enumerate(entries):
+        revision = entry.get("revision")
+        if not isinstance(revision, str) or not re.fullmatch(r"[A-Za-z0-9._-]+", revision):
+            raise ValueError(f"ALWAN-MEDIA-INVALID-REVISION: entry {index}: {revision!r}")
     chunks = {x["chunkId"]: x for x in distribution["chunks"]}
     if len(chunks) != len(distribution["chunks"]):
         raise ValueError("duplicate chunk descriptor")

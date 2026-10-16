@@ -52,6 +52,31 @@ class FreshDeviceMediaContractTests(unittest.TestCase):
         (root/"distribution.json").write_text(json.dumps(distribution,indent=2)+"\n")
         return td,root
 
+    def test_rejects_invalid_revision_in_published_manifest(self):
+        td, root = self.make_root()
+        self.addCleanup(td.cleanup)
+        manifest_file = root / "device_media_manifest.json"
+        manifest = json.loads(manifest_file.read_text())
+        manifest["entries"][0]["revision"] = "invalid revision"
+        raw = (json.dumps(manifest, indent=2) + "\n").encode()
+        manifest_file.write_bytes(raw)
+        distribution_file = root / "distribution.json"
+        distribution = json.loads(distribution_file.read_text())
+        distribution["mediaManifest"]["bytes"] = len(raw)
+        distribution["mediaManifest"]["sha256"] = sha(raw)
+        distribution_file.write_text(json.dumps(distribution, indent=2) + "\n")
+        with self.assertRaisesRegex(ValueError, "ALWAN-MEDIA-INVALID-REVISION"):
+            verify_media.verify_media(root=root)
+
+    def test_metadata_only_revision_fix_does_not_require_new_image_pixels(self):
+        td, root = self.make_root()
+        self.addCleanup(td.cleanup)
+        original = json.loads((root / "device_media_manifest.json").read_text())
+        new = dict(original["entries"][0], revision="corrected-r1")
+        self.assertEqual(set(), verify_media.presentation_check_entries(
+            [new], original, migration_mode=True,
+        ))
+
     def test_exact_chunk_passes_fresh_device_contract(self):
         td,root=self.make_root(extra=False)
         self.addCleanup(td.cleanup)
