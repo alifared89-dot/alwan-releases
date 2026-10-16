@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 52854,
-    "sha256": "6d07cac7e435431c70c03e6ce34f7173530f27b569c3c1ff0fa503a8cce12b93"
+    "bytes": 90481,
+    "sha256": "426fb43cb09bf64022c9668f88a559a5fdfd4c60d99b9b4bb18a7d509fe45a76"
   },
   "chunks": [
     {
@@ -439,6 +439,34 @@
       "compressedBytes": 543241,
       "uncompressedBytes": 543227,
       "sha256": "5109c1ad4f558cdeb7abb7a0c6e7476267cf56e6e67b8f51520f37a021993bf4"
+    },
+    {
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-review-20261016-b01-0d2c45985515.zip",
+      "compressedBytes": 4484572,
+      "uncompressedBytes": 4482932,
+      "sha256": "0d2c459855153eb91545150cd2a4589375063a5355370e1dfdffe5f30045648f"
+    },
+    {
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-review-20261016-b02-9fab99c820e2.zip",
+      "compressedBytes": 3903540,
+      "uncompressedBytes": 3902006,
+      "sha256": "9fab99c820e27b5a6f4c21d182bc2f906c730259b04d022817d7b83d81b5c332"
+    },
+    {
+      "chunkId": "infinix-review-20261016-b03-0c660f9c1df0",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-review-20261016-b03-0c660f9c1df0.zip",
+      "compressedBytes": 1416457,
+      "uncompressedBytes": 1415631,
+      "sha256": "0c660f9c1df053afb53f0471d87e9d1cd3ec950a0880a1756f35ca45234ecce5"
+    },
+    {
+      "chunkId": "infinix-review-20261016-b04-020ebf269023",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/infinix-review-20261016-b04-020ebf269023.zip",
+      "compressedBytes": 224582,
+      "uncompressedBytes": 224406,
+      "sha256": "020ebf26902349a9274fc6c50955e5a376db6f76bd95420aa62cb8dbbfa33d17"
     }
   ]
 }

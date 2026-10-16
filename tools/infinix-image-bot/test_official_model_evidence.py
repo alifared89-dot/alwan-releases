@@ -51,16 +51,28 @@ class OfficialNameEvidenceTest(unittest.TestCase):
         self.assertEqual(len(result["images"]),1)
 
     def test_only_unpublished_exact_unique_catalog_names(self):
+        # Isolate the publication state so this regression remains deterministic
+        # even after the referenced handset is legitimately published.
+        import json
         device=bot.BY_CODE["X6816D"][0]
         with tempfile.TemporaryDirectory(dir=bot.BOT/"output") as tmp:
-            db=Path(tmp)/"test.sqlite"
+            folder=Path(tmp)
+            media=folder/"media"
+            media.mkdir()
+            manifest=media/"device_media_manifest.json"
+            db=folder/"test.sqlite"
             with closing(sqlite3.connect(db)) as c:
                 c.execute("CREATE TABLE products(market TEXT,product_id TEXT,name TEXT,sku TEXT)")
-                c.execute("INSERT INTO products VALUES(?,?,?,?)",("my","101",device["name"],device["name"]))
+                c.execute("INSERT INTO products VALUES(?,?,?,?)",
+                          ("my","101",device["name"],device["name"]))
                 c.commit()
-            matches=ev.index_exact_names(db)
-        self.assertEqual(len(matches),1)
-        self.assertEqual(matches[0]["deviceId"],device["deviceId"])
+            with patch.object(bot,"MEDIA",media):
+                manifest.write_text(json.dumps({"entries":[]}))
+                unpublished=ev.index_exact_names(db)
+                self.assertEqual(len(unpublished),1)
+                self.assertEqual(unpublished[0]["deviceId"],device["deviceId"])
+                manifest.write_text(json.dumps({"entries":[{"deviceId":device["deviceId"]}]}))
+                self.assertEqual(ev.index_exact_names(db),[])
 
 
 if __name__=="__main__":
