@@ -30348,6 +30348,17 @@
             "sourceKey": "model-x6815c",
             "checkedAt": "2026-10-09T13:43:18.062124+00:00"
           }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://wap.infinixmobility.com/specs/zero-5g-2023",
+            "sourceName": "Infinix Official ZERO 5G 2023 (MODEL X6815C)",
+            "sourceKey": "infinix-official-zero-5g-2023-x6815c",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
         }
       ]
     },
