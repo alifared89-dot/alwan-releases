@@ -55,6 +55,33 @@ class ProductionRecordPreservationTests(unittest.TestCase):
         self.write(self.new, "display.json", display)
         self.assertEqual([], compare(self.old, self.new))
 
+    def test_exact_four_legacy_difference_id_repair_preserves_records(self):
+        from preserve_records import APPROVED_DISPLAY_DIFFERENCE_ID_REPAIRS
+        first_old, first_new = next(iter(APPROVED_DISPLAY_DIFFERENCE_ID_REPAIRS.items()))
+        row = {"id": first_old, "partId": "part1", "deviceId": "dev_x1",
+               "description": "commercial replacement is unconfirmed"}
+        previous = self.read(self.old, "display.json")
+        previous["compatibilityDifferences"].append(row)
+        self.write(self.old, "display.json", previous)
+        current = self.read(self.new, "display.json")
+        current["compatibilityDifferences"].append({**row, "id": first_new})
+        self.write(self.new, "display.json", current)
+        self.assertEqual([], compare(self.old, self.new))
+
+        # Replacing any content while renaming is still forbidden.
+        current["compatibilityDifferences"][0]["description"] = "not the same"
+        self.write(self.new, "display.json", current)
+        self.assertIn("ALWAN-DATA-RECORD-REMOVED", " ".join(compare(self.old, self.new)))
+
+    def test_other_difference_id_replacements_still_blocked(self):
+        previous = self.read(self.old, "display.json")
+        previous["compatibilityDifferences"].append({"id": "some-existing-id"})
+        self.write(self.old, "display.json", previous)
+        current = self.read(self.new, "display.json")
+        current["compatibilityDifferences"].append({"id": "new-unapproved-id"})
+        self.write(self.new, "display.json", current)
+        self.assertIn("ALWAN-DATA-RECORD-REMOVED", " ".join(compare(self.old, self.new)))
+
     def test_device_deletion_rejected(self):
         catalog = self.read(self.new, "catalog.json")
         catalog["devices"].clear()

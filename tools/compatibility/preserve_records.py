@@ -27,6 +27,33 @@ FILES = {
 }
 
 
+# Exactly four invalid IDs previously published in PR #30. Allow their
+# client-compatible replacements ONLY when the remaining record is identical.
+# Never grant a general-purpose rename/delete bypass.
+APPROVED_DISPLAY_DIFFERENCE_ID_REPAIRS = {
+    "diff-infinix-x6885-x6886-commercial-929506-dev_kioyysn7v2xbyjfiaasykc2k7y":
+        "diff-infinix-x6885-x6886-commercial-929506-x6885",
+    "diff-infinix-x6885-x6886-commercial-929506-dev_2wwfy6fz7ve4aoyih5r7q2jvp4":
+        "diff-infinix-x6885-x6886-commercial-929506-x6886",
+    "diff-infinix-x687-x687b-commercial-660101241a-dev_va44wqykkvgau2fey7colgiuri":
+        "diff-infinix-x687-x687b-commercial-660101241a-x687",
+    "diff-infinix-x687-x687b-commercial-660101241a-dev_tmvympazmxcc7keslabl74pul4":
+        "diff-infinix-x687-x687b-commercial-660101241a-x687b",
+}
+
+
+def approved_display_difference_repair(old_id: str, before_row: dict,
+                                       after_rows: dict) -> bool:
+    replacement_id = APPROVED_DISPLAY_DIFFERENCE_ID_REPAIRS.get(old_id)
+    if not replacement_id:
+        return False
+    replacement = after_rows.get(replacement_id)
+    if replacement is None:
+        return False
+    return ({k: v for k, v in before_row.items() if k != "id"}
+            == {k: v for k, v in replacement.items() if k != "id"})
+
+
 def identifier(collection: str, row: dict):
     if collection == "categoryFacts":
         # Facts have device/category identity rather than a stable id field.
@@ -62,6 +89,14 @@ def compare(previous: Path, current: Path) -> list[str]:
             before = record_keys(old, collection, filename)
             after = record_keys(new, collection, filename)
             removed = sorted(before - after, key=str)
+            if filename == "display.json" and collection == "compatibilityDifferences":
+                previous_rows = {row["id"]: row for row in old[collection]}
+                current_rows = {row["id"]: row for row in new[collection]}
+                removed = [
+                    old_id for old_id in removed
+                    if not approved_display_difference_repair(
+                        old_id, previous_rows[old_id], current_rows)
+                ]
             if removed:
                 errors.append(
                     f"ALWAN-DATA-RECORD-REMOVED: {filename}#{collection}: "

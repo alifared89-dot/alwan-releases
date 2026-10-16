@@ -117,6 +117,18 @@ class ContractTests(unittest.TestCase):
         self.addCleanup(td.cleanup)
         self.assertEqual([],self.audit(r).errors)
 
+    def test_rejects_difference_id_disallowed_by_flutter_client(self):
+        td,r=self.fixture()
+        self.addCleanup(td.cleanup)
+        self.mutate_display(r, lambda d:d["compatibilityDifferences"].append({
+            "id":"diff-old-dev_invalid", "partId":"part_x", "deviceId":"dev_x1"
+        }))
+        self.assertIn("ALWAN-DATA-DIFF-ID", {x["code"] for x in self.audit(r).errors})
+        self.mutate_display(r, lambda d:d["compatibilityDifferences"][0].update(
+            id="diff-old-x1"
+        ))
+        self.assertNotIn("ALWAN-DATA-DIFF-ID", {x["code"] for x in self.audit(r).errors})
+
     def test_rejects_part_evidence_mismatch(self):
         td,r=self.fixture()
         self.addCleanup(td.cleanup)

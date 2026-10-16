@@ -15,6 +15,7 @@ PAYLOAD_URL_PREFIX=(
     "alwan-releases/main/compatibility/payloads/"
 )
 STABLE=re.compile(r"^[A-Za-z0-9._-]+$")
+CLIENT_VALID_DIFFERENCE_ID = re.compile(r"^[a-z0-9-]+$")
 def norm_model(s): return re.sub(r"[^A-Za-z0-9]","",str(s)).lower()
 def load(path):
     try: return json.loads(path.read_text())
@@ -243,6 +244,9 @@ def validate(root:Path,a:Audit,baseline_manifest:dict|None=None):
         diffseen=set()
         for i,d in enumerate(diffs):
             path=f"{base}#/compatibilityDifferences/{i}"; did=d.get("id") if isinstance(d,dict) else None
+            if not isinstance(did,str) or not CLIENT_VALID_DIFFERENCE_ID.fullmatch(did):
+                a.err("ALWAN-DATA-DIFF-ID",path,
+                      f"difference id {did!r} violates client format: lowercase letters, digits and hyphens only")
             if did in diffseen: a.err("ALWAN-DATA-DIFF-DUPLICATE",path,f"duplicate difference id {did}")
             diffseen.add(did)
             pid=d.get("partId") if isinstance(d,dict) else None; device=d.get("deviceId") if isinstance(d,dict) else None
