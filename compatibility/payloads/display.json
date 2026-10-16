@@ -32665,6 +32665,335 @@
           }
         }
       ]
+    },
+    {
+      "category": "display",
+      "deviceId": "dev_isqp2nevkj4cp6udemmpczrmgu",
+      "facts": [
+        {
+          "key": "sizeInches",
+          "value": "6.8",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/ae/phones/tech-specs/techspecs/camon-19-pro-5g-11/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-ci7n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2460",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/ae/phones/tech-specs/techspecs/camon-19-pro-5g-11/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-ci7n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/ae/phones/tech-specs/techspecs/camon-19-pro-5g-11/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-ci7n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "display",
+      "deviceId": "dev_tlevainraydh3mu53qyufi7ckm",
+      "facts": [
+        {
+          "key": "technology",
+          "value": "AMOLED",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/et-en/phones/tech-specs/techspecs/camon-20-pro/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-ck7n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "sizeInches",
+          "value": "6.67",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/et-en/phones/tech-specs/techspecs/camon-20-pro/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-ck7n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2400",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/et-en/phones/tech-specs/techspecs/camon-20-pro/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-ck7n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/et-en/phones/tech-specs/techspecs/camon-20-pro/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-ck7n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "display",
+      "deviceId": "dev_65ijil7lh5mfepu2fp2tsucqmu",
+      "facts": [
+        {
+          "key": "sizeInches",
+          "value": "6.6",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/ci/telephones/tech-specs/techspecs/pop-8/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-bg6h",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/ci/telephones/tech-specs/techspecs/pop-8/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-bg6h",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/ci/telephones/tech-specs/techspecs/pop-8/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-bg6h",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "display",
+      "deviceId": "dev_ioyo7deotvm2gytpwtsl535d64",
+      "facts": [
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/dr/phones/tech-specs/techspecs/pova-5/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-lh7n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2460",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/dr/phones/tech-specs/techspecs/pova-5/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-lh7n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/dr/phones/tech-specs/techspecs/pova-5/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-lh7n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "display",
+      "deviceId": "dev_4zysen7ojilvepmr2tssrf5ame",
+      "facts": [
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/bg/phones/tech-specs/techspecs/pova-5-pro-5g/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-lh8n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2460",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/bg/phones/tech-specs/techspecs/pova-5-pro-5g/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-lh8n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/bg/phones/tech-specs/techspecs/pova-5-pro-5g/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-lh8n",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "display",
+      "deviceId": "dev_7swexj5rcoj64eba6hk4bhskdq",
+      "facts": [
+        {
+          "key": "resolution",
+          "value": "720x1612",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/ro/phones/tech-specs/techspecs/spark-20/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-kj5",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "90",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/ro/phones/tech-specs/techspecs/spark-20/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-kj5",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "display",
+      "deviceId": "dev_ospfefegs2rf47sjxmjrbv7b4e",
+      "facts": [
+        {
+          "key": "sizeInches",
+          "value": "6.78",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/za/phones/tech-specs/techspecs/spark-20-pro-5g/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-kj8",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "1080x2460",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/za/phones/tech-specs/techspecs/spark-20-pro-5g/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-kj8",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/za/phones/tech-specs/techspecs/spark-20-pro-5g/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-kj8",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "display",
+      "deviceId": "dev_ik4exgtr4snmqtvw25kkfxv4te",
+      "facts": [
+        {
+          "key": "sizeInches",
+          "value": "6.67",
+          "unit": "inch",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/sa/phones/tech-specs/techspecs/spark-30-5g/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-kl8",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/sa/phones/tech-specs/techspecs/spark-30-5g/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-kl8",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "category": "display",
+      "deviceId": "dev_63riqqjp2ief7ioastp2lszw6q",
+      "facts": [
+        {
+          "key": "resolution",
+          "value": "720x1600",
+          "unit": null,
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/phones/tech-specs/techspecs/spark-40/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-km5",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.tecno-mobile.com/phones/tech-specs/techspecs/spark-40/",
+            "sourceName": "TECNO Official",
+            "sourceKey": "tecno-official-km5",
+            "checkedAt": "2026-10-16T00:00:00Z"
+          }
+        }
+      ]
     }
   ],
   "compatibilityDifferences": [
