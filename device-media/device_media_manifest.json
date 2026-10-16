@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 16,
-  "generatedAt": "2026-10-11T20:31:02.748Z",
+  "manifestVersion": 17,
+  "generatedAt": "2026-10-16T13:21:20Z",
   "entries": [
     {
       "deviceId": "dev_muhbetyk7pmyb4jghcg3cmvszu",
@@ -1225,6 +1225,1655 @@
         "X6881"
       ],
       "checkedAt": "2026-10-10T01:48:06Z"
+    },
+    {
+      "deviceId": "dev_avlmtfxmlz2mbxfi73qw4fyv7q",
+      "revision": "infinix-user-reviewed-x6816d-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6816d-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "65093682111a2ee8e8441785b6e42ee982b3af8201cb183abc1fe22317212350",
+      "bytes": 134776,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0676/7679/9256/files/HOT_12_PLAY_NFC-Black-1-1600px.png?v=1726471455",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6816D"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_vhzlamtsdghxdgp3zrbdkhcx64",
+      "revision": "infinix-user-reviewed-x665b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x665b-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "0c725c34133b5963e033b8501b14a2b5586658099f1eab304644a598193bd122",
+      "bytes": 223620,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0676/7679/9256/files/HOT_12i-Black-1-1600px.png?v=1718790965",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X665B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_eq4uqjoix7kel63xjiamjcpaze",
+      "revision": "infinix-user-reviewed-x669-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x669-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "3a9ef3c1237fbf1dd690e99b323ce401ff845c8486813d1c8bcc559134989712",
+      "bytes": 294723,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0676/7679/9256/files/12252_HOT_30i-blue-1600px_25281_2529.png?v=1699885669",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X669"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_dxhgu3p74aw3lt2ojx2wupl2rm",
+      "revision": "infinix-user-reviewed-x665e-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x665e-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "b20f7d63695a9c4c1a4e857742100723576d93e01b38a399581fee701b54eb91",
+      "bytes": 220457,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-20i-wilderness-black-color.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X665E"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_rngt42z3ljur2zawvjly3tsbji",
+      "revision": "infinix-user-reviewed-x6836-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6836-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "df1d7ebf2fb3c7219af3dbf334d34c4b819a5ceaafa53e602c099047dce6aaa0",
+      "bytes": 249337,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-40-palm-blue-official-image.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6836"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_dumlz2ykjneilqv3stqwwkmbna",
+      "revision": "infinix-user-reviewed-x693-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x693-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "c70c1be8eb8cb4ad58cf86ca3919291e18abd9ecc3c4a1178d55d498306dd7f0",
+      "bytes": 211457,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-note-10-black-image.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X693"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_lrap44vqtd5q2ggivru63wksye",
+      "revision": "infinix-user-reviewed-x5514d-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x5514d-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "664eb0ae19ac0b4af5aac9ef572695c315aba30f7675d5afb31e8e546f719bc1",
+      "bytes": 150339,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-smart-2-pro-sandstone-black-image.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X5514D"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_ndscud6zjj2ndem6c4fveo3jbm",
+      "revision": "infinix-user-reviewed-x657c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x657c-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "01ffb81966d1ed6f35dd037b327e58399fa4d87912e0fca0081dfffe2c883ae4",
+      "bytes": 296597,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-smart-5-blue-image.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X657C"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_3kxshmneotsw4ddh26rffr7yci",
+      "revision": "infinix-user-reviewed-x6815d-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6815d-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "718901ff89e2edba447387a8257f38b273d80f0c00058302818f4f2fac39c45e",
+      "bytes": 218612,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0928/3089/2308/files/Zero5G-1.webp?v=1768804041",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6815D"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_i2mbe5mkvbjrm4yykqor23al5y",
+      "revision": "infinix-user-reviewed-x6835b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6835b-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "6adbd559ca58784948f0dbd1ba9a0c383da6142f6069df4b6dcca0a1e6ee10c0",
+      "bytes": 203750,
+      "sourcePageUrl": "https://euro-technika.com.ua/uploads/shop/products/large/6e3a80c401d976cfbfaa53da0fd02cab.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6835B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_xzyb3vl565aobwbfzebvl6b5ta",
+      "revision": "infinix-user-reviewed-x6833b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6833b-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "0a524b2bc7e011e132ea8b06ed982920d1739834056edc0de72138059e7b0883",
+      "bytes": 315396,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0676/7679/9256/files/12293_b1.png?v=1699885722",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6833B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_orrydxvewfmtqhvv6pk6sc2gjq",
+      "revision": "infinix-user-reviewed-x6731b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6731b-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "955742654490fc32bdefa1d8f2704f13b969003c4063cb128b9c27d1a3108389",
+      "bytes": 275274,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-zero-30-4g-misty-green-image.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6731B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_hvu45rkhdy4ewtxpew2zvfxrze",
+      "revision": "infinix-user-reviewed-x6812-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6812-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "51de5d33d3b7bada08f832105162386a94d41230766d06bf208aba7c87f156ca",
+      "bytes": 95748,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-11s-green-wave-image.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6812"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_tcnxc24etr4kmbnjjbsutnfyze",
+      "revision": "infinix-user-reviewed-x698-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x698-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "d298970879d7e5e8f0dd4593bcabee60c3694d605822bd7c957debbe6f123b11",
+      "bytes": 387748,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-note-11s-symphony-cyan-image.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X698"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_spv5asrbsu6fn373uchccqov6e",
+      "revision": "infinix-user-reviewed-x6882b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6882b-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "10673bfff803fdcc23eed550dfd8ad8a4bb1a808b27c55e3f194bd05520fbb8d",
+      "bytes": 152789,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-50-black-image.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6882B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_ogtfcubnvicqyedjcav7wxrzxm",
+      "revision": "infinix-user-reviewed-x6531b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6531b-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "9c8c528d27b406fbe036d64da8a08fdd9bc2e23ad80824731e40399e6bb24425",
+      "bytes": 199860,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-50i-sage-green-image.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6531B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_hw6nshqmenbysohlcig4saeka4",
+      "revision": "infinix-user-reviewed-x604-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x604-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "4f75b8944dbec0a6ede6ab4bec66f97c9a591a3c20ab15c0e4d2fc0a3c6fd0e3",
+      "bytes": 157833,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-note-5-black-color.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X604"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_ac6pf7nzvhw6rco5rsaicy6wuq",
+      "revision": "infinix-user-reviewed-x666-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x666-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "91cf966af97cdc1849c5e088f491389f45a621dd95ef4dbce748a926f9f26c7b",
+      "bytes": 223959,
+      "sourcePageUrl": "https://cdn.eraspace.com/media/catalog/product/i/n/infinix_hot_20_5g_nfc_blue_1.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X666"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_ztaybmlex7eufcthztogcetzje",
+      "revision": "infinix-user-reviewed-x692-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x692-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "f5b1640426e6b51ff9b19bf1598f1dbcf54bf3b9e958fa78bc80cd1d329cc5d1",
+      "bytes": 189109,
+      "sourcePageUrl": "https://i0.wp.com/sygnifictech.com/wp-content/uploads/2021/07/note-8.jpg?fit=640%2C640&ssl=1",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X692"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_dor7aezqehbheemuj4oh2iwzlq",
+      "revision": "infinix-user-reviewed-x697-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x697-frontback.png",
+      "chunkId": "infinix-review-20261016-b01-0d2c45985515",
+      "sha256": "8b3715e30a39b5fb12c7c3fd426c356ae465e0b13b2ca1770188ff7df990eb9d",
+      "bytes": 281548,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-note-11-pro-blue-image.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X697"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_ahbn67aipstd3p5xyvoozllqoy",
+      "revision": "infinix-user-reviewed-x6811-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6811-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "ffa314653ceff7e34a8606d4b51e731274d9286c4cc58eed6c63484f5b613804",
+      "bytes": 466752,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0638/9173/4769/products/black_a456f5ec-a22e-4822-8ba7-29327e581e4a.png?v=1652802852",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6811"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_wannsdwqxwpwdlygtb34yflyiq",
+      "revision": "infinix-user-reviewed-x671b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x671b-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "21553d4081622cf04ec79d7f1e6ca46584c4c433c44f2a80cce1335daf63f7d0",
+      "bytes": 353130,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0638/9173/4769/products/WechatIMG275.png?v=1659513343",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X671B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_vddjxdpdoma3bc3asakcnnptzu",
+      "revision": "infinix-user-reviewed-x622-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x622-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "9dc760f64beb75fc259043b5571f2f7e14cc71bfcca250e3e74fa4b30495b56d",
+      "bytes": 266173,
+      "sourcePageUrl": "https://www.naijaandroidarena.com/wp-content/uploads/2018/08/infinix-hots3x-featured-image.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X622"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_sefxhiypmic3bqjzpi7sjrbgge",
+      "revision": "infinix-user-reviewed-x663b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x663b-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "64a9b791f4a373af2167bdeb21c500af40f654e0a87cda69536fca45a2614453",
+      "bytes": 227521,
+      "sourcePageUrl": "https://c.dns-shop.kz/thumb/st4/fit/500/500/22176b2edd65b990c21befca779fe6ff/2b465ca43948edfb69b724a7a7cb8a543de2953153554da0f6e83f1d42b4d016.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X663B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_ob7x4546yyqyqtgy5bk3c25faq",
+      "revision": "infinix-user-reviewed-x6810-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6810-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "0df445603bf8862df351d0b57593484411482c25e0eaff36b0ebbd71304ac620",
+      "bytes": 164034,
+      "sourcePageUrl": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/94/MTA-30461754/infinix_infinix_zero_x_neo_8-128gb_garansi_resmi__full01_ttpjggie.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6810"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_kdbf7lqccrrsvwuj5dzvv5hz6a",
+      "revision": "infinix-user-reviewed-x608-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x608-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "079ff8b914f0afcd6d829017f6d8525a5e67d0919055c53f393ff3b8f10a24b4",
+      "bytes": 145310,
+      "sourcePageUrl": "https://www.smartphonesbd.com/images/phones/infinix-hot-6-pro.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X608"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_dqyoi3nreifu2zjwf2dvik65oi",
+      "revision": "infinix-user-reviewed-x680d-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x680d-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "34c8e43588e6f8ebb4508a4059a5cd9f7b81c7c2fff8859977bdc096e2f31be6",
+      "bytes": 324667,
+      "sourcePageUrl": "https://cdn.phonebunch.com/news-images/2020/07/Infinix-smart-4-plus-2-phonebunch.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X680D"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_brhhz2zhhhlbshv7ktpahtqdbi",
+      "revision": "infinix-user-reviewed-x689c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x689c-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "1d0e63b1470846e12d0cd6f7c3d39aa08900c0777ec2cab57f84d66a581b8c57",
+      "bytes": 195442,
+      "sourcePageUrl": "https://api.priceinkenya.com/media/124039/conversions/infinixhot10ta-original.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X689C"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_tmvympazmxcc7keslabl74pul4",
+      "revision": "infinix-user-reviewed-x687b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x687b-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "5369367c35fd1de755c803ca22d01b431843d1597390c537f4f46d2d203c1878",
+      "bytes": 222813,
+      "sourcePageUrl": "https://www.techindeep.com/phones/devicephotos/infinix-zero-8i.png",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X687B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_nz5vtetlf45eonp42cmip7rg4y",
+      "revision": "infinix-user-reviewed-x656-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x656-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "f2578764de28838c5ec22e7499005ab70624080b572ac7d82a4c6264667db31d",
+      "bytes": 174146,
+      "sourcePageUrl": "https://cdn.ralali.id/assets/img/Libraries/Infinix-Note-7-Lite-4GB-64GB-Garansi-Resmi_2uPn1qPfme5A7GKN_1595587937.png",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X656"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_zihw6csvpfxevbuqudzfyxfgsm",
+      "revision": "infinix-user-reviewed-x675-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x675-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "10883cd6b0416c9016932ea0fbacaa4f097098ec6bb13ef4711c65b35f013bbf",
+      "bytes": 240589,
+      "sourcePageUrl": "https://api.priceinkenya.com/media/125641/conversions/infinixhot112022l-medium.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X675"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_4rbv6nnjhplxo732tenf673odi",
+      "revision": "infinix-user-reviewed-infinix-x554-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-infinix-x554-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "c0858435d116810df99fc9b04abe839fa6c1c473742713fcfeb53752c40b8635",
+      "bytes": 188755,
+      "sourcePageUrl": "https://hamariweb.com/mobiles/LargeImages/3480_01.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "INFINIX-X554"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_lopkwasxynnp6kndd2o753pwwu",
+      "revision": "infinix-user-reviewed-infinix_x556_lte-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-infinix_x556_lte-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "f46668c71d846cd4b8f1d2e39eb98b85226819cd1a985edba66413e82058ad4b",
+      "bytes": 109391,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-hot-4-pro_1.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "INFINIX_X556_LTE"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_pfspukh3mta6t6rutuoef4ghzu",
+      "revision": "infinix-user-reviewed-x650-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x650-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "81871c21d34b702329c60adb3d161ff78a90734008bb316a0cb814804bee8c53",
+      "bytes": 154767,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-hot-8-lite_3.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X650"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_vgbfk2bgcqkbrzstke4icomp2e",
+      "revision": "infinix-user-reviewed-x6728b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6728b-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "ae19c5191c5efb6c586d7dba6fdc3f1638edb0c44cbcf82533c0684712081bfd",
+      "bytes": 97418,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-hot-60i_1.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6728B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_2fl6m3bbw2y73ems7ukuec3afy",
+      "revision": "infinix-user-reviewed-x6895-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6895-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "c2f7295c1c8b10b8c15416aa631c267206fb458b5ce9fbbafa05aedf3257fda6",
+      "bytes": 106377,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-hot-70_1.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6895"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_xzhg7ypmflf45ybmhrhl7zlthq",
+      "revision": "infinix-user-reviewed-note 3-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-note 3-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "2c4a3ca922490f3b97123b25236432679108714fb984e456de10ae0fadcef1ae",
+      "bytes": 134539,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-note-3_1.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "NOTE 3"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_tze37nr7swfmmrtqdf4hrpnc3a",
+      "revision": "infinix-user-reviewed-x6716-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6716-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "bc88ad4a098d7e2fbca39f2078953e3a07ae4058396cf68762dc5c478d42a144",
+      "bytes": 122034,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-note-30i_1.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6716"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_jdq7xvln4hzrpe4bxi55wtzf6m",
+      "revision": "infinix-user-reviewed-x571-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x571-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "e3374461a375c18edeed404201853769bd52357b751a7f84fb49074420fe6cfb",
+      "bytes": 107321,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-note-4-pro_1.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X571"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_tmimaaqjxspzqfpi2duj3amcze",
+      "revision": "infinix-user-reviewed-x6725c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6725c-frontback.png",
+      "chunkId": "infinix-review-20261016-b02-9fab99c820e2",
+      "sha256": "8b2b5b03a4e7739d7aab6e8d2bc4e878c9e74d80ddcbad823561d60b3bc2db95",
+      "bytes": 100827,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-smart-10-plus_2.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6725C"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_jmdbgi7l4rqfu473yzootd7jey",
+      "revision": "infinix-user-reviewed-zero 4 plus-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-zero 4 plus-frontback.png",
+      "chunkId": "infinix-review-20261016-b03-0c660f9c1df0",
+      "sha256": "b9369070dd9f106bbbef28f17ee5dc0807a9449d165ff646a29c77af5e147e2b",
+      "bytes": 160277,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-zero-4-plus_1.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "ZERO 4 PLUS"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_rfylhgxawsc73bcwrzggsae2ae",
+      "revision": "infinix-user-reviewed-x6819-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6819-frontback.png",
+      "chunkId": "infinix-review-20261016-b03-0c660f9c1df0",
+      "sha256": "2fc700bba0193736e72eea60407cf02e4e99a52bdd1069716262c2103a8ee88b",
+      "bytes": 151776,
+      "sourcePageUrl": "https://afrosky.com/public/sesproduct_album/34/2d/05/af6bb3a919c5cab6da25c9ba9609e72b.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6819"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_urffuk42bb6sc42feltclrcmhm",
+      "revision": "infinix-user-reviewed-x620b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x620b-frontback.png",
+      "chunkId": "infinix-review-20261016-b03-0c660f9c1df0",
+      "sha256": "465e54d914845b195383e78a1479b42cfe2d1b1ceb552abd20142671eab222bd",
+      "bytes": 271383,
+      "sourcePageUrl": "https://mobileprokenya.odoo.com/web/image/product.template/1026/image_1920?unique=af581d8",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X620B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_ggzmsepz2iuh2isekoxpxp554q",
+      "revision": "infinix-user-reviewed-x605-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x605-frontback.png",
+      "chunkId": "infinix-review-20261016-b03-0c660f9c1df0",
+      "sha256": "4b6bc6ab0a45f92cb5b9ba8e2805ca9be9d4f1955e4c1428150c21f9e1f15cbd",
+      "bytes": 175489,
+      "sourcePageUrl": "https://cdn.phonemore.com/content/2018/jpg/10957.jpg",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X605"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_ptlm57hnvl4yvo32va4dmmnmeu",
+      "revision": "infinix-user-reviewed-x6812b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6812b-frontback.png",
+      "chunkId": "infinix-review-20261016-b03-0c660f9c1df0",
+      "sha256": "e1603cb62dca58a57dea0bc44ce6a9a57bb287e60bda276a4b53109f50a90cdf",
+      "bytes": 484285,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0638/9173/4769/products/black_8da7b956-e978-4aa1-8388-3dcd5aeab346.png?v=1652803951",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6812B"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_erngqae7rfgttiok3o3osdp5fm",
+      "revision": "infinix-user-reviewed-x6525d-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6525d-frontback.png",
+      "chunkId": "infinix-review-20261016-b03-0c660f9c1df0",
+      "sha256": "e971d560283fbe07de5274aa2e15a97e2f48e8feb6c0b60bedd6a39347e9cf04",
+      "bytes": 172421,
+      "sourcePageUrl": "https://tv-it.com/storage/manar-gamal/11-1-2024/infinix-smart-8/infinix-smart-8.webp",
+      "creator": "Third-party or store-sourced image (creator not independently identified)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed model image; original image source linked",
+      "verifiedModelCodes": [
+        "X6525D"
+      ],
+      "checkedAt": "2026-10-16T12:41:12Z"
+    },
+    {
+      "deviceId": "dev_uigqwap3qfafm5wlcokjya4twm",
+      "revision": "infinix-user-reviewed-x6840-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6840-frontback.png",
+      "chunkId": "infinix-review-20261016-b04-020ebf269023",
+      "sha256": "6559a1fc4287c42b9e520a35825502c8f7ac98c3f4f41a973637ab3bd9e35b3e",
+      "bytes": 224406,
+      "sourcePageUrl": "https://infinixmobiles.in/products/smart-20",
+      "creator": "Infinix official product media",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Infinix official Smart 20 product gallery; user-reviewed presentation",
+      "verifiedModelCodes": [
+        "X6840"
+      ],
+      "checkedAt": "2026-10-16T12:46:48Z"
+    },
+    {
+      "deviceId": "dev_y3daxnhvdjoweb3owrbil7pife",
+      "revision": "infinix-user-reviewed-x6815b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6815b-frontback.png",
+      "chunkId": "infinix-reviewed-zero5g-20261016-b4dfbea870fb",
+      "sha256": "76b436935e8966f051d1041e117da8330218667c2245cfba45ff3b629ddaadf1",
+      "bytes": 118663,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-zero-5g_1.jpg",
+      "creator": "Third-party product image; Infinix official page corroborates variants",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed ZERO 5G product image; official Infinix spec states X6815/X6815B",
+      "verifiedModelCodes": [
+        "X6815B"
+      ],
+      "checkedAt": "2026-10-16T13:01:52Z"
+    },
+    {
+      "deviceId": "dev_yitlti7sxa3s7j45o5ojzkotnq",
+      "revision": "infinix-user-reviewed-x6815-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6815-frontback.png",
+      "chunkId": "infinix-reviewed-zero5g-20261016-b4dfbea870fb",
+      "sha256": "76b436935e8966f051d1041e117da8330218667c2245cfba45ff3b629ddaadf1",
+      "bytes": 118663,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-zero-5g_1.jpg",
+      "creator": "Third-party product image; Infinix official page corroborates variants",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User-reviewed ZERO 5G product image; official Infinix spec states X6815/X6815B",
+      "verifiedModelCodes": [
+        "X6815"
+      ],
+      "checkedAt": "2026-10-16T13:01:52Z"
+    },
+    {
+      "deviceId": "dev_p6oumrfhbtrrwmyjzilguutwky",
+      "revision": "infinix-user-reviewed-x650d-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x650d-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "d1fda0fb78f59fb0834a310511ecd13ace508f4ed5e1fadca4807bb94f976a99",
+      "bytes": 213546,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-8-purple-official-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X650D"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_xlouu3zqefvm7njgibpy7fuze4",
+      "revision": "infinix-user-reviewed-x650c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x650c-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "d1fda0fb78f59fb0834a310511ecd13ace508f4ed5e1fadca4807bb94f976a99",
+      "bytes": 213546,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-8-purple-official-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X650C"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_xnha2gghwv36l2n2vqdep6aqhe",
+      "revision": "infinix-user-reviewed-x650b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x650b-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "d1fda0fb78f59fb0834a310511ecd13ace508f4ed5e1fadca4807bb94f976a99",
+      "bytes": 213546,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-8-purple-official-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X650B"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_6pwwnvbjrqwwlub37s2mzjiuti",
+      "revision": "infinix-user-reviewed-x689-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x689-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "15ad1351ecc9358114c77274e2fdcdcab1f7c09e345a5506b274eb2d13836be6",
+      "bytes": 170349,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-10s-morandi-green-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X689"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_g2a7me7obrbikk4wwaalwnwdwu",
+      "revision": "infinix-user-reviewed-x689b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x689b-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "15ad1351ecc9358114c77274e2fdcdcab1f7c09e345a5506b274eb2d13836be6",
+      "bytes": 170349,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-10s-morandi-green-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X689B"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_n6n4fmzyo6kkkpz6qyjjrpguzq",
+      "revision": "infinix-user-reviewed-x683b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x683b-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "2b8eabb08da2033366a3b4064ddd53b4f44c9e2c486a433ebd186cea6e563512",
+      "bytes": 150586,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-note-8i-grey-official-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X683B"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_xun6h7ky44j6sgvv4g7rkathou",
+      "revision": "infinix-user-reviewed-x683-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x683-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "2b8eabb08da2033366a3b4064ddd53b4f44c9e2c486a433ebd186cea6e563512",
+      "bytes": 150586,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-note-8i-grey-official-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X683"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_44sam6t46lvn7yk6nyrsu6ps2u",
+      "revision": "infinix-user-reviewed-x6511e-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6511e-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "26ac221b04179c6e956ed7db4e5b8b32e4e677cecec7723ee643569bd7a5b256",
+      "bytes": 122722,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-smart-6-blue-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X6511E"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_kxhdcm3iubsxpsm5g7w5eg22te",
+      "revision": "infinix-user-reviewed-x6511-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6511-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "26ac221b04179c6e956ed7db4e5b8b32e4e677cecec7723ee643569bd7a5b256",
+      "bytes": 122722,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-smart-6-blue-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X6511"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_t6e2dne25azltlnvam3ilozs3a",
+      "revision": "infinix-user-reviewed-x6511b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6511b-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "26ac221b04179c6e956ed7db4e5b8b32e4e677cecec7723ee643569bd7a5b256",
+      "bytes": 122722,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-smart-6-blue-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X6511B"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_uxhsi2ux4pbtlrtpaf37pz6azi",
+      "revision": "infinix-user-reviewed-x626-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x626-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "73efd5071145aec445d835f4be9f7c580f52eae3d0f5dbe4120ede0a95fa53bc",
+      "bytes": 233380,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-s4-space-gray-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X626"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_wzydlq4kuvtp7glim4uctz44da",
+      "revision": "infinix-user-reviewed-x626b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x626b-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "73efd5071145aec445d835f4be9f7c580f52eae3d0f5dbe4120ede0a95fa53bc",
+      "bytes": 233380,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-s4-space-gray-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X626B"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_zknpomokf3uwrr2ndmqv7vsmsu",
+      "revision": "infinix-user-reviewed-x626b-lte-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x626b-lte-frontback.png",
+      "chunkId": "infinix-reviewed-family5-20261016-ecd1409e4989",
+      "sha256": "73efd5071145aec445d835f4be9f7c580f52eae3d0f5dbe4120ede0a95fa53bc",
+      "bytes": 233380,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-s4-space-gray-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X626B LTE"
+      ],
+      "checkedAt": "2026-10-16T13:04:46Z"
+    },
+    {
+      "deviceId": "dev_nqulnv2snzodo7z72gaoad2zkm",
+      "revision": "infinix-user-reviewed-x682b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x682b-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "f71a22604077a6295602ce108982cb0514529c42e678437e1d92c229d4896f31",
+      "bytes": 205084,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-10-ocean-wave-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X682B"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_uxewn5m2fsway2l4t35zcgpyya",
+      "revision": "infinix-user-reviewed-x682c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x682c-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "f71a22604077a6295602ce108982cb0514529c42e678437e1d92c229d4896f31",
+      "bytes": 205084,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-10-ocean-wave-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X682C"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_ax4mkj3l6c4is34jztyziuxtbi",
+      "revision": "infinix-user-reviewed-x6826b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6826b-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "29fda505192c94d9bb1e12690c3aa787136e906b8fc22fa38bfaaa853dca6914",
+      "bytes": 123878,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-20-legend-white-official-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X6826B"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_kuelsfbei2rculnj7mimhiutsq",
+      "revision": "infinix-user-reviewed-x6826-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6826-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "29fda505192c94d9bb1e12690c3aa787136e906b8fc22fa38bfaaa853dca6914",
+      "bytes": 123878,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-20-legend-white-official-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X6826"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_tjeednaran7v2sn3ldmbayfpxq",
+      "revision": "infinix-user-reviewed-x6826c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6826c-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "29fda505192c94d9bb1e12690c3aa787136e906b8fc22fa38bfaaa853dca6914",
+      "bytes": 123878,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-20-legend-white-official-image.webp",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X6826C"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_erlxrn4f5mlo3hn256br7ixp24",
+      "revision": "infinix-user-reviewed-x662b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x662b-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "10f15ae33f69f2811534b823651d91d381d787d9f18cd4fd81cbca07291716d1",
+      "bytes": 254581,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0676/7679/9256/files/HOT_11-Cyan-1-1600px.png?v=1718794647",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X662B"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_g44mbttlas6zcnvtu4bek7vt24",
+      "revision": "infinix-user-reviewed-x662-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x662-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "10f15ae33f69f2811534b823651d91d381d787d9f18cd4fd81cbca07291716d1",
+      "bytes": 254581,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0676/7679/9256/files/HOT_11-Cyan-1-1600px.png?v=1718794647",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X662"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_btsbo5qb25xaz6i32ucwapn3pi",
+      "revision": "infinix-user-reviewed-x655-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x655-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "bb9f293a8acec675f3beb1aa2a055514ce2216607e4a13f40a6525efb010efe1",
+      "bytes": 456592,
+      "sourcePageUrl": "https://img.giznext.com/assets/model/16/567/infinix-mobiles-infinix-hot-9-2-1635229821.png",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X655"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_hx6bhixd75xjvqvvi67tw2gnyi",
+      "revision": "infinix-user-reviewed-x655c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x655c-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "bb9f293a8acec675f3beb1aa2a055514ce2216607e4a13f40a6525efb010efe1",
+      "bytes": 456592,
+      "sourcePageUrl": "https://img.giznext.com/assets/model/16/567/infinix-mobiles-infinix-hot-9-2-1635229821.png",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X655C"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_podpgf276hscvxb4sier5lerly",
+      "revision": "infinix-user-reviewed-x655d-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x655d-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "bb9f293a8acec675f3beb1aa2a055514ce2216607e4a13f40a6525efb010efe1",
+      "bytes": 456592,
+      "sourcePageUrl": "https://img.giznext.com/assets/model/16/567/infinix-mobiles-infinix-hot-9-2-1635229821.png",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X655D"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_7nfcx22ex2esjr4jdfpcwsraqi",
+      "revision": "infinix-user-reviewed-x652b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x652b-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "1ff8fc4eed34b8912e445a90a4004b8dcaf275c6366e1426e7593b3fe06e65dc",
+      "bytes": 211137,
+      "sourcePageUrl": "https://shopke.co.ke/assets/uploads/Infinix-S5-Lite-Quetzal-Cyan.jpg",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X652B"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_rl5snycg7gvuzhlvembdyy6neu",
+      "revision": "infinix-user-reviewed-x652c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x652c-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "1ff8fc4eed34b8912e445a90a4004b8dcaf275c6366e1426e7593b3fe06e65dc",
+      "bytes": 211137,
+      "sourcePageUrl": "https://shopke.co.ke/assets/uploads/Infinix-S5-Lite-Quetzal-Cyan.jpg",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X652C"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_7hgdg7mrb5qup2rcwx5gth6y34",
+      "revision": "infinix-user-reviewed-x695c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x695c-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "1c34b95e7aac9c5cd8971bf4ca661882c235ab68e08f185e61a2ea34e6fdb4f3",
+      "bytes": 203785,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-note-10-pro_1.jpg",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X695C"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_chg5roy3pdh3jakebr73wqwguq",
+      "revision": "infinix-user-reviewed-x695-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x695-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "1c34b95e7aac9c5cd8971bf4ca661882c235ab68e08f185e61a2ea34e6fdb4f3",
+      "bytes": 203785,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-note-10-pro_1.jpg",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X695"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_xzqdatijwtcm3dd76hazehml6i",
+      "revision": "infinix-user-reviewed-x695d-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x695d-frontback.png",
+      "chunkId": "infinix-reviewed-family6-20261016-98179087dbf2",
+      "sha256": "1c34b95e7aac9c5cd8971bf4ca661882c235ab68e08f185e61a2ea34e6fdb4f3",
+      "bytes": 203785,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-note-10-pro_1.jpg",
+      "creator": "Commercial phone image (secondary product-gallery source)",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Commercial phone image; source models corroborated by external phone product and regulatory evidence",
+      "verifiedModelCodes": [
+        "X695D"
+      ],
+      "checkedAt": "2026-10-16T13:06:57Z"
+    },
+    {
+      "deviceId": "dev_vzxnuxqgyl6db23ut7nfbqts4u",
+      "revision": "infinix-user-reviewed-x680b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x680b-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-e85385017f81",
+      "sha256": "39988df43495d16b70932fe064431508bd0fe28f940d07490d8c7bf0ccd35a40",
+      "bytes": 218346,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-9-play-image.webp",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://www.daraz.pk/products/infinix-hot-9-play-x680-x680b-x680c-back-rear-glass-door-housing-case-battery-cover-with-adhesive-buttons-i286375376.html",
+      "verifiedModelCodes": [
+        "X680B"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_pnqngabcnicgr4mflmc7womtx4",
+      "revision": "infinix-user-reviewed-x690b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x690b-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-e85385017f81",
+      "sha256": "bdc5f3b038bb73154c67046b9834fd127c3bdcde33acf7be06354188bdd24cab",
+      "bytes": 186364,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-note-7-forest-green-official-image.webp",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://en.wikipedia.org/wiki/Infinix_Note_7",
+      "verifiedModelCodes": [
+        "X690B"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_73uhjglbzdaylvs6mjn27idvva",
+      "revision": "infinix-user-reviewed-x6823c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6823c-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-e85385017f81",
+      "sha256": "c797268ce7ef2292e5c77f9eba1b05c8905ff739053c5df515cd6f7fe2c0e2ab",
+      "bytes": 148905,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-smart-6-plus-tranquil-sea-blue-official-image.webp",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://bahrain.sharafdg.com/ar/product/infinix-smart-6-plus-64gb-tranquil-sea-blue-4g-smartphone/",
+      "verifiedModelCodes": [
+        "X6823C"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_45xnsyt6x3ga6tsinm6vj7fucu",
+      "revision": "infinix-user-reviewed-x6528-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6528-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-e85385017f81",
+      "sha256": "9a418095c5cbb4beb3882cf25deed2f93dc3e54df2ab8f68e5f88708ee3859a5",
+      "bytes": 336610,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0928/3089/2308/files/hot40i_x6528b_base1_copy_1_2_1_b469de34-1ff9-41e9-a932-d1b5137763fd.png?v=1742896430",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://shopee.co.th/%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B",
+      "verifiedModelCodes": [
+        "X6528"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_5opakxh2awcmadye6xcgzkftcu",
+      "revision": "infinix-user-reviewed-x6720b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6720b-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-e85385017f81",
+      "sha256": "579c5f75c1b49dfa50a5aa2dafd1ad945c2afa7af0562c1824f99476fae844eb",
+      "bytes": 395590,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0928/3089/2308/files/1_3aa84dfc-069e-429c-b81b-b30bdd49a2e7.png?v=1742894692",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://manuals.plus/m/e249212f0910f3fdbbfd4155f4f5ca7dda8063cc2f8a283ca443afb40d25eaad",
+      "verifiedModelCodes": [
+        "X6720B"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_newm3vahcs74omgx6qqgoseroe",
+      "revision": "infinix-user-reviewed-x6726b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x6726b-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-e85385017f81",
+      "sha256": "c275be862fdb0897f92fbbd29f30a60ffc0e42436b029d3c6ba6f842634034bf",
+      "bytes": 376527,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0928/3089/2308/files/hot60-prod_97cc1a8f-a516-404f-99be-4d8504c7ad54.png?v=1751455963",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://egypt.sharafdg.com/product/infinix-hot-60-5g-128gb-6gb-ram-shadow-blue-dual-sim-smartphone/",
+      "verifiedModelCodes": [
+        "X6726B"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_fuyckbpms7wbevtlfadsu2xcku",
+      "revision": "infinix-user-reviewed-x1101b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x1101b-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-e85385017f81",
+      "sha256": "f28cf1af0d879cbb9d4211abf606f02ae2496d02c74edcd44f128eaae84a075f",
+      "bytes": 387911,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0928/3089/2308/files/Grey_127fd0cf-b769-4614-9c9c-fded9ac144f6.png?v=1751266222",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://priceoye.pk/tablets/infinix/infinix-xpad-x1101b",
+      "verifiedModelCodes": [
+        "X1101B"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_n32bg6t33fghd76vsetgvqh6gy",
+      "revision": "infinix-user-reviewed-x670-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x670-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-e85385017f81",
+      "sha256": "19acf1bcb23936902a1886fd2c1e51bf37e5fac60d83b0e40ff10b51aebbc29d",
+      "bytes": 302585,
+      "sourcePageUrl": "https://cdn.shopify.com/s/files/1/0676/7679/9256/files/Inifinix_Note_12-Sapphire_Blue-1-1600px.png?v=1718795904",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://sophie.co.ke/product/infinixnote12g96/",
+      "verifiedModelCodes": [
+        "X670"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_cu23qsyfnffhp7iksfs66bmbre",
+      "revision": "infinix-user-reviewed-x573-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x573-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-e85385017f81",
+      "sha256": "975c75765bb62db9557dc1bdd7b2d9af01e18e6394555f9ec004ad6a18079d34",
+      "bytes": 169594,
+      "sourcePageUrl": "https://www.mobilemaya.com/public/media/infinix-hot-s3-topaz-blue-color.webp",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://www.mobilemaya.com/gallery/infinix-hot-s3",
+      "verifiedModelCodes": [
+        "X573"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_niz5hqt5olcz5so7fxxuokxk3y",
+      "revision": "infinix-user-reviewed-x655f-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x655f-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-e85385017f81",
+      "sha256": "6d9e33aa6d56393ef62c27a635f89d1a4a0ba5a3f1415315fcee0af7a68b4db3",
+      "bytes": 179843,
+      "sourcePageUrl": "https://img.giznext.com/assets/model/16/568/infinix-mobiles-infinix-hot-9-pro-1-1637839896.jpg",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://www.gsmchoice.com/en/catalogue/infinix/hot9pro/",
+      "verifiedModelCodes": [
+        "X655F"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_v2zi3f5yargld73t7rl3mui3ki",
+      "revision": "infinix-user-reviewed-x668c-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x668c-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-893d7b1b1ab4",
+      "sha256": "af21a854a28f40aab56a985dc1509f3bfd53c092216854d721ac67e4a0937014",
+      "bytes": 146521,
+      "sourcePageUrl": "https://cdn1.productnation.co/stg/sites/5/6449d5b750524.jpg",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://ar.kalvo.com/infinix-hot-12-pro-22056.html",
+      "verifiedModelCodes": [
+        "X668C"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_xooavmqtpkcbform27nw3kji3y",
+      "revision": "infinix-user-reviewed-x627-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x627-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-893d7b1b1ab4",
+      "sha256": "2179f5804b52aef6c4f4e290f5f3567faad58014f01a918d564182db375cb357",
+      "bytes": 213114,
+      "sourcePageUrl": "https://techvorm.com/wp-content/uploads/2019/04/Infinix-Smart-3-Plus-1.jpg",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://www.laptophia.com/2019/07/review-infinix-smart-3-plus-x627.html",
+      "verifiedModelCodes": [
+        "X627"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_7zvr3m6zb47ojthlm6w6cxcxmm",
+      "revision": "infinix-user-reviewed-x660b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x660b-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-893d7b1b1ab4",
+      "sha256": "33403bc7228cc4c4a7c42f2b53e69fb29ca6b6b65ca2c9773e46e00ac4e2321d",
+      "bytes": 216992,
+      "sourcePageUrl": "https://down-ph.img.susercontent.com/file/c55b59f57dcb397fe990a20f6f7df174",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://www.gsmarena.com/infinix_s5_pro-review-2081p2.php",
+      "verifiedModelCodes": [
+        "X660B"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_bfav6w5cvdgorcep7jcvlozaqu",
+      "revision": "infinix-user-reviewed-x625b-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x625b-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-893d7b1b1ab4",
+      "sha256": "605a7f5691c7024130839d8dfefe4d89dca5c92288bbb20e70aeae0d6bff8134",
+      "bytes": 228321,
+      "sourcePageUrl": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/87/MTA-3412760/infinix_infinix-hot-7-pro-smartphone--64-gb--6-gb-_full10.jpg",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://tra.gov.eg/wp-content/uploads/2021/10/Type-Approved-List.pdf",
+      "verifiedModelCodes": [
+        "X625B"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_inamb5txo5bhzgzndta7ezdsjy",
+      "revision": "infinix-user-reviewed-x658e-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x658e-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-893d7b1b1ab4",
+      "sha256": "0f07a317aad0e025daa289f6d0ebd301fd4c6d1db6980bb8c2730450bdee2b87",
+      "bytes": 106389,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-hot-10i_3.jpg",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://greenprice.kz/smartfon-infinix-hot-10i-x658e-2-gb64-gb-zelenyj-morandi-green/",
+      "verifiedModelCodes": [
+        "X658E"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_6mzeuekianyuxwon4pjs5ygiiu",
+      "revision": "infinix-user-reviewed-x557-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x557-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-893d7b1b1ab4",
+      "sha256": "871d7c684ebec1e6317ba99661b37cdae311d31ee284f37e46bef4ced288f97d",
+      "bytes": 232223,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-hot-4_1.jpg",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://www.mobilemaya.com/gallery/infinix-hot-4",
+      "verifiedModelCodes": [
+        "X557"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_tikiasmgot345lpf3ogv4jtiae",
+      "revision": "infinix-user-reviewed-x624-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x624-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-893d7b1b1ab4",
+      "sha256": "9010ad874f03e0b8a655493931c7fe2f7578b8288a05e282caf0f1a147cf0574",
+      "bytes": 138778,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-hot-7_1.jpg",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://www.iserviceindia.in/product/back-panel-for-infinix-hot-7-x624-sapphire-blue",
+      "verifiedModelCodes": [
+        "X624"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_c6iu3mj2e4iaipcnwoxqjisvva",
+      "revision": "infinix-user-reviewed-x653-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x653-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-893d7b1b1ab4",
+      "sha256": "87e07acafe5321c8e297ae3b405ba0ea72a176e477ac9ff86e07ce6f9a82373b",
+      "bytes": 130033,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-smart-4_3.jpg",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://manuals.plus/asin/B08WJN6CP2",
+      "verifiedModelCodes": [
+        "X653"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_uom7xakuef33ww5z5ems7tkngi",
+      "revision": "infinix-user-reviewed-x652-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x652-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-893d7b1b1ab4",
+      "sha256": "34e17dc7d6187ce2885ba6ea5a8dbad45332ad09a60dc94f80631c83b3dcc8a0",
+      "bytes": 203768,
+      "sourcePageUrl": "https://mobileinto.com/images/largepic/large_infinix-s5_1.jpg",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://www.gsmchoice.com/en/catalogue/infinix/s5/",
+      "verifiedModelCodes": [
+        "X652"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "dev_7k75fqynn46adsiaacyvbxromq",
+      "revision": "infinix-user-reviewed-x5516-frontback-v1",
+      "view": "frontBack",
+      "filename": "infinix-x5516-frontback.png",
+      "chunkId": "infinix-reviewed-last20-20261016-893d7b1b1ab4",
+      "sha256": "e9393812997f1e6a592ed7e5d61c00a6dceee171da954976e18408d2fdd6f01a",
+      "bytes": 228448,
+      "sourcePageUrl": "https://devicehd.com/img_dir/smartphones/infinix-smart-3-2.png",
+      "creator": "Reviewed original product media; commercial handset representative",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "User visually approved; exterior model reference https://www.gsmchoice.com/en/catalogue/infinix/smart3/",
+      "verifiedModelCodes": [
+        "X5516"
+      ],
+      "checkedAt": "2026-10-16T13:21:20Z"
     }
   ]
 }
