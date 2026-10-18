@@ -1,19 +1,90 @@
 #!/usr/bin/env python3
 """Cumulative per-device progress for Infinix image research (never publishes)."""
 from __future__ import annotations
-from collections import Counter,defaultdict
-from datetime import datetime,timezone
+from collections import Counter
+from datetime import datetime, timezone
+import base64
+import hashlib
 import json
 from pathlib import Path
+import re
+import urllib.parse
+import urllib.request
 
 import bot
+import github_manifest_guard
 from official_index import normalize_name
 
-ROOT=bot.BOT/"output"
+ROOT = bot.BOT / "output"
+
+
+def current_published_manifest(*, opener=None) -> dict:
+    """Read ONLY the GitHub main device-media manifest; never trust a stale local copy.
+
+    Fail closed on network errors, redirects, malformed responses, or duplicate IDs.
+    This function has no GitHub write permissions and creates no files.
+    """
+    url = github_manifest_guard.API
+    request = urllib.request.Request(url, headers={
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "Alwan-Infinix-Progress-ReadOnly/1.0",
+    })
+    fetch = opener or urllib.request.urlopen
+    with fetch(request, timeout=15) as response:
+        if response.status != 200 or response.geturl() != url:
+            raise ValueError("live GitHub publication manifest endpoint changed")
+        data = response.read(github_manifest_guard.MAX_REPLY_BYTES + 1)
+    if len(data) > github_manifest_guard.MAX_REPLY_BYTES:
+        raise ValueError("live GitHub manifest API response too large")
+    document = json.loads(data)
+    if (document.get("type") != "file"
+            or document.get("path") != github_manifest_guard.PATH
+            or document.get("encoding") != "base64"):
+        raise ValueError("unexpected GitHub manifest response")
+    payload = base64.b64decode(document["content"])
+    if len(payload) > github_manifest_guard.MAX_REPLY_BYTES:
+        raise ValueError("live GitHub manifest content too large")
+    manifest = json.loads(payload)
+    version = manifest.get("manifestVersion")
+    entries = manifest.get("entries")
+    if type(version) is not int or version < 1 or not isinstance(entries, list):
+        raise ValueError("invalid live GitHub publication manifest")
+    ids = []
+    for record in entries:
+        device_id = record.get("deviceId") if isinstance(record, dict) else None
+        if not isinstance(device_id, str) or not re.fullmatch(r"[A-Za-z0-9_-]{1,120}", device_id):
+            raise ValueError("invalid live GitHub published device ID")
+        ids.append(device_id)
+    if len(set(ids)) != len(ids):
+        raise ValueError("duplicate published device IDs in live GitHub manifest")
+    return {
+        "manifestVersion": version,
+        "deviceIds": frozenset(ids),
+        "sha256": hashlib.sha256(payload).hexdigest(),
+        "source": url,
+        "fetchedAt": datetime.now(timezone.utc).isoformat(),
+    }
+
+
+def publication_coverage(catalog: list[dict], publication: dict) -> dict:
+    """Recompute publication coverage; never substitute reviewed research for publication."""
+    catalog_ids = [row["deviceId"] for row in catalog]
+    if len(catalog_ids) != len(set(catalog_ids)):
+        raise ValueError("duplicate Infinix catalog device IDs")
+    published_ids = publication["deviceIds"]
+    count = len(set(catalog_ids) & published_ids)
+    return {
+        "manifestVersion": publication["manifestVersion"],
+        "publishedAllBrands": len(published_ids),
+        "publishedInfinix": count,
+        "remainingUnpublishedInfinix": len(catalog_ids) - count,
+    }
 
 def main():
     catalog=bot.CATALOG
-    published={x["deviceId"] for x in json.loads((bot.MEDIA/"device_media_manifest.json").read_text())["entries"]}
+    publication = current_published_manifest()
+    published = publication["deviceIds"]
+    coverage = publication_coverage(catalog, publication)
     auditpath=ROOT/"selected-review-audit.json"
     audit=json.loads(auditpath.read_text()) if auditpath.is_file() else {"items":[]}
     reviewed={x["deviceId"]:x for x in audit["items"]}
@@ -106,7 +177,18 @@ def main():
                      "sourceCount":len(candidates.get(id_,{}).get("sources",[]))})
     counts=dict(sorted(Counter(x["status"] for x in rows).items()))
     report={"schemaVersion":1,"brand":"Infinix","at":datetime.now(timezone.utc).isoformat(),
-            "summary":{"catalogDevices":len(rows),**counts,
+            "publicationSource":{"url":publication["source"],
+                                 "manifestVersion":publication["manifestVersion"],
+                                 "manifestSha256":publication["sha256"],
+                                 "fetchedAt":publication["fetchedAt"],
+                                 "remoteMainVerified":True,
+                                 "localManifestUsed":False},
+            "summary":{"catalogDevices":len(rows),
+                       "published":coverage["publishedInfinix"],
+                       "remainingUnpublished":coverage["remainingUnpublishedInfinix"],
+                       "publishedAllBrands":coverage["publishedAllBrands"],
+                       "manifestVersion":coverage["manifestVersion"],
+                       **{k:v for k,v in counts.items() if k != "published"},
                        "uniqueModelsQueried":len(checked_names),
                        "historicalRunReports":len(run_reports)},
             "reports":run_reports,"perDevice":rows}
