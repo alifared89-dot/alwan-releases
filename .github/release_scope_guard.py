@@ -23,7 +23,7 @@ UNSAFE_EXTENSIONS = (
     ".sqlite", ".sqlite3", ".db", ".db3", ".sql", ".env", ".log", ".tmp",
     ".tar", ".tar.gz", ".tgz", ".pyc", ".ipynb", ".key", ".pem", ".p12", ".jks",
 )
-UNSAFE_BASENAME_TOKENS = ("internal", "research", "handoff", "report", "audit", "private")
+UNSAFE_BASENAME_TOKENS = ("internal", "research", "handoff", "report", "audit", "private", "source-cache")
 
 
 def violation(path: str) -> str | None:
