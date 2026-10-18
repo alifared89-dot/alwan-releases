@@ -10,3 +10,5 @@ Do not weaken validators or integrity guards merely to make a change pass.
 When a gate fails, report the exact policy/error code and repair the underlying data.
 
 Compatibility data and device media are independently updatable production channels. APK/application releases are separate.
+
+New tracked files in this PUBLIC distribution repository must be client data/media, public safety docs, or CI configuration only. Do not add new bot/research source files, source caches, internal reports, phone SQLite, logs, archived backups or credentials. The required `compatibility-contract` job checks new paths through `.github/release_scope_guard.py` before accepting updates. Existing legacy public tools remain temporarily until private migration is proven safe. Changes to distribution formats, existing published records, or old ZIPs are outside a bot-cleanup PR.
