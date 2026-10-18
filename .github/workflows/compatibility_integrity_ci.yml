@@ -49,6 +49,12 @@ jobs:
           done
           echo "BASE_SHA=$base" >> "$GITHUB_ENV"
           echo "PREVIOUS_RELEASE_ROOT=$folder" >> "$GITHUB_ENV"
+      - name: Prevent accidentally publishing new private bot sources or research reports
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/release_scope_guard.py --self-test
+          python .github/release_scope_guard.py --base "$BASE_SHA"
       - name: Run production-compatible data contract
         id: validate
         shell: bash
