@@ -7,6 +7,7 @@ This directory is production data consumed directly by installed Alwan apps.
 1. Read this file before editing compatibility data.
 2. Edit payload data only. Do not invent hashes, byte counts, versions, or catalog dependency metadata.
 3. Run: python tools/compatibility/rebuild_release.py --root compatibility
+   The rebuild generates a **local, ignored** `compatibility/build_report.json` for authoring diagnostics only. Never add this report to public commits; the client contract is `manifest.json` plus its referenced payloads.
 4. Run: python tools/compatibility/validate_release.py --root compatibility --report compatibility-validation-report.json
 5. Work through a branch and pull request. Require both Compatibility Data Contract and Infinix Media Integrity to pass before merging. The media integrity check is brand-neutral for new image/model IDs.
 6. Never weaken or bypass the validator merely to make a dataset publish.

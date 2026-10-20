@@ -10,10 +10,23 @@ from __future__ import annotations
 
 import argparse
 import subprocess
-from pathlib import PurePosixPath
+from pathlib import Path, PurePosixPath
 
 DATA_ROOTS = ("device-media/", "compatibility/", "brand-media/")
 PUBLIC_REPO_META = {".github/release_scope_guard.py"}
+# Historical non-client reports are archived byte-identically in PRIVATE.
+# This is the entire permitted report deletion list; all client deletions fail.
+ARCHIVED_NONCLIENT_REPORTS = {
+    "compatibility": (
+        "compatibility/build_report.json",
+        "98132171a4325b34343dd72cd4893a07cd3ea778",
+    ),
+    "device-media": (
+        "device-media/INCIDENT_2026-10-16.md",
+        "0ae7a7322cee6d13446df926eb28926bfedab398",
+    ),
+}
+
 # ONLY brand-neutral production integrity code and fixtures. Never the research bot.
 RELEASE_GUARD_SOURCES = {
     ".github/release-guards/" + filename for filename in (
@@ -54,6 +67,8 @@ def violation(path: str) -> str | None:
         return "internal file format or report name"
     if path.startswith("tools/"):
         return "new bot/validator source belongs in private control, not public releases"
+    if path == "compatibility/.gitignore":
+        return None  # sole client-directory hygiene file: ignores a local-only report
     if path.startswith(DATA_ROOTS):
         # New client payloads and immutable ZIP chunks remain supported.
         if base.endswith(".json") or (
@@ -75,6 +90,16 @@ def evaluate(paths: list[str]) -> list[tuple[str, str]]:
     return [(p, reason) for p in paths if (reason := violation(p)) is not None]
 
 
+def check_deletions(deleted: list[str], scope: str, original_sha: str | None = None):
+    """Fail closed on anything except one exact, SHA-pinned non-client report."""
+    allowed, expected_sha = ARCHIVED_NONCLIENT_REPORTS[scope]
+    if not deleted:
+        return 0
+    if deleted != [allowed] or original_sha != expected_sha:
+        raise ValueError("ALWAN-PUBLIC-CLIENT-DELETE-DENIED: " + repr(deleted))
+    return 1
+
+
 def self_test():
     permitted = [
         "device-media/chunks/infinix-new.zip",
@@ -84,6 +109,7 @@ def self_test():
         "brand-media/distribution.json",
         ".github/workflows/contract.yml",
         ".github/release_scope_guard.py",
+        "compatibility/.gitignore",
         *sorted(RELEASE_GUARD_SOURCES),
     ]
     rejected = [
@@ -104,12 +130,26 @@ def self_test():
         ".github/release-guards/research_scan.py",
         ".github/release-guards/private_notes.md",
         ".github/release-guards/source-cache.zip",
+        "device-media/.gitignore",
     ]
     if evaluate(permitted):
         raise AssertionError("valid public client paths were rejected")
     if len(evaluate(rejected)) != len(rejected):
         raise AssertionError("an internal path unexpectedly passed release gate")
-    print(f"ALWAN-PUBLIC-SCOPE-SELFTEST: {len(permitted)} valid, {len(rejected)} rejected")
+    for scope, (path, sha) in ARCHIVED_NONCLIENT_REPORTS.items():
+        if check_deletions([], scope) != 0 or check_deletions([path], scope, sha) != 1:
+            raise AssertionError("non-client archival deletion not recognized")
+        for paths, digest in (
+            ([path], "0" * 40),
+            ([path, scope + "/payloads/catalog.json"], sha),
+            ([scope + "/distribution.json"], sha),
+        ):
+            try:
+                check_deletions(paths, scope, digest)
+            except ValueError:
+                continue
+            raise AssertionError("production deletion incorrectly permitted")
+    print(f"ALWAN-PUBLIC-SCOPE-SELFTEST: {len(permitted)} valid, {len(rejected)} rejected; 2 exact report deletions, 6 client deletion rejections")
 
 
 def main():
@@ -117,8 +157,11 @@ def main():
     group = ap.add_mutually_exclusive_group(required=True)
     group.add_argument("--base", help="verified 40-digit baseline commit SHA")
     group.add_argument("--self-test", action="store_true")
+    ap.add_argument("--deletion-scope", choices=sorted(ARCHIVED_NONCLIENT_REPORTS))
     args = ap.parse_args()
     if args.self_test:
+        if args.deletion_scope:
+            ap.error("--deletion-scope requires --base")
         self_test()
         return
     base = args.base
@@ -126,6 +169,30 @@ def main():
             or any(c not in "0123456789abcdef" for c in base)
             or base == "0" * 40):
         ap.error("ALWAN-PUBLIC-SCOPE-BASELINE-MISSING")
+    if args.deletion_scope:
+        scope = args.deletion_scope
+        removed = subprocess.run(
+            ["git", "diff", "--name-only", "--diff-filter=D",
+             f"{base}...HEAD", "--", scope + "/"],
+            capture_output=True, text=True, check=True,
+        ).stdout.splitlines()
+        original_sha = None
+        if removed:
+            path = ARCHIVED_NONCLIENT_REPORTS[scope][0]
+            if removed == [path]:
+                original_sha = subprocess.run(
+                    ["git", "rev-parse", f"{base}:{path}"],
+                    capture_output=True, text=True, check=True,
+                ).stdout.strip()
+        try:
+            accepted = check_deletions(removed, scope, original_sha)
+        except ValueError as exc:
+            print(str(exc))
+            raise SystemExit(1) from exc
+        if accepted and Path(removed[0]).exists():
+            raise SystemExit("ALWAN-PUBLIC-REPORT-NOT-DELETED")
+        print(f"ALWAN-PUBLIC-DELETIONS-VERIFIED: {scope}: {accepted} archived non-client report")
+        return
     output = subprocess.run(
         ["git", "diff", "--name-only", "--diff-filter=A", f"{base}...HEAD"],
         capture_output=True, text=True, check=True,

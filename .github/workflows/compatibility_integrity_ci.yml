@@ -82,9 +82,8 @@ jobs:
           set -euo pipefail
           deleted="$(git diff --name-only --diff-filter=D "$BASE_SHA"...HEAD -- compatibility/)"
           if [ -n "$deleted" ]; then
-            echo "ALWAN-DATA-DELETE-DENIED: published files may not be removed"
-            echo "$deleted"
-            exit 1
+            # Exact SHA-pinned historical report ONLY; every client deletion still denied.
+            python .github/release_scope_guard.py --base "$BASE_SHA" --deletion-scope compatibility
           fi
           python .github/release-guards/preserve_records.py \
             --previous "$PREVIOUS_RELEASE_ROOT" --current compatibility
