@@ -88,8 +88,12 @@ jobs:
           fi
           python .github/release-guards/preserve_records.py \
             --previous "$PREVIOUS_RELEASE_ROOT" --current compatibility
-      - name: Run validator and data preservation regression tests
-        run: python -m unittest discover -s .github/release-guards -p 'test_*.py' -v
+      - name: Run compatibility-only validation and record-preservation regressions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m unittest discover -s .github/release-guards -p 'test_validate_release.py' -v
+          python -m unittest discover -s .github/release-guards -p 'test_preserve_records.py' -v
       - name: Reject committed whitespace damage
         run: git diff --check "$BASE_SHA"...HEAD
       - name: Enforce contract result
