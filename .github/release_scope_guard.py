@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import argparse
 import subprocess
-from pathlib import PurePosixPath
+from pathlib import Path, PurePosixPath
 
 DATA_ROOTS = ("device-media/", "compatibility/", "brand-media/")
 PUBLIC_REPO_META = {".github/release_scope_guard.py"}
@@ -187,7 +187,7 @@ def main():
         except ValueError as exc:
             print(str(exc))
             raise SystemExit(1) from exc
-        if accepted and __import__("pathlib").Path(removed[0]).exists():
+        if accepted and Path(removed[0]).exists():
             raise SystemExit("ALWAN-PUBLIC-REPORT-NOT-DELETED")
         print(f"ALWAN-PUBLIC-DELETIONS-VERIFIED: {scope}: {accepted} archived non-client report")
         return
