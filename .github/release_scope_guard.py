@@ -14,6 +14,16 @@ from pathlib import PurePosixPath
 
 DATA_ROOTS = ("device-media/", "compatibility/", "brand-media/")
 PUBLIC_REPO_META = {".github/release_scope_guard.py"}
+# ONLY brand-neutral production integrity code and fixtures. Never the research bot.
+RELEASE_GUARD_SOURCES = {
+    ".github/release-guards/" + filename for filename in (
+        "validate_release.py", "preserve_records.py",
+        "media_integrity_guard.py", "verify_media.py",
+        "test_validate_release.py", "test_preserve_records.py",
+        "test_media_integrity_guard.py", "test_verify_media_client_contract.py",
+        "test_media_catalog_policy.py", "requirements.txt",
+    )
+}
 UNSAFE_SEGMENTS = {
     "research", "reports", "report", "private", "internal", "secrets", "output",
     "phone-runtime", "migration-evidence", "migration-reference", "source-cache",
@@ -54,8 +64,10 @@ def violation(path: str) -> str | None:
         return "unexpected production data file type"
     if path.startswith(".github/workflows/"):
         return None if base.endswith((".yml", ".yaml")) else "unexpected workflow file"
-    if path in PUBLIC_REPO_META:
+    if path in PUBLIC_REPO_META or path in RELEASE_GUARD_SOURCES:
         return None
+    if path.startswith(".github/release-guards/"):
+        return "unapproved validator or research source (explicit release allowlist only)"
     return "not an approved new public distribution path"
 
 
@@ -72,6 +84,7 @@ def self_test():
         "brand-media/distribution.json",
         ".github/workflows/contract.yml",
         ".github/release_scope_guard.py",
+        *sorted(RELEASE_GUARD_SOURCES),
     ]
     rejected = [
         "tools/infinix-image-bot/new_bot.py",
@@ -87,6 +100,10 @@ def self_test():
         "notes/internal_report.md",
         ".env.production",
         "unsafe/secrets.pem",
+        ".github/release-guards/bot.py",
+        ".github/release-guards/research_scan.py",
+        ".github/release-guards/private_notes.md",
+        ".github/release-guards/source-cache.zip",
     ]
     if evaluate(permitted):
         raise AssertionError("valid public client paths were rejected")
