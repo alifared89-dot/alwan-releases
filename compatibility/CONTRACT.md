@@ -6,9 +6,9 @@ This directory is production data consumed directly by installed Alwan apps.
 
 1. Read this file before editing compatibility data.
 2. Edit payload data only. Do not invent hashes, byte counts, versions, or catalog dependency metadata.
-3. Run: python tools/compatibility/rebuild_release.py --root compatibility
-   The rebuild generates a **local, ignored** `compatibility/build_report.json` for authoring diagnostics only. Never add this report to public commits; the client contract is `manifest.json` plus its referenced payloads.
-4. Run: python tools/compatibility/validate_release.py --root compatibility --report compatibility-validation-report.json
+3. Internal maintainer only: use the verified `tools/compatibility/rebuild_release.py` from the **PRIVATE** `alifared89-dot/alwan-bot-control` repository against a disposable working copy of this public compatibility directory. Example from the private checkout after cloning the public releases into `public-release/`: `python tools/compatibility/rebuild_release.py --root public-release/compatibility`. Never run a rebuild against a live client or published `main`; stage only reviewed payload and manifest changes through a new PR.
+   The builder generates a **local, ignored** `build_report.json` in the working compatibility directory; never publish it or add it to a commit.
+4. From the public release working copy, run the independent **PUBLIC PRODUCTION GUARD**: `python .github/release-guards/validate_release.py --root compatibility --report /tmp/compatibility-validation-report.json`. The protected GitHub Actions job runs this validation and additional immutable-baseline record-preservation checks on every PR.
 5. Work through a branch and pull request. Require both Compatibility Data Contract and Infinix Media Integrity to pass before merging. The media integrity check is brand-neutral for new image/model IDs.
 6. Never weaken or bypass the validator merely to make a dataset publish.
 
