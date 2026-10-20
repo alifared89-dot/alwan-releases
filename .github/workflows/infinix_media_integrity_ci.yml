@@ -64,9 +64,8 @@ jobs:
           set -euo pipefail
           deleted="$(git diff --name-only --diff-filter=D "$BASE_SHA"...HEAD -- device-media/)"
           if [ -n "$deleted" ]; then
-            echo "ALWAN-MEDIA-DELETE-DENIED: existing media files must be preserved:"
-            echo "$deleted"
-            exit 1
+            # Exact SHA-pinned historical report ONLY; every client deletion still denied.
+            python .github/release_scope_guard.py --base "$BASE_SHA" --deletion-scope device-media
           fi
       - name: Protect published media or validate an intentional migration
         shell: bash
