@@ -1,0 +1,2 @@
+# Ignore internal build-only report output; runtime clients use manifest + payloads only.
+/build_report.json
