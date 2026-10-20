@@ -11,6 +11,13 @@ Applies to every brand and every future phone model. The mobile app consumes **o
 5. Validation failures block the merge and report named `ALWAN-DATA-*` or `ALWAN-MEDIA-*` reasons. Fix only the affected data without bypassing tests.
 6. Data collection/review can run independently from publishing and is not blocked by this gate. Published image rights, hardware-code identity and part fit still require human/source assessment.
 
+## Independent release integrity vs. optional legacy research tests (20 Oct 2026)
+
+- The **required** `compatibility-contract` and `media-integrity` jobs run brand-neutral validators and their complete **42-case production regression suite** from `.github/release-guards/`. Those scripts were byte-verified against the previous production validators in [PR #36](https://github.com/alifared89-dot/alwan-releases/pull/36), and tested against the unchanged live data/ZIPs before cutover.
+- The historical **89-case legacy bot regression suite** still runs in separate `legacy_bot_regressions.yml`. It has **no deployment permission** and is deliberately not a required branch status: failure in image collection/crawler code cannot block a validated compatibility or image data update. A failing legacy test is still a bot-maintenance issue, never an authorization to publish a damaged media archive.
+- The existing `infinix_device_images.yml` discovery and manually confirmed media staging workflow **still uses the old bot**. It may fail if that old bot fails and is **not** yet migrated to phone/Termux. Do not delete `tools/**` or disable human review just because required data checks are isolated.
+- Changing required validator code or its tests is a **separate release-security change**, subject to all two mandatory checks, baseline comparison, destructive-fixture regressions, and approval. Never load privileged private source into public PR jobs.
+
 ## Bot publication
 
 The existing `Infinix Device Images` workflow still supports `discover` and `publish`, including explicit human approval. `publish` now:

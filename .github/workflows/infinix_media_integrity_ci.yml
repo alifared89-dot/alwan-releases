@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install bot dependencies
-        run: python -m pip install -r tools/infinix-image-bot/requirements.txt
+        run: python -m pip install -r .github/release-guards/requirements.txt
       - name: Parse distribution metadata strictly
         run: |
           python - <<'PY'
@@ -76,7 +76,7 @@ jobs:
           if git diff --name-only "$BASE_SHA"...HEAD -- device-media/migration_plan.json | grep -q .; then
             PLAN_ARGS=(--migration-plan device-media/migration_plan.json)
           fi
-          python tools/infinix-image-bot/media_integrity_guard.py \
+          python .github/release-guards/media_integrity_guard.py \
             --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json" \
             --baseline-distribution "$RUNNER_TEMP/distribution.baseline.json" \
             --current-manifest device-media/device_media_manifest.json \
@@ -91,13 +91,11 @@ jobs:
           if git diff --name-only "$BASE_SHA"...HEAD -- device-media/migration_plan.json | grep -q .; then
             PLAN_ARGS=(--migration-mode)
           fi
-          python tools/infinix-image-bot/verify_media.py \
+          python .github/release-guards/verify_media.py \
             --baseline-manifest "$RUNNER_TEMP/device_media_manifest.baseline.json" \
             --catalog compatibility/payloads/catalog.json \
             "${PLAN_ARGS[@]}"
-      - name: Run offline regression suite
-        run: |
-          mkdir -p tools/infinix-image-bot/output
-          python -m unittest discover -s tools/infinix-image-bot -p 'test_*.py' -v
+      - name: Run isolated production-validator regression suite (no bot research imports)
+        run: python -m unittest discover -s .github/release-guards -p 'test_*.py' -v
       - name: Reject whitespace damage
         run: git diff --check "$BASE_SHA"...HEAD

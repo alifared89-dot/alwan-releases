@@ -62,7 +62,7 @@ jobs:
           set +e
           BASELINE_ARGS=()
           BASELINE_ARGS=(--baseline-manifest "$PREVIOUS_RELEASE_ROOT/manifest.json")
-          python tools/compatibility/validate_release.py \
+          python .github/release-guards/validate_release.py \
             --root compatibility \
             --report compatibility-validation-report.json \
             "${BASELINE_ARGS[@]}"
@@ -86,10 +86,14 @@ jobs:
             echo "$deleted"
             exit 1
           fi
-          python tools/compatibility/preserve_records.py \
+          python .github/release-guards/preserve_records.py \
             --previous "$PREVIOUS_RELEASE_ROOT" --current compatibility
-      - name: Run validator and data preservation regression tests
-        run: python -m unittest discover -s tools/compatibility -p 'test_*.py' -v
+      - name: Run compatibility-only validation and record-preservation regressions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m unittest discover -s .github/release-guards -p 'test_validate_release.py' -v
+          python -m unittest discover -s .github/release-guards -p 'test_preserve_records.py' -v
       - name: Reject committed whitespace damage
         run: git diff --check "$BASE_SHA"...HEAD
       - name: Enforce contract result
