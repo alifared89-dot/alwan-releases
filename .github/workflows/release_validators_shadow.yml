@@ -31,17 +31,22 @@ jobs:
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12'
-      - name: Verify new public validators are byte-identical to current production guards
+      - name: Verify retained media guard byte parity and isolated compatibility sources
         shell: bash
         run: |
           set -euo pipefail
+          # Historical compatibility authoring/tests now live in PRIVATE only.
+          # Independent public compatibility validators are executed below on
+          # real client manifest/payloads plus adversarial unit fixtures.
           for file in validate_release.py preserve_records.py test_validate_release.py test_preserve_records.py; do
-            cmp -s ".github/release-guards/$file" "tools/compatibility/$file"
+            test -f ".github/release-guards/$file"
+            test ! -e "tools/compatibility/$file"
           done
+          test ! -e tools/compatibility/rebuild_release.py
           for file in media_integrity_guard.py verify_media.py test_media_integrity_guard.py test_verify_media_client_contract.py test_media_catalog_policy.py requirements.txt; do
             cmp -s ".github/release-guards/$file" "tools/infinix-image-bot/$file"
           done
-          echo 'ALWAN-RELEASE-VALIDATORS-EXACT-PARITY: 10/10'
+          echo 'ALWAN-RELEASE-INDEPENDENT-GUARDS: 4 compatibility assets, 6/6 media exact parity'
       - name: Verify new files do not permit research or reports in the public repository
         run: python .github/release_scope_guard.py --self-test
       - name: Install identical published image validator dependency
