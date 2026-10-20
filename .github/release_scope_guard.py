@@ -67,6 +67,8 @@ def violation(path: str) -> str | None:
         return "internal file format or report name"
     if path.startswith("tools/"):
         return "new bot/validator source belongs in private control, not public releases"
+    if path == "compatibility/.gitignore":
+        return None  # sole client-directory hygiene file: ignores a local-only report
     if path.startswith(DATA_ROOTS):
         # New client payloads and immutable ZIP chunks remain supported.
         if base.endswith(".json") or (
@@ -77,7 +79,7 @@ def violation(path: str) -> str | None:
         return "unexpected production data file type"
     if path.startswith(".github/workflows/"):
         return None if base.endswith((".yml", ".yaml")) else "unexpected workflow file"
-    if path in PUBLIC_REPO_META or path in RELEASE_GUARD_SOURCES or path == "compatibility/.gitignore":
+    if path in PUBLIC_REPO_META or path in RELEASE_GUARD_SOURCES:
         return None
     if path.startswith(".github/release-guards/"):
         return "unapproved validator or research source (explicit release allowlist only)"
