@@ -37,6 +37,27 @@ RELEASE_GUARD_SOURCES = {
         "test_media_catalog_policy.py", "requirements.txt",
     )
 }
+# The historical research tests now run in the protected PRIVATE repository.
+# Permit precisely this COMPLETE 12-file test retirement and NO other legacy
+# source deletion, modification, or dependency mutation while the old manual
+# publisher is still in PUBLIC. Future publisher retirement needs a separate
+# audited policy change and cannot piggyback on this exception.
+RETIRED_RESEARCH_TESTS = frozenset(
+    "tools/infinix-image-bot/" + name for name in (
+        "test_batch_scan.py", "test_catalog_first.py",
+        "test_compose_views.py", "test_evidence_cache.py",
+        "test_github_manifest_guard.py", "test_image_compositor.py",
+        "test_media_core.py", "test_multimarket_scan.py",
+        "test_official_index.py", "test_official_model_evidence.py",
+        "test_official_search.py", "test_progress_report.py",
+    )
+)
+LEGACY_TOOL_EDIT_EXCEPTIONS = frozenset((
+    "tools/infinix-image-bot/README.md",
+    "tools/infinix-image-bot/.gitignore",
+    "tools/infinix-image-bot/approved.json",
+))
+
 UNSAFE_SEGMENTS = {
     "research", "reports", "report", "private", "internal", "secrets", "output",
     "phone-runtime", "migration-evidence", "migration-reference", "source-cache",
@@ -100,6 +121,21 @@ def check_deletions(deleted: list[str], scope: str, original_sha: str | None = N
     return 1
 
 
+def check_legacy_tool_delta(modified: list[str], deleted: list[str]) -> None:
+    """Fail closed unless exact research-only test retirement is complete."""
+    blocked = sorted(
+        p for p in modified
+        if p.startswith("tools/") and p not in LEGACY_TOOL_EDIT_EXCEPTIONS
+    )
+    if blocked:
+        raise ValueError("ALWAN-PUBLIC-LEGACY-SOURCE-EDIT-DENIED: " + ", ".join(blocked))
+    research_removed = [p for p in deleted if p.startswith("tools/")]
+    if research_removed and set(research_removed) != RETIRED_RESEARCH_TESTS:
+        raise ValueError("ALWAN-PUBLIC-LEGACY-TOOL-DELETE-DENIED: " + repr(research_removed))
+    if len(research_removed) != len(set(research_removed)):
+        raise ValueError("ALWAN-PUBLIC-LEGACY-TOOL-DELETE-DUPLICATED")
+
+
 def self_test():
     permitted = [
         "device-media/chunks/infinix-new.zip",
@@ -149,6 +185,22 @@ def self_test():
             except ValueError:
                 continue
             raise AssertionError("production deletion incorrectly permitted")
+    check_legacy_tool_delta([], [])
+    check_legacy_tool_delta(["tools/infinix-image-bot/approved.json"], sorted(RETIRED_RESEARCH_TESTS))
+    for changed, removed in (
+        (["tools/infinix-image-bot/bot.py"], []),
+        (["tools/infinix-image-bot/requirements.txt"], []),
+        (["tools/infinix-image-bot/catalog-infinix.json"], []),
+        ([], ["tools/infinix-image-bot/bot.py"]),
+        ([], [sorted(RETIRED_RESEARCH_TESTS)[0]]),
+        ([], sorted(RETIRED_RESEARCH_TESTS) + ["tools/infinix-image-bot/bot.py"]),
+    ):
+        try:
+            check_legacy_tool_delta(changed, removed)
+        except ValueError:
+            continue
+        raise AssertionError("unsafe or incomplete legacy research cleanup passed")
+    print("ALWAN-PUBLIC-LEGACY-SOURCE-LOCK: 12 complete test retirements allowed; critical bot edits/deletions denied")
     print(f"ALWAN-PUBLIC-SCOPE-SELFTEST: {len(permitted)} valid, {len(rejected)} rejected; 2 exact report deletions, 6 client deletion rejections")
 
 
@@ -198,6 +250,21 @@ def main():
         capture_output=True, text=True, check=True,
     )
     added = [x for x in output.stdout.splitlines() if x]
+    changed = subprocess.run(
+        ["git", "diff", "--name-only", "--no-renames", "--diff-filter=MRT",
+         f"{base}...HEAD", "--", "tools/"],
+        capture_output=True, text=True, check=True,
+    ).stdout.splitlines()
+    removed = subprocess.run(
+        ["git", "diff", "--name-only", "--no-renames", "--diff-filter=D",
+         f"{base}...HEAD", "--", "tools/"],
+        capture_output=True, text=True, check=True,
+    ).stdout.splitlines()
+    try:
+        check_legacy_tool_delta(changed, removed)
+    except ValueError as exc:
+        print(str(exc))
+        raise SystemExit(1) from exc
     bad = evaluate(added)
     if bad:
         for path, reason in bad:
