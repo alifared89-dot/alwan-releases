@@ -15,32 +15,28 @@ Applies to every brand and every future phone model. The mobile app consumes **o
 
 - The **required** `compatibility-contract` and `media-integrity` jobs run brand-neutral validators and their complete **42-case production regression suite** from `.github/release-guards/`. Those scripts were byte-verified against the previous production validators in [PR #36](https://github.com/alifared89-dot/alwan-releases/pull/36), and tested against the unchanged live data/ZIPs before cutover.
 - The historical **89-case bot regression suite plus exact compositor/pixel-preservation tests** now run on PRIVATE `alwan-bot-control/.github/workflows/private_bot_regressions.yml`, triggered on every PRIVATE PR and main push, with **read-only** checkout of public media/compatibility fixtures. PUBLIC `legacy_bot_regressions.yml` and `infinix_bot_crop_ci.yml` are retired after full private CI parity. Three media-guard regression tests remain in `.github/release-guards/`, with old duplicated `tools/**/test_*.py` copies retired after matching PRIVATE and independent public Git blob SHA. Production validation still runs in PUBLIC required checks.
-- The existing `infinix_device_images.yml` discovery and manually confirmed media staging workflow **still uses the old bot**. It may fail if that old bot fails and is **not** yet migrated to phone/Termux. Eleven unused research modules were byte-verified in PRIVATE and retired without changing this manual publisher. Do not delete **any remaining publisher dependencies** or disable human review until an independently tested PRIVATE replacement is ready.
+- All 10 historical PUBLIC manual publisher source/config assets and `infinix_device_images.yml` were retired as ONE complete, original-Git-SHA-pinned batch. PRIVATE keeps exact source copies and research tests. The LIVE bot and SQLite/original photos remain on the PHONE; PRIVATE GitHub offers read-only manual discovery, while reviewed media PR staging uses the Mac. The required PUBLIC CI still runs its independent 42-case suite with unchanged client files. Published client artifacts and distribution bytes were not changed by source cleanup.
 - Changing required validator code or its tests is a **separate release-security change**, subject to all two mandatory checks, baseline comparison, destructive-fixture regressions, and approval. Never load privileged private source into public PR jobs.
 
-## Bot publication
+## Image publication: private review, public protected PR
 
-The existing `Infinix Device Images` workflow still supports `discover` and `publish`, including explicit human approval. `publish` now:
+The historical PUBLIC image bot/Actions source was removed. It is **not** required by installed applications: clients fetch only `latest.json`, `compatibility/**`, `device-media/**`, `brand-media/**` and approved downloads.
 
-1. Reads the exact production main media state.
-2. Verifies staged new media against the old state and device catalog.
-3. Creates a uniquely named `media/reviewed-infinix-<run>-<attempt>` branch and pushes **only** there.
-4. Opens a PR targeting main.
-5. Explicitly triggers the two validation workflows using `workflow_dispatch` on that branch. This step matters: PRs created with `GITHUB_TOKEN` do not automatically trigger `pull_request` workflows.
-6. Leaves the PR unmerged for review. Only a successful merge publishes to phones. Never uses `git push HEAD:main`.
+1. **PHONE / Termux** remains the source of collection, original photos, local SQLite and model-code evidence. Do not overwrite, reset or restart its research automatically.
+2. **PRIVATE `alwan-bot-control`** owns the research bot source and optional manual GitHub Actions discovery (`.github/workflows/private_image_discovery.yml`) with `contents: read`. Human review of correct code, market, front/back, colors and redistribution rights happens privately; official shop imagery **does not by itself grant reuse rights**.
+3. **Trusted Mac** stages reviewed photos using PRIVATE `maintenance.stage_reviewed_media_pr`, which requires actual original/output byte SHA-256 matches, catalog/model identity, true PNG geometry, an explicit human-rights evidence packet and a manual `--submit --confirm STAGE_PROTECTED_REVIEW_PR_ONLY`. Default mode is a local, disposable dry run that does **not** open a PR. Missing or fake evidence must never be used for actual publishing.
+4. A legitimate reviewed batch can create only a NEW `media/human-reviewed-private-...` branch and PUBLIC Pull Request. It cannot push `main`, cannot overwrite existing media, cannot self-approve and cannot auto-merge. Both mandatory compatibility/media jobs run on the PR; after **human** review, merging updates clients.
+5. The current phone research originals are **NOT licensed/approved for publication** merely because the bot verified SHA, source URLs or model codes. Do not use synthetic test evidence in real publication. Keep unpublished material PRIVATE.
 
-If GitHub disallows Actions-created PRs, it prints `ALWAN-PUBLISH-PR-DENIED` and a link to open a PR from the safely pushed branch. Do not disable either validator to work around this.
+No PRIVATE bot token or runner secret may be exposed to PUBLIC CI. Do not reintroduce `tools/**` or the old `infinix_device_images.yml` in PUBLIC. Prior public source remains in old Git commits: no history rewrite.
 
 ## One-time repository owner configuration
 
 Repository: `alifared89-dot/alwan-releases`.
 
-**First:** Settings → Actions → General → Workflow permissions:
+For the PUBLIC repository, keep all standard GitHub Actions permissions at `contents: read` where possible. There is **no longer a PUBLIC research/publishing workflow** requesting write or Actions-dispatch permissions. Manual reviewed PR staging runs on the authenticated **owner's Mac**, not inside PUBLIC CI. Never commit or print tokens.
 
-- Keep permissions for normal workflows as restricted as practical (the publishing workflow explicitly requests contents:write, pull-requests:write and actions:write).
-- Enable **Allow GitHub Actions to create and approve pull requests** if the option is available and disabled. It is required for automated PR creation using `GITHUB_TOKEN`. Bot-made PRs are not automatically approved by this change.
-
-**Then:** Settings → Rules → Rulesets → New branch ruleset (or Settings → Branches → Add branch protection rule). Target **main** only:
+Settings → Rules → Rulesets → New branch ruleset (or Settings → Branches → Add branch protection rule). Target **main** only:
 
 - Require a pull request before merging.
 - Require status checks to pass before merging, with these **exact job contexts**:
@@ -50,7 +46,7 @@ Repository: `alifared89-dot/alwan-releases`.
 - Do not add an exemption/bypass for the publishing bot.
 - Prefer requiring branches to be up to date before merging if your normal workflow can accommodate rebases.
 
-Both required CI jobs run on **every** PUBLIC PR, even documentation-only changes, and support explicit dispatch on bot-created branches. **All 89 legacy bot tests and image crop regressions run privately**, while the PUBLIC release validators still execute independent media/compatibility contract tests. Public legacy bot code and manual publisher remain temporarily, but their source is frozen against modification by the mandatory release scope guard.
+Both required CI jobs run on **every** PUBLIC PR, including documentation-only changes. The full **89 historical bot tests and image crop tests run PRIVATE**, while independent PUBLIC media/compatibility contract tests remain in `.github/release-guards/`. The public scope guard prohibits reintroducing retired bot source or mixing this one-time cutover with application-facing data changes.
 
 ## Operator checklist (after a PR is merged)
 
