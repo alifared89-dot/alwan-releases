@@ -69,6 +69,14 @@ RETIRABLE_ORPHAN_RESEARCH_BLOBS = {
     "tools/infinix-image-bot/progress_report.py": "0f022de313a9dec0290fc0f61bee6c882a58eb28",
     "tools/infinix-image-bot/quality_triage.py": "ec032e43741df58510e29518bbdbacb4b8e65535",
 }
+# Three historical test modules are identical to independent production
+# guard tests AND private twins. Only exact immutable 3-file retirement allowed.
+REDUNDANT_PUBLIC_GUARD_TEST_BLOBS = {
+    "tools/infinix-image-bot/test_media_catalog_policy.py": "dea5cb7e201036bfbab6aa014141deb6c74d288a",
+    "tools/infinix-image-bot/test_media_integrity_guard.py": "2eb885fa27df25f4d7a5e920a395c70eee90a08f",
+    "tools/infinix-image-bot/test_verify_media_client_contract.py": "329080d3b33c358b7b126f2c9addc261d241f8c4",
+}
+REDUNDANT_PUBLIC_GUARD_TESTS = frozenset(REDUNDANT_PUBLIC_GUARD_TEST_BLOBS)
 RETIRABLE_ORPHAN_RESEARCH = frozenset(RETIRABLE_ORPHAN_RESEARCH_BLOBS)
 LEGACY_TOOL_EDIT_EXCEPTIONS = frozenset((
     "tools/infinix-image-bot/README.md",
@@ -149,7 +157,8 @@ def check_legacy_tool_delta(modified: list[str], deleted: list[str]) -> None:
         raise ValueError("ALWAN-PUBLIC-LEGACY-SOURCE-EDIT-DENIED: " + ", ".join(blocked))
     research_removed = [p for p in deleted if p.startswith("tools/")]
     if research_removed and set(research_removed) not in (
-            RETIRED_RESEARCH_TESTS, RETIRABLE_ORPHAN_RESEARCH):
+            RETIRED_RESEARCH_TESTS, RETIRABLE_ORPHAN_RESEARCH,
+            REDUNDANT_PUBLIC_GUARD_TESTS):
         raise ValueError("ALWAN-PUBLIC-LEGACY-TOOL-DELETE-DENIED: " + repr(research_removed))
     if len(research_removed) != len(set(research_removed)):
         raise ValueError("ALWAN-PUBLIC-LEGACY-TOOL-DELETE-DUPLICATED")
@@ -166,6 +175,19 @@ def verify_orphan_removal_base_blobs(base: str, removed: list[str]) -> None:
         ).stdout.strip()
         if actual_blob != expected_blob:
             raise ValueError("ALWAN-PUBLIC-RESEARCH-SOURCE-PARITY-DRIFT: " + path)
+
+
+def verify_redundant_guard_test_base_blobs(base: str, removed: list[str]) -> None:
+    """Demand exact original blob SHA before retiring PUBLIC duplicate tests."""
+    if set(removed) != REDUNDANT_PUBLIC_GUARD_TESTS:
+        return
+    for path, expected_sha in sorted(REDUNDANT_PUBLIC_GUARD_TEST_BLOBS.items()):
+        previous = subprocess.run(
+            ["git", "rev-parse", f"{base}:{path}"],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        if previous != expected_sha:
+            raise ValueError("ALWAN-PUBLIC-REDUNDANT-TEST-SHA-DRIFT: " + path)
 
 
 def self_test():
@@ -220,12 +242,16 @@ def self_test():
     check_legacy_tool_delta([], [])
     check_legacy_tool_delta(["tools/infinix-image-bot/approved.json"], sorted(RETIRED_RESEARCH_TESTS))
     check_legacy_tool_delta([], sorted(RETIRABLE_ORPHAN_RESEARCH))
+    check_legacy_tool_delta([], sorted(REDUNDANT_PUBLIC_GUARD_TESTS))
     for changed, removed in (
         (["tools/infinix-image-bot/bot.py"], []),
         (["tools/infinix-image-bot/requirements.txt"], []),
         (["tools/infinix-image-bot/catalog-infinix.json"], []),
         ([], ["tools/infinix-image-bot/bot.py"]),
         ([], [sorted(RETIRED_RESEARCH_TESTS)[0]]),
+        ([], [sorted(REDUNDANT_PUBLIC_GUARD_TESTS)[0]]),
+        ([], sorted(REDUNDANT_PUBLIC_GUARD_TESTS)[:-1]),
+        ([], sorted(REDUNDANT_PUBLIC_GUARD_TESTS) + ["tools/infinix-image-bot/bot.py"]),
         ([], [sorted(RETIRABLE_ORPHAN_RESEARCH)[0]]),
         ([], sorted(RETIRABLE_ORPHAN_RESEARCH)[:-1]),
         ([], sorted(RETIRABLE_ORPHAN_RESEARCH) + ["tools/infinix-image-bot/bot.py"]),
@@ -236,7 +262,7 @@ def self_test():
         except ValueError:
             continue
         raise AssertionError("unsafe or incomplete legacy research cleanup passed")
-    print("ALWAN-PUBLIC-LEGACY-SOURCE-LOCK: 12 historical tests + exact 11 research orphans only; publisher edits/deletion denied")
+    print("ALWAN-PUBLIC-LEGACY-SOURCE-LOCK: 12 old research tests + 11 standalone orphans + 3 mirrored guard tests only; publisher edits/deletion denied")
     print(f"ALWAN-PUBLIC-SCOPE-SELFTEST: {len(permitted)} valid, {len(rejected)} rejected; 2 exact report deletions, 6 client deletion rejections")
 
 
@@ -299,6 +325,7 @@ def main():
     try:
         check_legacy_tool_delta(changed, removed)
         verify_orphan_removal_base_blobs(base, removed)
+        verify_redundant_guard_test_base_blobs(base, removed)
     except ValueError as exc:
         print(str(exc))
         raise SystemExit(1) from exc
