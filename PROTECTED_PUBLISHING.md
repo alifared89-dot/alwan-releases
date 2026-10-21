@@ -14,7 +14,7 @@ Applies to every brand and every future phone model. The mobile app consumes **o
 ## Independent release integrity vs. optional legacy research tests (20 Oct 2026)
 
 - The **required** `compatibility-contract` and `media-integrity` jobs run brand-neutral validators and their complete **42-case production regression suite** from `.github/release-guards/`. Those scripts were byte-verified against the previous production validators in [PR #36](https://github.com/alifared89-dot/alwan-releases/pull/36), and tested against the unchanged live data/ZIPs before cutover.
-- The historical **89-case legacy bot regression suite** still runs in separate `legacy_bot_regressions.yml`. It has **no deployment permission** and is deliberately not a required branch status: failure in image collection/crawler code cannot block a validated compatibility or image data update. A failing legacy test is still a bot-maintenance issue, never an authorization to publish a damaged media archive.
+- The historical **89-case bot regression suite plus exact compositor/pixel-preservation tests** now run on PRIVATE `alwan-bot-control/.github/workflows/private_bot_regressions.yml`, triggered on every PRIVATE PR and main push, with **read-only** checkout of public media/compatibility fixtures. PUBLIC `legacy_bot_regressions.yml` and `infinix_bot_crop_ci.yml` are retired after full private CI parity. Three public release-guard regression files remain public and byte-identical; production validation still runs in PUBLIC required checks.
 - The existing `infinix_device_images.yml` discovery and manually confirmed media staging workflow **still uses the old bot**. It may fail if that old bot fails and is **not** yet migrated to phone/Termux. Do not delete `tools/**` or disable human review just because required data checks are isolated.
 - Changing required validator code or its tests is a **separate release-security change**, subject to all two mandatory checks, baseline comparison, destructive-fixture regressions, and approval. Never load privileged private source into public PR jobs.
 
@@ -50,7 +50,7 @@ Repository: `alifared89-dot/alwan-releases`.
 - Do not add an exemption/bypass for the publishing bot.
 - Prefer requiring branches to be up to date before merging if your normal workflow can accommodate rebases.
 
-Both required CI jobs run on **every** PR, even documentation-only updates, and support explicit dispatch on bot-created branches. The separate image crop regression workflow is not required because it runs only for selected file paths; the media-integrity workflow already runs the full bot test suite.
+Both required CI jobs run on **every** PUBLIC PR, even documentation-only changes, and support explicit dispatch on bot-created branches. **All 89 legacy bot tests and image crop regressions run privately**, while the PUBLIC release validators still execute independent media/compatibility contract tests. Public legacy bot code and manual publisher remain temporarily, but their source is frozen against modification by the mandatory release scope guard.
 
 ## Operator checklist (after a PR is merged)
 
