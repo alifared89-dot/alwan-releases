@@ -52,6 +52,24 @@ RETIRED_RESEARCH_TESTS = frozenset(
         "test_official_search.py", "test_progress_report.py",
     )
 )
+# 11 historical scripts are neither reachable from the current manual
+# discover/publish workflow nor from either protected release validator.
+# Their PRIVATE byte-identical copies were verified against these EXACT
+# PUBLIC Git blob IDs. Permit only the entire batch and original bytes.
+RETIRABLE_ORPHAN_RESEARCH_BLOBS = {
+    "tools/infinix-image-bot/batch_scan.py": "efb1abb83a587a17a89963cfe5cc5b688ecfb9b0",
+    "tools/infinix-image-bot/catalog_first.py": "488edbeb48e1fc02da53a326dbd0a33feaf2e3c6",
+    "tools/infinix-image-bot/compose_views.py": "27126a63b3475f6bf6f04f19241aef10a53e19a9",
+    "tools/infinix-image-bot/evidence_cache.py": "4bbed24192a1f14b339a7c4dea4fd8584e5116ec",
+    "tools/infinix-image-bot/github_manifest_guard.py": "d412625e34729152be596511415a05e1dee1124c",
+    "tools/infinix-image-bot/image_compositor.py": "f26ef4081bf51930938c7de678979110e38fb0ac",
+    "tools/infinix-image-bot/media_core.py": "b43822511cf5ecdf407461575f68b5678c73ab0a",
+    "tools/infinix-image-bot/multimarket_scan.py": "6e9be77d96de755bcfa7bcf149ad10a048457c11",
+    "tools/infinix-image-bot/official_model_evidence.py": "760ad9ac915e308c9bfa71a3b9e80baef5b033e7",
+    "tools/infinix-image-bot/progress_report.py": "0f022de313a9dec0290fc0f61bee6c882a58eb28",
+    "tools/infinix-image-bot/quality_triage.py": "ec032e43741df58510e29518bbdbacb4b8e65535",
+}
+RETIRABLE_ORPHAN_RESEARCH = frozenset(RETIRABLE_ORPHAN_RESEARCH_BLOBS)
 LEGACY_TOOL_EDIT_EXCEPTIONS = frozenset((
     "tools/infinix-image-bot/README.md",
     "tools/infinix-image-bot/.gitignore",
@@ -130,10 +148,24 @@ def check_legacy_tool_delta(modified: list[str], deleted: list[str]) -> None:
     if blocked:
         raise ValueError("ALWAN-PUBLIC-LEGACY-SOURCE-EDIT-DENIED: " + ", ".join(blocked))
     research_removed = [p for p in deleted if p.startswith("tools/")]
-    if research_removed and set(research_removed) != RETIRED_RESEARCH_TESTS:
+    if research_removed and set(research_removed) not in (
+            RETIRED_RESEARCH_TESTS, RETIRABLE_ORPHAN_RESEARCH):
         raise ValueError("ALWAN-PUBLIC-LEGACY-TOOL-DELETE-DENIED: " + repr(research_removed))
     if len(research_removed) != len(set(research_removed)):
         raise ValueError("ALWAN-PUBLIC-LEGACY-TOOL-DELETE-DUPLICATED")
+
+
+def verify_orphan_removal_base_blobs(base: str, removed: list[str]) -> None:
+    """Refuse retiring a changed public source instead of the exact copy."""
+    if set(removed) != RETIRABLE_ORPHAN_RESEARCH:
+        return
+    for path, expected_blob in sorted(RETIRABLE_ORPHAN_RESEARCH_BLOBS.items()):
+        actual_blob = subprocess.run(
+            ["git", "rev-parse", f"{base}:{path}"],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        if actual_blob != expected_blob:
+            raise ValueError("ALWAN-PUBLIC-RESEARCH-SOURCE-PARITY-DRIFT: " + path)
 
 
 def self_test():
@@ -187,12 +219,16 @@ def self_test():
             raise AssertionError("production deletion incorrectly permitted")
     check_legacy_tool_delta([], [])
     check_legacy_tool_delta(["tools/infinix-image-bot/approved.json"], sorted(RETIRED_RESEARCH_TESTS))
+    check_legacy_tool_delta([], sorted(RETIRABLE_ORPHAN_RESEARCH))
     for changed, removed in (
         (["tools/infinix-image-bot/bot.py"], []),
         (["tools/infinix-image-bot/requirements.txt"], []),
         (["tools/infinix-image-bot/catalog-infinix.json"], []),
         ([], ["tools/infinix-image-bot/bot.py"]),
         ([], [sorted(RETIRED_RESEARCH_TESTS)[0]]),
+        ([], [sorted(RETIRABLE_ORPHAN_RESEARCH)[0]]),
+        ([], sorted(RETIRABLE_ORPHAN_RESEARCH)[:-1]),
+        ([], sorted(RETIRABLE_ORPHAN_RESEARCH) + ["tools/infinix-image-bot/bot.py"]),
         ([], sorted(RETIRED_RESEARCH_TESTS) + ["tools/infinix-image-bot/bot.py"]),
     ):
         try:
@@ -200,7 +236,7 @@ def self_test():
         except ValueError:
             continue
         raise AssertionError("unsafe or incomplete legacy research cleanup passed")
-    print("ALWAN-PUBLIC-LEGACY-SOURCE-LOCK: 12 complete test retirements allowed; critical bot edits/deletions denied")
+    print("ALWAN-PUBLIC-LEGACY-SOURCE-LOCK: 12 historical tests + exact 11 research orphans only; publisher edits/deletion denied")
     print(f"ALWAN-PUBLIC-SCOPE-SELFTEST: {len(permitted)} valid, {len(rejected)} rejected; 2 exact report deletions, 6 client deletion rejections")
 
 
@@ -262,6 +298,7 @@ def main():
     ).stdout.splitlines()
     try:
         check_legacy_tool_delta(changed, removed)
+        verify_orphan_removal_base_blobs(base, removed)
     except ValueError as exc:
         print(str(exc))
         raise SystemExit(1) from exc
