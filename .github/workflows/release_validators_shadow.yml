@@ -43,10 +43,17 @@ jobs:
             test ! -e "tools/compatibility/$file"
           done
           test ! -e tools/compatibility/rebuild_release.py
-          for file in media_integrity_guard.py verify_media.py test_media_integrity_guard.py test_verify_media_client_contract.py test_media_catalog_policy.py requirements.txt; do
+          # Only executable media integrity validators/dependencies remain
+          # mirrored in legacy PUBLIC manual publisher. Its three historical
+          # test copies were retired after proving PRIVATE + standalone parity.
+          for file in media_integrity_guard.py verify_media.py requirements.txt; do
             cmp -s ".github/release-guards/$file" "tools/infinix-image-bot/$file"
           done
-          echo 'ALWAN-RELEASE-INDEPENDENT-GUARDS: 4 compatibility assets, 6/6 media exact parity'
+          for file in test_media_integrity_guard.py test_verify_media_client_contract.py test_media_catalog_policy.py; do
+            test -f ".github/release-guards/$file"
+            test ! -e "tools/infinix-image-bot/$file"
+          done
+          echo 'ALWAN-RELEASE-INDEPENDENT-GUARDS: 4 compatibility assets, 3/3 executable media guard parity, 3 standalone test suites retained'
       - name: Verify new files do not permit research or reports in the public repository
         run: python .github/release_scope_guard.py --self-test
       - name: Install identical published image validator dependency
