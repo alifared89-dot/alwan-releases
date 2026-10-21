@@ -43,17 +43,26 @@ jobs:
             test ! -e "tools/compatibility/$file"
           done
           test ! -e tools/compatibility/rebuild_release.py
-          # Only executable media integrity validators/dependencies remain
-          # mirrored in legacy PUBLIC manual publisher. Its three historical
-          # test copies were retired after proving PRIVATE + standalone parity.
-          for file in media_integrity_guard.py verify_media.py requirements.txt; do
-            cmp -s ".github/release-guards/$file" "tools/infinix-image-bot/$file"
-          done
+          # The old manual publisher and ALL 10 public bot files migrate as
+          # one complete SHA-pinned batch. Required release validators never
+          # import legacy source. Their three independent regression suites
+          # must work in BOTH complete states (before and after retirement).
           for file in test_media_integrity_guard.py test_verify_media_client_contract.py test_media_catalog_policy.py; do
             test -f ".github/release-guards/$file"
             test ! -e "tools/infinix-image-bot/$file"
           done
-          echo 'ALWAN-RELEASE-INDEPENDENT-GUARDS: 4 compatibility assets, 3/3 executable media guard parity, 3 standalone test suites retained'
+          if test -f "tools/infinix-image-bot/bot.py"; then
+            test -f ".github/workflows/infinix_device_images.yml"
+            for file in media_integrity_guard.py verify_media.py requirements.txt; do
+              cmp -s ".github/release-guards/$file" "tools/infinix-image-bot/$file"
+            done
+            echo 'ALWAN-RELEASE-GUARDS-LEGACY-COMPLETE: manual workflow and three old media source mirrors intact'
+          else
+            test ! -e ".github/workflows/infinix_device_images.yml"
+            test ! -e "tools/infinix-image-bot"
+            test ! -e "tools/compatibility"
+            echo 'ALWAN-RELEASE-GUARDS-PRIVATE-CUTOVER-COMPLETE: no public bot and all standalone tests retained'
+          fi
       - name: Verify new files do not permit research or reports in the public repository
         run: python .github/release_scope_guard.py --self-test
       - name: Install identical published image validator dependency

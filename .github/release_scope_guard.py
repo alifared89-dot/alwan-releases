@@ -84,6 +84,26 @@ LEGACY_TOOL_EDIT_EXCEPTIONS = frozenset((
     "tools/infinix-image-bot/approved.json",
 ))
 
+# Exact final ten-file legacy manual publisher retirement. All nine byte-identical
+# executable/config assets remain PRIVATE; the deliberately public-safe README
+# is archived by its exact Git blob in protected PUBLIC history.
+# This one migration cannot touch any APK, JSON, ZIP or required validator.
+FINAL_LEGACY_TOOL_BLOBS = {
+    "tools/infinix-image-bot/.gitignore": "bacca8e16a5a0f5aad66adb6637c6e5177b864fc",
+    "tools/infinix-image-bot/README.md": "89e4051403529c9bda4b32f8d904e9e2c2762e43",
+    "tools/infinix-image-bot/approved.json": "2feb21015d1cf419bfcead749b36612d224fac02",
+    "tools/infinix-image-bot/bot.py": "cea6991f038a41670f2dd9d308a955b1256a247f",
+    "tools/infinix-image-bot/catalog-infinix.json": "85789dc89052ed99bfa755c73bf53cd85ed85b97",
+    "tools/infinix-image-bot/media_integrity_guard.py": "b2e34c1b00c604b25013ffa69ca912498cd41409",
+    "tools/infinix-image-bot/official_index.py": "24d4e5b55027fe34b3c4d1ac2a0a5463d284fe02",
+    "tools/infinix-image-bot/official_search.py": "1d871e12d8d9c28e8467a72d30c9b3d9c07b9c89",
+    "tools/infinix-image-bot/requirements.txt": "9673b4129a11355b027b4039290a05bce56e0689",
+    "tools/infinix-image-bot/verify_media.py": "602c96f2a26357b32f67fba6d1551fd7ad057d2d",
+}
+FINAL_LEGACY_TOOLS = frozenset(FINAL_LEGACY_TOOL_BLOBS)
+FINAL_LEGACY_WORKFLOW = ".github/workflows/infinix_device_images.yml"
+FINAL_LEGACY_WORKFLOW_BLOB = "6c8fe9f5036a948a75669114e5381d2485930bca"
+
 UNSAFE_SEGMENTS = {
     "research", "reports", "report", "private", "internal", "secrets", "output",
     "phone-runtime", "migration-evidence", "migration-reference", "source-cache",
@@ -158,7 +178,7 @@ def check_legacy_tool_delta(modified: list[str], deleted: list[str]) -> None:
     research_removed = [p for p in deleted if p.startswith("tools/")]
     if research_removed and set(research_removed) not in (
             RETIRED_RESEARCH_TESTS, RETIRABLE_ORPHAN_RESEARCH,
-            REDUNDANT_PUBLIC_GUARD_TESTS):
+            REDUNDANT_PUBLIC_GUARD_TESTS, FINAL_LEGACY_TOOLS):
         raise ValueError("ALWAN-PUBLIC-LEGACY-TOOL-DELETE-DENIED: " + repr(research_removed))
     if len(research_removed) != len(set(research_removed)):
         raise ValueError("ALWAN-PUBLIC-LEGACY-TOOL-DELETE-DUPLICATED")
@@ -188,6 +208,56 @@ def verify_redundant_guard_test_base_blobs(base: str, removed: list[str]) -> Non
         ).stdout.strip()
         if previous != expected_sha:
             raise ValueError("ALWAN-PUBLIC-REDUNDANT-TEST-SHA-DRIFT: " + path)
+
+
+def verify_final_legacy_cutover(base: str, removed_tools: list[str]) -> None:
+    """Exactly ten unchanged old source blobs plus ONE old manual workflow.
+
+    This enforces a complete publication authority cutover. Does not rewrite
+    history or authorize changing ANY installed app data/media/zip.
+    """
+    removed_workflows = subprocess.run(
+        ["git", "diff", "--name-only", "--no-renames", "--diff-filter=D",
+         f"{base}...HEAD", "--", ".github/workflows/"],
+        capture_output=True, text=True, check=True,
+    ).stdout.splitlines()
+    retiring = set(removed_tools) == FINAL_LEGACY_TOOLS
+    has_workflow_removed = FINAL_LEGACY_WORKFLOW in removed_workflows
+    if not retiring and not has_workflow_removed:
+        return
+    if (not retiring or removed_workflows != [FINAL_LEGACY_WORKFLOW]
+            or len(removed_tools) != len(FINAL_LEGACY_TOOLS)):
+        raise ValueError("ALWAN-PUBLIC-INCOMPLETE-FINAL-PUBLISHER-CUTOVER")
+    exact_files = dict(FINAL_LEGACY_TOOL_BLOBS)
+    exact_files[FINAL_LEGACY_WORKFLOW] = FINAL_LEGACY_WORKFLOW_BLOB
+    for path, expected in exact_files.items():
+        actual = subprocess.run(
+            ["git", "rev-parse", f"{base}:{path}"],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        if actual != expected:
+            raise ValueError("ALWAN-PUBLIC-FINAL-PUBLISHER-ORIGINAL-SHA-DRIFT: " + path)
+        if Path(path).exists() or Path(path).is_symlink():
+            raise ValueError("ALWAN-PUBLIC-LEGACY-PUBLISHER-STILL-EXISTS: " + path)
+    allowed_changes = set(exact_files) | {
+        ".github/release_scope_guard.py",
+        ".github/workflows/release_validators_shadow.yml",
+        "AGENTS.md", "PROTECTED_PUBLISHING.md",
+    }
+    changed = set(subprocess.run(
+        ["git", "diff", "--name-only", "--no-renames", f"{base}...HEAD"],
+        capture_output=True, text=True, check=True,
+    ).stdout.splitlines())
+    if changed - allowed_changes:
+        raise ValueError("ALWAN-PUBLIC-CLIENT-AND-OTHER-SOURCE-CHANGES-DENIED: "
+                         + repr(sorted(changed - allowed_changes)))
+    if subprocess.run(
+        ["git", "ls-files", "--", "tools/"], capture_output=True,
+        text=True, check=True,
+    ).stdout.strip():
+        raise ValueError("ALWAN-PUBLIC-LEGACY-TOOL-TRACKED-AFTER-RETIREMENT")
+    print("ALWAN-PUBLIC-LEGACY-RETIREMENT-ACCEPTED: exact 10 pinned sources "
+          "+ old manual workflow; no customer data touched")
 
 
 def self_test():
@@ -243,6 +313,7 @@ def self_test():
     check_legacy_tool_delta(["tools/infinix-image-bot/approved.json"], sorted(RETIRED_RESEARCH_TESTS))
     check_legacy_tool_delta([], sorted(RETIRABLE_ORPHAN_RESEARCH))
     check_legacy_tool_delta([], sorted(REDUNDANT_PUBLIC_GUARD_TESTS))
+    check_legacy_tool_delta([], sorted(FINAL_LEGACY_TOOLS))
     for changed, removed in (
         (["tools/infinix-image-bot/bot.py"], []),
         (["tools/infinix-image-bot/requirements.txt"], []),
@@ -252,6 +323,9 @@ def self_test():
         ([], [sorted(REDUNDANT_PUBLIC_GUARD_TESTS)[0]]),
         ([], sorted(REDUNDANT_PUBLIC_GUARD_TESTS)[:-1]),
         ([], sorted(REDUNDANT_PUBLIC_GUARD_TESTS) + ["tools/infinix-image-bot/bot.py"]),
+        ([], [sorted(FINAL_LEGACY_TOOLS)[0]]),
+        ([], sorted(FINAL_LEGACY_TOOLS)[:-1]),
+        ([], sorted(FINAL_LEGACY_TOOLS) + ["tools/infinix-image-bot/old_test.py"]),
         ([], [sorted(RETIRABLE_ORPHAN_RESEARCH)[0]]),
         ([], sorted(RETIRABLE_ORPHAN_RESEARCH)[:-1]),
         ([], sorted(RETIRABLE_ORPHAN_RESEARCH) + ["tools/infinix-image-bot/bot.py"]),
@@ -326,6 +400,7 @@ def main():
         check_legacy_tool_delta(changed, removed)
         verify_orphan_removal_base_blobs(base, removed)
         verify_redundant_guard_test_base_blobs(base, removed)
+        verify_final_legacy_cutover(base, removed)
     except ValueError as exc:
         print(str(exc))
         raise SystemExit(1) from exc
