@@ -843,6 +843,69 @@
       "canonicalPartNumbers": [
         "928541"
       ]
+    },
+    {
+      "id": "part-display-allspares-921037",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "921037"
+      ]
+    },
+    {
+      "id": "part-display-allspares-921032",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "921032"
+      ]
+    },
+    {
+      "id": "part-display-allspares-921035",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "921035"
+      ]
+    },
+    {
+      "id": "part-display-allspares-921010",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "921010"
+      ]
+    },
+    {
+      "id": "part-display-allspares-921038",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "921038"
+      ]
+    },
+    {
+      "id": "part-display-allspares-928189",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "928189"
+      ]
+    },
+    {
+      "id": "part-display-allspares-928170",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "928170"
+      ]
+    },
+    {
+      "id": "part-display-allspares-921540",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "921540"
+      ]
+    },
+    {
+      "id": "part-display-allspares-928149",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "928149"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1812,6 +1875,85 @@
         "dev_sn4ojpylmbybjksppdr5hw6je4",
         "dev_fv2uj7wprymybv6ajsm2davram",
         "dev_4m7wkez4e6zzxueifewmzdzbhy"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-921037",
+      "partId": "part-display-allspares-921037",
+      "deviceIds": [
+        "dev_4sst2rwqfkk6v4mfb2d6gua2cq",
+        "dev_gklcwp724y47imak4lkhwe2j6q",
+        "dev_zl6f27nqdiw4twg6jz4slk4hku",
+        "dev_sorzxhxeb6h33zsqm4ugdkkfey"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-921032",
+      "partId": "part-display-allspares-921032",
+      "deviceIds": [
+        "dev_47bjxc5n4e3mgrzxcepa3vkfim",
+        "dev_mudhde7nm4pnyvlfw5vcycaige",
+        "dev_ec3oiqhs4ypd67rupuxdez7dsi",
+        "dev_w7ljgpkknfx6yud7e7scej43au",
+        "dev_5rybn55q4p6cfb4nedswpb3wfa"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-921035",
+      "partId": "part-display-allspares-921035",
+      "deviceIds": [
+        "dev_cgkn2cfsqnlz2pl5mfp2oq4edy",
+        "dev_frlzubfeahaqj35e47amdt5mxy",
+        "dev_n75gyzvkjmw4n4trwmnn2vhbte"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-921010",
+      "partId": "part-display-allspares-921010",
+      "deviceIds": [
+        "dev_ynha4ganlwr5boxbtj7h6zp2yq",
+        "dev_7fl7ptpqfl5k4kyuyrqp4wwoam"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-921038",
+      "partId": "part-display-allspares-921038",
+      "deviceIds": [
+        "dev_ye5qf2o7fwwwn3p4mjwasvkf7e",
+        "dev_pe3v2wmjglwns5tmws5f36dwdq"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-928189",
+      "partId": "part-display-allspares-928189",
+      "deviceIds": [
+        "dev_2hetzs7xvgcdc7pwbf5zyemivu",
+        "dev_gozb3ff2lwuiybnndngycnb62e"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-928170",
+      "partId": "part-display-allspares-928170",
+      "deviceIds": [
+        "dev_pak6yglxiepdogh6phkmlyccom",
+        "dev_fuhjsd4pjjrjvl5wruxjwv553m"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-921540",
+      "partId": "part-display-allspares-921540",
+      "deviceIds": [
+        "dev_6skenvkb67ku76iwlohebxvw2u",
+        "dev_f3gjadatofyvz63e3anzamu22u",
+        "dev_stoa4oll776thqjzqluo64ofp4"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-928149",
+      "partId": "part-display-allspares-928149",
+      "deviceIds": [
+        "dev_imzw6e25nsoblnp5frchg25eli",
+        "dev_do6mgxhq2z74w7wshurfu37txy"
       ]
     }
   ],
@@ -6483,6 +6625,175 @@
         "RMX3771"
       ],
       "notes": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928541؛ الجودة: Original (PRC)؛ الإطار: Without frame؛ التقنية حسب البائع: AMOLED. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب."
+    },
+    {
+      "id": "ev-allspares-921037",
+      "compatibilityGroupId": "cg-part-display-allspares-921037",
+      "sourceKey": "allspares-cached94-921037",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bl8800-bl8800-pro-bv8800-bv8800-pro-bv9200-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "921037"
+      ],
+      "citedModelCodes": [
+        "BV8800",
+        "BL8800",
+        "BL8800Pro",
+        "BV9200"
+      ],
+      "notes": "توافق الشاشة التجارية للمنتج 921037 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب."
+    },
+    {
+      "id": "ev-allspares-921032",
+      "compatibilityGroupId": "cg-part-display-allspares-921032",
+      "sourceKey": "allspares-cached94-921032",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv5300-bv5300-pro-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "921032"
+      ],
+      "citedModelCodes": [
+        "BV5300",
+        "BV5300 Pro",
+        "BV5200",
+        "BV5200 Pro",
+        "S70 Pro"
+      ],
+      "notes": "توافق الشاشة التجارية للمنتج 921032 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب."
+    },
+    {
+      "id": "ev-allspares-921035",
+      "compatibilityGroupId": "cg-part-display-allspares-921035",
+      "sourceKey": "allspares-cached94-921035",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv6600-bv6600-pro-bv6600e-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "921035"
+      ],
+      "citedModelCodes": [
+        "BV6600",
+        "BV6600E",
+        "BV6600Pro"
+      ],
+      "notes": "توافق الشاشة التجارية للمنتج 921035 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب."
+    },
+    {
+      "id": "ev-allspares-921010",
+      "compatibilityGroupId": "cg-part-display-allspares-921010",
+      "sourceKey": "allspares-cached94-921010",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-a60-a60-pro-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "921010"
+      ],
+      "citedModelCodes": [
+        "A60Pro",
+        "A60Plus"
+      ],
+      "notes": "توافق الشاشة التجارية للمنتج 921010 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب."
+    },
+    {
+      "id": "ev-allspares-921038",
+      "compatibilityGroupId": "cg-part-display-allspares-921038",
+      "sourceKey": "allspares-cached94-921038",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv9800-bv9800-pro-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "921038"
+      ],
+      "citedModelCodes": [
+        "BV9800",
+        "BV9800Pro"
+      ],
+      "notes": "توافق الشاشة التجارية للمنتج 921038 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب."
+    },
+    {
+      "id": "ev-allspares-928189",
+      "compatibilityGroupId": "cg-part-display-allspares-928189",
+      "sourceKey": "allspares-cached94-928189",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-blade-10-blade-10-pro-blade-10-ultra-black-without-frame-high-copy-qcg65hd1148-a0-02/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "928189"
+      ],
+      "citedModelCodes": [
+        "Blade10",
+        "Blade10 Ultra"
+      ],
+      "notes": "توافق الشاشة التجارية للمنتج 928189 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب."
+    },
+    {
+      "id": "ev-allspares-928170",
+      "compatibilityGroupId": "cg-part-display-allspares-928170",
+      "sourceKey": "allspares-cached94-928170",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-fire-6-fire-6-power-black-without-frame-high-copy-fpc-qcgm656ikf0012g-v01/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "928170"
+      ],
+      "citedModelCodes": [
+        "Fire 6",
+        "Fire 6 Power"
+      ],
+      "notes": "توافق الشاشة التجارية للمنتج 928170 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب."
+    },
+    {
+      "id": "ev-allspares-921540",
+      "compatibilityGroupId": "cg-part-display-allspares-921540",
+      "sourceKey": "allspares-cached94-921540",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-s51-s61-black-without-frame/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "921540"
+      ],
+      "citedModelCodes": [
+        "S51",
+        "S61",
+        "S61Pro"
+      ],
+      "notes": "توافق الشاشة التجارية للمنتج 921540 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب."
+    },
+    {
+      "id": "ev-allspares-928149",
+      "compatibilityGroupId": "cg-part-display-allspares-928149",
+      "sourceKey": "allspares-cached94-928149",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-s59-s59-pro-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "928149"
+      ],
+      "citedModelCodes": [
+        "S59Pro",
+        "S59"
+      ],
+      "notes": "توافق الشاشة التجارية للمنتج 928149 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب."
     }
   ],
   "categoryFacts": [
@@ -41898,6 +42209,331 @@
         "checkedAt": "2026-10-23T13:45:00Z"
       },
       "deviceId": "dev_4m7wkez4e6zzxueifewmzdzbhy"
+    },
+    {
+      "id": "diff-allspares-921037-2d6gua2cq",
+      "partId": "part-display-allspares-921037",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921037 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bl8800-bl8800-pro-bv8800-bv8800-pro-bv9200-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921037",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_4sst2rwqfkk6v4mfb2d6gua2cq"
+    },
+    {
+      "id": "diff-allspares-921037-lkhwe2j6q",
+      "partId": "part-display-allspares-921037",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921037 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bl8800-bl8800-pro-bv8800-bv8800-pro-bv9200-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921037",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_gklcwp724y47imak4lkhwe2j6q"
+    },
+    {
+      "id": "diff-allspares-921037-z4slk4hku",
+      "partId": "part-display-allspares-921037",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921037 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bl8800-bl8800-pro-bv8800-bv8800-pro-bv9200-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921037",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_zl6f27nqdiw4twg6jz4slk4hku"
+    },
+    {
+      "id": "diff-allspares-921037-4ugdkkfey",
+      "partId": "part-display-allspares-921037",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921037 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bl8800-bl8800-pro-bv8800-bv8800-pro-bv9200-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921037",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_sorzxhxeb6h33zsqm4ugdkkfey"
+    },
+    {
+      "id": "diff-allspares-921032-epa3vkfim",
+      "partId": "part-display-allspares-921032",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921032 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv5300-bv5300-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921032",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_47bjxc5n4e3mgrzxcepa3vkfim"
+    },
+    {
+      "id": "diff-allspares-921032-5vcycaige",
+      "partId": "part-display-allspares-921032",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921032 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv5300-bv5300-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921032",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_mudhde7nm4pnyvlfw5vcycaige"
+    },
+    {
+      "id": "diff-allspares-921032-uxdez7dsi",
+      "partId": "part-display-allspares-921032",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921032 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv5300-bv5300-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921032",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_ec3oiqhs4ypd67rupuxdez7dsi"
+    },
+    {
+      "id": "diff-allspares-921032-7scej43au",
+      "partId": "part-display-allspares-921032",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921032 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv5300-bv5300-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921032",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_w7ljgpkknfx6yud7e7scej43au"
+    },
+    {
+      "id": "diff-allspares-921032-dswpb3wfa",
+      "partId": "part-display-allspares-921032",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921032 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv5300-bv5300-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921032",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_5rybn55q4p6cfb4nedswpb3wfa"
+    },
+    {
+      "id": "diff-allspares-921035-fp2oq4edy",
+      "partId": "part-display-allspares-921035",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921035 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv6600-bv6600-pro-bv6600e-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921035",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_cgkn2cfsqnlz2pl5mfp2oq4edy"
+    },
+    {
+      "id": "diff-allspares-921035-7amdt5mxy",
+      "partId": "part-display-allspares-921035",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921035 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv6600-bv6600-pro-bv6600e-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921035",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_frlzubfeahaqj35e47amdt5mxy"
+    },
+    {
+      "id": "diff-allspares-921035-mnn2vhbte",
+      "partId": "part-display-allspares-921035",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921035 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv6600-bv6600-pro-bv6600e-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921035",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_n75gyzvkjmw4n4trwmnn2vhbte"
+    },
+    {
+      "id": "diff-allspares-921010-j7h6zp2yq",
+      "partId": "part-display-allspares-921010",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921010 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-a60-a60-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921010",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_ynha4ganlwr5boxbtj7h6zp2yq"
+    },
+    {
+      "id": "diff-allspares-921010-rqp4wwoam",
+      "partId": "part-display-allspares-921010",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921010 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-a60-a60-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921010",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_7fl7ptpqfl5k4kyuyrqp4wwoam"
+    },
+    {
+      "id": "diff-allspares-921038-jwasvkf7e",
+      "partId": "part-display-allspares-921038",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921038 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv9800-bv9800-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921038",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_ye5qf2o7fwwwn3p4mjwasvkf7e"
+    },
+    {
+      "id": "diff-allspares-921038-s5f36dwdq",
+      "partId": "part-display-allspares-921038",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921038 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv9800-bv9800-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921038",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_pe3v2wmjglwns5tmws5f36dwdq"
+    },
+    {
+      "id": "diff-allspares-928189-f5zyemivu",
+      "partId": "part-display-allspares-928189",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 928189 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-blade-10-blade-10-pro-blade-10-ultra-black-without-frame-high-copy-qcg65hd1148-a0-02/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-928189",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_2hetzs7xvgcdc7pwbf5zyemivu"
+    },
+    {
+      "id": "diff-allspares-928189-ngycnb62e",
+      "partId": "part-display-allspares-928189",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 928189 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-blade-10-blade-10-pro-blade-10-ultra-black-without-frame-high-copy-qcg65hd1148-a0-02/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-928189",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_gozb3ff2lwuiybnndngycnb62e"
+    },
+    {
+      "id": "diff-allspares-928170-hkmlyccom",
+      "partId": "part-display-allspares-928170",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 928170 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-fire-6-fire-6-power-black-without-frame-high-copy-fpc-qcgm656ikf0012g-v01/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-928170",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_pak6yglxiepdogh6phkmlyccom"
+    },
+    {
+      "id": "diff-allspares-928170-uxjwv553m",
+      "partId": "part-display-allspares-928170",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 928170 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-fire-6-fire-6-power-black-without-frame-high-copy-fpc-qcgm656ikf0012g-v01/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-928170",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_fuhjsd4pjjrjvl5wruxjwv553m"
+    },
+    {
+      "id": "diff-allspares-921540-ohebxvw2u",
+      "partId": "part-display-allspares-921540",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921540 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-s51-s61-black-without-frame/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921540",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_6skenvkb67ku76iwlohebxvw2u"
+    },
+    {
+      "id": "diff-allspares-921540-anzamu22u",
+      "partId": "part-display-allspares-921540",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921540 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-s51-s61-black-without-frame/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921540",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_f3gjadatofyvz63e3anzamu22u"
+    },
+    {
+      "id": "diff-allspares-921540-luo64ofp4",
+      "partId": "part-display-allspares-921540",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 921540 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-s51-s61-black-without-frame/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-921540",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_stoa4oll776thqjzqluo64ofp4"
+    },
+    {
+      "id": "diff-allspares-928149-rchg25eli",
+      "partId": "part-display-allspares-928149",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 928149 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-s59-s59-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-928149",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_imzw6e25nsoblnp5frchg25eli"
+    },
+    {
+      "id": "diff-allspares-928149-urfu37txy",
+      "partId": "part-display-allspares-928149",
+      "title": "توافق قطعة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق الشاشة التجارية للمنتج 928149 لدى All-Spares. التصنيف: High Copy؛ النسخة بلا إطار وفق اسم المنتج. هذه دعوى مورد للقطعة المحددة، وليست إثباتاً لتبادل شاشة المصنع أو لكل النسخ. اختلافات FPC والإطار تتطلب المطابقة عند التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-doogee-s59-s59-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-cached94-928149",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_do6mgxhq2z74w7wshurfu37txy"
     }
   ]
 }
