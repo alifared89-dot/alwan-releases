@@ -752,6 +752,55 @@
       "canonicalPartNumbers": [
         "660109510A"
       ]
+    },
+    {
+      "id": "part-display-allspares-928600",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "928600"
+      ]
+    },
+    {
+      "id": "part-display-allspares-921002",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "921002"
+      ]
+    },
+    {
+      "id": "part-display-allspares-928597",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "928597"
+      ]
+    },
+    {
+      "id": "part-display-allspares-928790",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "928790"
+      ]
+    },
+    {
+      "id": "part-display-allspares-910500",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "910500"
+      ]
+    },
+    {
+      "id": "part-display-allspares-918429",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "918429"
+      ]
+    },
+    {
+      "id": "part-display-allspares-918423",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "918423"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1597,6 +1646,70 @@
         "dev_yitlti7sxa3s7j45o5ojzkotnq",
         "dev_yj3lwlidc5lxsdlqopnfbxumgq",
         "dev_3kxshmneotsw4ddh26rffr7yci"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-928600",
+      "partId": "part-display-allspares-928600",
+      "deviceIds": [
+        "dev_cv2ykcvi4ahyaum4svxxavuk2i",
+        "dev_jp4ttbr5jmo4g4epdxa3s6udny",
+        "dev_moaoiuqune37kdk27fhx2lssbm",
+        "dev_mzztzfrag4iz23w3xy5rnhi3fe",
+        "dev_y67jbp65wnfxgwfzwwskzbgn5q"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-921002",
+      "partId": "part-display-allspares-921002",
+      "deviceIds": [
+        "dev_dxhgu3p74aw3lt2ojx2wupl2rm",
+        "dev_teeymkmut2rz5zc53scjzcsfoy"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-928597",
+      "partId": "part-display-allspares-928597",
+      "deviceIds": [
+        "dev_l3g6nyf77fej7g76dflvtk6wne",
+        "dev_o6mwtbdb6vqbdrfz4s5rqzfnvm",
+        "dev_w5vhza2hixxhefjxc2dthddm6u",
+        "dev_xcxgzcsvuu6ax2drby77wy53be"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-928790",
+      "partId": "part-display-allspares-928790",
+      "deviceIds": [
+        "dev_bjutr4shlmojl5hqqmq45myrga",
+        "dev_elc5qi6hjvebnb45pqvesnwb3u"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-910500",
+      "partId": "part-display-allspares-910500",
+      "deviceIds": [
+        "dev_eugtq44nxnbmwzokjyjkh26i6e",
+        "dev_n32bg6t33fghd76vsetgvqh6gy",
+        "dev_rfylhgxawsc73bcwrzggsae2ae",
+        "dev_tze37nr7swfmmrtqdf4hrpnc3a"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-918429",
+      "partId": "part-display-allspares-918429",
+      "deviceIds": [
+        "dev_kpf253wwnezz3ibwsfertmqcmm",
+        "dev_ofvd6iulrvctdawx6s6z4wmnxu",
+        "dev_xdf6646pjuw3zkipkzli6qu2gm"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-918423",
+      "partId": "part-display-allspares-918423",
+      "deviceIds": [
+        "dev_orrydxvewfmtqhvv6pk6sc2gjq",
+        "dev_yizqou3tens6c26vof4qgtrrqy"
       ]
     }
   ],
@@ -6014,6 +6127,140 @@
         "X6815D"
       ],
       "notes": "توافق شاشة LCD تجارية Grade C مع اللمس، موديلات X6815 وX6815C وX6815D، دون شعار أو إطار حسب عرض المنتج. هذا لا يثبت توافق شاشة المصنع؛ الاختبار قبل التركيب."
+    },
+    {
+      "id": "ev-allspares-928600",
+      "compatibilityGroupId": "cg-part-display-allspares-928600",
+      "sourceKey": "allspares-explicit-product-928600",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-gt-20-pro-x6871-note-40-x6853-black-without-frame-copy-tft/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "928600"
+      ],
+      "citedModelCodes": [
+        "X6853",
+        "X6855",
+        "X6856",
+        "X6858",
+        "X6871"
+      ],
+      "notes": "توافق تجاري مذكور من مورد All-Spares للقطعة 928600. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ."
+    },
+    {
+      "id": "ev-allspares-921002",
+      "compatibilityGroupId": "cg-part-display-allspares-921002",
+      "sourceKey": "allspares-explicit-product-921002",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-20i-x665c-x665e-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "921002"
+      ],
+      "citedModelCodes": [
+        "X665C",
+        "X665E"
+      ],
+      "notes": "توافق تجاري مذكور من مورد All-Spares للقطعة 921002. جودة المورد: High Copy؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ."
+    },
+    {
+      "id": "ev-allspares-928597",
+      "compatibilityGroupId": "cg-part-display-allspares-928597",
+      "sourceKey": "allspares-explicit-product-928597",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-50-5g-x6720-hot-50i-x6531-smart-9-x6532-smart-9-hd-x6532c-black-without-frame-original-prc/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "928597"
+      ],
+      "citedModelCodes": [
+        "X6531",
+        "X6532",
+        "X6532C",
+        "X6720"
+      ],
+      "notes": "توافق تجاري مذكور من مورد All-Spares للقطعة 928597. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ."
+    },
+    {
+      "id": "ev-allspares-928790",
+      "compatibilityGroupId": "cg-part-display-allspares-928790",
+      "sourceKey": "allspares-explicit-product-928790",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-60-x6726-smart-10-x6725-black-with-frame-high-copy/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "928790"
+      ],
+      "citedModelCodes": [
+        "X6725",
+        "X6726"
+      ],
+      "notes": "توافق تجاري مذكور من مورد All-Spares للقطعة 928790. جودة المورد: High Copy؛ الإطار: With frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ."
+    },
+    {
+      "id": "ev-allspares-910500",
+      "compatibilityGroupId": "cg-part-display-allspares-910500",
+      "sourceKey": "allspares-explicit-product-910500",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-note-11-black-best-copy-without-frame-copy-tft-x663-x663b/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "910500"
+      ],
+      "citedModelCodes": [
+        "X670",
+        "X6716",
+        "X676C",
+        "X6819"
+      ],
+      "notes": "توافق تجاري مذكور من مورد All-Spares للقطعة 910500. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: TFT. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ."
+    },
+    {
+      "id": "ev-allspares-918429",
+      "compatibilityGroupId": "cg-part-display-allspares-918429",
+      "sourceKey": "allspares-explicit-product-918429",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-note-40-pro-x6850-without-frame-original-prc/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "918429"
+      ],
+      "citedModelCodes": [
+        "X6850",
+        "X6851",
+        "X6851B"
+      ],
+      "notes": "توافق تجاري مذكور من مورد All-Spares للقطعة 918429. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: AMOLED. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ."
+    },
+    {
+      "id": "ev-allspares-918423",
+      "compatibilityGroupId": "cg-part-display-allspares-918423",
+      "sourceKey": "allspares-explicit-product-918423",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-zero-30-4g-x6731b-zero-30-5g-x6731-black-without-frame-original-prc/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "918423"
+      ],
+      "citedModelCodes": [
+        "X6731",
+        "X6731B"
+      ],
+      "notes": "توافق تجاري مذكور من مورد All-Spares للقطعة 918423. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: AMOLED. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ."
     }
   ],
   "categoryFacts": [
@@ -40831,6 +41078,292 @@
         "checkedAt": "2026-10-23T12:00:00Z"
       },
       "deviceId": "dev_3kxshmneotsw4ddh26rffr7yci"
+    },
+    {
+      "id": "diff-allspares-928600-vxxavuk2i",
+      "partId": "part-display-allspares-928600",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928600. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-gt-20-pro-x6871-note-40-x6853-black-without-frame-copy-tft/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928600",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_cv2ykcvi4ahyaum4svxxavuk2i"
+    },
+    {
+      "id": "diff-allspares-928600-xa3s6udny",
+      "partId": "part-display-allspares-928600",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928600. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-gt-20-pro-x6871-note-40-x6853-black-without-frame-copy-tft/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928600",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_jp4ttbr5jmo4g4epdxa3s6udny"
+    },
+    {
+      "id": "diff-allspares-928600-fhx2lssbm",
+      "partId": "part-display-allspares-928600",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928600. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-gt-20-pro-x6871-note-40-x6853-black-without-frame-copy-tft/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928600",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_moaoiuqune37kdk27fhx2lssbm"
+    },
+    {
+      "id": "diff-allspares-928600-y5rnhi3fe",
+      "partId": "part-display-allspares-928600",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928600. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-gt-20-pro-x6871-note-40-x6853-black-without-frame-copy-tft/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928600",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_mzztzfrag4iz23w3xy5rnhi3fe"
+    },
+    {
+      "id": "diff-allspares-928600-wskzbgn5q",
+      "partId": "part-display-allspares-928600",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928600. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-gt-20-pro-x6871-note-40-x6853-black-without-frame-copy-tft/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928600",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_y67jbp65wnfxgwfzwwskzbgn5q"
+    },
+    {
+      "id": "diff-allspares-921002-x2wupl2rm",
+      "partId": "part-display-allspares-921002",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 921002. جودة المورد: High Copy؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-20i-x665c-x665e-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-921002",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_dxhgu3p74aw3lt2ojx2wupl2rm"
+    },
+    {
+      "id": "diff-allspares-921002-scjzcsfoy",
+      "partId": "part-display-allspares-921002",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 921002. جودة المورد: High Copy؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-20i-x665c-x665e-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-921002",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_teeymkmut2rz5zc53scjzcsfoy"
+    },
+    {
+      "id": "diff-allspares-928597-flvtk6wne",
+      "partId": "part-display-allspares-928597",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928597. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-50-5g-x6720-hot-50i-x6531-smart-9-x6532-smart-9-hd-x6532c-black-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928597",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_l3g6nyf77fej7g76dflvtk6wne"
+    },
+    {
+      "id": "diff-allspares-928597-s5rqzfnvm",
+      "partId": "part-display-allspares-928597",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928597. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-50-5g-x6720-hot-50i-x6531-smart-9-x6532-smart-9-hd-x6532c-black-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928597",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_o6mwtbdb6vqbdrfz4s5rqzfnvm"
+    },
+    {
+      "id": "diff-allspares-928597-2dthddm6u",
+      "partId": "part-display-allspares-928597",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928597. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-50-5g-x6720-hot-50i-x6531-smart-9-x6532-smart-9-hd-x6532c-black-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928597",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_w5vhza2hixxhefjxc2dthddm6u"
+    },
+    {
+      "id": "diff-allspares-928597-y77wy53be",
+      "partId": "part-display-allspares-928597",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928597. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-50-5g-x6720-hot-50i-x6531-smart-9-x6532-smart-9-hd-x6532c-black-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928597",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_xcxgzcsvuu6ax2drby77wy53be"
+    },
+    {
+      "id": "diff-allspares-928790-mq45myrga",
+      "partId": "part-display-allspares-928790",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928790. جودة المورد: High Copy؛ الإطار: With frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-60-x6726-smart-10-x6725-black-with-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928790",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_bjutr4shlmojl5hqqmq45myrga"
+    },
+    {
+      "id": "diff-allspares-928790-qvesnwb3u",
+      "partId": "part-display-allspares-928790",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 928790. جودة المورد: High Copy؛ الإطار: With frame؛ التقنية: IPS. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-60-x6726-smart-10-x6725-black-with-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-928790",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_elc5qi6hjvebnb45pqvesnwb3u"
+    },
+    {
+      "id": "diff-allspares-910500-yjkh26i6e",
+      "partId": "part-display-allspares-910500",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 910500. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: TFT. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-note-11-black-best-copy-without-frame-copy-tft-x663-x663b/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-910500",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_eugtq44nxnbmwzokjyjkh26i6e"
+    },
+    {
+      "id": "diff-allspares-910500-etgvqh6gy",
+      "partId": "part-display-allspares-910500",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 910500. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: TFT. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-note-11-black-best-copy-without-frame-copy-tft-x663-x663b/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-910500",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_n32bg6t33fghd76vsetgvqh6gy"
+    },
+    {
+      "id": "diff-allspares-910500-zggsae2ae",
+      "partId": "part-display-allspares-910500",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 910500. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: TFT. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-note-11-black-best-copy-without-frame-copy-tft-x663-x663b/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-910500",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_rfylhgxawsc73bcwrzggsae2ae"
+    },
+    {
+      "id": "diff-allspares-910500-f4hrpnc3a",
+      "partId": "part-display-allspares-910500",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 910500. جودة المورد: Copy؛ الإطار: Without frame؛ التقنية: TFT. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-note-11-black-best-copy-without-frame-copy-tft-x663-x663b/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-910500",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_tze37nr7swfmmrtqdf4hrpnc3a"
+    },
+    {
+      "id": "diff-allspares-918429-fertmqcmm",
+      "partId": "part-display-allspares-918429",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 918429. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: AMOLED. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-note-40-pro-x6850-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-918429",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_kpf253wwnezz3ibwsfertmqcmm"
+    },
+    {
+      "id": "diff-allspares-918429-s6z4wmnxu",
+      "partId": "part-display-allspares-918429",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 918429. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: AMOLED. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-note-40-pro-x6850-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-918429",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_ofvd6iulrvctdawx6s6z4wmnxu"
+    },
+    {
+      "id": "diff-allspares-918429-zli6qu2gm",
+      "partId": "part-display-allspares-918429",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 918429. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: AMOLED. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-note-40-pro-x6850-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-918429",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_xdf6646pjuw3zkipkzli6qu2gm"
+    },
+    {
+      "id": "diff-allspares-918423-pk6sc2gjq",
+      "partId": "part-display-allspares-918423",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 918423. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: AMOLED. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-zero-30-4g-x6731b-zero-30-5g-x6731-black-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-918423",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_orrydxvewfmtqhvv6pk6sc2gjq"
+    },
+    {
+      "id": "diff-allspares-918423-f4qgtrrqy",
+      "partId": "part-display-allspares-918423",
+      "title": "توافق قطعة تجارية — غير مؤكد لشاشة المصنع",
+      "description": "توافق تجاري مذكور من مورد All-Spares للقطعة 918423. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: AMOLED. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ. يجب التحقق من نوع القطعة والإطار والموصل قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-zero-30-4g-x6731b-zero-30-5g-x6731-black-without-frame-original-prc/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-explicit-product-918423",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_yizqou3tens6c26vof4qgtrrqy"
     }
   ]
 }

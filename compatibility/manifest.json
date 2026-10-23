@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 255223953260591,
-  "generatedAt": "2026-10-23T10:45:21.161Z",
+  "manifestVersion": 255223953260592,
+  "generatedAt": "2026-10-23T11:10:46.452Z",
   "schemaVersion": 3,
   "entries": [
     {
@@ -16,11 +16,11 @@
     {
       "id": "display",
       "type": "displays",
-      "version": "display-14cd8b3987f36729",
+      "version": "display-e1ba8a6090d40d04",
       "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/display.json",
-      "sha256": "14cd8b3987f367291b4a6f116c5962e705717ecc424162314006a3e6f84c870c",
-      "compressedBytes": 1544550,
-      "uncompressedBytes": 1544550,
+      "sha256": "e1ba8a6090d40d040034ab50e92a06fae10e1e1f3eb6fcfe5f516e8de0e725d9",
+      "compressedBytes": 1575915,
+      "uncompressedBytes": 1575915,
       "archiveFormat": "rawJson",
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
