@@ -731,6 +731,20 @@
       "canonicalPartNumbers": [
         "660101241A"
       ]
+    },
+    {
+      "id": "part-display-commercial-zero5g-6601128744a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "6601128744A"
+      ]
+    },
+    {
+      "id": "part-display-commercial-smart10-928443",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "928443"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1550,6 +1564,23 @@
       "deviceIds": [
         "dev_va44wqykkvgau2fey7colgiuri",
         "dev_tmvympazmxcc7keslabl74pul4"
+      ]
+    },
+    {
+      "id": "cg-part-display-commercial-zero5g-6601128744a",
+      "partId": "part-display-commercial-zero5g-6601128744a",
+      "deviceIds": [
+        "dev_yitlti7sxa3s7j45o5ojzkotnq",
+        "dev_y3daxnhvdjoweb3owrbil7pife"
+      ]
+    },
+    {
+      "id": "cg-part-display-commercial-smart10-928443",
+      "partId": "part-display-commercial-smart10-928443",
+      "deviceIds": [
+        "dev_elc5qi6hjvebnb45pqvesnwb3u",
+        "dev_iba66niq7zyhlukjdopfldbhce",
+        "dev_bjutr4shlmojl5hqqmq45myrga"
       ]
     }
   ],
@@ -5911,6 +5942,43 @@
         "X687B"
       ],
       "notes": "شاشة Grade C تجارية لـZERO 8 X687 وZERO 8i X687B حسب البائع. قد لا تدعم البصمة أسفل الشاشة؛ اختبرها قبل التركيب. لا يوجد إثبات بتبادل شاشة المصنع الأصلية."
+    },
+    {
+      "id": "ev-zero5g-6601128744a",
+      "compatibilityGroupId": "cg-part-display-commercial-zero5g-6601128744a",
+      "sourceKey": "commercial-supplier-zero5g-6601128744a",
+      "sourceType": "partsSupplier",
+      "sourceName": "TVCMALL",
+      "sourceUrl": "https://www.tvcmall.com/ar/details/for-infinix-zero-5g-x6815-x6815b-grade-c-lcd-screen-and-digitizer-assembly-frame-part-without-logo-sku6601128744a.html",
+      "checkedAt": "2026-10-23T12:00:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "6601128744A"
+      ],
+      "citedModelCodes": [
+        "X6815",
+        "X6815B"
+      ],
+      "notes": "توافق مُعلن للقطعة التجارية المحددة فقط: LCD تجارية Grade C مع اللمس والإطار. لا يثبت توافق شاشة المصنع الأصلية أو غيرها من النسخ؛ افحص رقم القطعة والإطار والموصل قبل التركيب."
+    },
+    {
+      "id": "ev-smart10-928443",
+      "compatibilityGroupId": "cg-part-display-commercial-smart10-928443",
+      "sourceKey": "commercial-supplier-smart10-928443",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-60-x6726-smart-10-x6725-smart-10-plus-x6725b-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-23T12:00:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "928443"
+      ],
+      "citedModelCodes": [
+        "X6725",
+        "X6725B",
+        "X6726"
+      ],
+      "notes": "توافق مُعلن للقطعة التجارية المحددة فقط: IPS LCD تجارية High Copy مع اللمس بدون إطار. لا يثبت توافق شاشة المصنع الأصلية أو غيرها من النسخ؛ افحص رقم القطعة والإطار والموصل قبل التركيب."
     }
   ],
   "categoryFacts": [
@@ -40624,6 +40692,71 @@
         "checkedAt": "2026-10-16T00:00:00Z"
       },
       "deviceId": "dev_tmvympazmxcc7keslabl74pul4"
+    },
+    {
+      "id": "diff-zero5g-6601128744a-x6815",
+      "partId": "part-display-commercial-zero5g-6601128744a",
+      "title": "توافق شاشة تجارية غير مؤكد — لا يثبت شاشة المصنع",
+      "description": "LCD تجارية Grade C مع اللمس والإطار. التوافق خاص برقم القطعة 6601128744A حسب المورد، وقد تختلف قطع المصنع والنسخ والإطارات. تحقق قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://www.tvcmall.com/ar/details/for-infinix-zero-5g-x6815-x6815b-grade-c-lcd-screen-and-digitizer-assembly-frame-part-without-logo-sku6601128744a.html",
+        "sourceName": "TVCMALL",
+        "sourceKey": "commercial-supplier-zero5g-6601128744a",
+        "checkedAt": "2026-10-23T12:00:00Z"
+      },
+      "deviceId": "dev_yitlti7sxa3s7j45o5ojzkotnq"
+    },
+    {
+      "id": "diff-zero5g-6601128744a-x6815b",
+      "partId": "part-display-commercial-zero5g-6601128744a",
+      "title": "توافق شاشة تجارية غير مؤكد — لا يثبت شاشة المصنع",
+      "description": "LCD تجارية Grade C مع اللمس والإطار. التوافق خاص برقم القطعة 6601128744A حسب المورد، وقد تختلف قطع المصنع والنسخ والإطارات. تحقق قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://www.tvcmall.com/ar/details/for-infinix-zero-5g-x6815-x6815b-grade-c-lcd-screen-and-digitizer-assembly-frame-part-without-logo-sku6601128744a.html",
+        "sourceName": "TVCMALL",
+        "sourceKey": "commercial-supplier-zero5g-6601128744a",
+        "checkedAt": "2026-10-23T12:00:00Z"
+      },
+      "deviceId": "dev_y3daxnhvdjoweb3owrbil7pife"
+    },
+    {
+      "id": "diff-smart10-928443-x6725",
+      "partId": "part-display-commercial-smart10-928443",
+      "title": "توافق شاشة تجارية غير مؤكد — لا يثبت شاشة المصنع",
+      "description": "IPS LCD تجارية High Copy مع اللمس بدون إطار. التوافق خاص برقم القطعة 928443 حسب المورد، وقد تختلف قطع المصنع والنسخ والإطارات. تحقق قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-60-x6726-smart-10-x6725-smart-10-plus-x6725b-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "commercial-supplier-smart10-928443",
+        "checkedAt": "2026-10-23T12:00:00Z"
+      },
+      "deviceId": "dev_elc5qi6hjvebnb45pqvesnwb3u"
+    },
+    {
+      "id": "diff-smart10-928443-x6725b",
+      "partId": "part-display-commercial-smart10-928443",
+      "title": "توافق شاشة تجارية غير مؤكد — لا يثبت شاشة المصنع",
+      "description": "IPS LCD تجارية High Copy مع اللمس بدون إطار. التوافق خاص برقم القطعة 928443 حسب المورد، وقد تختلف قطع المصنع والنسخ والإطارات. تحقق قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-60-x6726-smart-10-x6725-smart-10-plus-x6725b-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "commercial-supplier-smart10-928443",
+        "checkedAt": "2026-10-23T12:00:00Z"
+      },
+      "deviceId": "dev_iba66niq7zyhlukjdopfldbhce"
+    },
+    {
+      "id": "diff-smart10-928443-x6726",
+      "partId": "part-display-commercial-smart10-928443",
+      "title": "توافق شاشة تجارية غير مؤكد — لا يثبت شاشة المصنع",
+      "description": "IPS LCD تجارية High Copy مع اللمس بدون إطار. التوافق خاص برقم القطعة 928443 حسب المورد، وقد تختلف قطع المصنع والنسخ والإطارات. تحقق قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-infinix-hot-60-x6726-smart-10-x6725-smart-10-plus-x6725b-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "commercial-supplier-smart10-928443",
+        "checkedAt": "2026-10-23T12:00:00Z"
+      },
+      "deviceId": "dev_bjutr4shlmojl5hqqmq45myrga"
     }
   ]
 }
