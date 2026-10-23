@@ -745,6 +745,13 @@
       "canonicalPartNumbers": [
         "928443"
       ]
+    },
+    {
+      "id": "part-display-commercial-zero5g-660109510a",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "660109510A"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1581,6 +1588,15 @@
         "dev_elc5qi6hjvebnb45pqvesnwb3u",
         "dev_iba66niq7zyhlukjdopfldbhce",
         "dev_bjutr4shlmojl5hqqmq45myrga"
+      ]
+    },
+    {
+      "id": "cg-part-display-commercial-zero5g-660109510a",
+      "partId": "part-display-commercial-zero5g-660109510a",
+      "deviceIds": [
+        "dev_yitlti7sxa3s7j45o5ojzkotnq",
+        "dev_yj3lwlidc5lxsdlqopnfbxumgq",
+        "dev_3kxshmneotsw4ddh26rffr7yci"
       ]
     }
   ],
@@ -5979,6 +5995,25 @@
         "X6726"
       ],
       "notes": "توافق مُعلن للقطعة التجارية المحددة فقط: IPS LCD تجارية High Copy مع اللمس بدون إطار. لا يثبت توافق شاشة المصنع الأصلية أو غيرها من النسخ؛ افحص رقم القطعة والإطار والموصل قبل التركيب."
+    },
+    {
+      "id": "ev-zero5g-660109510a",
+      "compatibilityGroupId": "cg-part-display-commercial-zero5g-660109510a",
+      "sourceKey": "tvcmall-commercial-zero5g-660109510a",
+      "sourceType": "partsSupplier",
+      "sourceName": "TVCMALL",
+      "sourceUrl": "https://www.tvcmall.com/details/for-infinix-zero-5g-x6815-grade-c-lcd-screen-and-digitizer-assembly-replacement-part-without-logo-sku660109510a.html",
+      "checkedAt": "2026-10-23T12:00:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "660109510A"
+      ],
+      "citedModelCodes": [
+        "X6815",
+        "X6815C",
+        "X6815D"
+      ],
+      "notes": "توافق شاشة LCD تجارية Grade C مع اللمس، موديلات X6815 وX6815C وX6815D، دون شعار أو إطار حسب عرض المنتج. هذا لا يثبت توافق شاشة المصنع؛ الاختبار قبل التركيب."
     }
   ],
   "categoryFacts": [
@@ -40757,6 +40792,45 @@
         "checkedAt": "2026-10-23T12:00:00Z"
       },
       "deviceId": "dev_bjutr4shlmojl5hqqmq45myrga"
+    },
+    {
+      "id": "diff-commercial-660109510a-x6815",
+      "partId": "part-display-commercial-zero5g-660109510a",
+      "title": "توافق شاشة تجارية غير مؤكد — لا يثبت شاشة المصنع",
+      "description": "الشاشة التجارية Grade C رقم 660109510A مذكورة لهذه الموديلات من TVCMALL، لا يلزم منها أن الشاشة الأصلية أو قطع Grade أخرى متبادلة. افحص رقم القطعة والموصل والإطار قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://www.tvcmall.com/details/for-infinix-zero-5g-x6815-grade-c-lcd-screen-and-digitizer-assembly-replacement-part-without-logo-sku660109510a.html",
+        "sourceName": "TVCMALL",
+        "sourceKey": "tvcmall-commercial-zero5g-660109510a",
+        "checkedAt": "2026-10-23T12:00:00Z"
+      },
+      "deviceId": "dev_yitlti7sxa3s7j45o5ojzkotnq"
+    },
+    {
+      "id": "diff-commercial-660109510a-x6815c",
+      "partId": "part-display-commercial-zero5g-660109510a",
+      "title": "توافق شاشة تجارية غير مؤكد — لا يثبت شاشة المصنع",
+      "description": "الشاشة التجارية Grade C رقم 660109510A مذكورة لهذه الموديلات من TVCMALL، لا يلزم منها أن الشاشة الأصلية أو قطع Grade أخرى متبادلة. افحص رقم القطعة والموصل والإطار قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://www.tvcmall.com/details/for-infinix-zero-5g-x6815-grade-c-lcd-screen-and-digitizer-assembly-replacement-part-without-logo-sku660109510a.html",
+        "sourceName": "TVCMALL",
+        "sourceKey": "tvcmall-commercial-zero5g-660109510a",
+        "checkedAt": "2026-10-23T12:00:00Z"
+      },
+      "deviceId": "dev_yj3lwlidc5lxsdlqopnfbxumgq"
+    },
+    {
+      "id": "diff-commercial-660109510a-x6815d",
+      "partId": "part-display-commercial-zero5g-660109510a",
+      "title": "توافق شاشة تجارية غير مؤكد — لا يثبت شاشة المصنع",
+      "description": "الشاشة التجارية Grade C رقم 660109510A مذكورة لهذه الموديلات من TVCMALL، لا يلزم منها أن الشاشة الأصلية أو قطع Grade أخرى متبادلة. افحص رقم القطعة والموصل والإطار قبل التركيب.",
+      "provenance": {
+        "sourceUrl": "https://www.tvcmall.com/details/for-infinix-zero-5g-x6815-grade-c-lcd-screen-and-digitizer-assembly-replacement-part-without-logo-sku660109510a.html",
+        "sourceName": "TVCMALL",
+        "sourceKey": "tvcmall-commercial-zero5g-660109510a",
+        "checkedAt": "2026-10-23T12:00:00Z"
+      },
+      "deviceId": "dev_3kxshmneotsw4ddh26rffr7yci"
     }
   ]
 }
