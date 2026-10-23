@@ -8545,6 +8545,17 @@
             "sourceKey": "gsmarena-x6832",
             "checkedAt": "2026-10-06T08:30:00+03:00"
           }
+        },
+        {
+          "key": "brightness",
+          "value": "580 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://wap.cm.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=530",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
+          }
         }
       ]
     },
@@ -8700,6 +8711,28 @@
             "sourceName": "GSMArena",
             "sourceKey": "gsmarena-x6516",
             "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "500 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://wap.ci.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=589",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "60",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmchoice.com/en/catalogue/infinix/smart7hd/?variant=32900",
+            "sourceName": "GSMchoice 60Hz / Infinix Official X6516 / CellKaro code+60Hz",
+            "sourceKey": "x6516-crosschecked-20261023",
+            "checkedAt": "2026-10-23T11:00:00Z"
           }
         }
       ]
@@ -9597,6 +9630,17 @@
             "sourceName": "GSMArena",
             "sourceKey": "gsmarena-x6837",
             "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "500 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://co.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=688",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -11598,6 +11642,17 @@
             "sourceKey": "infinix-official-hot40i",
             "checkedAt": "2026-10-06T05:30:00Z"
           }
+        },
+        {
+          "key": "brightness",
+          "value": "480 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://iq.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=668",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
+          }
         }
       ]
     },
@@ -11686,6 +11741,17 @@
             "sourceName": "GSMArena",
             "sourceKey": "gsmarena-x669",
             "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "500 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://wap.et.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=388",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -15960,6 +16026,17 @@
             "sourceKey": "infinix-official-x6711",
             "checkedAt": "2026-10-06T08:30:00+03:00"
           }
+        },
+        {
+          "key": "brightness",
+          "value": "580 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://co.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=453",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
+          }
         }
       ]
     },
@@ -18494,6 +18571,17 @@
             "sourceName": "GSMArena",
             "sourceKey": "gsmarena-x6836",
             "checkedAt": "2026-10-06T08:30:00+03:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "500 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://co.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=644",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -23214,6 +23302,17 @@
             "sourceKey": "infinix-official-x665c",
             "checkedAt": "2026-10-06T09:18:00+03:00"
           }
+        },
+        {
+          "key": "refreshRate",
+          "value": "60",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://cellkaro.com/mobiles/infinix-hot-20i-full-specifications",
+            "sourceName": "CellKaro exact X665C; supported by 2026 technical variant review",
+            "sourceKey": "multi-source-reviewed-20261023",
+            "checkedAt": "2026-10-23T10:00:00Z"
+          }
         }
       ]
     },
@@ -24238,6 +24337,17 @@
             "sourceKey": "gsmarena-hot30play-x6835-family",
             "checkedAt": "2026-10-06T13:55:34+03:00"
           }
+        },
+        {
+          "key": "brightness",
+          "value": "500 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://wap.ci.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=425",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
+          }
         }
       ]
     },
@@ -24287,6 +24397,17 @@
             "sourceName": "GSMArena",
             "sourceKey": "gsmarena-hot30play-x6835-family",
             "checkedAt": "2026-10-06T13:55:34+03:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "500 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://wap.cm.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=433",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -24711,6 +24832,17 @@
             "sourceKey": "iprogadgets-hot30i-x669-specs",
             "checkedAt": "2026-10-06T12:55:00Z"
           }
+        },
+        {
+          "key": "brightness",
+          "value": "500 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://co.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=375",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
+          }
         }
       ]
     },
@@ -24760,6 +24892,17 @@
             "sourceName": "iProGadgets",
             "sourceKey": "iprogadgets-hot30i-x669-specs",
             "checkedAt": "2026-10-06T12:55:00Z"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "500 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://wap.cm.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=388",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -25355,6 +25498,17 @@
             "sourceName": "GSMArena",
             "sourceKey": "gsmarena-note40pro4g-x6850",
             "checkedAt": "2026-10-06T18:48:20.844Z"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "1300 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://co.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=727",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -26506,6 +26660,17 @@
             "sourceKey": "gt20-pro-refresh-rate",
             "checkedAt": "2026-10-09T13:08:00Z"
           }
+        },
+        {
+          "key": "brightness",
+          "value": "1300 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://co.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=747",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
+          }
         }
       ]
     },
@@ -26556,6 +26721,17 @@
             "sourceKey": "gsmarena-gt10pro-exactmodel",
             "checkedAt": "2026-10-09T13:12:17.204700+00:00"
           }
+        },
+        {
+          "key": "brightness",
+          "value": "900 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=575",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
+          }
         }
       ]
     },
@@ -26605,6 +26781,17 @@
             "sourceName": "GSMArena Bangladesh X6731",
             "sourceKey": "verified-model-display",
             "checkedAt": "2026-10-09T13:12:17.204700+00:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "950 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://co.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=597",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -27942,6 +28129,17 @@
             "sourceKey": "confirmed-model-x6870",
             "checkedAt": "2026-10-09T13:25:17.487721+00:00"
           }
+        },
+        {
+          "key": "brightness",
+          "value": "1300 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://co.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=1075",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
+          }
         }
       ]
     },
@@ -28031,6 +28229,17 @@
             "sourceKey": "model-x6855",
             "checkedAt": "2026-10-09T13:26:06.715420+00:00"
           }
+        },
+        {
+          "key": "brightness",
+          "value": "1300 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://co.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=1020",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
+          }
         }
       ]
     },
@@ -28080,6 +28289,17 @@
             "sourceName": "Exact model X6858 display specification",
             "sourceKey": "model-x6858",
             "checkedAt": "2026-10-09T13:26:06.715420+00:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "1300 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=1164",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -28854,6 +29074,17 @@
             "sourceKey": "model-x6716",
             "checkedAt": "2026-10-09T13:29:09.450287+00:00"
           }
+        },
+        {
+          "key": "refreshRate",
+          "value": "60",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_note_30i_announced_with_helio_g85_and_64mp_main_cam-news-58576.php",
+            "sourceName": "GSMArena + GSMchoice agree; GSMchoice code X6716",
+            "sourceKey": "multi-source-reviewed-20261023",
+            "checkedAt": "2026-10-23T10:00:00Z"
+          }
         }
       ]
     },
@@ -28903,6 +29134,17 @@
             "sourceName": "Verified model X6833B",
             "sourceKey": "model-x6833b",
             "checkedAt": "2026-10-09T13:29:09.450287+00:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "580 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=520",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -29203,6 +29445,17 @@
             "sourceName": "Model-specific X6856 specifications",
             "sourceKey": "note50proplus-x6856",
             "checkedAt": "2026-10-09T13:35:53.953640+00:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "1300 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://iq.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=1043",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -30435,6 +30688,17 @@
             "sourceKey": "model-x6815",
             "checkedAt": "2026-10-09T13:43:18.062124+00:00"
           }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_zero_5g-review-2377p3.php",
+            "sourceName": "GSMArena — named-model display specification; exact code cross-checked in local catalog",
+            "sourceKey": "gsmarena-named-model-20261023-reviewed",
+            "checkedAt": "2026-10-23T10:00:00Z"
+          }
         }
       ]
     },
@@ -30562,6 +30826,17 @@
             "sourceName": "Model specification X6815D",
             "sourceKey": "model-x6815d",
             "checkedAt": "2026-10-09T13:43:18.062124+00:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_zero_5g_2023-11976.php",
+            "sourceName": "GSMArena — named-model display specification; exact code cross-checked in local catalog",
+            "sourceKey": "gsmarena-named-model-20261023-reviewed",
+            "checkedAt": "2026-10-23T10:00:00Z"
           }
         }
       ]
@@ -30751,6 +31026,17 @@
             "sourceName": "Model-specific source X6811B",
             "sourceKey": "model-x6811b",
             "checkedAt": "2026-10-09T13:43:38.028300+00:00"
+          }
+        },
+        {
+          "key": "refreshRate",
+          "value": "120",
+          "unit": "Hz",
+          "provenance": {
+            "sourceUrl": "https://www.gsmarena.com/infinix_zero_x-11097.php",
+            "sourceName": "GSMArena — named-model display specification; exact code cross-checked in local catalog",
+            "sourceKey": "gsmarena-named-model-20261023-reviewed",
+            "checkedAt": "2026-10-23T10:00:00Z"
           }
         }
       ]
@@ -31018,6 +31304,17 @@
             "sourceName": "Infinix official device specs X6857",
             "sourceKey": "official-display-x6857",
             "checkedAt": "2026-10-09T13:44:18.586572+00:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "672 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=1193",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
@@ -32087,6 +32384,17 @@
             "sourceName": "Infinix ZERO 30 4G official specs (X6731B)",
             "sourceKey": "zero-30-4g-display",
             "checkedAt": "2026-10-09T13:51:06.154987+00:00"
+          }
+        },
+        {
+          "key": "brightness",
+          "value": "950 (ذروة)",
+          "unit": "nit",
+          "provenance": {
+            "sourceUrl": "https://id.infinixmobility.com/api/V1/xpark-app/get-product-spec?id=660",
+            "sourceName": "Infinix Official — exact hardware code manufacturer specifications",
+            "sourceKey": "infinix-peak-exactcode-strict-local-audit",
+            "checkedAt": "2026-10-23T08:00:00Z"
           }
         }
       ]
