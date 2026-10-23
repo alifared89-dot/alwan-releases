@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mediaManifest": {
     "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/device_media_manifest.json",
-    "bytes": 132743,
-    "sha256": "d6687a4376dccaf1b5364fc9cd7f3281ac8e8621dff18fc5300650ea64811912"
+    "bytes": 201906,
+    "sha256": "a12f6013663722907e249fef4156fbf7ccd0e2145df1574af9c9181554ab3cb9"
   },
   "chunks": [
     {
@@ -502,6 +502,83 @@
       "compressedBytes": 1845658,
       "uncompressedBytes": 1844587,
       "sha256": "893d7b1b1ab47901b90f21befdd89b74daf6277c9b36f9ac1445bf5b7c5e34c3"
+    },
+    {
+      "chunkId": "apple-official-e1b08fd119e6a68a",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-e1b08fd119e6a68a.zip",
+      "compressedBytes": 4477558,
+      "uncompressedBytes": 4496316,
+      "sha256": "e1b08fd119e6a68a56df0641212316e1dd1e1bfe24983f31d4c908a8555526c0"
+    },
+    {
+      "chunkId": "apple-official-0560cc81989af7a5",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-0560cc81989af7a5.zip",
+      "compressedBytes": 6759598,
+      "uncompressedBytes": 6776006,
+      "sha256": "0560cc81989af7a5d89e3377e69984c77f7dc92d986e9578b814ecb00a7c3806"
+    },
+    {
+      "chunkId": "apple-official-89277030435662ab",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-89277030435662ab.zip",
+      "compressedBytes": 6179738,
+      "uncompressedBytes": 6195973,
+      "sha256": "89277030435662ab59a56f2223b52038f6c0b1bf43247c9ea04136f36ab6b8fa"
+    },
+    {
+      "chunkId": "apple-official-d6711450cff12c94",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-d6711450cff12c94.zip",
+      "compressedBytes": 5123770,
+      "uncompressedBytes": 5143037,
+      "sha256": "d6711450cff12c94d63a473bb73b86e472f1adecc50f739ef1e94e67788e9e6b"
+    },
+    {
+      "chunkId": "apple-official-df6e62908240e0d5",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-df6e62908240e0d5.zip",
+      "compressedBytes": 5163613,
+      "uncompressedBytes": 5177534,
+      "sha256": "df6e62908240e0d59408539760c65b4db26ad8e13890bb2391c934a269688304"
+    },
+    {
+      "chunkId": "apple-official-a0c94f09f4f5c059",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-a0c94f09f4f5c059.zip",
+      "compressedBytes": 8820661,
+      "uncompressedBytes": 8822641,
+      "sha256": "a0c94f09f4f5c059e94722716df01bcb3f78ab9cad3469306477a4394d3be8d1"
+    },
+    {
+      "chunkId": "apple-official-e169079f9911657a",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-e169079f9911657a.zip",
+      "compressedBytes": 8665133,
+      "uncompressedBytes": 8671248,
+      "sha256": "e169079f9911657a8564d6cd32f2758f5e6a845fee7aad5a7861d75509ce92c0"
+    },
+    {
+      "chunkId": "apple-official-6beae6b33e4c9652",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-6beae6b33e4c9652.zip",
+      "compressedBytes": 6176235,
+      "uncompressedBytes": 6181810,
+      "sha256": "6beae6b33e4c9652b3d80d626340e13bedd6c08c097d280a323b0219731c40a3"
+    },
+    {
+      "chunkId": "apple-official-03bc28134481dfc5",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-03bc28134481dfc5.zip",
+      "compressedBytes": 4949557,
+      "uncompressedBytes": 4967586,
+      "sha256": "03bc28134481dfc5edbed16956b1d9b96617a1b59147261822a2f4d6f2de21c8"
+    },
+    {
+      "chunkId": "apple-official-f0cca2f40909287f",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-f0cca2f40909287f.zip",
+      "compressedBytes": 5721252,
+      "uncompressedBytes": 5734458,
+      "sha256": "f0cca2f40909287f5ff6400ba45e0bfaab99b4042fe8f13f1eaa73a7ae37788e"
+    },
+    {
+      "chunkId": "apple-official-dae8bb0edf9f6fdf",
+      "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/device-media/chunks/apple-official-dae8bb0edf9f6fdf.zip",
+      "compressedBytes": 1614813,
+      "uncompressedBytes": 1619621,
+      "sha256": "dae8bb0edf9f6fdf510dffb78e746742d4509426b9a9dd9d5145aac107d95b05"
     }
   ]
 }

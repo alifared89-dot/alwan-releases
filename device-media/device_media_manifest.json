@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 18,
-  "generatedAt": "2026-10-16T15:40:00Z",
+  "manifestVersion": 19,
+  "generatedAt": "2026-10-23T13:00:00Z",
   "entries": [
     {
       "deviceId": "dev_muhbetyk7pmyb4jghcg3cmvszu",
@@ -2874,6 +2874,1635 @@
         "X5516"
       ],
       "checkedAt": "2026-10-16T13:21:20Z"
+    },
+    {
+      "deviceId": "apple-iphone-duo",
+      "revision": "apple-official-9a6fbcc87587bc2f-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-duo-9a6fbcc87587.png",
+      "chunkId": "apple-official-e1b08fd119e6a68a",
+      "sha256": "b5808fe245eabc43418ebecfd35021f81bf18e2c458175ce963496f67f44d870",
+      "bytes": 658946,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-duo/iphone-duo-colors.png",
+      "verifiedModelCodes": [
+        "A3447",
+        "A3719",
+        "A3721",
+        "A3720"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-18-pro-max",
+      "revision": "apple-official-b4e1cb5a51847761-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-18-pro-max-b4e1cb5a5184.png",
+      "chunkId": "apple-official-e1b08fd119e6a68a",
+      "sha256": "4d461091b046d89d70e0ea2eef1a1e12e7e0c1acce927560e2ee969acad45c63",
+      "bytes": 998982,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-18-pro-max-colors.png",
+      "verifiedModelCodes": [
+        "A3473",
+        "A3716",
+        "A3718",
+        "A3717"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-18-pro",
+      "revision": "apple-official-a447c5e74abd6d24-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-18-pro-a447c5e74abd.png",
+      "chunkId": "apple-official-e1b08fd119e6a68a",
+      "sha256": "b96ab63b18d82601bc4d9a330a66c1078333111511da528e9377f05ea93a40ff",
+      "bytes": 932586,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-18-pro-colors.png",
+      "verifiedModelCodes": [
+        "A3472",
+        "A3713",
+        "A3715",
+        "A3714"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-17e",
+      "revision": "apple-official-8b6fb3200c0ebc29-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-17e-8b6fb3200c0e.png",
+      "chunkId": "apple-official-e1b08fd119e6a68a",
+      "sha256": "3c906883a1867970a22f63a361ba8f7a15cb81f917d8bc13e7dbb032ab75aae7",
+      "bytes": 387202,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17e/iphone-17e-colors.png",
+      "verifiedModelCodes": [
+        "A3575",
+        "A3635",
+        "A3634"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-17-pro-max",
+      "revision": "apple-official-feaffd90d5ed9aaa-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-17-pro-max-feaffd90d5ed.png",
+      "chunkId": "apple-official-e1b08fd119e6a68a",
+      "sha256": "0c34ca4725a62a28f1461cc8f7cdc012e951307f84aa4702ce0b468f8a76d4ef",
+      "bytes": 448249,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-pro-max-colors.png",
+      "verifiedModelCodes": [
+        "A3257",
+        "A3525",
+        "A3527",
+        "A3526"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-17-pro",
+      "revision": "apple-official-bddaa4243446641f-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-17-pro-bddaa4243446.png",
+      "chunkId": "apple-official-e1b08fd119e6a68a",
+      "sha256": "3adaafbf58082480d21a80f6461f35a927b990cdf04537d729c313d091d92453",
+      "bytes": 417228,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-pro-colors.png",
+      "verifiedModelCodes": [
+        "A3256",
+        "A3522",
+        "A3524",
+        "A3523"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-17",
+      "revision": "apple-official-781cab3829cf48ba-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-17-781cab3829cf.png",
+      "chunkId": "apple-official-e1b08fd119e6a68a",
+      "sha256": "095b7606db6a522bf327ff8def34f81dbb616a951ebbcbe193b941e88a1573ff",
+      "bytes": 395290,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-colors.png",
+      "verifiedModelCodes": [
+        "A3258",
+        "A3519",
+        "A3521",
+        "A3520"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-air",
+      "revision": "apple-official-2a4f2b0474fcde40-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-air-2a4f2b0474fc.png",
+      "chunkId": "apple-official-e1b08fd119e6a68a",
+      "sha256": "c8cd27c650827ef4ce9d449efba3a5cdf041acd17ae2d02953b932e0372369af",
+      "bytes": 257833,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-air-colors.png",
+      "verifiedModelCodes": [
+        "A3260",
+        "A3516",
+        "A3518",
+        "A3517"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-16e",
+      "revision": "apple-official-632b9158c4491acd-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-16e-632b9158c449.png",
+      "chunkId": "apple-official-0560cc81989af7a5",
+      "sha256": "ca5c9036cbc92411d29157d115f2b2930a1148fa9de70cd4eaaf401200fca6ef",
+      "bytes": 390038,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16e/iphone-16e-colors.png",
+      "verifiedModelCodes": [
+        "A3212",
+        "A3408",
+        "A3410",
+        "A3409"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-16-pro-max",
+      "revision": "apple-official-0c178501af4a8640-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-16-pro-max-0c178501af4a.png",
+      "chunkId": "apple-official-0560cc81989af7a5",
+      "sha256": "12351d16d7d918ff150361c327fd460ebb5f5e02bfa38225f4e5a3d8e4153bcd",
+      "bytes": 665598,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-pro-max-colors.png",
+      "verifiedModelCodes": [
+        "A3084",
+        "A3295",
+        "A3297",
+        "A3296"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-16-pro",
+      "revision": "apple-official-88d15adf63c09d41-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-16-pro-88d15adf63c0.png",
+      "chunkId": "apple-official-0560cc81989af7a5",
+      "sha256": "2e00c49a91ed9475daf2b0aab8dc143173c50a9818cdff9a217c2a7989e24fe9",
+      "bytes": 662062,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-pro-colors.png",
+      "verifiedModelCodes": [
+        "A3083",
+        "A3292",
+        "A3294",
+        "A3293"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-16",
+      "revision": "apple-official-5a9bd8dc9b8be344-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-16-5a9bd8dc9b8b.png",
+      "chunkId": "apple-official-0560cc81989af7a5",
+      "sha256": "ea49c3811b47d54c76ad3c95c7205600f3242a594fda05d816bf0ed492d659e7",
+      "bytes": 765687,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-colors.png",
+      "verifiedModelCodes": [
+        "A3081",
+        "A3286",
+        "A3288",
+        "A3287"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-15-pro-max",
+      "revision": "apple-official-22ed10c6986c2c52-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-15-pro-max-22ed10c6986c.png",
+      "chunkId": "apple-official-0560cc81989af7a5",
+      "sha256": "02b405227a8fac0aeb9f5bf24b81b77065bd0257c1b482656bf4e067430c9888",
+      "bytes": 1178754,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-pro-max.png",
+      "verifiedModelCodes": [
+        "A2849",
+        "A3105",
+        "A3108",
+        "A3106"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-15-pro",
+      "revision": "apple-official-e91c699fc07e1ad3-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-15-pro-e91c699fc07e.png",
+      "chunkId": "apple-official-0560cc81989af7a5",
+      "sha256": "6212bfcf09eace728c95b09b2f013d6ca0be5f4b533f09b864ef6a8bba9674c4",
+      "bytes": 1122313,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-pro.png",
+      "verifiedModelCodes": [
+        "A2848",
+        "A3101",
+        "A3104",
+        "A3102"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-15-plus",
+      "revision": "apple-official-c6876c9136398acd-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-15-plus-c6876c913639.png",
+      "chunkId": "apple-official-0560cc81989af7a5",
+      "sha256": "1cbb8cec8f330b18e80114cafc2542b87508afef9d54b1568926c1253392a06f",
+      "bytes": 1023125,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-plus.png",
+      "verifiedModelCodes": [
+        "A2847",
+        "A3093",
+        "A3096",
+        "A3094"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-15",
+      "revision": "apple-official-57742189fd91b8f6-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-15-57742189fd91.png",
+      "chunkId": "apple-official-0560cc81989af7a5",
+      "sha256": "186b44ec7ceb50cfa1229d036eb4555f767c0caf288f87f669105fdb31e466c7",
+      "bytes": 968429,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15.png",
+      "verifiedModelCodes": [
+        "A2846",
+        "A3089",
+        "A3092",
+        "A3090"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-14-pro-max",
+      "revision": "apple-official-8d397286a0269672-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-14-pro-max-8d397286a026.png",
+      "chunkId": "apple-official-89277030435662ab",
+      "sha256": "b037fef888c13c0378e937768d2d9702bd8669e8bf7d4eb458691088880e7121",
+      "bytes": 648137,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-pro-max-colors.png",
+      "verifiedModelCodes": [
+        "A2651",
+        "A2893",
+        "A2896",
+        "A2895",
+        "A2894"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-14-pro",
+      "revision": "apple-official-0f00a4cb89635d6d-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-14-pro-0f00a4cb8963.png",
+      "chunkId": "apple-official-89277030435662ab",
+      "sha256": "7e3540960a137190f2493d81ef471f3fada1b02361e18aaf72e3af7b34a6ac9b",
+      "bytes": 626640,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-pro-colors.png",
+      "verifiedModelCodes": [
+        "A2650",
+        "A2889",
+        "A2892",
+        "A2891",
+        "A2890"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-14-plus",
+      "revision": "apple-official-7c91b723b6d73e38-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-14-plus-7c91b723b6d7.png",
+      "chunkId": "apple-official-89277030435662ab",
+      "sha256": "18020cd6111bb275c2094f57cb4a9118facf71a60e08e8aa89c51b82482fedb6",
+      "bytes": 530332,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-plus-colors-spring-2023.png",
+      "verifiedModelCodes": [
+        "A2632",
+        "A2885",
+        "A2888",
+        "A2887",
+        "A2886"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-14",
+      "revision": "apple-official-a73b1f8a13f9ff9b-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-14-a73b1f8a13f9.png",
+      "chunkId": "apple-official-89277030435662ab",
+      "sha256": "1fb3e81e7ab1a166a6577fa7851682309d905e091cff2e5276e6ab09b1d5a722",
+      "bytes": 945409,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-colors-spring-2023.png",
+      "verifiedModelCodes": [
+        "A2649",
+        "A2881",
+        "A2884",
+        "A2883",
+        "A2882"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-se-3rd-generation",
+      "revision": "apple-official-d5114fb70fff1ac8-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-se-3rd-generation-d5114fb70fff.png",
+      "chunkId": "apple-official-89277030435662ab",
+      "sha256": "51b479c687bccd40b54e7a37de1864c5379167666f5e1168e8380288ef934e20",
+      "bytes": 847720,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se-3rd-gen-colors.png",
+      "verifiedModelCodes": [
+        "A2595",
+        "A2782",
+        "A2784",
+        "A2785",
+        "A2783"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-13-pro-max",
+      "revision": "apple-official-26c5d61d34f2e485-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-13-pro-max-26c5d61d34f2.png",
+      "chunkId": "apple-official-89277030435662ab",
+      "sha256": "a41e0f2ca0edb6ba9471e8c21ebe81236ed27a5d08c50ccb89bfa1486004803b",
+      "bytes": 947094,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-pro-max-colors.png",
+      "verifiedModelCodes": [
+        "A2484",
+        "A2641",
+        "A2644",
+        "A2645",
+        "A2643"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-13-pro",
+      "revision": "apple-official-dcf2510a9e611bee-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-13-pro-dcf2510a9e61.png",
+      "chunkId": "apple-official-89277030435662ab",
+      "sha256": "97e995e145d554043243c8548077e26f0341047321d19f75da48351ef8c7d921",
+      "bytes": 895163,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-pro-colors.png",
+      "verifiedModelCodes": [
+        "A2483",
+        "A2636",
+        "A2639",
+        "A2640",
+        "A2638"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-13",
+      "revision": "apple-official-5769035bf5e83c23-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-13-5769035bf5e8.png",
+      "chunkId": "apple-official-89277030435662ab",
+      "sha256": "bdd027a4bfd4028064696cc91fde00518476362b21df3a8b5fdd6d50511fd3c4",
+      "bytes": 755478,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-colors.png",
+      "verifiedModelCodes": [
+        "A2482",
+        "A2631",
+        "A2634",
+        "A2635",
+        "A2633"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-13-mini",
+      "revision": "apple-official-980d1e1d8db13ae6-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-13-mini-980d1e1d8db1.png",
+      "chunkId": "apple-official-d6711450cff12c94",
+      "sha256": "b9c3894af0ad2dcdd426876fa04f9a2d03d0db825b068e820adeab6708a6eef5",
+      "bytes": 743243,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-iphone13-mini-colors.png",
+      "verifiedModelCodes": [
+        "A2481",
+        "A2626",
+        "A2629",
+        "A2630",
+        "A2628"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-12-pro-max",
+      "revision": "apple-official-62930059df436165-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-12-pro-max-62930059df43.png",
+      "chunkId": "apple-official-d6711450cff12c94",
+      "sha256": "b8c7dee447d7ad15d00b5f2afddebaa753944e0677994778d6a60daec9643c5d",
+      "bytes": 486377,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-12-pro-max/iphone12-pro-max-colors.jpg",
+      "verifiedModelCodes": [
+        "A2342",
+        "A2410",
+        "A2412",
+        "A2411"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-12-pro",
+      "revision": "apple-official-df5a109197702dd1-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-12-pro-df5a10919770.png",
+      "chunkId": "apple-official-d6711450cff12c94",
+      "sha256": "4a0480e08ea0dd42cdbcc6a1bc7df77efb87ff3db69763ba8b24481d4e0bc51b",
+      "bytes": 487601,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-12-pro/iphone12-pro-colors.jpg",
+      "verifiedModelCodes": [
+        "A2341",
+        "A2406",
+        "A2408",
+        "A2407"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-12",
+      "revision": "apple-official-b20589fa15261db1-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-12-b20589fa1526.png",
+      "chunkId": "apple-official-d6711450cff12c94",
+      "sha256": "50cd4601ffff4b371ada7849ff9896d556692b01ff50649bb7002fda0b7f4cc8",
+      "bytes": 897263,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/2021-iphone12-colors.png",
+      "verifiedModelCodes": [
+        "A2172",
+        "A2402",
+        "A2404",
+        "A2403"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-12-mini",
+      "revision": "apple-official-80de743ae2181f79-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-12-mini-80de743ae218.png",
+      "chunkId": "apple-official-d6711450cff12c94",
+      "sha256": "8de7186ef3c9086207c9c1dfa9f84252d141a996196b79b5538323863285c299",
+      "bytes": 894552,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/2021-iphone12-mini-colors.png",
+      "verifiedModelCodes": [
+        "A2176",
+        "A2398",
+        "A2400",
+        "A2399"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-se-2nd-generation",
+      "revision": "apple-official-a9556c39fe77e976-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-se-2nd-generation-a9556c39fe77.png",
+      "chunkId": "apple-official-d6711450cff12c94",
+      "sha256": "f61852c41b5d2f33d1bbcae64a1b467f2c4b0de858e277e245ddd08021d87bae",
+      "bytes": 406247,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se/iphone-se-2nd-gen-colors.jpg",
+      "verifiedModelCodes": [
+        "A2275",
+        "A2298",
+        "A2296"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-11-pro",
+      "revision": "apple-official-1d6087f961c75132-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-11-pro-1d6087f961c7.png",
+      "chunkId": "apple-official-d6711450cff12c94",
+      "sha256": "e4ba9e62864b0d660d2b3652f4f83525b9f925063e8569031f75266f639294d9",
+      "bytes": 617599,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11pro.jpg",
+      "verifiedModelCodes": [
+        "A2160",
+        "A2217",
+        "A2215"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-11-pro-max",
+      "revision": "apple-official-64701f43a33cda5e-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-11-pro-max-64701f43a33c.png",
+      "chunkId": "apple-official-d6711450cff12c94",
+      "sha256": "00a84cfb46440ba72dacb638d89305824208db34f6fb6e80b84f8eea3d233b3f",
+      "bytes": 610155,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11pro-max.jpg",
+      "verifiedModelCodes": [
+        "A2161",
+        "A2220",
+        "A2218"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-11",
+      "revision": "apple-official-fe1ca1e7d755783c-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-11-fe1ca1e7d755.png",
+      "chunkId": "apple-official-df6e62908240e0d5",
+      "sha256": "f14f2ffb9963e3671da0626ff3897a7c7d11ba869d07ef3d1d35e98fac8ecfb8",
+      "bytes": 378588,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11-colors.jpg",
+      "verifiedModelCodes": [
+        "A2111",
+        "A2223",
+        "A2221"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-xs",
+      "revision": "apple-official-fec62a49942feb24-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-xs-fec62a49942f.png",
+      "chunkId": "apple-official-df6e62908240e0d5",
+      "sha256": "353c9856e348e93bccf36379fe3520d0f06e3951affb7a578955335ac735be0c",
+      "bytes": 770478,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xs-colors.jpg",
+      "verifiedModelCodes": [
+        "A1920",
+        "A2097",
+        "A2098",
+        "A2099",
+        "A2100"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-xs-max",
+      "revision": "apple-official-f4a3ba2fde33e4b9-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-xs-max-f4a3ba2fde33.png",
+      "chunkId": "apple-official-df6e62908240e0d5",
+      "sha256": "84d9aeab38407472dc22f9d66bd09d33656136ba417a3937ef05bc8699365d42",
+      "bytes": 803623,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xs-max-colors.jpg",
+      "verifiedModelCodes": [
+        "A1921",
+        "A2101",
+        "A2102",
+        "A2103",
+        "A2104"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-xr",
+      "revision": "apple-official-eeb5fa7956e87a80-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-xr-eeb5fa7956e8.png",
+      "chunkId": "apple-official-df6e62908240e0d5",
+      "sha256": "2b0bcf6070e134ee5bb72ffb7fd12f9d19b92b36deb14bce4605608558d40a95",
+      "bytes": 412170,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xr/identify-iphone-xr-colors.jpg",
+      "verifiedModelCodes": [
+        "A1984",
+        "A2105",
+        "A2106",
+        "A2107",
+        "A2108"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-x",
+      "revision": "apple-official-deaa4ea43f23f0d2-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-x-deaa4ea43f23.png",
+      "chunkId": "apple-official-df6e62908240e0d5",
+      "sha256": "f8425778006792909b53348087cfc8650f0e5da7362980ced939f679272f7753",
+      "bytes": 437777,
+      "sourcePageUrl": "https://support.apple.com/en-us/108044",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-x-colors.jpg",
+      "verifiedModelCodes": [
+        "A1865",
+        "A1901",
+        "A1902"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-13-inch-m4",
+      "revision": "apple-official-1f0cfd2dac4f67e5-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-13-inch-m4-1f0cfd2dac4f.png",
+      "chunkId": "apple-official-df6e62908240e0d5",
+      "sha256": "6af630f784b3175683f75670ce7f5b4f21ee139d3a69aa7acb3e65ef527d5c38",
+      "bytes": 524478,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-1.png",
+      "verifiedModelCodes": [
+        "A2925",
+        "A2926",
+        "A3007"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-12-9-inch-6th-generation",
+      "revision": "apple-official-ca91704dfa195f35-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-12-9-inch-6th-generation-ca91704dfa19.png",
+      "chunkId": "apple-official-df6e62908240e0d5",
+      "sha256": "af658588118dca3e610b332358a38b530e468379d983722b210468b207311189",
+      "bytes": 1091936,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-12-9-inch-6gen-ipad-pro.png",
+      "verifiedModelCodes": [
+        "A2436",
+        "A2437",
+        "A2764",
+        "A2766"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-11-inch-4th-generation",
+      "revision": "apple-official-0c5b0d8d24aed774-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-11-inch-4th-generation-0c5b0d8d24ae.png",
+      "chunkId": "apple-official-df6e62908240e0d5",
+      "sha256": "1ada900c7ccabcccefa8fdedc499da12e1bc3ee832e85fa7f8472f7885d1032a",
+      "bytes": 758484,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-11-inch-4gen-ipad-pro.png",
+      "verifiedModelCodes": [
+        "A2759",
+        "A2761",
+        "A2435",
+        "A2762"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-12-9-inch-5th-generation",
+      "revision": "apple-official-24fa4f39451ef731-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-12-9-inch-5th-generation-24fa4f39451e.png",
+      "chunkId": "apple-official-a0c94f09f4f5c059",
+      "sha256": "53110a13db7cb8adcea8988bbc56684d06cd996ba47811c8e51e8ef88b11118d",
+      "bytes": 1130790,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+      "verifiedModelCodes": [
+        "A2378",
+        "A2461",
+        "A2379",
+        "A2462"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-11-inch-3rd-generation",
+      "revision": "apple-official-b4602d4d074fe484-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-11-inch-3rd-generation-b4602d4d074f.png",
+      "chunkId": "apple-official-a0c94f09f4f5c059",
+      "sha256": "62587cc999abef0eb33b4e99ccc79675a974afe4b65f132e8c8d23fe553fd8d3",
+      "bytes": 1133059,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+      "verifiedModelCodes": [
+        "A2377",
+        "A2459",
+        "A2301",
+        "A2460"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-12-9-inch-4th-generation",
+      "revision": "apple-official-5ee4260e0689b124-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-12-9-inch-4th-generation-5ee4260e0689.png",
+      "chunkId": "apple-official-a0c94f09f4f5c059",
+      "sha256": "c50f9db5b019b6dcbccf5648b7d8e7c2c4cd57e339b4a6c1060c289e7e8a16e2",
+      "bytes": 1285196,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-12-9-in.png",
+      "verifiedModelCodes": [
+        "A2229",
+        "A2069",
+        "A2232",
+        "A2233"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-11-inch-2nd-generation",
+      "revision": "apple-official-3bea25d5cec3bbc3-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-11-inch-2nd-generation-3bea25d5cec3.png",
+      "chunkId": "apple-official-a0c94f09f4f5c059",
+      "sha256": "8e25d7598a2166dfc9ee85857935c973a968b8dbfdb898d460f8dc16273da8d7",
+      "bytes": 1109131,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-11-in.png",
+      "verifiedModelCodes": [
+        "A2228",
+        "A2068",
+        "A2230",
+        "A2231"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-12-9-inch-3rd-generation",
+      "revision": "apple-official-c7139c2687af4c60-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-12-9-inch-3rd-generation-c7139c2687af.png",
+      "chunkId": "apple-official-a0c94f09f4f5c059",
+      "sha256": "cccac5e67a390b18b99ad75605851a6aaa036bf1e679bdd311375234e27af2d7",
+      "bytes": 1053838,
+      "sourcePageUrl": "https://support.apple.com/kb/SP785",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111979_ipad-pro-12-2018.png",
+      "verifiedModelCodes": [
+        "A1876",
+        "A2014",
+        "A1895",
+        "A1983"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-11-inch",
+      "revision": "apple-official-b50cec70cf321099-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-11-inch-b50cec70cf32.png",
+      "chunkId": "apple-official-a0c94f09f4f5c059",
+      "sha256": "6a49742d200cc8488fae81b4ccc51c107f0b9e1c6182d6dc4d3e77540087a558",
+      "bytes": 1001844,
+      "sourcePageUrl": "https://support.apple.com/kb/SP784",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111974_ipad-pro-11-2018.png",
+      "verifiedModelCodes": [
+        "A1980",
+        "A2013",
+        "A1934",
+        "A1979"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-12-9-inch-2nd-generation",
+      "revision": "apple-official-0cdd9fc9e359a1d5-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-12-9-inch-2nd-generation-0cdd9fc9e359.png",
+      "chunkId": "apple-official-a0c94f09f4f5c059",
+      "sha256": "27163c49c0f2394b659be39454c7e09b513ac03f565b2061490fd0ff487b1ee1",
+      "bytes": 1281104,
+      "sourcePageUrl": "https://support.apple.com/kb/SP761",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111964_ipad-pro-12in-hero-201706.png",
+      "verifiedModelCodes": [
+        "A1670",
+        "A1671",
+        "A1821"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-10-5-inch",
+      "revision": "apple-official-875960b1f4c3c689-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-10-5-inch-875960b1f4c3.png",
+      "chunkId": "apple-official-a0c94f09f4f5c059",
+      "sha256": "1598fa89ae634f9483f71a4b0f3a28387913f7f038ac6791d0db5e53144ce9a6",
+      "bytes": 827679,
+      "sourcePageUrl": "https://support.apple.com/kb/SP762",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111927_ipad-pro-10in-hero-201706.png",
+      "verifiedModelCodes": [
+        "A1701",
+        "A1709",
+        "A1852"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-9-7-inch",
+      "revision": "apple-official-ab056d4b95fa6034-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-9-7-inch-ab056d4b95fa.png",
+      "chunkId": "apple-official-e169079f9911657a",
+      "sha256": "7013de3d96c3bc0cb63a6b59c01a15fab2247c3cf88231488ac912769ebbdc66",
+      "bytes": 1331466,
+      "sourcePageUrl": "https://support.apple.com/kb/SP739",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111965_SP739.png",
+      "verifiedModelCodes": [
+        "A1673",
+        "A1674",
+        "A1675"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-12-9-inch",
+      "revision": "apple-official-4dd1943d979b9236-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-12-9-inch-4dd1943d979b.png",
+      "chunkId": "apple-official-e169079f9911657a",
+      "sha256": "b94a00a161836af3ca59a4dba63ce770df3e2a4889486cb6224c6d2d594a663b",
+      "bytes": 1250029,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro.png",
+      "verifiedModelCodes": [
+        "A1584",
+        "A1652"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air-5th-generation",
+      "revision": "apple-official-8353c46649d0b70e-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-5th-generation-8353c46649d0.png",
+      "chunkId": "apple-official-e169079f9911657a",
+      "sha256": "1724a993a22abd161c445eea7008a6fe7669d72aa38338b1b381e30c94053405",
+      "bytes": 991683,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+      "verifiedModelCodes": [
+        "A2588",
+        "A2589",
+        "A2591"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air-4th-generation",
+      "revision": "apple-official-2b6c6ba8874e4284-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-4th-generation-2b6c6ba8874e.png",
+      "chunkId": "apple-official-e169079f9911657a",
+      "sha256": "2e2b2240ca3ef680e72d4bf650227eb9c858fb6abc63009d07b55174f79e5489",
+      "bytes": 573335,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-4th-gen-colors.png",
+      "verifiedModelCodes": [
+        "A2316",
+        "A2324",
+        "A2325",
+        "A2072"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air-3rd-generation",
+      "revision": "apple-official-a6fd8081b6b6dbbc-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-3rd-generation-a6fd8081b6b6.png",
+      "chunkId": "apple-official-e169079f9911657a",
+      "sha256": "51702c6143ca6071e033d4ab1bc681182a915f14c0b674358793a55d6e2025ca",
+      "bytes": 1071781,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-3gen.png",
+      "verifiedModelCodes": [
+        "A2152",
+        "A2123",
+        "A2153",
+        "A2154"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air-2",
+      "revision": "apple-official-62b69b85f294f6e3-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-2-62b69b85f294.png",
+      "chunkId": "apple-official-e169079f9911657a",
+      "sha256": "48c35349a17b0c332b3b873947de49a7cc9b17c6b798a05691924506a68ceba1",
+      "bytes": 1092040,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air2.png",
+      "verifiedModelCodes": [
+        "A1566",
+        "A1567"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air",
+      "revision": "apple-official-627e988fd2348e0d-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-627e988fd234.png",
+      "chunkId": "apple-official-e169079f9911657a",
+      "sha256": "5f292e7e58e0fb4c61775103b7dda44172fec2903cf871e288bde6c85efc645e",
+      "bytes": 1037093,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+      "verifiedModelCodes": [
+        "A1474",
+        "A1475",
+        "A1476"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-mini-6th-generation",
+      "revision": "apple-official-d26ae262891e427f-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-mini-6th-generation-d26ae262891e.png",
+      "chunkId": "apple-official-e169079f9911657a",
+      "sha256": "09190ccc87ccd5f0a7b5169784def6eb680c86bc511853f4cee4c9cbc5d1a665",
+      "bytes": 1323821,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+      "verifiedModelCodes": [
+        "A2567",
+        "A2568",
+        "A2569"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-mini-5th-generation",
+      "revision": "apple-official-2ff07b9612e7eb42-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-mini-5th-generation-2ff07b9612e7.png",
+      "chunkId": "apple-official-6beae6b33e4c9652",
+      "sha256": "21b456375ccba3bbf648743790f9fdccc8cb0eebf45708d8d043176198b0b461",
+      "bytes": 895724,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-5gen.png",
+      "verifiedModelCodes": [
+        "A2133",
+        "A2124",
+        "A2126",
+        "A2125"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-mini-4",
+      "revision": "apple-official-42ce991e3dc8f584-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-mini-4-42ce991e3dc8.png",
+      "chunkId": "apple-official-6beae6b33e4c9652",
+      "sha256": "84eab5a9c8806483f57bb4df03cfaf64f7d193eaabc753dc3d16fbd93b7da33a",
+      "bytes": 1003068,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini4.png",
+      "verifiedModelCodes": [
+        "A1538",
+        "A1550"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-mini-3",
+      "revision": "apple-official-2403f5cd54d1afd0-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-mini-3-2403f5cd54d1.png",
+      "chunkId": "apple-official-6beae6b33e4c9652",
+      "sha256": "976a08e2678238a204be585040c26899e5df7b4e4e137218358e49d9c6e05417",
+      "bytes": 1054996,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+      "verifiedModelCodes": [
+        "A1599",
+        "A1600"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-mini-2",
+      "revision": "apple-official-4b65aee32a84f3f1-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-mini-2-4b65aee32a84.png",
+      "chunkId": "apple-official-6beae6b33e4c9652",
+      "sha256": "5ed3c807bb8f50b91a36c382574e1ef17020a3f9b3857b0150de239695bd2f3e",
+      "bytes": 960188,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+      "verifiedModelCodes": [
+        "A1489",
+        "A1490",
+        "A1491"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-mini",
+      "revision": "apple-official-3ea4b9d2ac7ce4b8-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-mini-3ea4b9d2ac7c.png",
+      "chunkId": "apple-official-6beae6b33e4c9652",
+      "sha256": "ff0fd441e566e40d55b7eeecaa97ccc25fc4daa3e56ce56f2163cfa09c34c3e8",
+      "bytes": 805978,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini.png",
+      "verifiedModelCodes": [
+        "A1432",
+        "A1454",
+        "A1455"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-10th-generation",
+      "revision": "apple-official-0ddb7c4efaad9edf-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-10th-generation-0ddb7c4efaad.png",
+      "chunkId": "apple-official-6beae6b33e4c9652",
+      "sha256": "c67a712513ff8d3ede8d383581556b8e8a10a25f96e5a9505f390de281a74d18",
+      "bytes": 352574,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+      "verifiedModelCodes": [
+        "A2696",
+        "A2757",
+        "A2777",
+        "A3162"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-9th-generation",
+      "revision": "apple-official-276f66f511773a6d-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-9th-generation-276f66f51177.png",
+      "chunkId": "apple-official-6beae6b33e4c9652",
+      "sha256": "062aa7c8d25c557b3813e3dfb821307b5eccfa5899b7b2645be8e0350a82ec58",
+      "bytes": 501253,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-2021-colors.png",
+      "verifiedModelCodes": [
+        "A2602",
+        "A2604",
+        "A2603",
+        "A2605"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-8th-generation",
+      "revision": "apple-official-2d98f9eb497b9085-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-8th-generation-2d98f9eb497b.png",
+      "chunkId": "apple-official-6beae6b33e4c9652",
+      "sha256": "7fd43e6824efb54ffd5264018ee8e08ae8f0736387b3161ba8d9a79e22aa7c62",
+      "bytes": 608029,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-8th-gen-colors.png",
+      "verifiedModelCodes": [
+        "A2270",
+        "A2428",
+        "A2429",
+        "A2430"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-7th-generation",
+      "revision": "apple-official-6bace88fd1884e31-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-7th-generation-6bace88fd188.png",
+      "chunkId": "apple-official-03bc28134481dfc5",
+      "sha256": "6486bf4842d1c2308411f26eadb99136fb767efae50ee5bf397e3ab8d8e86dfe",
+      "bytes": 282214,
+      "sourcePageUrl": "https://support.apple.com/kb/SP807",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111911_sp807-ipad-7th-gen.png",
+      "verifiedModelCodes": [
+        "A2197",
+        "A2200",
+        "A2198",
+        "A2199"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-6th-generation",
+      "revision": "apple-official-40515324717eaf48-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-6th-generation-40515324717e.png",
+      "chunkId": "apple-official-03bc28134481dfc5",
+      "sha256": "c527cadc877b52de183719e91a0b851f509da59574b31082f763af099fe9c9ed",
+      "bytes": 341994,
+      "sourcePageUrl": "https://support.apple.com/kb/SP774",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111957_sp774-ipad-6-gen.png",
+      "verifiedModelCodes": [
+        "A1893",
+        "A1954"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-5th-generation",
+      "revision": "apple-official-0629728712ccaa95-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-5th-generation-0629728712cc.png",
+      "chunkId": "apple-official-03bc28134481dfc5",
+      "sha256": "014971f2924c1d8cc3b72f5969a585885606dc3e9d6a39a6517088f267b9fceb",
+      "bytes": 766009,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-5gen.png",
+      "verifiedModelCodes": [
+        "A1822",
+        "A1823"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-4th-generation",
+      "revision": "apple-official-e38591fe5704bda9-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-4th-generation-e38591fe5704.png",
+      "chunkId": "apple-official-03bc28134481dfc5",
+      "sha256": "9be51d11c37d40eac13bd9a36c2d7939ee3500010a013ab939479eb00e2855b2",
+      "bytes": 701319,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-4gen.png",
+      "verifiedModelCodes": [
+        "A1458",
+        "A1459",
+        "A1460"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-3rd-generation",
+      "revision": "apple-official-1b9c128c231e7c48-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-3rd-generation-1b9c128c231e.png",
+      "chunkId": "apple-official-03bc28134481dfc5",
+      "sha256": "bfa942a2faa2e55a8179824a69595e14c5afb78e923e9028c98ad1b3ed6a4527",
+      "bytes": 584703,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-3gen.png",
+      "verifiedModelCodes": [
+        "A1416",
+        "A1430",
+        "A1403"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-2",
+      "revision": "apple-official-af42afa7eac557ae-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-2-af42afa7eac5.png",
+      "chunkId": "apple-official-03bc28134481dfc5",
+      "sha256": "493ca0199fb167db93f5856a30570d25a12cf1ebaa0848adc22807dd3a3dc939",
+      "bytes": 900216,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-2gen.png",
+      "verifiedModelCodes": [
+        "A1395",
+        "A1396",
+        "A1397"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad",
+      "revision": "apple-official-8812630441dedb50-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-8812630441de.png",
+      "chunkId": "apple-official-03bc28134481dfc5",
+      "sha256": "8f523fe4f731cc4c68ec3c14cf228712d53660849d3cc9269792f8c0fcf02e1b",
+      "bytes": 863677,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad.png",
+      "verifiedModelCodes": [
+        "A1219",
+        "A1337"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-iphone-16-plus",
+      "revision": "apple-official-f7e7b9da2793c65e-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-iphone-16-plus-f7e7b9da2793.png",
+      "chunkId": "apple-official-03bc28134481dfc5",
+      "sha256": "e1ded8fd2032571dbbe50dfbc9de01be06ac06241204b1b1267c50083c8cb7fb",
+      "bytes": 527454,
+      "sourcePageUrl": "https://support.apple.com/121030",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121030-iphone-16-plus.png",
+      "verifiedModelCodes": [
+        "A3082",
+        "A3289",
+        "A3291",
+        "A3290"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-13-inch-m5",
+      "revision": "apple-official-7536e6208a91ad00-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-13-inch-m5-7536e6208a91.png",
+      "chunkId": "apple-official-f0cca2f40909287f",
+      "sha256": "cdcb1f40e67e52a4cc1b9ce2e8e330117be9d706e54f9dcee4a3706f47dc02fe",
+      "bytes": 518504,
+      "sourcePageUrl": "https://support.apple.com/125407",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-13-inch-m5.png",
+      "verifiedModelCodes": [
+        "A3360",
+        "A3361",
+        "A3362"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-11-inch-m5",
+      "revision": "apple-official-d81bbc69ecf1eb87-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-11-inch-m5-d81bbc69ecf1.png",
+      "chunkId": "apple-official-f0cca2f40909287f",
+      "sha256": "baded4ae933a206477485352e14ebfa0955781ff2bdc71b134e928ddd49cfd9f",
+      "bytes": 549805,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/fall-2025-ipad-pro-m5-11in.png",
+      "verifiedModelCodes": [
+        "A3357",
+        "A3358",
+        "A3359"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-pro-11-inch-m4",
+      "revision": "apple-official-d81bbc69ecf1eb87-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-pro-11-inch-m4-d81bbc69ecf1.png",
+      "chunkId": "apple-official-f0cca2f40909287f",
+      "sha256": "baded4ae933a206477485352e14ebfa0955781ff2bdc71b134e928ddd49cfd9f",
+      "bytes": 549805,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-2.png",
+      "verifiedModelCodes": [
+        "A2836",
+        "A2837",
+        "A3006"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air-13-inch-m4",
+      "revision": "apple-official-df160b8e13839f03-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-13-inch-m4-df160b8e1383.png",
+      "chunkId": "apple-official-f0cca2f40909287f",
+      "sha256": "3edefe673f91e5b7148e4f2130e0c9563ec793a6534bdcb6e3395f2d00829c31",
+      "bytes": 748636,
+      "sourcePageUrl": "https://support.apple.com/126472",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-13-inch-m4.png",
+      "verifiedModelCodes": [
+        "A3461",
+        "A3462",
+        "A3464"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air-11-inch-m4",
+      "revision": "apple-official-b7e556f10617ab7d-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-11-inch-m4-b7e556f10617.png",
+      "chunkId": "apple-official-f0cca2f40909287f",
+      "sha256": "110f1a1f5402ac3975c833a0590ab30848c884cb83a7ac08c27344af5f43cd5c",
+      "bytes": 688422,
+      "sourcePageUrl": "https://support.apple.com/126471",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-11-inch-m4.png",
+      "verifiedModelCodes": [
+        "A3459",
+        "A3460",
+        "A3463"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air-13-inch-m3",
+      "revision": "apple-official-f74a90d77e046ef5-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-13-inch-m3-f74a90d77e04.png",
+      "chunkId": "apple-official-f0cca2f40909287f",
+      "sha256": "eed42eec883e47759495b51347c9d16c3a0ae5a37376a4d5ab6cd2494660a774",
+      "bytes": 930222,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+      "verifiedModelCodes": [
+        "A3268",
+        "A3269",
+        "A3271"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air-11-inch-m3",
+      "revision": "apple-official-3f2d1a6424cbd01b-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-11-inch-m3-3f2d1a6424cb.png",
+      "chunkId": "apple-official-f0cca2f40909287f",
+      "sha256": "568a880849ebbfa6a3e22a551202dfb67543d070182de3192fd2638bffd053c0",
+      "bytes": 818842,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+      "verifiedModelCodes": [
+        "A3266",
+        "A3267",
+        "A3270"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air-13-inch-m2",
+      "revision": "apple-official-f74a90d77e046ef5-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-13-inch-m2-f74a90d77e04.png",
+      "chunkId": "apple-official-f0cca2f40909287f",
+      "sha256": "eed42eec883e47759495b51347c9d16c3a0ae5a37376a4d5ab6cd2494660a774",
+      "bytes": 930222,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+      "verifiedModelCodes": [
+        "A2898",
+        "A2899",
+        "A2900"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-air-11-inch-m2",
+      "revision": "apple-official-3f2d1a6424cbd01b-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-air-11-inch-m2-3f2d1a6424cb.png",
+      "chunkId": "apple-official-dae8bb0edf9f6fdf",
+      "sha256": "568a880849ebbfa6a3e22a551202dfb67543d070182de3192fd2638bffd053c0",
+      "bytes": 818842,
+      "sourcePageUrl": "https://support.apple.com/en-us/108043",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+      "verifiedModelCodes": [
+        "A2902",
+        "A2903",
+        "A2904"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-mini-a17-pro",
+      "revision": "apple-official-aeebdab4036011d4-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-mini-a17-pro-aeebdab40360.png",
+      "chunkId": "apple-official-dae8bb0edf9f6fdf",
+      "sha256": "86c8a5ba82c1d9e1781046b2dbfdf8bab9ab85eaf36bf179ec9e47697ef842bb",
+      "bytes": 542479,
+      "sourcePageUrl": "https://support.apple.com/121456",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iPad_mini_A17_Pro_Wi-Fi_Lineup_Print__USEN.png",
+      "verifiedModelCodes": [
+        "A2993",
+        "A2995",
+        "A2996"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
+    },
+    {
+      "deviceId": "apple-ipad-a16",
+      "revision": "apple-official-a714a7fd82f6ed2b-v1",
+      "view": "frontBack",
+      "filename": "apple-official-apple-ipad-a16-a714a7fd82f6.png",
+      "chunkId": "apple-official-dae8bb0edf9f6fdf",
+      "sha256": "c085af3aca24ae15ab9849c52ea62dcc671249ef42bcbb7f45b6b3305ee600d6",
+      "bytes": 258300,
+      "sourcePageUrl": "https://support.apple.com/122240",
+      "creator": "Apple official manufacturer product imagery",
+      "licenseId": "usage-rights-not-verified",
+      "attribution": "Apple official product image: https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122240-ipad-a16.png",
+      "verifiedModelCodes": [
+        "A3354",
+        "A3355",
+        "A3356"
+      ],
+      "checkedAt": "2026-10-23T13:00:00Z"
     }
   ]
 }
