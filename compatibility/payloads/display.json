@@ -815,6 +815,34 @@
       "canonicalPartNumbers": [
         "921031"
       ]
+    },
+    {
+      "id": "part-display-allspares-929039",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "929039"
+      ]
+    },
+    {
+      "id": "part-display-allspares-928076",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "928076"
+      ]
+    },
+    {
+      "id": "part-display-allspares-916763",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "916763"
+      ]
+    },
+    {
+      "id": "part-display-allspares-928541",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "928541"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1742,6 +1770,48 @@
         "dev_rtsiuxlbk3f42rshifxt4gchuu",
         "dev_6oivjz7mmojejrq4byat6vccka",
         "dev_hcgvxsjsxnctjwb2lqvnqk77bq"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-929039",
+      "partId": "part-display-allspares-929039",
+      "deviceIds": [
+        "dev_eopr2ermkciljky5rio46fih5i",
+        "dev_eb7pjnvyufc3o4m2zwyppac7aq",
+        "dev_7swexj5rcoj64eba6hk4bhskdq",
+        "dev_zsbjtxknahcax4jlp7cfwxxntu"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-928076",
+      "partId": "part-display-allspares-928076",
+      "deviceIds": [
+        "dev_v2zi3f5yargld73t7rl3mui3ki",
+        "dev_myfsyksxalgosxlzxwfdwflbpi",
+        "dev_dms56aiwiy2pvdl74lulaveqkm"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-916763",
+      "partId": "part-display-allspares-916763",
+      "deviceIds": [
+        "dev_hb7ylb6xohqdygek5h7pmbpu6i",
+        "dev_76qitcgyb5jadgtiejc5jwwoca",
+        "dev_36p45hd2u3nlw7e7u75xym4uzu"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-928541",
+      "partId": "part-display-allspares-928541",
+      "deviceIds": [
+        "dev_7ub6j65mguxf7l44dpar6jee4u",
+        "dev_p6atea2vde55lk4ngij5nv7wpi",
+        "dev_xbih4t45hjfc4rty6zlyheyxda",
+        "dev_4uvqlb77pwcmzr2jpmxn7tnx5u",
+        "dev_plckqwldwlxrs4b4bzdl73ieqy",
+        "dev_sn4ojpylmbybjksppdr5hw6je4",
+        "dev_fv2uj7wprymybv6ajsm2davram",
+        "dev_4m7wkez4e6zzxueifewmzdzbhy"
       ]
     }
   ],
@@ -6331,6 +6401,88 @@
         "BV5100Pro"
       ],
       "notes": "توافق شاشة تجارية High Copy بلا إطار حسب All-Spares لرقم القطعة 921031، لا يعني تطابق شاشة المصنع الأصلية. أسماء Pro عند المورد تحتوي مسافة بينما الكتالوج يخزنها بدون مسافة."
+    },
+    {
+      "id": "ev-allspares-929039",
+      "compatibilityGroupId": "cg-part-display-allspares-929039",
+      "sourceKey": "allspares-sourcecache-929039",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-8-spark-20-kj5-spark-20c-bg7-spark-go-2024-bg6-infinix-hot-40i-x6528b-smart-8-x6525-black-without-frame-high-copy-fpc6615/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "929039"
+      ],
+      "citedModelCodes": [
+        "X6528B",
+        "X6525",
+        "KJ5",
+        "BG7"
+      ],
+      "notes": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 929039؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب. كود قطعة مذكور بعنوان المورد: FPC6615."
+    },
+    {
+      "id": "ev-allspares-928076",
+      "compatibilityGroupId": "cg-part-display-allspares-928076",
+      "sourceKey": "allspares-sourcecache-928076",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-6-pro-be8-be8i-infinix-hot-12-pro-x668c-black-without-frame-high-copy-xsxtxdi660ccepu/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "928076"
+      ],
+      "citedModelCodes": [
+        "X668C",
+        "BE8",
+        "BE8I"
+      ],
+      "notes": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928076؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب."
+    },
+    {
+      "id": "ev-allspares-916763",
+      "compatibilityGroupId": "cg-part-display-allspares-916763",
+      "sourceKey": "allspares-sourcecache-916763",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-7-spark-go-2023-infinix-smart-7-black-without-frame-high-copy-bf7-bf6/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "916763"
+      ],
+      "citedModelCodes": [
+        "X6515",
+        "X6516",
+        "BF6"
+      ],
+      "notes": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 916763؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب. كود قطعة مذكور بعنوان المورد: FPC6605-5."
+    },
+    {
+      "id": "ev-allspares-928541",
+      "compatibilityGroupId": "cg-part-display-allspares-928541",
+      "sourceKey": "allspares-sourcecache-928541",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-oppo-reno-10-5g-reno-10-pro-5g-black-without-frame-original-prc-cph2531-cph2525/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "928541"
+      ],
+      "citedModelCodes": [
+        "PGX110",
+        "PHM110",
+        "CPH2599",
+        "CPH2607",
+        "RMX3687",
+        "RMX3740",
+        "RMX3741",
+        "RMX3771"
+      ],
+      "notes": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928541؛ الجودة: Original (PRC)؛ الإطار: Without frame؛ التقنية حسب البائع: AMOLED. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب."
     }
   ],
   "categoryFacts": [
@@ -41512,6 +41664,240 @@
         "checkedAt": "2026-10-23T13:45:00Z"
       },
       "deviceId": "dev_hcgvxsjsxnctjwb2lqvnqk77bq"
+    },
+    {
+      "id": "diff-allspares-929039-rio46fih5i",
+      "partId": "part-display-allspares-929039",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 929039؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب. كود قطعة مذكور بعنوان المورد: FPC6615.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-8-spark-20-kj5-spark-20c-bg7-spark-go-2024-bg6-infinix-hot-40i-x6528b-smart-8-x6525-black-without-frame-high-copy-fpc6615/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-929039",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_eopr2ermkciljky5rio46fih5i"
+    },
+    {
+      "id": "diff-allspares-929039-zwyppac7aq",
+      "partId": "part-display-allspares-929039",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 929039؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب. كود قطعة مذكور بعنوان المورد: FPC6615.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-8-spark-20-kj5-spark-20c-bg7-spark-go-2024-bg6-infinix-hot-40i-x6528b-smart-8-x6525-black-without-frame-high-copy-fpc6615/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-929039",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_eb7pjnvyufc3o4m2zwyppac7aq"
+    },
+    {
+      "id": "diff-allspares-929039-6hk4bhskdq",
+      "partId": "part-display-allspares-929039",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 929039؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب. كود قطعة مذكور بعنوان المورد: FPC6615.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-8-spark-20-kj5-spark-20c-bg7-spark-go-2024-bg6-infinix-hot-40i-x6528b-smart-8-x6525-black-without-frame-high-copy-fpc6615/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-929039",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_7swexj5rcoj64eba6hk4bhskdq"
+    },
+    {
+      "id": "diff-allspares-929039-p7cfwxxntu",
+      "partId": "part-display-allspares-929039",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 929039؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب. كود قطعة مذكور بعنوان المورد: FPC6615.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-8-spark-20-kj5-spark-20c-bg7-spark-go-2024-bg6-infinix-hot-40i-x6528b-smart-8-x6525-black-without-frame-high-copy-fpc6615/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-929039",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_zsbjtxknahcax4jlp7cfwxxntu"
+    },
+    {
+      "id": "diff-allspares-928076-7rl3mui3ki",
+      "partId": "part-display-allspares-928076",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928076؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-6-pro-be8-be8i-infinix-hot-12-pro-x668c-black-without-frame-high-copy-xsxtxdi660ccepu/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928076",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_v2zi3f5yargld73t7rl3mui3ki"
+    },
+    {
+      "id": "diff-allspares-928076-xwfdwflbpi",
+      "partId": "part-display-allspares-928076",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928076؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-6-pro-be8-be8i-infinix-hot-12-pro-x668c-black-without-frame-high-copy-xsxtxdi660ccepu/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928076",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_myfsyksxalgosxlzxwfdwflbpi"
+    },
+    {
+      "id": "diff-allspares-928076-4lulaveqkm",
+      "partId": "part-display-allspares-928076",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928076؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-6-pro-be8-be8i-infinix-hot-12-pro-x668c-black-without-frame-high-copy-xsxtxdi660ccepu/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928076",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_dms56aiwiy2pvdl74lulaveqkm"
+    },
+    {
+      "id": "diff-allspares-916763-5h7pmbpu6i",
+      "partId": "part-display-allspares-916763",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 916763؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب. كود قطعة مذكور بعنوان المورد: FPC6605-5.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-7-spark-go-2023-infinix-smart-7-black-without-frame-high-copy-bf7-bf6/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-916763",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_hb7ylb6xohqdygek5h7pmbpu6i"
+    },
+    {
+      "id": "diff-allspares-916763-ejc5jwwoca",
+      "partId": "part-display-allspares-916763",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 916763؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب. كود قطعة مذكور بعنوان المورد: FPC6605-5.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-7-spark-go-2023-infinix-smart-7-black-without-frame-high-copy-bf7-bf6/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-916763",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_76qitcgyb5jadgtiejc5jwwoca"
+    },
+    {
+      "id": "diff-allspares-916763-u75xym4uzu",
+      "partId": "part-display-allspares-916763",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 916763؛ الجودة: High Copy؛ الإطار: Without frame؛ التقنية حسب البائع: IPS. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب. كود قطعة مذكور بعنوان المورد: FPC6605-5.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-tecno-pop-7-spark-go-2023-infinix-smart-7-black-without-frame-high-copy-bf7-bf6/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-916763",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_36p45hd2u3nlw7e7u75xym4uzu"
+    },
+    {
+      "id": "diff-allspares-928541-dpar6jee4u",
+      "partId": "part-display-allspares-928541",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928541؛ الجودة: Original (PRC)؛ الإطار: Without frame؛ التقنية حسب البائع: AMOLED. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-oppo-reno-10-5g-reno-10-pro-5g-black-without-frame-original-prc-cph2531-cph2525/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928541",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_7ub6j65mguxf7l44dpar6jee4u"
+    },
+    {
+      "id": "diff-allspares-928541-gij5nv7wpi",
+      "partId": "part-display-allspares-928541",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928541؛ الجودة: Original (PRC)؛ الإطار: Without frame؛ التقنية حسب البائع: AMOLED. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-oppo-reno-10-5g-reno-10-pro-5g-black-without-frame-original-prc-cph2531-cph2525/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928541",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_p6atea2vde55lk4ngij5nv7wpi"
+    },
+    {
+      "id": "diff-allspares-928541-6zlyheyxda",
+      "partId": "part-display-allspares-928541",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928541؛ الجودة: Original (PRC)؛ الإطار: Without frame؛ التقنية حسب البائع: AMOLED. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-oppo-reno-10-5g-reno-10-pro-5g-black-without-frame-original-prc-cph2531-cph2525/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928541",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_xbih4t45hjfc4rty6zlyheyxda"
+    },
+    {
+      "id": "diff-allspares-928541-pmxn7tnx5u",
+      "partId": "part-display-allspares-928541",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928541؛ الجودة: Original (PRC)؛ الإطار: Without frame؛ التقنية حسب البائع: AMOLED. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-oppo-reno-10-5g-reno-10-pro-5g-black-without-frame-original-prc-cph2531-cph2525/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928541",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_4uvqlb77pwcmzr2jpmxn7tnx5u"
+    },
+    {
+      "id": "diff-allspares-928541-bzdl73ieqy",
+      "partId": "part-display-allspares-928541",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928541؛ الجودة: Original (PRC)؛ الإطار: Without frame؛ التقنية حسب البائع: AMOLED. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-oppo-reno-10-5g-reno-10-pro-5g-black-without-frame-original-prc-cph2531-cph2525/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928541",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_plckqwldwlxrs4b4bzdl73ieqy"
+    },
+    {
+      "id": "diff-allspares-928541-pdr5hw6je4",
+      "partId": "part-display-allspares-928541",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928541؛ الجودة: Original (PRC)؛ الإطار: Without frame؛ التقنية حسب البائع: AMOLED. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-oppo-reno-10-5g-reno-10-pro-5g-black-without-frame-original-prc-cph2531-cph2525/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928541",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_sn4ojpylmbybjksppdr5hw6je4"
+    },
+    {
+      "id": "diff-allspares-928541-jsm2davram",
+      "partId": "part-display-allspares-928541",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928541؛ الجودة: Original (PRC)؛ الإطار: Without frame؛ التقنية حسب البائع: AMOLED. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-oppo-reno-10-5g-reno-10-pro-5g-black-without-frame-original-prc-cph2531-cph2525/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928541",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_fv2uj7wprymybv6ajsm2davram"
+    },
+    {
+      "id": "diff-allspares-928541-fewmzdzbhy",
+      "partId": "part-display-allspares-928541",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق مجموعة قطعة تجارية مذكور صراحة لدى All-Spares برقم منتج المورد 928541؛ الجودة: Original (PRC)؛ الإطار: Without frame؛ التقنية حسب البائع: AMOLED. هذه ليست شهادة تبادل شاشات المصنع الأصلية. يجب التحقق من نسخة القطعة والإطار والموصل أثناء التركيب.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-oppo-reno-10-5g-reno-10-pro-5g-black-without-frame-original-prc-cph2531-cph2525/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-sourcecache-928541",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_4m7wkez4e6zzxueifewmzdzbhy"
     }
   ]
 }
