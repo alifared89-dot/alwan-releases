@@ -66708,6 +66708,1000 @@
       ],
       "aliases": [],
       "images": []
+    },
+    {
+      "id": "apple-iphone-duo",
+      "brandId": "apple",
+      "name": "iPhone Duo",
+      "modelCodes": [
+        "A3447",
+        "A3719",
+        "A3721",
+        "A3720"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-18-pro-max",
+      "brandId": "apple",
+      "name": "iPhone 18 Pro Max",
+      "modelCodes": [
+        "A3473",
+        "A3716",
+        "A3718",
+        "A3717"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-18-pro",
+      "brandId": "apple",
+      "name": "iPhone 18 Pro",
+      "modelCodes": [
+        "A3472",
+        "A3713",
+        "A3715",
+        "A3714"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-17e",
+      "brandId": "apple",
+      "name": "iPhone 17e",
+      "modelCodes": [
+        "A3575",
+        "A3635",
+        "A3634"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-17-pro-max",
+      "brandId": "apple",
+      "name": "iPhone 17 Pro Max",
+      "modelCodes": [
+        "A3257",
+        "A3525",
+        "A3527",
+        "A3526"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-17-pro",
+      "brandId": "apple",
+      "name": "iPhone 17 Pro",
+      "modelCodes": [
+        "A3256",
+        "A3522",
+        "A3524",
+        "A3523"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-17",
+      "brandId": "apple",
+      "name": "iPhone 17",
+      "modelCodes": [
+        "A3258",
+        "A3519",
+        "A3521",
+        "A3520"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-air",
+      "brandId": "apple",
+      "name": "iPhone Air",
+      "modelCodes": [
+        "A3260",
+        "A3516",
+        "A3518",
+        "A3517"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-16e",
+      "brandId": "apple",
+      "name": "iPhone 16e",
+      "modelCodes": [
+        "A3212",
+        "A3408",
+        "A3410",
+        "A3409"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-16-pro-max",
+      "brandId": "apple",
+      "name": "iPhone 16 Pro Max",
+      "modelCodes": [
+        "A3084",
+        "A3295",
+        "A3297",
+        "A3296"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-16-pro",
+      "brandId": "apple",
+      "name": "iPhone 16 Pro",
+      "modelCodes": [
+        "A3083",
+        "A3292",
+        "A3294",
+        "A3293"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-16-plus",
+      "brandId": "apple",
+      "name": "iPhone 16 Plus",
+      "modelCodes": [
+        "A3082",
+        "A3289",
+        "A3291",
+        "A3290"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-16",
+      "brandId": "apple",
+      "name": "iPhone 16",
+      "modelCodes": [
+        "A3081",
+        "A3286",
+        "A3288",
+        "A3287"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-15-pro-max",
+      "brandId": "apple",
+      "name": "iPhone 15 Pro Max",
+      "modelCodes": [
+        "A2849",
+        "A3105",
+        "A3108",
+        "A3106"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-15-pro",
+      "brandId": "apple",
+      "name": "iPhone 15 Pro",
+      "modelCodes": [
+        "A2848",
+        "A3101",
+        "A3104",
+        "A3102"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-15-plus",
+      "brandId": "apple",
+      "name": "iPhone 15 Plus",
+      "modelCodes": [
+        "A2847",
+        "A3093",
+        "A3096",
+        "A3094"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-14-pro-max",
+      "brandId": "apple",
+      "name": "iPhone 14 Pro Max",
+      "modelCodes": [
+        "A2651",
+        "A2893",
+        "A2896",
+        "A2895",
+        "A2894"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-14-pro",
+      "brandId": "apple",
+      "name": "iPhone 14 Pro",
+      "modelCodes": [
+        "A2650",
+        "A2889",
+        "A2892",
+        "A2891",
+        "A2890"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-14-plus",
+      "brandId": "apple",
+      "name": "iPhone 14 Plus",
+      "modelCodes": [
+        "A2632",
+        "A2885",
+        "A2888",
+        "A2887",
+        "A2886"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-se-3rd-generation",
+      "brandId": "apple",
+      "name": "iPhone SE (3rd generation)",
+      "modelCodes": [
+        "A2595",
+        "A2782",
+        "A2784",
+        "A2785",
+        "A2783"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-13-pro-max",
+      "brandId": "apple",
+      "name": "iPhone 13 Pro Max",
+      "modelCodes": [
+        "A2484",
+        "A2641",
+        "A2644",
+        "A2645",
+        "A2643"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-13-pro",
+      "brandId": "apple",
+      "name": "iPhone 13 Pro",
+      "modelCodes": [
+        "A2483",
+        "A2636",
+        "A2639",
+        "A2640",
+        "A2638"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-13-mini",
+      "brandId": "apple",
+      "name": "iPhone 13 mini",
+      "modelCodes": [
+        "A2481",
+        "A2626",
+        "A2629",
+        "A2630",
+        "A2628"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-12-pro-max",
+      "brandId": "apple",
+      "name": "iPhone 12 Pro Max",
+      "modelCodes": [
+        "A2342",
+        "A2410",
+        "A2412",
+        "A2411"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-12-pro",
+      "brandId": "apple",
+      "name": "iPhone 12 Pro",
+      "modelCodes": [
+        "A2341",
+        "A2406",
+        "A2408",
+        "A2407"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-12-mini",
+      "brandId": "apple",
+      "name": "iPhone 12 mini",
+      "modelCodes": [
+        "A2176",
+        "A2398",
+        "A2400",
+        "A2399"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-se-2nd-generation",
+      "brandId": "apple",
+      "name": "iPhone SE (2nd generation)",
+      "modelCodes": [
+        "A2275",
+        "A2298",
+        "A2296"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-11-pro",
+      "brandId": "apple",
+      "name": "iPhone 11 Pro",
+      "modelCodes": [
+        "A2160",
+        "A2217",
+        "A2215"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-11-pro-max",
+      "brandId": "apple",
+      "name": "iPhone 11 Pro Max",
+      "modelCodes": [
+        "A2161",
+        "A2220",
+        "A2218"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-11",
+      "brandId": "apple",
+      "name": "iPhone 11",
+      "modelCodes": [
+        "A2111",
+        "A2223",
+        "A2221"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-xs",
+      "brandId": "apple",
+      "name": "iPhone XS",
+      "modelCodes": [
+        "A1920",
+        "A2097",
+        "A2098",
+        "A2099",
+        "A2100"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-xs-max",
+      "brandId": "apple",
+      "name": "iPhone XS Max",
+      "modelCodes": [
+        "A1921",
+        "A2101",
+        "A2102",
+        "A2103",
+        "A2104"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-xr",
+      "brandId": "apple",
+      "name": "iPhone XR",
+      "modelCodes": [
+        "A1984",
+        "A2105",
+        "A2106",
+        "A2107",
+        "A2108"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-iphone-x",
+      "brandId": "apple",
+      "name": "iPhone X",
+      "modelCodes": [
+        "A1865",
+        "A1901",
+        "A1902"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-13-inch-m5",
+      "brandId": "apple",
+      "name": "iPad Pro 13-inch (M5)",
+      "modelCodes": [
+        "A3360",
+        "A3361",
+        "A3362"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-11-inch-m5",
+      "brandId": "apple",
+      "name": "iPad Pro 11-inch (M5)",
+      "modelCodes": [
+        "A3357",
+        "A3358",
+        "A3359"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-13-inch-m4",
+      "brandId": "apple",
+      "name": "iPad Pro 13-inch (M4)",
+      "modelCodes": [
+        "A2925",
+        "A2926",
+        "A3007"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-11-inch-m4",
+      "brandId": "apple",
+      "name": "iPad Pro 11-inch (M4)",
+      "modelCodes": [
+        "A2836",
+        "A2837",
+        "A3006"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-12-9-inch-6th-generation",
+      "brandId": "apple",
+      "name": "iPad Pro 12.9-inch (6th generation)",
+      "modelCodes": [
+        "A2436",
+        "A2437",
+        "A2764",
+        "A2766"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-11-inch-4th-generation",
+      "brandId": "apple",
+      "name": "iPad Pro 11-inch (4th generation)",
+      "modelCodes": [
+        "A2759",
+        "A2761",
+        "A2435",
+        "A2762"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-12-9-inch-5th-generation",
+      "brandId": "apple",
+      "name": "iPad Pro 12.9-inch (5th generation)",
+      "modelCodes": [
+        "A2378",
+        "A2461",
+        "A2379",
+        "A2462"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-11-inch-3rd-generation",
+      "brandId": "apple",
+      "name": "iPad Pro 11-inch (3rd generation)",
+      "modelCodes": [
+        "A2377",
+        "A2459",
+        "A2301",
+        "A2460"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-12-9-inch-4th-generation",
+      "brandId": "apple",
+      "name": "iPad Pro 12.9-inch (4th generation)",
+      "modelCodes": [
+        "A2229",
+        "A2069",
+        "A2232",
+        "A2233"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-11-inch-2nd-generation",
+      "brandId": "apple",
+      "name": "iPad Pro 11-inch (2nd generation)",
+      "modelCodes": [
+        "A2228",
+        "A2068",
+        "A2230",
+        "A2231"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-12-9-inch-3rd-generation",
+      "brandId": "apple",
+      "name": "iPad Pro 12.9-inch (3rd generation)",
+      "modelCodes": [
+        "A1876",
+        "A2014",
+        "A1895",
+        "A1983"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-11-inch",
+      "brandId": "apple",
+      "name": "iPad Pro 11-inch",
+      "modelCodes": [
+        "A1980",
+        "A2013",
+        "A1934",
+        "A1979"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-12-9-inch-2nd-generation",
+      "brandId": "apple",
+      "name": "iPad Pro 12.9-inch (2nd generation)",
+      "modelCodes": [
+        "A1670",
+        "A1671",
+        "A1821"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-10-5-inch",
+      "brandId": "apple",
+      "name": "iPad Pro (10.5-inch)",
+      "modelCodes": [
+        "A1701",
+        "A1709",
+        "A1852"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-9-7-inch",
+      "brandId": "apple",
+      "name": "iPad Pro (9.7-inch)",
+      "modelCodes": [
+        "A1673",
+        "A1674",
+        "A1675"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-pro-12-9-inch",
+      "brandId": "apple",
+      "name": "iPad Pro (12.9-inch)",
+      "modelCodes": [
+        "A1584",
+        "A1652"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air-13-inch-m4",
+      "brandId": "apple",
+      "name": "iPad Air 13-inch (M4)",
+      "modelCodes": [
+        "A3461",
+        "A3462",
+        "A3464"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air-11-inch-m4",
+      "brandId": "apple",
+      "name": "iPad Air 11-inch (M4)",
+      "modelCodes": [
+        "A3459",
+        "A3460",
+        "A3463"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air-13-inch-m3",
+      "brandId": "apple",
+      "name": "iPad Air 13-inch (M3)",
+      "modelCodes": [
+        "A3268",
+        "A3269",
+        "A3271"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air-11-inch-m3",
+      "brandId": "apple",
+      "name": "iPad Air 11-inch (M3)",
+      "modelCodes": [
+        "A3266",
+        "A3267",
+        "A3270"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air-13-inch-m2",
+      "brandId": "apple",
+      "name": "iPad Air 13-inch (M2)",
+      "modelCodes": [
+        "A2898",
+        "A2899",
+        "A2900"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air-11-inch-m2",
+      "brandId": "apple",
+      "name": "iPad Air 11-inch (M2)",
+      "modelCodes": [
+        "A2902",
+        "A2903",
+        "A2904"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air-5th-generation",
+      "brandId": "apple",
+      "name": "iPad Air (5th generation)",
+      "modelCodes": [
+        "A2588",
+        "A2589",
+        "A2591"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air-4th-generation",
+      "brandId": "apple",
+      "name": "iPad Air (4th generation)",
+      "modelCodes": [
+        "A2316",
+        "A2324",
+        "A2325",
+        "A2072"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air-3rd-generation",
+      "brandId": "apple",
+      "name": "iPad Air (3rd generation)",
+      "modelCodes": [
+        "A2152",
+        "A2123",
+        "A2153",
+        "A2154"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air-2",
+      "brandId": "apple",
+      "name": "iPad Air 2",
+      "modelCodes": [
+        "A1566",
+        "A1567"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-air",
+      "brandId": "apple",
+      "name": "iPad Air",
+      "modelCodes": [
+        "A1474",
+        "A1475",
+        "A1476"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-mini-a17-pro",
+      "brandId": "apple",
+      "name": "iPad mini (A17 Pro)",
+      "modelCodes": [
+        "A2993",
+        "A2995",
+        "A2996"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-mini-6th-generation",
+      "brandId": "apple",
+      "name": "iPad mini (6th generation)",
+      "modelCodes": [
+        "A2567",
+        "A2568",
+        "A2569"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-mini-5th-generation",
+      "brandId": "apple",
+      "name": "iPad mini (5th generation)",
+      "modelCodes": [
+        "A2133",
+        "A2124",
+        "A2126",
+        "A2125"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-mini-4",
+      "brandId": "apple",
+      "name": "iPad mini 4",
+      "modelCodes": [
+        "A1538",
+        "A1550"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-mini-3",
+      "brandId": "apple",
+      "name": "iPad mini 3",
+      "modelCodes": [
+        "A1599",
+        "A1600"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-mini-2",
+      "brandId": "apple",
+      "name": "iPad mini 2",
+      "modelCodes": [
+        "A1489",
+        "A1490",
+        "A1491"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-mini",
+      "brandId": "apple",
+      "name": "iPad mini",
+      "modelCodes": [
+        "A1432",
+        "A1454",
+        "A1455"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-a16",
+      "brandId": "apple",
+      "name": "iPad (A16)",
+      "modelCodes": [
+        "A3354",
+        "A3355",
+        "A3356"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-10th-generation",
+      "brandId": "apple",
+      "name": "iPad (10th generation)",
+      "modelCodes": [
+        "A2696",
+        "A2757",
+        "A2777",
+        "A3162"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-9th-generation",
+      "brandId": "apple",
+      "name": "iPad (9th generation)",
+      "modelCodes": [
+        "A2602",
+        "A2604",
+        "A2603",
+        "A2605"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-8th-generation",
+      "brandId": "apple",
+      "name": "iPad (8th generation)",
+      "modelCodes": [
+        "A2270",
+        "A2428",
+        "A2429",
+        "A2430"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-7th-generation",
+      "brandId": "apple",
+      "name": "iPad (7th generation)",
+      "modelCodes": [
+        "A2197",
+        "A2200",
+        "A2198",
+        "A2199"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-6th-generation",
+      "brandId": "apple",
+      "name": "iPad (6th generation)",
+      "modelCodes": [
+        "A1893",
+        "A1954"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-5th-generation",
+      "brandId": "apple",
+      "name": "iPad (5th generation)",
+      "modelCodes": [
+        "A1822",
+        "A1823"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-4th-generation",
+      "brandId": "apple",
+      "name": "iPad (4th generation)",
+      "modelCodes": [
+        "A1458",
+        "A1459",
+        "A1460"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-3rd-generation",
+      "brandId": "apple",
+      "name": "iPad (3rd generation)",
+      "modelCodes": [
+        "A1416",
+        "A1430",
+        "A1403"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad-2",
+      "brandId": "apple",
+      "name": "iPad 2",
+      "modelCodes": [
+        "A1395",
+        "A1396",
+        "A1397"
+      ],
+      "aliases": [],
+      "images": []
+    },
+    {
+      "id": "apple-ipad",
+      "brandId": "apple",
+      "name": "iPad",
+      "modelCodes": [
+        "A1219",
+        "A1337"
+      ],
+      "aliases": [],
+      "images": []
     }
   ]
 }

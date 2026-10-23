@@ -1,31 +1,31 @@
 {
-  "manifestVersion": 255223953260587,
-  "generatedAt": "2026-10-16T19:55:26.276161Z",
+  "manifestVersion": 255223953260589,
+  "generatedAt": "2026-10-23T10:28:40.480Z",
   "schemaVersion": 3,
   "entries": [
     {
       "id": "catalog",
       "type": "devices",
-      "version": "catalog-e32268e641f6b6a2",
+      "version": "catalog-5727972f691b6c6a",
       "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/catalog.json",
-      "sha256": "e32268e641f6b6a28f15561ce2b8b21102aa3414ab252399ddda775d72c689bb",
-      "compressedBytes": 1355003,
-      "uncompressedBytes": 1355003,
+      "sha256": "5727972f691b6c6ae86644b1b45a62872df8eeccc6541248ae8fdc3490600d12",
+      "compressedBytes": 1374353,
+      "uncompressedBytes": 1374353,
       "archiveFormat": "rawJson"
     },
     {
       "id": "display",
       "type": "displays",
-      "version": "display-5a06c8f2f4ef08bf",
+      "version": "display-8a9aa85542e0c139",
       "url": "https://raw.githubusercontent.com/alifared89-dot/alwan-releases/main/compatibility/payloads/display.json",
-      "sha256": "5a06c8f2f4ef08bf4cb300bacc1973f75ec6bd1c2726908f210d92dac75a8b27",
-      "compressedBytes": 1276974,
-      "uncompressedBytes": 1276974,
+      "sha256": "8a9aa85542e0c13974c0321e437780bdeff7cabe5c9ce5d2d94aef1f59bded7b",
+      "compressedBytes": 1533238,
+      "uncompressedBytes": 1533238,
       "archiveFormat": "rawJson",
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
+        "builtAgainstVersion": "catalog-5727972f691b6c6a"
       }
     },
     {
@@ -40,7 +40,7 @@
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
+        "builtAgainstVersion": "catalog-5727972f691b6c6a"
       }
     },
     {
@@ -55,7 +55,7 @@
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
+        "builtAgainstVersion": "catalog-5727972f691b6c6a"
       }
     },
     {
@@ -70,7 +70,7 @@
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
+        "builtAgainstVersion": "catalog-5727972f691b6c6a"
       }
     },
     {
@@ -85,7 +85,7 @@
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
+        "builtAgainstVersion": "catalog-5727972f691b6c6a"
       }
     },
     {
@@ -100,7 +100,7 @@
       "catalogDependency": {
         "catalogId": "alwan-device-catalog",
         "requiredSchemaVersion": 3,
-        "builtAgainstVersion": "catalog-e32268e641f6b6a2"
+        "builtAgainstVersion": "catalog-5727972f691b6c6a"
       }
     }
   ]
