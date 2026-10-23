@@ -801,6 +801,20 @@
       "canonicalPartNumbers": [
         "918423"
       ]
+    },
+    {
+      "id": "part-display-allspares-921013",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "921013"
+      ]
+    },
+    {
+      "id": "part-display-allspares-921031",
+      "category": "display",
+      "canonicalPartNumbers": [
+        "921031"
+      ]
     }
   ],
   "compatibilityGroups": [
@@ -1710,6 +1724,24 @@
       "deviceIds": [
         "dev_orrydxvewfmtqhvv6pk6sc2gjq",
         "dev_yizqou3tens6c26vof4qgtrrqy"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-921013",
+      "partId": "part-display-allspares-921013",
+      "deviceIds": [
+        "dev_bxzdr5m6ieaja4jdl7f2ccwjqq",
+        "dev_3a5unqcsef5qacrnxclnkff2pm"
+      ]
+    },
+    {
+      "id": "cg-part-display-allspares-921031",
+      "partId": "part-display-allspares-921031",
+      "deviceIds": [
+        "dev_iw62iumjdhgluebgozbf2qdjqm",
+        "dev_rtsiuxlbk3f42rshifxt4gchuu",
+        "dev_6oivjz7mmojejrq4byat6vccka",
+        "dev_hcgvxsjsxnctjwb2lqvnqk77bq"
       ]
     }
   ],
@@ -6261,6 +6293,44 @@
         "X6731B"
       ],
       "notes": "توافق تجاري مذكور من مورد All-Spares للقطعة 918423. جودة المورد: Original (PRC)؛ الإطار: Without frame؛ التقنية: AMOLED. تخص هذه القطعة التجارية فقط، ولا تثبت تبادل شاشات المصنع أو تساوي مواصفات النسخ."
+    },
+    {
+      "id": "ev-allspares-921013",
+      "compatibilityGroupId": "cg-part-display-allspares-921013",
+      "sourceKey": "allspares-blackview-921013",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-a80-a80s-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "921013"
+      ],
+      "citedModelCodes": [
+        "A80",
+        "A80S"
+      ],
+      "notes": "توافق شاشة تجارية High Copy بلا إطار حسب All-Spares لرقم القطعة 921013، لا يعني تطابق شاشة المصنع الأصلية. أسماء Pro عند المورد تحتوي مسافة بينما الكتالوج يخزنها بدون مسافة."
+    },
+    {
+      "id": "ev-allspares-921031",
+      "compatibilityGroupId": "cg-part-display-allspares-921031",
+      "sourceKey": "allspares-blackview-921031",
+      "sourceType": "partsSupplier",
+      "sourceName": "All-Spares",
+      "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv4900-bv4900-pro-black-without-frame-high-copy/",
+      "checkedAt": "2026-10-23T13:45:00Z",
+      "claim": "supports",
+      "citedPartNumbers": [
+        "921031"
+      ],
+      "citedModelCodes": [
+        "BV4900",
+        "BV4900Pro",
+        "BV5100",
+        "BV5100Pro"
+      ],
+      "notes": "توافق شاشة تجارية High Copy بلا إطار حسب All-Spares لرقم القطعة 921031، لا يعني تطابق شاشة المصنع الأصلية. أسماء Pro عند المورد تحتوي مسافة بينما الكتالوج يخزنها بدون مسافة."
     }
   ],
   "categoryFacts": [
@@ -41364,6 +41434,84 @@
         "checkedAt": "2026-10-23T13:45:00Z"
       },
       "deviceId": "dev_yizqou3tens6c26vof4qgtrrqy"
+    },
+    {
+      "id": "diff-allspares-921013-7f2ccwjqq",
+      "partId": "part-display-allspares-921013",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق شاشة تجارية High Copy بلا إطار حسب All-Spares لرقم القطعة 921013، لا يعني تطابق شاشة المصنع الأصلية. أسماء Pro عند المورد تحتوي مسافة بينما الكتالوج يخزنها بدون مسافة.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-a80-a80s-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-blackview-921013",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_bxzdr5m6ieaja4jdl7f2ccwjqq"
+    },
+    {
+      "id": "diff-allspares-921013-clnkff2pm",
+      "partId": "part-display-allspares-921013",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق شاشة تجارية High Copy بلا إطار حسب All-Spares لرقم القطعة 921013، لا يعني تطابق شاشة المصنع الأصلية. أسماء Pro عند المورد تحتوي مسافة بينما الكتالوج يخزنها بدون مسافة.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-a80-a80s-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-blackview-921013",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_3a5unqcsef5qacrnxclnkff2pm"
+    },
+    {
+      "id": "diff-allspares-921031-zbf2qdjqm",
+      "partId": "part-display-allspares-921031",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق شاشة تجارية High Copy بلا إطار حسب All-Spares لرقم القطعة 921031، لا يعني تطابق شاشة المصنع الأصلية. أسماء Pro عند المورد تحتوي مسافة بينما الكتالوج يخزنها بدون مسافة.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv4900-bv4900-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-blackview-921031",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_iw62iumjdhgluebgozbf2qdjqm"
+    },
+    {
+      "id": "diff-allspares-921031-fxt4gchuu",
+      "partId": "part-display-allspares-921031",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق شاشة تجارية High Copy بلا إطار حسب All-Spares لرقم القطعة 921031، لا يعني تطابق شاشة المصنع الأصلية. أسماء Pro عند المورد تحتوي مسافة بينما الكتالوج يخزنها بدون مسافة.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv4900-bv4900-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-blackview-921031",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_rtsiuxlbk3f42rshifxt4gchuu"
+    },
+    {
+      "id": "diff-allspares-921031-yat6vccka",
+      "partId": "part-display-allspares-921031",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق شاشة تجارية High Copy بلا إطار حسب All-Spares لرقم القطعة 921031، لا يعني تطابق شاشة المصنع الأصلية. أسماء Pro عند المورد تحتوي مسافة بينما الكتالوج يخزنها بدون مسافة.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv4900-bv4900-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-blackview-921031",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_6oivjz7mmojejrq4byat6vccka"
+    },
+    {
+      "id": "diff-allspares-921031-qvnqk77bq",
+      "partId": "part-display-allspares-921031",
+      "title": "توافق شاشة تجارية غير مؤكد لشاشة المصنع",
+      "description": "توافق شاشة تجارية High Copy بلا إطار حسب All-Spares لرقم القطعة 921031، لا يعني تطابق شاشة المصنع الأصلية. أسماء Pro عند المورد تحتوي مسافة بينما الكتالوج يخزنها بدون مسافة.",
+      "provenance": {
+        "sourceUrl": "https://all-spares.com/en/lcd-compatible-with-blackview-bv4900-bv4900-pro-black-without-frame-high-copy/",
+        "sourceName": "All-Spares",
+        "sourceKey": "allspares-blackview-921031",
+        "checkedAt": "2026-10-23T13:45:00Z"
+      },
+      "deviceId": "dev_hcgvxsjsxnctjwb2lqvnqk77bq"
     }
   ]
 }
