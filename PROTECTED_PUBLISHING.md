@@ -1,5 +1,8 @@
 # Alwan production publishing gate (data + device media)
 
+> **Operating-location update (2026-10-31):** The Mac is now the only active research, original-image and SQLite workstation. Phone/Termux collection statements below are historical; do not execute phone research bots. The installed phone app, its data, activation, backups, and credentials are untouched. Existing mandatory human/source reviews, public PR gates and integrity checks remain unchanged. Private authoritative policy: `alwan-bot-control/MAC_PRIMARY_OPERATING_POLICY_20261031.md` (pending private PR approval). No production behavior is changed by this documentation update.
+
+
 Applies to every brand and every future phone model. The mobile app consumes **only main-branch production files**; PR branches do not reach installed devices.
 
 ## Permanent safety contract
