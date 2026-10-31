@@ -1,5 +1,8 @@
 # Alwan release repository agent rules
 
+> **Operating-location update (2026-10-31):** The Mac is now the only active research, original-image and SQLite workstation. Phone/Termux collection statements below are historical; do not execute phone research bots. The installed phone app, its data, activation, backups, and credentials are untouched. Existing mandatory human/source reviews, public PR gates and integrity checks remain unchanged. Private authoritative policy: `alwan-bot-control/MAC_PRIMARY_OPERATING_POLICY_20261031.md` (pending private PR approval). No production behavior is changed by this documentation update.
+
+
 Before modifying compatibility/**, read compatibility/CONTRACT.md.
 Before modifying device-media/**, read PROTECTED_PUBLISHING.md, the isolated .github/release-guards/verify_media.py and media_integrity_guard.py, and the mandatory .github/workflows/infinix_media_integrity_ci.yml. All image discovery, originals, rights reviews and staging code are PRIVATE in `alwan-bot-control`.
 
